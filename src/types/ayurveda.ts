@@ -1,0 +1,48 @@
+export interface Herb {
+  id: string;
+  name: string;
+  sanskritName: string;
+  botanicalName: string;
+  family: string;
+  parts: string[];
+  rasa: string[];
+  guna: string[];
+  virya: string;
+  vipaka: string;
+  prabhava?: string;
+  indications: string[];
+  dosage: {
+    powder: string;
+    decoction: string;
+    juice?: string;
+    oil?: string;
+  };
+  anupana: string[];
+  contraindications: string[];
+  image?: string;
+}
+
+export interface Formulation {
+  id: string;
+  name: string;
+  sanskritName: string;
+  type: 'churna' | 'vati' | 'ghrita' | 'taila' | 'asava' | 'arishta' | 'bhasma' | 'rasa';
+  ingredients: {
+    herb: string;
+    quantity: string;
+    part?: string;
+  }[];
+  indications: string[];
+  dosage: {
+    amount: string;
+    frequency: string;
+    duration: string;
+  };
+  anupana: string[];
+  contraindications: string[];
+  preparation?: string;
+  reference: string;
+}
+
+export type SearchCategory = 'all' | 'herbs' | 'formulations';
+export type FilterType = 'rasa' | 'guna' | 'virya' | 'type' | 'indication';
