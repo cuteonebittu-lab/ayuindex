@@ -113,6 +113,7 @@ export const formulations: Formulation[] = [
       { herb: 'Prishniparni', quantity: '1 part', part: 'root' },
       { herb: 'Gokshura', quantity: '1 part', part: 'root' }
     ],
+  categories: ['Musculoskeletal', 'Nervous System', 'General debility', 'Digestive'],
     indications: [
       'Vata disorders',
       'Joint pain',
@@ -130,7 +131,7 @@ export const formulations: Formulation[] = [
       'Chronic fatigue',
       'Stress disorders'
     ],
-    categories: ['Gastro Intestinal Tract', 'Anti-microbial', 'Anti-inflammatory'],
+  // categories property already present above, removed duplicate
     adultDosage: '3-6g once daily at bedtime',
     paediatricDosage: '1-3g once daily at bedtime',
     doseAdjustment: {
@@ -143,7 +144,7 @@ export const formulations: Formulation[] = [
     modeOfAction: 'Regulates digestion, acts as mild laxative and antioxidant',
     adverseDrugReactions: 'May cause loose stools or abdominal cramps in high doses',
     interactions: 'May enhance effects of other laxatives',
-  contraindications: ['Diarrhea', 'Pregnancy', 'Severe dehydration'],
+  // removed duplicate contraindications
     generalConsiderations: 'Best taken at bedtime; ensure adequate hydration',
     dosage: {
       amount: '3-6g',
@@ -208,6 +209,7 @@ export const formulations: Formulation[] = [
       { herb: 'Arjuna', quantity: '1 part', part: 'bark' },
       { herb: 'Madhuka', quantity: '1/4 part', part: 'flower' },
       { herb: 'Draksha', quantity: '1/4 part', part: 'fruit' },
+      { herb: 'Kharjura', quantity: '1/4 part', part: 'fruit' },
       { herb: 'Jaggery', quantity: '4 parts' },
       { herb: 'Water', quantity: '16 parts' }
     ],
@@ -216,38 +218,6 @@ export const formulations: Formulation[] = [
       'Cardiac weakness',
       'Hypertension',
       'Angina',
-    // indications: [
-      'Vata disorders',
-      'Joint pain',
-      'Backache',
-      'Sciatica',
-      'Postpartum care',
-      'Urinary disorders',
-      'Respiratory conditions',
-      'Paralysis',
-      'Nervous disorders',
-      'General debility'
-    ],
-    categories: ['Anti-microbial', 'Anti-inflammatory', 'Respiratory System', 'Hepatoprotective agents', 'Gastro Intestinal Tract', 'Blood', 'Kidney and Uro-genital'],
-    adultDosage: '12-24g once or twice daily',
-    paediatricDosage: '6-12g once or twice daily',
-    doseAdjustment: {
-      hepatic: 'Use with caution, reduce dose if hepatic impairment is severe',
-      renal: 'No specific adjustment required',
-      diabetes: 'Use sugar-free version',
-      hypertension: 'No specific adjustment required'
-    },
-    pregnancyLactation: 'Generally considered safe, but consult physician',
-    modeOfAction: 'Acts as a rejuvenative, immunomodulator, and antioxidant',
-    adverseDrugReactions: 'Rare; may cause mild GI upset in sensitive individuals',
-    interactions: 'May interact with immunosuppressants; monitor if on such therapy',
-    contraindicationsWarnings: 'Diabetes (use sugar-free version), acute fever',
-    generalConsiderations: 'Best taken with milk or warm water; long-term use is safe',
-      { herb: 'Kharjura', quantity: '1/4 part', part: 'fruit' },
-      { herb: 'Jaggery', quantity: '2 parts' },
-      { herb: 'Water', quantity: '16 parts' }
-    ],
-    indications: [
       'General debility',
       'Chronic cough',
       'Asthma',
@@ -259,7 +229,16 @@ export const formulations: Formulation[] = [
       'Heart weakness',
       'Chronic fever'
     ],
-    categories: ['Respiratory System', 'General debility', 'Blood', 'Gastro Intestinal Tract', 'Kidney and Uro-genital'],
+    categories: ['Cardiovascular', 'Respiratory System', 'General debility', 'Blood', 'Gastro Intestinal Tract', 'Kidney and Uro-genital'],
+    adultDosage: '15-30ml twice daily after meals',
+    paediatricDosage: '7-15ml twice daily after meals',
+    doseAdjustment: {},
+    pregnancyLactation: '',
+    modeOfAction: '',
+    adverseDrugReactions: '',
+    interactions: '',
+    contraindicationsWarnings: '',
+    generalConsiderations: '',
     dosage: {
       amount: '15-30ml',
       frequency: 'Twice daily after meals',
@@ -270,7 +249,7 @@ export const formulations: Formulation[] = [
     reference: 'Bhaishajya Ratnavali Kasaroga 15/78-85',
     image: 'https://images.pexels.com/photos/4021775/pexels-photo-4021775.jpeg'
   },
-    adultDosage: '12-24g once or twice daily',
+  {
     id: 'kumaryasava',
     name: 'Kumaryasava',
     sanskritName: 'कुमार्यासव',
@@ -294,6 +273,16 @@ export const formulations: Formulation[] = [
       'Piles',
       'Abdominal tumors'
     ],
+    categories: ['Liver', 'Digestive', 'Blood', 'Skin'],
+    adultDosage: '15-30ml twice daily after meals',
+    paediatricDosage: '7-15ml twice daily after meals',
+    doseAdjustment: {},
+    pregnancyLactation: '',
+    modeOfAction: '',
+    adverseDrugReactions: '',
+    interactions: '',
+    contraindicationsWarnings: '',
+    generalConsiderations: '',
     dosage: {
       amount: '15-30ml',
       frequency: 'Twice daily after meals',
@@ -328,6 +317,7 @@ export const formulations: Formulation[] = [
       'Anemia',
       'General weakness'
     ],
+  categories: ['Digestive', 'Liver', 'Blood', 'General debility'],
     dosage: {
       amount: '15-30ml',
       frequency: 'Twice daily after meals',
@@ -362,6 +352,7 @@ export const formulations: Formulation[] = [
       'Urinary disorders',
       'Chronic fever'
     ],
+  categories: ['Nervous System', 'General debility', 'Musculoskeletal', 'Urinary'],
     dosage: {
       amount: '15-30ml',
       frequency: 'Twice daily after meals',
@@ -399,6 +390,7 @@ export const formulations: Formulation[] = [
       'Obesity',
       'General debility'
     ],
+  categories: ['Urinary', 'Metabolic', 'Reproductive', 'Musculoskeletal', 'Skin', 'Digestive'],
     dosage: {
       amount: '1-2 tablets',
       frequency: 'Twice daily after meals',
@@ -436,6 +428,7 @@ export const formulations: Formulation[] = [
       'Obesity',
       'Arthritis'
     ],
+  categories: ['Endocrine', 'Lymphatic', 'Skin', 'Reproductive', 'Metabolic', 'Musculoskeletal'],
     dosage: {
       amount: '1-2 tablets',
       frequency: 'Twice daily after meals',
@@ -473,6 +466,7 @@ export const formulations: Formulation[] = [
       'Digestive problems',
       'Obesity'
     ],
+  categories: ['Musculoskeletal', 'Nervous System', 'Urinary', 'Skin', 'Digestive', 'Metabolic'],
     dosage: {
       amount: '1-2 tablets',
       frequency: 'Twice daily after meals',
@@ -509,6 +503,7 @@ export const formulations: Formulation[] = [
       'Skin diseases',
       'General debility'
     ],
+  categories: ['Blood', 'Liver', 'Digestive', 'Skin', 'General debility'],
     dosage: {
       amount: '1-3g',
       frequency: 'Twice daily after meals',
@@ -534,6 +529,7 @@ export const formulations: Formulation[] = [
       { herb: 'Nagarmotha', quantity: '1 part', part: 'rhizome' },
       { herb: 'Vidlavana', quantity: '1 part' }
     ],
+  categories: ['Digestive', 'Gastro Intestinal Tract', 'Liver'],
     indications: [
       'Hyperacidity',
       'Peptic ulcer',
@@ -546,7 +542,7 @@ export const formulations: Formulation[] = [
       'Vomiting',
       'Liver disorders'
     ],
-    categories: ['Gastro Intestinal Tract', 'Anti-microbial', 'Anti-inflammatory'],
+  // categories replaced below with correct values
     adultDosage: '3-6g once daily at bedtime',
     paediatricDosage: '1-3g once daily at bedtime',
     doseAdjustment: {
@@ -598,6 +594,7 @@ export const formulations: Formulation[] = [
       'Voice disorders',
       'Chest congestion'
     ],
+  categories: ['Respiratory System', 'Digestive', 'Infectious', 'General debility'],
     dosage: {
       amount: '3-6g',
       frequency: '3-4 times daily',
@@ -633,6 +630,7 @@ export const formulations: Formulation[] = [
       'Dental problems',
       'Bad breath'
     ],
+  categories: ['Respiratory System', 'ENT', 'Infectious', 'Digestive'],
     dosage: {
       amount: '1-2 tablets',
       frequency: '3-4 times daily',
@@ -670,6 +668,7 @@ export const formulations: Formulation[] = [
       'Obesity',
       'Diabetes'
     ],
+  categories: ['Liver', 'Digestive', 'Skin', 'Blood', 'Metabolic'],
     dosage: {
       amount: '1-2 tablets',
       frequency: 'Twice daily after meals',
@@ -744,6 +743,7 @@ export const formulations: Formulation[] = [
       'Ear diseases',
       'Poisoning'
     ],
+  categories: ['Skin', 'Liver', 'Infectious', 'General debility'],
     dosage: {
       amount: '6-12g',
       frequency: 'Twice daily before meals',
@@ -780,6 +780,7 @@ export const formulations: Formulation[] = [
       'Mental disorders',
       'Blood disorders'
     ],
+  categories: ['Skin', 'Liver', 'Blood', 'Nervous System', 'Infectious'],
     dosage: {
       amount: '6-12g',
       frequency: 'Twice daily before meals',
@@ -816,6 +817,7 @@ export const formulations: Formulation[] = [
       'Chronic fever',
       'Digestive weakness'
     ],
+  categories: ['Reproductive', 'Nervous System', 'General debility', 'Digestive'],
     dosage: {
       amount: '6-12g',
       frequency: 'Twice daily before meals',
@@ -838,6 +840,7 @@ export const formulations: Formulation[] = [
       { herb: 'Ghee', quantity: '4 parts' },
       { herb: 'Milk', quantity: '16 parts' }
     ],
+    name: 'Brahmi Ghrita',
     indications: [
       'Memory disorders',
       'Mental retardation',
@@ -862,9 +865,10 @@ export const formulations: Formulation[] = [
     pregnancyLactation: 'Avoid in pregnancy due to laxative effect',
     modeOfAction: 'Regulates digestion, acts as mild laxative and antioxidant',
     adverseDrugReactions: 'May cause loose stools or abdominal cramps in high doses',
-    interactions: 'May enhance effects of other laxatives',
-    contraindicationsWarnings: 'Diarrhea, pregnancy, severe dehydration',
-    generalConsiderations: 'Best taken at bedtime; ensure adequate hydration',
+  interactions: 'May enhance effects of other laxatives',
+  categories: ['Nervous System', 'Mental Health', 'General debility'],
+  contraindicationsWarnings: 'Diarrhea, pregnancy, severe dehydration',
+  generalConsiderations: 'Best taken at bedtime; ensure adequate hydration',
     dosage: {
       amount: '6-12g',
       frequency: 'Twice daily before meals',
@@ -900,6 +904,7 @@ export const formulations: Formulation[] = [
       'Sports injuries',
       'Chronic pain'
     ],
+  categories: ['Musculoskeletal', 'Nervous System', 'General debility', 'Pain'],
     dosage: {
       amount: 'For external massage',
       frequency: 'Once or twice daily',
@@ -932,6 +937,7 @@ export const formulations: Formulation[] = [
       'Headache',
       'Chronic fatigue'
     ],
+  categories: ['Nervous System', 'Musculoskeletal', 'General debility'],
     dosage: {
       amount: '5-10ml for internal use, external massage',
       frequency: 'Once or twice daily',
@@ -967,6 +973,7 @@ export const formulations: Formulation[] = [
       'Respiratory conditions',
       'Skin diseases'
     ],
+  categories: ['Nervous System', 'Musculoskeletal', 'General debility', 'Pediatric', 'Digestive', 'Respiratory System', 'Skin'],
     dosage: {
       amount: 'For external massage and internal use',
       frequency: 'Once or twice daily',
@@ -1004,6 +1011,7 @@ export const formulations: Formulation[] = [
       'Liver disorders',
       'Spleen disorders'
     ],
+  categories: ['Digestive', 'Liver', 'Gastro Intestinal Tract'],
     dosage: {
       amount: '3-6g',
       frequency: 'Twice daily after meals',
@@ -1039,6 +1047,7 @@ export const formulations: Formulation[] = [
       'Edema',
       'Arthritis'
     ],
+  categories: ['Digestive', 'Liver', 'Metabolic', 'Musculoskeletal'],
     dosage: {
       amount: '1-2 tablets',
       frequency: 'Twice daily before meals',

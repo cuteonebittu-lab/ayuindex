@@ -42,7 +42,23 @@ export interface Formulation {
   contraindications: string[];
   preparation?: string;
   reference: string;
-  categories?: string[];
+  categories: string[];
+  adultDosage?: string;
+  paediatricDosage?: string;
+  doseAdjustment?: {
+    hepatic?: string;
+    renal?: string;
+    diabetes?: string;
+    hypertension?: string;
+    [key: string]: string | undefined;
+  };
+  pregnancyLactation?: string;
+  modeOfAction?: string;
+  adverseDrugReactions?: string;
+  interactions?: string;
+  contraindicationsWarnings?: string;
+  generalConsiderations?: string;
+  image?: string;
 }
 
 export type SearchCategory = 'all' | 'herbs' | 'formulations';
