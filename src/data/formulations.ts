@@ -868,11 +868,13 @@ export const formulations: Formulation[] = [
   interactions: 'May enhance effects of other laxatives',
   categories: ['Nervous System', 'Mental Health', 'General debility'],
   contraindicationsWarnings: 'Diarrhea, pregnancy, severe dehydration',
-  generalConsiderations: 'Best taken at bedtime; ensure adequate hydration',
+  generalConsiderations: 'Best taken at bedtime; ensure adequate hydr
+  ation',
     dosage: {
       amount: '6-12g',
       frequency: 'Twice daily before meals',
       duration: '3-6 months'
+
     },
     anupana: ['Milk', 'Warm water'],
     contraindications: ['Obesity', 'High cholesterol'],
