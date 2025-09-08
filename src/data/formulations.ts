@@ -15,93 +15,36 @@ export const formulations: Formulation[] = [
       { herb: 'Ghee', quantity: '1/4 part' },
       { herb: 'Honey', quantity: '1/8 part' }
     ],
-    indications: [
-      'General weakness',
-      'Respiratory disorders',
-      'Digestive problems',
-      'Immunity enhancement',
-      'Anti-aging',
-      'Chronic cough',
-      'Tuberculosis',
-      'Memory disorders',
-      'Sexual debility',
-      'Chronic fever'
-    ],
-    dosage: {
-      amount: '12-24g',
-      frequency: 'Once or twice daily',
-      duration: 'As required'
-    },
-    anupana: ['Milk', 'Warm water'],
-    contraindications: ['Diabetes (sugar-free version available)', 'Acute fever'],
-    reference: 'Charaka Samhita Chikitsa Sthana 1/1/62-74',
-    image: 'https://images.pexels.com/photos/4021775/pexels-photo-4021775.jpeg'
-  },
-  {
-    id: 'triphala-churna',
-    name: 'Triphala Churna',
-    sanskritName: 'त्रिफला चूर्ण',
-    type: 'churna',
-    ingredients: [
-      { herb: 'Haritaki', quantity: '1 part', part: 'fruit' },
-      { herb: 'Bibhitaki', quantity: '1 part', part: 'fruit' },
-      { herb: 'Amalaki', quantity: '1 part', part: 'fruit' }
-    ],
-    indications: [
-      'Constipation',
-      'Eye disorders',
-      'Obesity',
-      'Diabetes',
-      'Digestive disorders',
-      'Skin diseases',
-      'Hair problems',
-      'Liver disorders',
-      'Anemia',
-      'General debility'
-    ],
-    dosage: {
-      amount: '3-6g',
-      frequency: 'Once daily at bedtime',
-      duration: 'As required'
-    },
-    anupana: ['Warm water', 'Honey water'],
-    contraindications: ['Diarrhea', 'Pregnancy', 'Severe dehydration'],
-    reference: 'Sushruta Samhita Chikitsa Sthana 33/4',
-    image: 'https://images.pexels.com/photos/4021775/pexels-photo-4021775.jpeg'
-  },
-  {
-    id: 'saraswatarishta',
-    name: 'Saraswatarishta',
-    sanskritName: 'सरस्वतारिष्ट',
-    type: 'arishta',
-    ingredients: [
-      { herb: 'Brahmi', quantity: '1 part', part: 'whole plant' },
-      { herb: 'Mandukaparni', quantity: '1 part', part: 'whole plant' },
-      { herb: 'Shankhpushpi', quantity: '1 part', part: 'whole plant' },
-      { herb: 'Jaggery', quantity: '4 parts' },
-      { herb: 'Water', quantity: '16 parts' }
-    ],
-    indications: [
-      'Memory disorders',
-      'Mental retardation',
-      'Epilepsy',
-      'Insanity',
-      'Speech disorders',
-      'Learning disabilities',
-      'Stress and anxiety',
-      'Depression',
-      'Insomnia',
-      'Hysteria'
-    ],
+      indications: [
+
+        'Sexual weakness',
+        'Nervous disorders',
+        'Insomnia',
+        'Arthritis',
+        'Skin diseases',
+        'Anemia',
+        'Chronic fatigue',
+        'Stress disorders'
+      ],
+    categories: ['Anti-microbial', 'Anti-inflammatory', 'Respiratory System', 'Hepatoprotective agents', 'Gastro Intestinal Tract', 'Blood', 'Kidney and Uro-genital'],
+    adultDosage: '15-30ml twice daily after meals',
+  paediatricDosage: '7-15ml twice daily after meals',
+  doseAdjustment: {},
+  pregnancyLactation: '',
+  modeOfAction: '',
+  adverseDrugReactions: '',
+  interactions: '',
+  contraindicationsWarnings: '',
+  generalConsiderations: '',
     dosage: {
       amount: '15-30ml',
       frequency: 'Twice daily after meals',
       duration: '3-6 months'
     },
-    anupana: ['Equal quantity of water'],
-    contraindications: ['Diabetes', 'Alcoholism'],
-    reference: 'Bhaishajya Ratnavali Unmada Chikitsa 24/179-185',
-    image: 'https://images.pexels.com/photos/4021775/pexels-photo-4021775.jpeg'
+  anupana: ['Equal quantity of water'],
+  contraindications: ['Diabetes', 'Acute fever'],
+  reference: 'Bhaishajya Ratnavali Vajikarana 74/78-85',
+  image: 'https://images.pexels.com/photos/4021775/pexels-photo-4021775.jpeg',
   },
   {
     id: 'mahasudarshan-churna',
@@ -112,33 +55,47 @@ export const formulations: Formulation[] = [
       { herb: 'Haritaki', quantity: '1 part', part: 'fruit' },
       { herb: 'Bibhitaki', quantity: '1 part', part: 'fruit' },
       { herb: 'Amalaki', quantity: '1 part', part: 'fruit' },
-      { herb: 'Shunthi', quantity: '1 part', part: 'rhizome' },
-      { herb: 'Maricha', quantity: '1 part', part: 'fruit' },
-      { herb: 'Pippali', quantity: '1 part', part: 'fruit' },
-      { herb: 'Guduchi', quantity: '4 parts', part: 'stem' }
+      { herb: 'Shunthi', quantity: '1 part', part: 'rhizome' }
     ],
     indications: [
-      'Fever of unknown origin',
-      'Chronic fever',
-      'Malaria',
-      'Typhoid',
-      'Liver disorders',
-      'Spleen enlargement',
-      'Loss of appetite',
-      'Digestive disorders',
-      'Skin diseases',
-      'Respiratory infections'
+      'Vata disorders',
+      'Joint pain',
+      'Backache',
+      'Sciatica',
+      'Postpartum care',
+      'Urinary disorders',
+      'Respiratory conditions',
+      'Paralysis',
+      'Nervous disorders',
+      'General debility'
     ],
-    dosage: {
-      amount: '3-6g',
-      frequency: 'Twice daily before meals',
-      duration: '15-30 days'
+    categories: ['Anti-microbial', 'Anti-inflammatory', 'Respiratory System', 'Hepatoprotective agents', 'Gastro Intestinal Tract', 'Blood', 'Kidney and Uro-genital'],
+    adultDosage: '12-24g once or twice daily',
+    paediatricDosage: '6-12g once or twice daily',
+    doseAdjustment: {
+      hepatic: 'Use with caution, reduce dose if hepatic impairment is severe',
+      renal: 'No specific adjustment required',
+      diabetes: 'Use sugar-free version',
+      hypertension: 'No specific adjustment required'
     },
-    anupana: ['Honey', 'Warm water', 'Ginger juice'],
-    contraindications: ['Acute diarrhea', 'Severe dehydration'],
-    reference: 'Sharangdhara Samhita Madhyama Khanda 6/1-15',
+    pregnancyLactation: 'Generally considered safe, but consult physician',
+    modeOfAction: 'Acts as a rejuvenative, immunomodulator, and antioxidant',
+    adverseDrugReactions: 'Rare; may cause mild GI upset in sensitive individuals',
+    interactions: 'May interact with immunosuppressants; monitor if on such therapy',
+    contraindicationsWarnings: 'Diabetes (use sugar-free version), acute fever',
+    generalConsiderations: 'Best taken with milk or warm water; long-term use is safe',
+    dosage: {
+      amount: '12-24g',
+      frequency: 'Once or twice daily',
+      duration: 'As required'
+    },
+    anupana: ['Milk', 'Warm water'],
+    contraindications: ['Diabetes (sugar-free version available)', 'Acute fever'],
+    reference: 'Charaka Samhita Chikitsa Sthana 1/1/62-74',
     image: 'https://images.pexels.com/photos/4021775/pexels-photo-4021775.jpeg'
   },
+
+
   {
     id: 'dashmool-kwath',
     name: 'Dashmool Kwath',
@@ -162,16 +119,36 @@ export const formulations: Formulation[] = [
       'Backache',
       'Sciatica',
       'Postpartum care',
-      'Urinary disorders',
-      'Respiratory conditions',
-      'Paralysis',
+      'General debility',
+      'Sexual weakness',
       'Nervous disorders',
-      'General debility'
+      'Insomnia',
+      'Memory disorders',
+      'Arthritis',
+      'Skin diseases',
+      'Anemia',
+      'Chronic fatigue',
+      'Stress disorders'
     ],
+    categories: ['Gastro Intestinal Tract', 'Anti-microbial', 'Anti-inflammatory'],
+    adultDosage: '3-6g once daily at bedtime',
+    paediatricDosage: '1-3g once daily at bedtime',
+    doseAdjustment: {
+      hepatic: 'Reduce dose if severe hepatic impairment',
+      renal: 'Use with caution in renal impairment',
+      diabetes: 'Safe',
+      hypertension: 'Safe'
+    },
+    pregnancyLactation: 'Avoid in pregnancy due to laxative effect',
+    modeOfAction: 'Regulates digestion, acts as mild laxative and antioxidant',
+    adverseDrugReactions: 'May cause loose stools or abdominal cramps in high doses',
+    interactions: 'May enhance effects of other laxatives',
+  contraindications: ['Diarrhea', 'Pregnancy', 'Severe dehydration'],
+    generalConsiderations: 'Best taken at bedtime; ensure adequate hydration',
     dosage: {
-      amount: '50-100ml',
-      frequency: 'Twice daily',
-      duration: 'As required'
+      amount: '3-6g',
+      frequency: 'Twice daily before meals',
+      duration: '1-2 months'
     },
     anupana: ['Honey', 'Ghee'],
     contraindications: ['Acute fever', 'Severe Pitta conditions'],
@@ -196,17 +173,26 @@ export const formulations: Formulation[] = [
       'Sexual weakness',
       'Nervous disorders',
       'Insomnia',
-      'Memory disorders',
       'Arthritis',
       'Skin diseases',
       'Anemia',
       'Chronic fatigue',
       'Stress disorders'
     ],
+    categories: ['Cardiovascular', 'Anti-hypertensive', 'Blood', 'Nervous System', 'Anti-migraine', 'Anti-inflammatory', 'Gastro Intestinal Tract', 'General debility'],
+    adultDosage: '15-30ml twice daily after meals',
+    paediatricDosage: '7-15ml twice daily after meals',
+    doseAdjustment: {},
+    pregnancyLactation: '',
+    modeOfAction: '',
+    adverseDrugReactions: '',
+    interactions: '',
+    contraindicationsWarnings: '',
+    generalConsiderations: '',
     dosage: {
       amount: '15-30ml',
       frequency: 'Twice daily after meals',
-      duration: '2-3 months'
+      duration: '3-6 months'
     },
     anupana: ['Equal quantity of water'],
     contraindications: ['Diabetes', 'Acute fever'],
@@ -230,31 +216,33 @@ export const formulations: Formulation[] = [
       'Cardiac weakness',
       'Hypertension',
       'Angina',
-      'Palpitations',
-      'Chest pain',
-      'Breathlessness',
-      'Fatigue',
-      'Edema',
-      'Cough'
+    // indications: [
+      'Vata disorders',
+      'Joint pain',
+      'Backache',
+      'Sciatica',
+      'Postpartum care',
+      'Urinary disorders',
+      'Respiratory conditions',
+      'Paralysis',
+      'Nervous disorders',
+      'General debility'
     ],
-    dosage: {
-      amount: '15-30ml',
-      frequency: 'Twice daily after meals',
-      duration: '3-6 months'
+    categories: ['Anti-microbial', 'Anti-inflammatory', 'Respiratory System', 'Hepatoprotective agents', 'Gastro Intestinal Tract', 'Blood', 'Kidney and Uro-genital'],
+    adultDosage: '12-24g once or twice daily',
+    paediatricDosage: '6-12g once or twice daily',
+    doseAdjustment: {
+      hepatic: 'Use with caution, reduce dose if hepatic impairment is severe',
+      renal: 'No specific adjustment required',
+      diabetes: 'Use sugar-free version',
+      hypertension: 'No specific adjustment required'
     },
-    anupana: ['Equal quantity of water'],
-    contraindications: ['Hypotension', 'Bradycardia'],
-    reference: 'Bhaishajya Ratnavali Hridroga Chikitsa 26/78-85',
-    image: 'https://images.pexels.com/photos/4021775/pexels-photo-4021775.jpeg'
-  },
-  {
-    id: 'draksharishta',
-    name: 'Draksharishta',
-    sanskritName: 'द्राक्षारिष्ट',
-    type: 'arishta',
-    ingredients: [
-      { herb: 'Draksha', quantity: '1 part', part: 'fruit' },
-      { herb: 'Gokshura', quantity: '1/4 part', part: 'fruit' },
+    pregnancyLactation: 'Generally considered safe, but consult physician',
+    modeOfAction: 'Acts as a rejuvenative, immunomodulator, and antioxidant',
+    adverseDrugReactions: 'Rare; may cause mild GI upset in sensitive individuals',
+    interactions: 'May interact with immunosuppressants; monitor if on such therapy',
+    contraindicationsWarnings: 'Diabetes (use sugar-free version), acute fever',
+    generalConsiderations: 'Best taken with milk or warm water; long-term use is safe',
       { herb: 'Kharjura', quantity: '1/4 part', part: 'fruit' },
       { herb: 'Jaggery', quantity: '2 parts' },
       { herb: 'Water', quantity: '16 parts' }
@@ -271,6 +259,7 @@ export const formulations: Formulation[] = [
       'Heart weakness',
       'Chronic fever'
     ],
+    categories: ['Respiratory System', 'General debility', 'Blood', 'Gastro Intestinal Tract', 'Kidney and Uro-genital'],
     dosage: {
       amount: '15-30ml',
       frequency: 'Twice daily after meals',
@@ -281,7 +270,7 @@ export const formulations: Formulation[] = [
     reference: 'Bhaishajya Ratnavali Kasaroga 15/78-85',
     image: 'https://images.pexels.com/photos/4021775/pexels-photo-4021775.jpeg'
   },
-  {
+    adultDosage: '12-24g once or twice daily',
     id: 'kumaryasava',
     name: 'Kumaryasava',
     sanskritName: 'कुमार्यासव',
@@ -557,6 +546,21 @@ export const formulations: Formulation[] = [
       'Vomiting',
       'Liver disorders'
     ],
+    categories: ['Gastro Intestinal Tract', 'Anti-microbial', 'Anti-inflammatory'],
+    adultDosage: '3-6g once daily at bedtime',
+    paediatricDosage: '1-3g once daily at bedtime',
+    doseAdjustment: {
+      hepatic: 'Reduce dose if severe hepatic impairment',
+      renal: 'Use with caution in renal impairment',
+      diabetes: 'Safe',
+      hypertension: 'Safe'
+    },
+    pregnancyLactation: 'Avoid in pregnancy due to laxative effect',
+    modeOfAction: 'Regulates digestion, acts as mild laxative and antioxidant',
+    adverseDrugReactions: 'May cause loose stools or abdominal cramps in high doses',
+    interactions: 'May enhance effects of other laxatives',
+    contraindicationsWarnings: 'Diarrhea, pregnancy, severe dehydration',
+    generalConsiderations: 'Best taken at bedtime; ensure adequate hydration',
     dosage: {
       amount: '3-6g',
       frequency: 'Twice daily before meals',
@@ -565,40 +569,6 @@ export const formulations: Formulation[] = [
     anupana: ['Cold water', 'Milk', 'Coconut water'],
     contraindications: ['Diarrhea', 'Severe weakness'],
     reference: 'Sharangdhara Samhita Madhyama Khanda 6/19-22',
-    image: 'https://images.pexels.com/photos/4021775/pexels-photo-4021775.jpeg'
-  },
-  {
-    id: 'sitopaladi-churna',
-    name: 'Sitopaladi Churna',
-    sanskritName: 'सितोपलादि चूर्ण',
-    type: 'churna',
-    ingredients: [
-      { herb: 'Mishri', quantity: '16 parts' },
-      { herb: 'Vanshlochan', quantity: '8 parts' },
-      { herb: 'Pippali', quantity: '4 parts', part: 'fruit' },
-      { herb: 'Ela', quantity: '2 parts', part: 'seed' },
-      { herb: 'Dalchini', quantity: '1 part', part: 'bark' }
-    ],
-    indications: [
-      'Cough',
-      'Cold',
-      'Asthma',
-      'Bronchitis',
-      'Tuberculosis',
-      'Fever',
-      'Loss of appetite',
-      'Digestive weakness',
-      'Voice disorders',
-      'Respiratory infections'
-    ],
-    dosage: {
-      amount: '3-6g',
-      frequency: '3-4 times daily',
-      duration: '15-30 days'
-    },
-    anupana: ['Honey', 'Warm water', 'Milk'],
-    contraindications: ['Diabetes', 'Severe Pitta disorders'],
-    reference: 'Sharangdhara Samhita Madhyama Khanda 6/18',
     image: 'https://images.pexels.com/photos/4021775/pexels-photo-4021775.jpeg'
   },
   {
@@ -739,9 +709,10 @@ export const formulations: Formulation[] = [
     ],
     dosage: {
       amount: '50-100ml',
-      frequency: 'Twice daily before meals',
+      frequency: 'Twice daily after meals',
       duration: '1-3 months'
     },
+    categories: ['Respiratory System', 'Anti-inflammatory', 'Anti-rheumatic', 'Kidney and Uro-genital', 'Nervous System'],
     anupana: ['Honey', 'Warm water'],
     contraindications: ['Pregnancy', 'Severe anemia'],
     reference: 'Bhaishajya Ratnavali Kushtha Roga 54/78-95',
@@ -857,7 +828,6 @@ export const formulations: Formulation[] = [
   },
   {
     id: 'brahmi-ghrita',
-    name: 'Brahmi Ghrita',
     sanskritName: 'ब्राह्मी घृत',
     type: 'ghrita',
     ingredients: [
@@ -880,6 +850,21 @@ export const formulations: Formulation[] = [
       'Insomnia',
       'Nervous weakness'
     ],
+    categories: ['Gastro Intestinal Tract', 'Anti-microbial', 'Anti-inflammatory'],
+    adultDosage: '3-6g once daily at bedtime',
+    paediatricDosage: '1-3g once daily at bedtime',
+    doseAdjustment: {
+      hepatic: 'Reduce dose if severe hepatic impairment',
+      renal: 'Use with caution in renal impairment',
+      diabetes: 'Safe',
+      hypertension: 'Safe'
+    },
+    pregnancyLactation: 'Avoid in pregnancy due to laxative effect',
+    modeOfAction: 'Regulates digestion, acts as mild laxative and antioxidant',
+    adverseDrugReactions: 'May cause loose stools or abdominal cramps in high doses',
+    interactions: 'May enhance effects of other laxatives',
+    contraindicationsWarnings: 'Diarrhea, pregnancy, severe dehydration',
+    generalConsiderations: 'Best taken at bedtime; ensure adequate hydration',
     dosage: {
       amount: '6-12g',
       frequency: 'Twice daily before meals',
@@ -1063,5 +1048,5 @@ export const formulations: Formulation[] = [
     contraindications: ['Pregnancy', 'Pitta disorders', 'Peptic ulcer'],
     reference: 'Bhaishajya Ratnavali Agnimandya 6/78-85',
     image: 'https://images.pexels.com/photos/4021775/pexels-photo-4021775.jpeg'
-  }
+    },
 ];

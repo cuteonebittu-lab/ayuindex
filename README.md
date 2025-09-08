@@ -84,3 +84,27 @@ npm run lint
 
 ## License
 This project is for educational and informational purposes.
+// ...existing code...
+export const formulations = [
+  {
+    id: 'chyawanprash',
+    name: 'Chyawanprash',
+    reference: 'Charaka Samhita',
+    categories: ['Anti-inflammatory', 'Immune booster', 'Nervous System'],
+    // ...other fields...
+  },
+  {
+    id: 'triphala_churna',
+    name: 'Triphala Churna',
+    reference: 'Charaka Samhita',
+    categories: ['Gastro Intestinal Tract', 'Anti-microbial', 'Anti-inflammatory'],
+    // ...other fields...
+  },
+  {
+    id: 'dashamoola_kwatha',
+    name: 'Dashamoola Kwatha',
+    reference: 'Sushruta Samhita',
+    categories: ['Respiratory System', 'Anti-inflammatory', 'Anti-rheumatic'],
+    // ...other fields...
+  },
+  {

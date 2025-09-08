@@ -42,6 +42,7 @@ export interface Formulation {
   contraindications: string[];
   preparation?: string;
   reference: string;
+  categories?: string[];
 }
 
 export type SearchCategory = 'all' | 'herbs' | 'formulations';
