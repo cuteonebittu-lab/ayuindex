@@ -853,23 +853,21 @@ export const formulations: Formulation[] = [
       'Insomnia',
       'Nervous weakness'
     ],
-    categories: ['Gastro Intestinal Tract', 'Anti-microbial', 'Anti-inflammatory'],
-    adultDosage: '3-6g once daily at bedtime',
-    paediatricDosage: '1-3g once daily at bedtime',
-    doseAdjustment: {
-      hepatic: 'Reduce dose if severe hepatic impairment',
-      renal: 'Use with caution in renal impairment',
-      diabetes: 'Safe',
-      hypertension: 'Safe'
-    },
-    pregnancyLactation: 'Avoid in pregnancy due to laxative effect',
-    modeOfAction: 'Regulates digestion, acts as mild laxative and antioxidant',
-    adverseDrugReactions: 'May cause loose stools or abdominal cramps in high doses',
-  interactions: 'May enhance effects of other laxatives',
   categories: ['Nervous System', 'Mental Health', 'General debility'],
+  adultDosage: '3-6g once daily at bedtime',
+  paediatricDosage: '1-3g once daily at bedtime',
+  doseAdjustment: {
+    hepatic: 'Reduce dose if severe hepatic impairment',
+    renal: 'Use with caution in renal impairment',
+    diabetes: 'Safe',
+    hypertension: 'Safe'
+  },
+  pregnancyLactation: 'Avoid in pregnancy due to laxative effect',
+  modeOfAction: 'Regulates digestion, acts as mild laxative and antioxidant',
+  adverseDrugReactions: 'May cause loose stools or abdominal cramps in high doses',
+  interactions: 'May enhance effects of other laxatives',
   contraindicationsWarnings: 'Diarrhea, pregnancy, severe dehydration',
-  generalConsiderations: 'Best taken at bedtime; ensure adequate hydr
-  ation',
+  generalConsiderations: 'Best taken at bedtime; ensure adequate hydration',
     dosage: {
       amount: '6-12g',
       frequency: 'Twice daily before meals',
