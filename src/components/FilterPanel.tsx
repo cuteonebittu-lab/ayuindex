@@ -1,46 +1,102 @@
-import React from 'react';
 import { X } from 'lucide-react';
+import React from 'react';
+
+type FilterOptions = {
+  rasa: string[];
+  guna: string[];
+  virya: string[];
+  type: string[];
+  category: string[];
+};
 
 interface FilterPanelProps {
   show: boolean;
   onClose: () => void;
-  filters: {
-    rasa: string[];
-    guna: string[];
-    virya: string[];
-    type: string[];
-    category: string[];
-  };
-  setFilters: (filters: any) => void;
+  filters: FilterOptions;
+  setFilters: (filters: FilterOptions) => void;
 }
 
-const rasaOptions = ['Madhura', 'Amla', 'Lavana', 'Katu', 'Tikta', 'Kashaya'];
-const gunaOptions = ['Laghu', 'Guru', 'Sheeta', 'Ushna', 'Snigdha', 'Ruksha'];
-const viryaOptions = ['Sheeta', 'Ushna'];
-const typeOptions = ['churna', 'vati', 'ghrita', 'taila', 'asava', 'arishta', 'bhasma', 'rasa', 'kashaya'];
-const categoryOptions = [
-  'Digestive System',
-  'Respiratory System',
-  'Mental Health',
-  'Women\'s Health',
-  'Rejuvenative',
-  'Fever',
-  'Nervous System',
-  'Urinary System',
-  'Liver',
-  'Infectious Diseases'
+interface FilterGroupProps {
+  label: string;
+  options: string[];
+  selectedValues: string[];
+  onChange: (value: string) => void;
+}
+
+const filterGroups = [
+  {
+    key: 'rasa' as const,
+    label: 'Rasa (Taste)',
+    options: ['Madhura', 'Amla', 'Lavana', 'Katu', 'Tikta', 'Kashaya']
+  },
+  {
+    key: 'guna' as const,
+    label: 'Guna (Quality)',
+    options: ['Laghu', 'Guru', 'Sheeta', 'Ushna', 'Snigdha', 'Ruksha']
+  },
+  {
+    key: 'virya' as const,
+    label: 'Virya (Potency)',
+    options: ['Sheeta', 'Ushna']
+  },
+  {
+    key: 'type' as const,
+    label: 'Formulation Type',
+    options: ['churna', 'vati', 'ghrita', 'taila', 'asava', 'arishta', 'bhasma', 'rasa', 'kashaya']
+  }
 ];
 
-export function FilterPanel({ show, onClose, filters, setFilters }: FilterPanelProps) {
+const healthCategories = {
+  key: 'category' as const,
+  label: 'Health Category',
+  options: [
+    'Digestive System',
+    'Respiratory System',
+    'Mental Health',
+    'Women\'s Health',
+    'Rejuvenative',
+    'Fever',
+    'Nervous System',
+    'Urinary System',
+    'Liver',
+    'Infectious Diseases'
+  ]
+};
+
+const FilterGroup: React.FC<FilterGroupProps> = ({
+  label,
+  options,
+  selectedValues,
+  onChange
+}) => (
+  <div>
+    <h4 className="font-medium text-gray-700 mb-3">{label}</h4>
+    <div className="space-y-2">
+      {options.map((option) => (
+        <label key={option} className="flex items-center">
+          <input
+            type="checkbox"
+            checked={selectedValues.includes(option)}
+            onChange={() => onChange(option)}
+            className="rounded border-gray-300 text-emerald-600 focus:ring-emerald-500"
+          />
+          <span className="ml-2 text-sm text-gray-600">{option}</span>
+        </label>
+      ))}
+    </div>
+  </div>
+);
+
+export const FilterPanel: React.FC<FilterPanelProps> = ({ show, onClose, filters, setFilters }) => {
   if (!show) return null;
 
-  const handleFilterChange = (category: string, value: string) => {
-    setFilters((prev: any) => ({
-      ...prev,
-      [category]: prev[category].includes(value)
-        ? prev[category].filter((item: string) => item !== value)
-        : [...prev[category], value]
-    }));
+  const handleFilterChange = (category: keyof FilterOptions, value: string) => {
+    setFilters({
+      ...filters,
+      [category]: filters[category].includes(value)
+        ? filters[category].filter(item => item !== value)
+        : [...filters[category], value]
+    });
   };
 
   const clearAllFilters = () => {
@@ -74,118 +130,25 @@ export function FilterPanel({ show, onClose, filters, setFilters }: FilterPanelP
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-        <div>
-          <h4 className="font-medium text-gray-700 mb-3">Rasa (Taste)</h4>
-          <div className="space-y-2">
-            {rasaOptions.map((option) => (
-              <label key={option} className="flex items-center">
-                <input
-                  type="checkbox"
-                  checked={filters.rasa.includes(option)}
-                  onChange={() => handleFilterChange('rasa', option)}
-                  className="rounded border-gray-300 text-emerald-600 focus:ring-emerald-500"
-                />
-                <span className="ml-2 text-sm text-gray-600">{option}</span>
-              </label>
-            ))}
-          </div>
-        </div>
-
-        <div>
-          <h4 className="font-medium text-gray-700 mb-3">Guna (Quality)</h4>
-          <div className="space-y-2">
-            {gunaOptions.map((option) => (
-              <label key={option} className="flex items-center">
-                <input
-                  type="checkbox"
-                  checked={filters.guna.includes(option)}
-                  onChange={() => handleFilterChange('guna', option)}
-                  className="rounded border-gray-300 text-emerald-600 focus:ring-emerald-500"
-                />
-                <span className="ml-2 text-sm text-gray-600">{option}</span>
-              </label>
-            ))}
-          </div>
-        </div>
-
-        <div>
-          <h4 className="font-medium text-gray-700 mb-3">Virya (Potency)</h4>
-          <div className="space-y-2">
-            {viryaOptions.map((option) => (
-              <label key={option} className="flex items-center">
-                <input
-                  type="checkbox"
-                  checked={filters.virya.includes(option)}
-                  onChange={() => handleFilterChange('virya', option)}
-                  className="rounded border-gray-300 text-emerald-600 focus:ring-emerald-500"
-                />
-                <span className="ml-2 text-sm text-gray-600">{option}</span>
-              </label>
-            ))}
-          </div>
-        </div>
-
-        <div>
-          <h4 className="font-medium text-gray-700 mb-3">Formulation Type</h4>
-          <div className="space-y-2">
-            {typeOptions.map((option) => (
-              <label key={option} className="flex items-center">
-                <input
-                  type="checkbox"
-                  checked={filters.type.includes(option)}
-                  onChange={() => handleFilterChange('type', option)}
-                  className="rounded border-gray-300 text-emerald-600 focus:ring-emerald-500"
-                />
-                <span className="ml-2 text-sm text-gray-600">{option}</span>
-              </label>
-            ))}
-          </div>
-        </div>
+        {filterGroups.map(group => (
+          <FilterGroup
+            key={group.key}
+            label={group.label}
+            options={group.options}
+            selectedValues={filters[group.key]}
+            onChange={(value) => handleFilterChange(group.key, value)}
+          />
+        ))}
 
         <div className="col-span-2">
-          <h4 className="font-medium text-gray-700 mb-3">Health Category</h4>
-          <div className="grid grid-cols-2 gap-4">
-            {categoryOptions.map((option) => (
-              <label key={option} className="flex items-center">
-                <input
-                  type="checkbox"
-                  checked={filters.category.includes(option)}
-                  onChange={() => handleFilterChange('category', option)}
-                  className="rounded border-gray-300 text-emerald-600 focus:ring-emerald-500"
-                />
-                <span className="ml-2 text-sm text-gray-600">{option}</span>
-              </label>
-            ))}
-          </div>
-        </div>
-                  type="checkbox"
-                  checked={filters.type.includes(option)}
-                  onChange={() => handleFilterChange('type', option)}
-                  className="rounded border-gray-300 text-emerald-600 focus:ring-emerald-500"
-                />
-                <span className="ml-2 text-sm text-gray-600">{option}</span>
-              </label>
-            ))}
-          </div>
-        </div>
-
-        <div>
-          <h4 className="font-medium text-gray-700 mb-3">Health Category</h4>
-          <div className="space-y-2">
-            {categoryOptions.map((option) => (
-              <label key={option} className="flex items-center">
-                <input
-                  type="checkbox"
-                  checked={filters.type.includes(option)}
-                  onChange={() => handleFilterChange('type', option)}
-                  className="rounded border-gray-300 text-emerald-600 focus:ring-emerald-500"
-                />
-                <span className="ml-2 text-sm text-gray-600 capitalize">{option}</span>
-              </label>
-            ))}
-          </div>
+          <FilterGroup
+            label={healthCategories.label}
+            options={healthCategories.options}
+            selectedValues={filters[healthCategories.key]}
+            onChange={(value) => handleFilterChange(healthCategories.key, value)}
+          />
         </div>
       </div>
     </div>
   );
-}
+};
