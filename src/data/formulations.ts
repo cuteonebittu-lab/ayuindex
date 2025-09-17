@@ -6,9 +6,11 @@ import {
   additionalKashayas, 
   additionalGhritas 
 } from './classical-formulations-2';
+import { allFormulations, categorizedFormulations as newFormulations } from './all-formulations';
 
 // Categorized formulations for easy access
 export const categorizedFormulations = {
+  ...newFormulations,
   arishtas: [...arishtas, ...additionalArishtas],
   vatis: [...vatis, ...additionalVatis],
   kashayas: [...kashayas, ...additionalKashayas],
@@ -25,6 +27,7 @@ export const formulations: Formulation[] = [
   ...additionalVatis,
   ...additionalKashayas,
   ...additionalGhritas,
+  ...allFormulations,
   {
     id: 'chyawanprash',
     name: 'Chyawanprash',

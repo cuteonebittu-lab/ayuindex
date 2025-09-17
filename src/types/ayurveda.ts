@@ -1,35 +1,49 @@
-export interface Herb {
-  id: string;
-  name: string;
-  sanskritName: string;
-  botanicalName: string;
-  family: string;
-  parts: string[];
-  rasa: string[];
-  guna: string[];
-  virya: string;
-  vipaka: string;
-  prabhava?: string;
-  indications: string[];
-  dosage: {
-    powder: string;
-    decoction: string;
-    juice?: string;
-    oil?: string;
-  };
-  anupana: string[];
-  contraindications: string[];
-  image?: string;
-}
+// Standard categories for Ayurvedic formulations
+export type FormulationCategory = 
+  | 'Digestive System'
+  | 'Respiratory System'
+  | 'Mental Health'
+  | 'Women\'s Health'
+  | 'Rejuvenative'
+  | 'Fever'
+  | 'Nervous System'
+  | 'Urinary System'
+  | 'Liver'
+  | 'Blood'
+  | 'Musculoskeletal'
+  | 'Skin Health'
+  | 'Metabolic Disorders'
+  | 'Oral Health'
+  | 'General Tonic';
 
-export type FormulationType = 'churna' | 'vati' | 'ghrita' | 'taila' | 'asava' | 'arishta' | 'bhasma' | 'rasa' | 'kashaya';
+// Standard Ayurvedic formulation types
+export type FormulationType = 
+  | 'churna'   // Powder
+  | 'vati'     // Tablet
+  | 'ghrita'   // Medicated Ghee
+  | 'taila'    // Medicated Oil
+  | 'asava'    // Fermented Liquid
+  | 'arishta'  // Fermented Decoction
+  | 'bhasma'   // Calcined Mineral
+  | 'rasa'     // Mineral/Herbo-mineral
+  | 'kashaya'; // Decoction
 
+// Dosage forms and their standard measurements
+export type DosageForm = {
+  powder?: string;   // in grams
+  tablet?: string;   // in mg or number
+  liquid?: string;   // in ml
+  oil?: string;      // in ml
+  ghee?: string;     // in grams
+};
+
+// Extended Formulation interface with standardized fields
 export interface Formulation {
   id: string;
   name: string;
   sanskritName: string;
   type: FormulationType;
-  category?: string;
+  category: FormulationCategory;
   ingredients: {
     herb: string;
     quantity: string;
@@ -40,13 +54,14 @@ export interface Formulation {
     amount: string;
     frequency: string;
     duration: string;
+    form?: DosageForm;
   };
   anupana: string[];
   contraindications: string[];
   preparation?: string;
   seasonalUsage?: string;
   reference: string;
-  categories: string[];
+  categories: FormulationCategory[];
   adultDosage?: string;
   paediatricDosage?: string;
   doseAdjustment?: {
@@ -65,5 +80,24 @@ export interface Formulation {
   image?: string;
 }
 
+export interface Herb {
+  id: string;
+  name: string;
+  sanskritName: string;
+  botanicalName: string;
+  family: string;
+  parts: string[];
+  rasa: string[];
+  guna: string[];
+  virya: string;
+  vipaka: string;
+  prabhava?: string;
+  indications: string[];
+  dosage: DosageForm;
+  anupana: string[];
+  contraindications: string[];
+  image?: string;
+}
+
 export type SearchCategory = 'all' | 'herbs' | 'formulations';
-export type FilterType = 'rasa' | 'guna' | 'virya' | 'type' | 'indication';
+export type FilterType = 'rasa' | 'guna' | 'virya' | 'type' | 'category';
