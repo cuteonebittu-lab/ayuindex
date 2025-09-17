@@ -1,12 +1,17 @@
 import { X } from 'lucide-react';
 import React from 'react';
+import { FormulationType, FormulationCategory } from '../types/ayurveda';
+
+interface FilterTypes {
+  rasa: string;
+  guna: string;
+  virya: string;
+  type: FormulationType;
+  category: FormulationCategory;
+}
 
 type FilterOptions = {
-  rasa: string[];
-  guna: string[];
-  virya: string[];
-  type: string[];
-  category: string[];
+  [K in keyof FilterTypes]: FilterTypes[K][];
 };
 
 interface FilterPanelProps {
@@ -16,38 +21,46 @@ interface FilterPanelProps {
   setFilters: (filters: FilterOptions) => void;
 }
 
-interface FilterGroupProps {
+interface FilterGroupProps<K extends keyof FilterTypes> {
   label: string;
-  options: string[];
-  selectedValues: string[];
-  onChange: (value: string) => void;
+  options: FilterTypes[K][];
+  selectedValues: FilterTypes[K][];
+  onChange: (value: FilterTypes[K]) => void;
 }
 
-const filterGroups = [
+const filterGroups: Array<{
+  key: keyof FilterTypes;
+  label: string;
+  options: FilterTypes[keyof FilterTypes][];
+}> = [
   {
-    key: 'rasa' as const,
+    key: 'rasa',
     label: 'Rasa (Taste)',
     options: ['Madhura', 'Amla', 'Lavana', 'Katu', 'Tikta', 'Kashaya']
   },
   {
-    key: 'guna' as const,
+    key: 'guna',
     label: 'Guna (Quality)',
     options: ['Laghu', 'Guru', 'Sheeta', 'Ushna', 'Snigdha', 'Ruksha']
   },
   {
-    key: 'virya' as const,
+    key: 'virya',
     label: 'Virya (Potency)',
     options: ['Sheeta', 'Ushna']
   },
   {
-    key: 'type' as const,
+    key: 'type',
     label: 'Formulation Type',
-    options: ['churna', 'vati', 'ghrita', 'taila', 'asava', 'arishta', 'bhasma', 'rasa', 'kashaya']
+    options: ['churna', 'vati', 'ghrita', 'taila', 'asava', 'arishta', 'bhasma', 'rasa', 'kashaya'] as FormulationType[]
   }
 ];
 
-const healthCategories = {
-  key: 'category' as const,
+const healthCategories: {
+  key: 'category';
+  label: string;
+  options: FormulationCategory[];
+} = {
+  key: 'category',
   label: 'Health Category',
   options: [
     'Digestive System',
@@ -59,45 +72,58 @@ const healthCategories = {
     'Nervous System',
     'Urinary System',
     'Liver',
-    'Infectious Diseases'
-  ]
+    'Blood',
+    'Musculoskeletal',
+    'Skin Health',
+    'Metabolic Disorders',
+    'Oral Health',
+    'General Tonic'
+  ] as FormulationCategory[]
 };
 
-const FilterGroup: React.FC<FilterGroupProps> = ({
+function FilterGroup<K extends keyof FilterTypes>({
   label,
   options,
   selectedValues,
   onChange
-}) => (
-  <div>
-    <h4 className="font-medium text-gray-700 mb-3">{label}</h4>
-    <div className="space-y-2">
-      {options.map((option) => (
-        <label key={option} className="flex items-center">
-          <input
-            type="checkbox"
-            checked={selectedValues.includes(option)}
-            onChange={() => onChange(option)}
-            className="rounded border-gray-300 text-emerald-600 focus:ring-emerald-500"
-          />
-          <span className="ml-2 text-sm text-gray-600">{option}</span>
-        </label>
-      ))}
+}: FilterGroupProps<K>): React.ReactElement {
+  return (
+    <div>
+      <h4 className="font-medium text-gray-700 mb-3">{label}</h4>
+      <div className="space-y-2">
+        {options.map((option) => (
+          <label key={String(option)} className="flex items-center">
+            <input
+              type="checkbox"
+              checked={selectedValues.includes(option)}
+              onChange={() => onChange(option)}
+              className="rounded border-gray-300 text-emerald-600 focus:ring-emerald-500"
+            />
+            <span className="ml-2 text-sm text-gray-600">{String(option)}</span>
+          </label>
+        ))}
+      </div>
     </div>
-  </div>
-);
+  );
+}
 
 export const FilterPanel: React.FC<FilterPanelProps> = ({ show, onClose, filters, setFilters }) => {
   if (!show) return null;
 
-  const handleFilterChange = (category: keyof FilterOptions, value: string) => {
+  function handleFilterChange<K extends keyof FilterTypes>(
+    category: K,
+    value: FilterTypes[K]
+  ) {
+    const currentValues = filters[category];
+    const valueExists = currentValues.includes(value as FilterTypes[K]);
+    
     setFilters({
       ...filters,
-      [category]: filters[category].includes(value)
-        ? filters[category].filter(item => item !== value)
-        : [...filters[category], value]
+      [category]: valueExists
+        ? currentValues.filter(v => v !== value)
+        : [...currentValues, value]
     });
-  };
+  }
 
   const clearAllFilters = () => {
     setFilters({
@@ -131,17 +157,17 @@ export const FilterPanel: React.FC<FilterPanelProps> = ({ show, onClose, filters
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         {filterGroups.map(group => (
-          <FilterGroup
+          <FilterGroup<keyof FilterTypes>
             key={group.key}
             label={group.label}
             options={group.options}
             selectedValues={filters[group.key]}
-            onChange={(value) => handleFilterChange(group.key, value)}
+            onChange={(value) => handleFilterChange(group.key, value as FilterTypes[typeof group.key])}
           />
         ))}
 
         <div className="col-span-2">
-          <FilterGroup
+          <FilterGroup<'category'>
             label={healthCategories.label}
             options={healthCategories.options}
             selectedValues={filters[healthCategories.key]}

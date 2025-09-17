@@ -6,7 +6,7 @@ export const bhasmas: Formulation[] = [
     name: 'Mandura Bhasma',
     sanskritName: 'मण्डूर भस्म',
     type: 'bhasma',
-    category: 'Blood Disorders',
+    category: 'Blood',
     ingredients: [
       { herb: 'Iron Rust', quantity: '1 part' },
       { herb: 'Triphala Decoction', quantity: 'As needed' }
@@ -25,6 +25,6 @@ export const bhasmas: Formulation[] = [
     anupana: ['Honey', 'Ghee'],
     contraindications: ['Pregnancy', 'Bleeding disorders'],
     reference: 'Rasa Tarangini',
-    categories: ['Blood Disorders', 'Liver']
+    categories: ['Blood', 'Liver']
   }
 ];

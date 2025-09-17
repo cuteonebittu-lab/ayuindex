@@ -30,7 +30,7 @@ export const kashayas: Formulation[] = [
     anupana: ['Cool water'],
     contraindications: ['Cold and cough'],
     reference: 'Charaka Samhita',
-    categories: ['Fever', 'Summer Disorders']
+    categories: ['Fever', 'General Tonic']
   },
   {
     id: 'guduchyadi-kashaya',

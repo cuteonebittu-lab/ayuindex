@@ -50,7 +50,8 @@ AyuIndex is a comprehensive Ayurveda drug database web application built with Re
    npm install
    ```
 
-## s
+## Usage
+
 1. **Start the development server**
    ```powershell
    npm run dev
@@ -67,7 +68,15 @@ AyuIndex is a comprehensive Ayurveda drug database web application built with Re
    ```powershell
    npm run preview
    ```
-   This will serve the production build locally.
+   This will serve the production build locally at `http://localhost:5173`.
+
+## Troubleshooting
+- If you see errors about missing dependencies, ensure you have Node.js v18+ and npm installed.
+- If the app does not start, try deleting `node_modules` and running `npm install` again.
+- For Windows users, run commands in PowerShell or Command Prompt.
+
+## Notes
+- Replace `<repository-url>` with the actual URL of your repository when cloning.
 
 ## Linting
 To check code quality and formatting:
@@ -84,27 +93,3 @@ npm run lint
 
 ## License
 This project is for educational and informational purposes.
-// ...existing code...
-export const formulations = [
-  {
-    id: 'chyawanprash',
-    name: 'Chyawanprash',
-    reference: 'Charaka Samhita',
-    categories: ['Anti-inflammatory', 'Immune booster', 'Nervous System'],
-    // ...other fields...
-  },
-  {
-    id: 'triphala_churna',
-    name: 'Triphala Churna',
-    reference: 'Charaka Samhita',
-    categories: ['Gastro Intestinal Tract', 'Anti-microbial', 'Anti-inflammatory'],
-    // ...other fields...
-  },
-  {
-    id: 'dashamoola_kwatha',
-    name: 'Dashamoola Kwatha',
-    reference: 'Sushruta Samhita',
-    categories: ['Respiratory System', 'Anti-inflammatory', 'Anti-rheumatic'],
-    // ...other fields...
-  },
-  {
