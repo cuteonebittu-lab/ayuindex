@@ -13,7 +13,8 @@ export function useSearch({ herbs, formulations }: UseSearchProps) {
     rasa: [] as string[],
     guna: [] as string[],
     virya: [] as string[],
-    type: [] as string[]
+    type: [] as string[],
+    category: [] as string[]
   });
 
   const filteredResults = useMemo(() => {
@@ -63,6 +64,12 @@ export function useSearch({ herbs, formulations }: UseSearchProps) {
     if (filters.type.length > 0) {
       filteredFormulations = filteredFormulations.filter(formulation =>
         filters.type.includes(formulation.type)
+      );
+    }
+
+    if (filters.category.length > 0) {
+      filteredFormulations = filteredFormulations.filter(formulation =>
+        filters.category.some(category => formulation.categories.includes(category))
       );
     }
 

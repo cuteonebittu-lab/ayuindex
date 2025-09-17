@@ -22,11 +22,14 @@ export interface Herb {
   image?: string;
 }
 
+export type FormulationType = 'churna' | 'vati' | 'ghrita' | 'taila' | 'asava' | 'arishta' | 'bhasma' | 'rasa' | 'kashaya';
+
 export interface Formulation {
   id: string;
   name: string;
   sanskritName: string;
-  type: 'churna' | 'vati' | 'ghrita' | 'taila' | 'asava' | 'arishta' | 'bhasma' | 'rasa';
+  type: FormulationType;
+  category?: string;
   ingredients: {
     herb: string;
     quantity: string;
@@ -41,6 +44,7 @@ export interface Formulation {
   anupana: string[];
   contraindications: string[];
   preparation?: string;
+  seasonalUsage?: string;
   reference: string;
   categories: string[];
   adultDosage?: string;

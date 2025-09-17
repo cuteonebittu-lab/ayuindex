@@ -9,7 +9,7 @@ import { HerbDetail } from './components/HerbDetail';
 import { FormulationDetail } from './components/FormulationDetail';
 import { useSearch } from './hooks/useSearch';
 import { herbs } from './data/herbs';
-import { formulations } from './data/formulations';
+import { formulations } from './data/index';
 import { Herb, Formulation } from './types/ayurveda';
 
 function App() {
@@ -26,6 +26,14 @@ function App() {
     setFilters,
     filteredResults
   } = useSearch({ herbs, formulations });
+
+  // Initialize filters with new category array
+  React.useEffect(() => {
+    setFilters(prev => ({
+      ...prev,
+      category: []
+    }));
+  }, []);
 
   return (
     <div className="min-h-screen bg-gray-50">

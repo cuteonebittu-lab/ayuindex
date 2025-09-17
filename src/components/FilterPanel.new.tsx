@@ -1,4 +1,3 @@
-import React from 'react';
 import { X } from 'lucide-react';
 
 interface FilterPanelProps {
@@ -154,33 +153,6 @@ export function FilterPanel({ show, onClose, filters, setFilters }: FilterPanelP
                   className="rounded border-gray-300 text-emerald-600 focus:ring-emerald-500"
                 />
                 <span className="ml-2 text-sm text-gray-600">{option}</span>
-              </label>
-            ))}
-          </div>
-        </div>
-                  type="checkbox"
-                  checked={filters.type.includes(option)}
-                  onChange={() => handleFilterChange('type', option)}
-                  className="rounded border-gray-300 text-emerald-600 focus:ring-emerald-500"
-                />
-                <span className="ml-2 text-sm text-gray-600">{option}</span>
-              </label>
-            ))}
-          </div>
-        </div>
-
-        <div>
-          <h4 className="font-medium text-gray-700 mb-3">Health Category</h4>
-          <div className="space-y-2">
-            {categoryOptions.map((option) => (
-              <label key={option} className="flex items-center">
-                <input
-                  type="checkbox"
-                  checked={filters.type.includes(option)}
-                  onChange={() => handleFilterChange('type', option)}
-                  className="rounded border-gray-300 text-emerald-600 focus:ring-emerald-500"
-                />
-                <span className="ml-2 text-sm text-gray-600 capitalize">{option}</span>
               </label>
             ))}
           </div>

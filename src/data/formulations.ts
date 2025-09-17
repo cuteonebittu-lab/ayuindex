@@ -1,6 +1,30 @@
 import { Formulation } from '../types/ayurveda';
+import { arishtas, vatis, kashayas, ghritas } from './additional-formulations';
+import { 
+  additionalArishtas, 
+  additionalVatis, 
+  additionalKashayas, 
+  additionalGhritas 
+} from './classical-formulations-2';
 
+// Categorized formulations for easy access
+export const categorizedFormulations = {
+  arishtas: [...arishtas, ...additionalArishtas],
+  vatis: [...vatis, ...additionalVatis],
+  kashayas: [...kashayas, ...additionalKashayas],
+  ghritas: [...ghritas, ...additionalGhritas],
+};
+
+// Main formulations array including all categories
 export const formulations: Formulation[] = [
+  ...arishtas,
+  ...vatis,
+  ...kashayas,
+  ...ghritas,
+  ...additionalArishtas,
+  ...additionalVatis,
+  ...additionalKashayas,
+  ...additionalGhritas,
   {
     id: 'chyawanprash',
     name: 'Chyawanprash',
@@ -1058,4 +1082,317 @@ export const formulations: Formulation[] = [
     reference: 'Bhaishajya Ratnavali Agnimandya 6/78-85',
     image: 'https://images.pexels.com/photos/4021775/pexels-photo-4021775.jpeg'
     },
+  {
+    id: 'saraswatarishta',
+    name: 'Saraswatarishta',
+    sanskritName: 'सारस्वतारिष्ट',
+    type: 'arishta',
+    ingredients: [
+      { herb: 'Brahmi', quantity: '1 part', part: 'whole plant' },
+      { herb: 'Shankhpushpi', quantity: '1 part', part: 'whole plant' },
+      { herb: 'Vacha', quantity: '1/2 part', part: 'rhizome' },
+      { herb: 'Ashwagandha', quantity: '1/2 part', part: 'root' },
+      { herb: 'Jaggery', quantity: '4 parts' },
+      { herb: 'Water', quantity: '16 parts' }
+    ],
+    indications: [
+      'Memory disorders',
+      'Mental fatigue',
+      'Speech disorders',
+      'Learning disabilities',
+      'Anxiety',
+      'Insomnia',
+      'Nervous weakness',
+      'Epilepsy',
+      'ADHD',
+      'Cognitive decline'
+    ],
+    categories: ['Nervous System', 'Mental Health', 'Cognitive'],
+    adultDosage: '15-30ml twice daily after meals',
+    paediatricDosage: '7-15ml twice daily after meals',
+    dosage: {
+      amount: '15-30ml',
+      frequency: 'Twice daily after meals',
+      duration: '3-6 months'
+    },
+    anupana: ['Equal quantity of water'],
+    contraindications: ['Diabetes', 'Obesity'],
+    reference: 'Bhaishajya Ratnavali Unmada Chikitsa 25/45-52',
+    image: 'https://images.pexels.com/photos/4021775/pexels-photo-4021775.jpeg'
+  },
+  {
+    id: 'dashamularishta',
+    name: 'Dashamularishta',
+    sanskritName: 'दशमूलारिष्ट',
+    type: 'arishta',
+    ingredients: [
+      { herb: 'Bilva', quantity: '1 part', part: 'root' },
+      { herb: 'Agnimantha', quantity: '1 part', part: 'root' },
+      { herb: 'Shyonaka', quantity: '1 part', part: 'root' },
+      { herb: 'Patala', quantity: '1 part', part: 'root' },
+      { herb: 'Kashmarya', quantity: '1 part', part: 'root' },
+      { herb: 'Brihati', quantity: '1 part', part: 'root' },
+      { herb: 'Kantakari', quantity: '1 part', part: 'root' },
+      { herb: 'Shalaparni', quantity: '1 part', part: 'root' },
+      { herb: 'Prishniparni', quantity: '1 part', part: 'root' },
+      { herb: 'Gokshura', quantity: '1 part', part: 'root' },
+      { herb: 'Jaggery', quantity: '4 parts' },
+      { herb: 'Water', quantity: '16 parts' }
+    ],
+    indications: [
+      'Vata disorders',
+      'Joint pain',
+      'Backache',
+      'Sciatica',
+      'Postpartum care',
+      'General debility',
+      'Nervous disorders',
+      'Arthritis',
+      'Muscle weakness',
+      'Chronic fatigue'
+    ],
+    categories: ['Musculoskeletal', 'Nervous System', 'General debility'],
+    adultDosage: '15-30ml twice daily after meals',
+    paediatricDosage: '7-15ml twice daily after meals',
+    dosage: {
+      amount: '15-30ml',
+      frequency: 'Twice daily after meals',
+      duration: '2-3 months'
+    },
+    anupana: ['Equal quantity of water'],
+    contraindications: ['Diabetes', 'Acute fever'],
+    reference: 'Bhaishajya Ratnavali Vatavyadhi 28/78-85',
+    image: 'https://images.pexels.com/photos/4021775/pexels-photo-4021775.jpeg'
+  },
+  {
+    id: 'triphala-guggulu',
+    name: 'Triphala Guggulu',
+    sanskritName: 'त्रिफला गुग्गुलु',
+    type: 'vati',
+    ingredients: [
+      { herb: 'Haritaki', quantity: '1 part', part: 'fruit' },
+      { herb: 'Bibhitaki', quantity: '1 part', part: 'fruit' },
+      { herb: 'Amalaki', quantity: '1 part', part: 'fruit' },
+      { herb: 'Guggulu', quantity: '1 part' },
+      { herb: 'Shunthi', quantity: '1/4 part', part: 'rhizome' },
+      { herb: 'Maricha', quantity: '1/4 part', part: 'fruit' },
+      { herb: 'Pippali', quantity: '1/4 part', part: 'fruit' }
+    ],
+    indications: [
+      'Piles',
+      'Constipation',
+      'Digestive disorders',
+      'Obesity',
+      'Arthritis',
+      'Skin diseases',
+      'Wound healing',
+      'Diabetes',
+      'Liver disorders',
+      'Blood purification'
+    ],
+    categories: ['Digestive', 'Metabolic', 'Musculoskeletal', 'Skin'],
+    adultDosage: '1-2 tablets twice daily after meals',
+    paediatricDosage: '1/2-1 tablet twice daily after meals',
+    dosage: {
+      amount: '1-2 tablets',
+      frequency: 'Twice daily after meals',
+      duration: '1-3 months'
+    },
+    anupana: ['Warm water', 'Honey water'],
+    contraindications: ['Pregnancy', 'Diarrhea', 'Severe weakness'],
+    reference: 'Bhaishajya Ratnavali Arsha Chikitsa 9/45-52',
+    image: 'https://images.pexels.com/photos/4021775/pexels-photo-4021775.jpeg'
+  },
+  {
+    id: 'kaishore-guggulu',
+    name: 'Kaishore Guggulu',
+    sanskritName: 'कैशोर गुग्गुलु',
+    type: 'vati',
+    ingredients: [
+      { herb: 'Guggulu', quantity: '1 part' },
+      { herb: 'Guduchi', quantity: '1 part', part: 'stem' },
+      { herb: 'Triphala', quantity: '1 part' },
+      { herb: 'Ginger', quantity: '1/4 part', part: 'rhizome' },
+      { herb: 'Black pepper', quantity: '1/4 part', part: 'fruit' },
+      { herb: 'Long pepper', quantity: '1/4 part', part: 'fruit' },
+      { herb: 'Vidanga', quantity: '1/4 part', part: 'fruit' }
+    ],
+    indications: [
+      'Skin diseases',
+      'Acne',
+      'Boils',
+      'Abscesses',
+      'Joint inflammation',
+      'Gout',
+      'Rheumatism',
+      'Blood disorders',
+      'Liver disorders',
+      'Metabolic disorders'
+    ],
+    categories: ['Skin', 'Musculoskeletal', 'Blood', 'Liver'],
+    adultDosage: '1-2 tablets twice daily after meals',
+    paediatricDosage: '1/2-1 tablet twice daily after meals',
+    dosage: {
+      amount: '1-2 tablets',
+      frequency: 'Twice daily after meals',
+      duration: '2-4 months'
+    },
+    anupana: ['Warm water', 'Honey'],
+    contraindications: ['Pregnancy', 'Lactation', 'Severe anemia'],
+    reference: 'Bhaishajya Ratnavali Kushtha Roga 55/78-85',
+    image: 'https://images.pexels.com/photos/4021775/pexels-photo-4021775.jpeg'
+  },
+  {
+    id: 'dasamoola-kashaya',
+    name: 'Dasamoola Kashaya',
+    sanskritName: 'दशमूल कषाय',
+    type: 'churna',
+    ingredients: [
+      { herb: 'Bilva', quantity: '1 part', part: 'root' },
+      { herb: 'Agnimantha', quantity: '1 part', part: 'root' },
+      { herb: 'Shyonaka', quantity: '1 part', part: 'root' },
+      { herb: 'Patala', quantity: '1 part', part: 'root' },
+      { herb: 'Kashmarya', quantity: '1 part', part: 'root' },
+      { herb: 'Brihati', quantity: '1 part', part: 'root' },
+      { herb: 'Kantakari', quantity: '1 part', part: 'root' },
+      { herb: 'Shalaparni', quantity: '1 part', part: 'root' },
+      { herb: 'Prishniparni', quantity: '1 part', part: 'root' },
+      { herb: 'Gokshura', quantity: '1 part', part: 'root' }
+    ],
+    indications: [
+      'Vata disorders',
+      'Joint pain',
+      'Backache',
+      'Sciatica',
+      'Respiratory conditions',
+      'Fever',
+      'General debility',
+      'Postpartum care',
+      'Nervous disorders',
+      'Chronic inflammation'
+    ],
+    categories: ['Musculoskeletal', 'Respiratory System', 'General debility'],
+    adultDosage: '50-100ml twice daily',
+    paediatricDosage: '25-50ml twice daily',
+    dosage: {
+      amount: '50-100ml',
+      frequency: 'Twice daily',
+      duration: '2-4 weeks'
+    },
+    anupana: ['Honey', 'Ghee', 'Warm water'],
+    contraindications: ['Pregnancy', 'Severe Pitta conditions'],
+    reference: 'Charaka Samhita Chikitsa Sthana 3/78-85',
+    image: 'https://images.pexels.com/photos/4021775/pexels-photo-4021775.jpeg'
+  },
+  {
+    id: 'triphala-kashaya',
+    name: 'Triphala Kashaya',
+    sanskritName: 'त्रिफला कषाय',
+    type: 'churna',
+    ingredients: [
+      { herb: 'Haritaki', quantity: '1 part', part: 'fruit' },
+      { herb: 'Bibhitaki', quantity: '1 part', part: 'fruit' },
+      { herb: 'Amalaki', quantity: '1 part', part: 'fruit' }
+    ],
+    indications: [
+      'Digestive disorders',
+      'Constipation',
+      'Eye diseases',
+      'Skin problems',
+      'Diabetes',
+      'Liver disorders',
+      'Immune boosting',
+      'Detoxification',
+      'Weight management',
+      'Anti-aging'
+    ],
+    categories: ['Digestive', 'Ophthalmology', 'Skin', 'Metabolic'],
+    adultDosage: '50-100ml twice daily',
+    paediatricDosage: '25-50ml twice daily',
+    dosage: {
+      amount: '50-100ml',
+      frequency: 'Twice daily',
+      duration: '1-2 months'
+    },
+    anupana: ['Honey', 'Ghee', 'Warm water'],
+    contraindications: ['Diarrhea', 'Severe weakness'],
+    reference: 'Charaka Samhita Sutra Sthana 4/8',
+    image: 'https://images.pexels.com/photos/4021775/pexels-photo-4021775.jpeg'
+  },
+  {
+    id: 'ashokarishta',
+    name: 'Ashokarishta',
+    sanskritName: 'अशोकारिष्ट',
+    type: 'arishta',
+    ingredients: [
+      { herb: 'Ashoka', quantity: '1 part', part: 'bark' },
+      { herb: 'Lodhra', quantity: '1/2 part', part: 'bark' },
+      { herb: 'Dhataki', quantity: '1/4 part', part: 'flower' },
+      { herb: 'Jaggery', quantity: '4 parts' },
+      { herb: 'Water', quantity: '16 parts' }
+    ],
+    indications: [
+      'Menstrual disorders',
+      'Menorrhagia',
+      'Dysmenorrhea',
+      'Leucorrhea',
+      'Uterine disorders',
+      'PCOS',
+      'Infertility',
+      'Postpartum care',
+      'Hormonal imbalance',
+      'Pelvic inflammatory disease'
+    ],
+    categories: ['Gynecological', 'Reproductive', 'Hormonal'],
+    adultDosage: '15-30ml twice daily after meals',
+    paediatricDosage: '7-15ml twice daily after meals',
+    dosage: {
+      amount: '15-30ml',
+      frequency: 'Twice daily after meals',
+      duration: '3-6 months'
+    },
+    anupana: ['Equal quantity of water'],
+    contraindications: ['Pregnancy', 'Diabetes'],
+    reference: 'Bhaishajya Ratnavali Yonivyapat 61/45-52',
+    image: 'https://images.pexels.com/photos/4021775/pexels-photo-4021775.jpeg'
+  },
+  {
+    id: 'punarnavarishta',
+    name: 'Punarnavarishta',
+    sanskritName: 'पुनर्नवारिष्ट',
+    type: 'arishta',
+    ingredients: [
+      { herb: 'Punarnava', quantity: '1 part', part: 'root' },
+      { herb: 'Guduchi', quantity: '1/2 part', part: 'stem' },
+      { herb: 'Shunthi', quantity: '1/4 part', part: 'rhizome' },
+      { herb: 'Maricha', quantity: '1/4 part', part: 'fruit' },
+      { herb: 'Pippali', quantity: '1/4 part', part: 'fruit' },
+      { herb: 'Jaggery', quantity: '4 parts' },
+      { herb: 'Water', quantity: '16 parts' }
+    ],
+    indications: [
+      'Edema',
+      'Ascites',
+      'Kidney disorders',
+      'Liver disorders',
+      'Heart diseases',
+      'Anemia',
+      'Obesity',
+      'Respiratory disorders',
+      'General debility',
+      'Chronic inflammation'
+    ],
+    categories: ['Renal', 'Hepatic', 'Cardiovascular', 'Metabolic'],
+    adultDosage: '15-30ml twice daily after meals',
+    paediatricDosage: '7-15ml twice daily after meals',
+    dosage: {
+      amount: '15-30ml',
+      frequency: 'Twice daily after meals',
+      duration: '2-3 months'
+    },
+    anupana: ['Equal quantity of water'],
+    contraindications: ['Pregnancy', 'Severe dehydration'],
+    reference: 'Bhaishajya Ratnavali Shotha Chikitsa 33/78-85',
+    image: 'https://images.pexels.com/photos/4021775/pexels-photo-4021775.jpeg'
+  },
 ];
