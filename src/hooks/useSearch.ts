@@ -1,5 +1,5 @@
 import { useState, useMemo } from 'react';
-import { Herb, Formulation, SearchCategory } from '../types/ayurveda';
+import { Herb, Formulation, SearchCategory, FormulationType, FormulationCategory } from '../types/ayurveda';
 
 interface UseSearchProps {
   herbs: Herb[];
@@ -9,11 +9,18 @@ interface UseSearchProps {
 export function useSearch({ herbs, formulations }: UseSearchProps) {
   const [searchTerm, setSearchTerm] = useState('');
   const [category, setCategory] = useState<SearchCategory>('all');
-  const [filters, setFilters] = useState({
-    rasa: [] as string[],
-    guna: [] as string[],
-    virya: [] as string[],
-    type: [] as string[]
+  const [filters, setFilters] = useState<{
+    rasa: string[];
+    guna: string[];
+    virya: string[];
+    type: FormulationType[];
+    category: FormulationCategory[];
+  }>({
+    rasa: [],
+    guna: [],
+    virya: [],
+    type: [],
+    category: []
   });
 
   const filteredResults = useMemo(() => {
@@ -44,13 +51,13 @@ export function useSearch({ herbs, formulations }: UseSearchProps) {
     // Apply filters
     if (filters.rasa.length > 0) {
       filteredHerbs = filteredHerbs.filter(herb =>
-        filters.rasa.some(rasa => herb.rasa.includes(rasa))
+        filters.rasa.every(rasa => herb.rasa.includes(rasa))
       );
     }
 
     if (filters.guna.length > 0) {
       filteredHerbs = filteredHerbs.filter(herb =>
-        filters.guna.some(guna => herb.guna.includes(guna))
+        filters.guna.every(guna => herb.guna.includes(guna))
       );
     }
 
@@ -63,6 +70,12 @@ export function useSearch({ herbs, formulations }: UseSearchProps) {
     if (filters.type.length > 0) {
       filteredFormulations = filteredFormulations.filter(formulation =>
         filters.type.includes(formulation.type)
+      );
+    }
+
+    if (filters.category.length > 0) {
+      filteredFormulations = filteredFormulations.filter(formulation =>
+        filters.category.some(category => formulation.categories.includes(category))
       );
     }
 
