@@ -6,7 +6,9 @@ export const vatis: Formulation[] = [
     name: 'Triphala Guggulu',
     sanskritName: 'त्रिफला गुग्गुलु',
     type: 'vati',
-    category: 'Metabolic Disorders',
+    clinicalSystems: ['Musculoskeletal System', 'Integumentary System'],
+    indicationCategories: ['Metabolic Disorders', 'Musculoskeletal Issues', 'Skin Conditions'],
+    traditionalCategories: ['Kaphahara', 'Shothahara'],
     ingredients: [
       { herb: 'Triphala', quantity: '3 parts' },
       { herb: 'Guggulu', quantity: '1 part' },
@@ -22,11 +24,14 @@ export const vatis: Formulation[] = [
     dosage: {
       amount: '500mg-1g',
       frequency: 'Thrice daily',
-      duration: '2-3 months'
+      duration: '2-3 months',
+      form: {
+        tablet: '500mg-1g'
+      }
     },
     anupana: ['Warm water'],
     contraindications: ['Pregnancy', 'Bleeding disorders'],
-    categories: ['Musculoskeletal', 'Metabolic Disorders'],
+    preparation: 'Herbal tablets with Triphala and Guggulu',
     reference: 'Sharangadhara Samhita Madhyama 7/82-83'
   },
   {
@@ -34,7 +39,9 @@ export const vatis: Formulation[] = [
     name: 'Khadiradi Vati',
     sanskritName: 'खदिरादि वटी',
     type: 'vati',
-    category: 'Respiratory System',
+    clinicalSystems: ['Respiratory System'],
+    indicationCategories: ['Respiratory Conditions'],
+    traditionalCategories: ['Chakshushya', 'Shothahara'],
     ingredients: [
       { herb: 'Khadira', quantity: '1 part', part: 'heartwood' },
       { herb: 'Trikatu', quantity: '1 part' },
@@ -49,11 +56,14 @@ export const vatis: Formulation[] = [
     dosage: {
       amount: '250-500mg',
       frequency: 'Thrice daily',
-      duration: '7-14 days'
+      duration: '7-14 days',
+      form: {
+        tablet: '250-500mg'
+      }
     },
     anupana: ['Warm water'],
     contraindications: ['Pitta disorders'],
-    categories: ['Respiratory System'],
+    preparation: 'Herbal tablets for throat and respiratory conditions',
     reference: 'Sharangadhara Samhita Madhyama 7/22-24'
   },
   {
@@ -61,7 +71,9 @@ export const vatis: Formulation[] = [
     name: 'Arogyavardhini Vati',
     sanskritName: 'आरोग्यवर्धिनी वटी',
     type: 'vati',
-    category: 'Liver',
+    clinicalSystems: ['Digestive System', 'Integumentary System'],
+    indicationCategories: ['Metabolic Disorders', 'Digestive Disorders', 'Skin Conditions'],
+    traditionalCategories: ['Deepana', 'Pachana', 'Rasayana'],
     ingredients: [
       { herb: 'Kutki', quantity: '1 part', part: 'root' },
       { herb: 'Triphala', quantity: '1 part', part: 'fruit' },
@@ -78,11 +90,14 @@ export const vatis: Formulation[] = [
     dosage: {
       amount: '250-500mg',
       frequency: 'Twice daily',
-      duration: '1-3 months'
+      duration: '1-3 months',
+      form: {
+        tablet: '250-500mg'
+      }
     },
     anupana: ['Warm water'],
     contraindications: ['Pregnancy', 'Lactation'],
-    categories: ['Liver', 'Metabolic Disorders'],
+    preparation: 'Herbo-mineral tablets for liver and metabolic health',
     reference: 'Rasaratnasamucchaya 20/87-92'
   },
   {
@@ -90,7 +105,9 @@ export const vatis: Formulation[] = [
     name: 'Yogaraja Guggulu',
     sanskritName: 'योगराज गुग्गुलु',
     type: 'vati',
-    category: 'Musculoskeletal',
+    clinicalSystems: ['Musculoskeletal System'],
+    indicationCategories: ['Musculoskeletal Issues', 'Metabolic Disorders'],
+    traditionalCategories: ['Vatahara', 'Shothahara'],
     ingredients: [
       { herb: 'Guggulu', quantity: '1 part' },
       { herb: 'Triphala', quantity: '1 part' },
@@ -105,11 +122,14 @@ export const vatis: Formulation[] = [
     dosage: {
       amount: '500mg-1g',
       frequency: 'Thrice daily',
-      duration: '2-3 months'
+      duration: '2-3 months',
+      form: {
+        tablet: '500mg-1g'
+      }
     },
     anupana: ['Warm water', 'Ginger juice'],
     contraindications: ['Pregnancy', 'Bleeding disorders'],
-    categories: ['Musculoskeletal', 'Metabolic Disorders'],
+    preparation: 'Guggulu-based tablets for joint health',
     reference: 'Sharangadhara Samhita Madhyama 7/70-81'
   },
   {
@@ -117,7 +137,9 @@ export const vatis: Formulation[] = [
     name: 'Chandraprabha Vati',
     sanskritName: 'चन्द्रप्रभा वटी',
     type: 'vati',
-    category: 'Urinary System',
+    clinicalSystems: ['Urinary System', 'Endocrine System'],
+    indicationCategories: ['Urinary Disorders', 'Metabolic Disorders'],
+    traditionalCategories: ['Deepana', 'Pachana'],
     ingredients: [
       { herb: 'Shilajit', quantity: '1 part' },
       { herb: 'Guggulu', quantity: '1 part' },
@@ -132,19 +154,24 @@ export const vatis: Formulation[] = [
     dosage: {
       amount: '2 tablets',
       frequency: 'Twice daily',
-      duration: 'As prescribed'
+      duration: 'As prescribed',
+      form: {
+        tablet: '2 tablets'
+      }
     },
     anupana: ['Warm water'],
     contraindications: ['Pregnancy'],
-    reference: 'Sharangadhara Samhita',
-    categories: ['Urinary System', 'Metabolic Disorders']
+    preparation: 'Herbo-mineral tablets for urinary and reproductive health',
+    reference: 'Sharangadhara Samhita'
   },
   {
     id: 'kamadugha-rasa',
     name: 'Kamadugha Rasa',
     sanskritName: 'कामदुघा रस',
     type: 'vati',
-    category: 'Digestive System',
+    clinicalSystems: ['Digestive System'],
+    indicationCategories: ['Digestive Disorders'],
+    traditionalCategories: ['Deepana', 'Pachana'],
     ingredients: [
       { herb: 'Mukta Bhasma', quantity: '1 part' },
       { herb: 'Pravala Bhasma', quantity: '1 part' },
@@ -161,11 +188,14 @@ export const vatis: Formulation[] = [
     dosage: {
       amount: '250-500mg',
       frequency: '2-3 times daily',
-      duration: 'As needed'
+      duration: 'As needed',
+      form: {
+        tablet: '250-500mg'
+      }
     },
     anupana: ['Cold water', 'Honey'],
     contraindications: ['Low gastric acid'],
-    reference: 'Rasendra Sara Sangraha',
-    categories: ['Digestive System']
+    preparation: 'Mineral-based tablets for digestive health',
+    reference: 'Rasendra Sara Sangraha'
   }
 ];

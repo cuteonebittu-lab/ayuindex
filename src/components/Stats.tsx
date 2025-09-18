@@ -13,9 +13,11 @@ interface StatsProps {
   herbCount: number;
   formulationCount: number;
   onFormulationTypeSelect: (type: string) => void;
+  onHerbSelect: (herb: any) => void;
+  onIndicationSelect?: (indication: string) => void;
 }
 
-export function Stats({ herbCount, formulationCount, onFormulationTypeSelect }: StatsProps) {
+export function Stats({ herbCount, formulationCount, onFormulationTypeSelect, onHerbSelect, onIndicationSelect }: StatsProps) {
   const [showIndications, setShowIndications] = useState(false);
   const [showHerbs, setShowHerbs] = useState(false);
   const [showFormulations, setShowFormulations] = useState(false);
@@ -108,7 +110,13 @@ export function Stats({ herbCount, formulationCount, onFormulationTypeSelect }: 
 
       {/* Modals */}
       {showHerbs && (
-        <HerbsList onClose={() => setShowHerbs(false)} />
+        <HerbsList 
+          onClose={() => setShowHerbs(false)}
+          onHerbSelect={(herb) => {
+            onHerbSelect(herb);
+            setShowHerbs(false);
+          }}
+        />
       )}
       {showFormulations && (
         <FormulationTypesList
@@ -117,7 +125,13 @@ export function Stats({ herbCount, formulationCount, onFormulationTypeSelect }: 
         />
       )}
       {showIndications && (
-        <IndicationsList onClose={() => setShowIndications(false)} />
+        <IndicationsList 
+          onClose={() => setShowIndications(false)}
+          onIndicationSelect={(indication) => {
+            onIndicationSelect?.(indication);
+            setShowIndications(false);
+          }}
+        />
       )}
       {showReferences && (
         <ClassicalReferencesList onClose={() => setShowReferences(false)} />
