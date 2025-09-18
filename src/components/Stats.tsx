@@ -1,22 +1,26 @@
 import { useState } from 'react';
-import { Leaf, Beaker, BookOpen, Users } from 'lucide-react';
+import { Leaf, Beaker, BookOpen, Users, Stethoscope } from 'lucide-react';
 import { herbs } from '../data/herbs';
 import { formulations } from '../data/index';
+import { clinicalSystemMap } from '../data/categories/clinical-systems';
 import { IndicationsList } from './IndicationsList';
 import { HerbsList } from './HerbsList';
-import { FormulationsList } from './FormulationsList';
+import { FormulationTypesList } from './FormulationTypesList';
 import { ClassicalReferencesList } from './ClassicalReferencesList';
+import { ClinicalSystemsList } from './ClinicalSystemsList';
 
 interface StatsProps {
   herbCount: number;
   formulationCount: number;
+  onFormulationTypeSelect: (type: string) => void;
 }
 
-export function Stats({ herbCount, formulationCount }: StatsProps) {
+export function Stats({ herbCount, formulationCount, onFormulationTypeSelect }: StatsProps) {
   const [showIndications, setShowIndications] = useState(false);
   const [showHerbs, setShowHerbs] = useState(false);
   const [showFormulations, setShowFormulations] = useState(false);
   const [showReferences, setShowReferences] = useState(false);
+  const [showClinicalSystems, setShowClinicalSystems] = useState(false);
 
   // Calculate total unique indications across all herbs and formulations
   const totalIndications = [...new Set([
@@ -52,12 +56,19 @@ export function Stats({ herbCount, formulationCount }: StatsProps) {
       value: [...new Set(formulations.filter(f => f.reference).map(f => f.reference))].length,
       color: 'text-amber-600',
       bg: 'bg-amber-50'
+    },
+    {
+      icon: Stethoscope,
+      label: 'Clinical Systems',
+      value: Object.keys(clinicalSystemMap).length,
+      color: 'text-rose-600',
+      bg: 'bg-rose-50'
     }
   ];
 
   return (
     <>
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 mb-8">
         {stats.map((stat, index) => (
           <div 
             key={index} 
@@ -75,6 +86,9 @@ export function Stats({ herbCount, formulationCount }: StatsProps) {
                   break;
                 case 'Classical References':
                   setShowReferences(true);
+                  break;
+                case 'Clinical Systems':
+                  setShowClinicalSystems(true);
                   break;
               }
             }}
@@ -97,13 +111,19 @@ export function Stats({ herbCount, formulationCount }: StatsProps) {
         <HerbsList onClose={() => setShowHerbs(false)} />
       )}
       {showFormulations && (
-        <FormulationsList onClose={() => setShowFormulations(false)} />
+        <FormulationTypesList
+          onClose={() => setShowFormulations(false)}
+          onTypeSelect={onFormulationTypeSelect}
+        />
       )}
       {showIndications && (
         <IndicationsList onClose={() => setShowIndications(false)} />
       )}
       {showReferences && (
         <ClassicalReferencesList onClose={() => setShowReferences(false)} />
+      )}
+      {showClinicalSystems && (
+        <ClinicalSystemsList onClose={() => setShowClinicalSystems(false)} />
       )}
     </>
   );

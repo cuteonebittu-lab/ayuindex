@@ -1,5 +1,5 @@
 import { useState, useMemo } from 'react';
-import { Herb, Formulation, SearchCategory, FormulationType, FormulationCategory } from '../types/ayurveda';
+import { Herb, Formulation, SearchCategory, FormulationType, IndicationCategory } from '../types/ayurveda';
 
 interface UseSearchProps {
   herbs: Herb[];
@@ -14,7 +14,7 @@ export function useSearch({ herbs, formulations }: UseSearchProps) {
     guna: string[];
     virya: string[];
     type: FormulationType[];
-    category: FormulationCategory[];
+    category: IndicationCategory[];
   }>({
     rasa: [],
     guna: [],
@@ -75,7 +75,7 @@ export function useSearch({ herbs, formulations }: UseSearchProps) {
 
     if (filters.category.length > 0) {
       filteredFormulations = filteredFormulations.filter(formulation =>
-        filters.category.some(category => formulation.categories.includes(category))
+        filters.category.some(category => formulation.indicationCategories.includes(category))
       );
     }
 

@@ -1,20 +1,56 @@
-// Standard categories for Ayurvedic formulations
-export type FormulationCategory = 
-  | 'Digestive System'
+// Clinical System Categories
+export type ClinicalSystem =
   | 'Respiratory System'
-  | 'Mental Health'
-  | 'Women\'s Health'
-  | 'Rejuvenative'
-  | 'Fever'
+  | 'Cardiovascular System'
+  | 'Digestive System'
   | 'Nervous System'
+  | 'Endocrine System'
+  | 'Musculoskeletal System'
+  | 'Integumentary System'
   | 'Urinary System'
-  | 'Liver'
-  | 'Blood'
-  | 'Musculoskeletal'
-  | 'Skin Health'
-  | 'Metabolic Disorders'
-  | 'Oral Health'
-  | 'General Tonic';
+  | 'Reproductive System'
+  | 'Immune System'
+  | 'Hematopoietic System';
+
+// Disease/Condition Categories
+export type IndicationCategory =
+  | 'Respiratory Conditions'     // Includes cough, asthma, bronchitis
+  | 'Cardiovascular Conditions'  // Includes hypertension, heart diseases
+  | 'Digestive Disorders'        // Includes indigestion, constipation
+  | 'Neurological Disorders'     // Includes headache, paralysis
+  | 'Mental Health'             // Includes anxiety, depression
+  | 'Metabolic Disorders'        // Includes diabetes, obesity
+  | 'Musculoskeletal Issues'    // Includes arthritis, joint pain
+  | 'Skin Conditions'           // Includes eczema, psoriasis
+  | 'Urinary Disorders'         // Includes UTI, kidney stones
+  | 'Women\'s Health'           // Includes menstrual disorders, PCOS
+  | 'Men\'s Health'             // Includes prostate issues, ED
+  | 'Pediatric Conditions'      // Includes children's diseases
+  | 'Geriatric Conditions'      // Includes age-related issues
+  | 'Fever & Infections'        // Includes various types of fever
+  | 'Eye Disorders'             // Includes conjunctivitis, glaucoma
+  | 'ENT Conditions'            // Includes sinusitis, tonsillitis
+  | 'Dental & Oral Health'      // Includes dental issues
+  | 'General Health & Wellness'; // Includes rejuvenation, immunity
+
+// Traditional Ayurvedic Categories
+export type TraditionalCategory = 
+  | 'Rasayana'      // Rejuvenative
+  | 'Deepana'       // Digestive stimulant
+  | 'Pachana'       // Digestive
+  | 'Anulomana'     // Carminative
+  | 'Virechana'     // Purgative
+  | 'Vatahara'      // Vata pacifying
+  | 'Pittahara'     // Pitta pacifying
+  | 'Kaphahara'     // Kapha pacifying
+  | 'Tridoshahara'  // Balances all doshas
+  | 'Balya'         // Strength promoting
+  | 'Medhya'        // Intellect promoting
+  | 'Chakshushya'   // Good for eyes
+  | 'Hridya'        // Cardiac tonic
+  | 'Jwaraghna'     // Antipyretic
+  | 'Shothahara'    // Anti-inflammatory
+  | 'Vedanasthapana'; // Analgesic
 
 // Standard Ayurvedic formulation types
 export type FormulationType = 
@@ -26,7 +62,10 @@ export type FormulationType =
   | 'arishta'  // Fermented Decoction
   | 'bhasma'   // Calcined Mineral
   | 'rasa'     // Mineral/Herbo-mineral
-  | 'kashaya'; // Decoction
+  | 'kashaya'  // Decoction
+  | 'kadha'    // Decoction (alternative term)
+  | 'guggulu'  // Guggulu-based preparations
+  | 'avaleha'; // Linctus/Confection
 
 // Dosage forms and their standard measurements
 export type DosageForm = {
@@ -43,7 +82,9 @@ export interface Formulation {
   name: string;
   sanskritName: string;
   type: FormulationType;
-  category: FormulationCategory;
+  clinicalSystems: ClinicalSystem[];
+  indicationCategories: IndicationCategory[];
+  traditionalCategories: TraditionalCategory[];
   ingredients: {
     herb: string;
     quantity: string;
@@ -61,7 +102,6 @@ export interface Formulation {
   preparation?: string;
   seasonalUsage?: string;
   reference: string;
-  categories: FormulationCategory[];
   adultDosage?: string;
   paediatricDosage?: string;
   doseAdjustment?: {

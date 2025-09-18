@@ -10,7 +10,7 @@ import { FormulationDetail } from './components/FormulationDetail';
 import { useSearch } from './hooks/useSearch';
 import { herbs } from './data/herbs';
 import { formulations } from './data/index';
-import { Herb, Formulation } from './types/ayurveda';
+import { Herb, Formulation, FormulationType } from './types/ayurveda';
 
 function App() {
   const [showFilters, setShowFilters] = useState(false);
@@ -35,12 +35,27 @@ function App() {
     }));
   }, []);
 
+  const handleFormulationTypeSelect = (type: string) => {
+    setCategory('formulations');
+    setFilters({
+      rasa: [],
+      guna: [],
+      virya: [],
+      type: [type as FormulationType],
+      category: []
+    });
+  };
+
   return (
     <div className="min-h-screen bg-gray-50">
       <Header />
       
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <Stats herbCount={herbs.length} formulationCount={formulations.length} />
+        <Stats
+          herbCount={herbs.length}
+          formulationCount={formulations.length}
+          onFormulationTypeSelect={handleFormulationTypeSelect}
+        />
         
         <SearchBar
           searchTerm={searchTerm}
@@ -84,19 +99,33 @@ function App() {
           {/* Formulations Section */}
           {(category === 'all' || category === 'formulations') && filteredResults.formulations.length > 0 && (
             <section>
-              <h2 className="text-2xl font-bold text-gray-800 mb-6 flex items-center gap-2">
-                <div className="w-8 h-8 bg-blue-100 rounded-lg flex items-center justify-center">
-                  <span className="text-blue-600 font-bold text-sm">F</span>
-                </div>
-                Formulations ({filteredResults.formulations.length})
-              </h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {filteredResults.formulations.map((formulation) => (
-                  <FormulationCard
-                    key={formulation.id}
-                    formulation={formulation}
-                    onClick={() => setSelectedFormulation(formulation)}
-                  />
+              <div>
+                {Object.entries(
+                  filteredResults.formulations.reduce((acc, formulation) => {
+                    if (!acc[formulation.type]) {
+                      acc[formulation.type] = [];
+                    }
+                    acc[formulation.type].push(formulation);
+                    return acc;
+                  }, {} as Record<string, Formulation[]>)
+                ).map(([type, formulationsOfType]) => (
+                  <div key={type} className="mb-8">
+                    <h3 className="text-xl font-semibold text-gray-700 mb-4 capitalize flex items-center gap-2">
+                      <div className="w-7 h-7 bg-blue-100 rounded-lg flex items-center justify-center">
+                        <span className="text-blue-600 font-bold text-xs">{type.charAt(0).toUpperCase()}</span>
+                      </div>
+                      {type} ({formulationsOfType.length})
+                    </h3>
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                      {formulationsOfType.map((formulation) => (
+                        <FormulationCard
+                          key={formulation.id}
+                          formulation={formulation}
+                          onClick={() => setSelectedFormulation(formulation)}
+                        />
+                      ))}
+                    </div>
+                  </div>
                 ))}
               </div>
             </section>

@@ -10,6 +10,8 @@ import { churnas } from './formulations/churnas';
 import { tailas } from './formulations/tailas';
 import { bhasmas } from './formulations/bhasmas';
 import { rasas } from './formulations/rasas';
+import { guggulus } from './formulations/guggulus';
+import { avalehas } from './formulations/avalehas';
 
 // Import categorized formulations
 import { 
@@ -30,6 +32,8 @@ export const formulationsByType = {
   tailas,
   bhasmas,
   rasas,
+  guggulus,
+  avalehas,
 };
 
 // Export formulations by category
@@ -51,7 +55,9 @@ validateUniqueFormulationIds({
   churnas,
   tailas,
   bhasmas,
-  rasas
+  rasas,
+  guggulus,
+  avalehas
 });
 
 // Validate that there are no duplicate IDs across all category-based formulations
@@ -73,6 +79,8 @@ export const formulations: Formulation[] = [
   ...tailas,
   ...bhasmas,
   ...rasas,
+  ...guggulus,
+  ...avalehas,
   ...mentalHealthFormulations,
   ...metabolicFormulations,
   ...digestiveFormulations,
