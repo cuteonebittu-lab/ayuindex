@@ -6,7 +6,9 @@ export const arishtas: Formulation[] = [
     name: 'Saraswatarishta',
     sanskritName: 'सारस्वतारिष्ट',
     type: 'arishta',
-    category: 'Mental Health',
+    clinicalSystems: ['Nervous System'],
+    indicationCategories: ['Mental Health'],
+    traditionalCategories: ['Medhya', 'Rasayana'],
     ingredients: [
       { herb: 'Brahmi', quantity: '4.8 kg', part: 'whole plant' },
       { herb: 'Vacha', quantity: '960 g', part: 'rhizome' },
@@ -23,11 +25,14 @@ export const arishtas: Formulation[] = [
     dosage: {
       amount: '15-30ml',
       frequency: 'Twice daily',
-      duration: '2-3 months'
+      duration: '2-3 months',
+      form: {
+        liquid: '15-30ml'
+      }
     },
     anupana: ['Equal quantity of water'],
     contraindications: ['Pregnancy', 'Alcoholism'],
-    categories: ['Mental Health', 'Nervous System'],
+    preparation: 'Fermented decoction with herbs and jaggery',
     reference: 'Bhaishajya Ratnavali 73/54-60'
   },
   {
@@ -35,7 +40,9 @@ export const arishtas: Formulation[] = [
     name: 'Kutajarishta',
     sanskritName: 'कुटजारिष्ट',
     type: 'arishta',
-    category: 'Digestive System',
+    clinicalSystems: ['Digestive System'],
+    indicationCategories: ['Digestive Disorders'],
+    traditionalCategories: ['Deepana', 'Pachana'],
     ingredients: [
       { herb: 'Kutaja', quantity: '4.8 kg', part: 'bark' },
       { herb: 'Dhataki', quantity: '960 g', part: 'flower' },
@@ -51,11 +58,14 @@ export const arishtas: Formulation[] = [
     dosage: {
       amount: '15-30ml',
       frequency: 'Twice daily',
-      duration: 'Until symptoms subside'
+      duration: 'Until symptoms subside',
+      form: {
+        liquid: '15-30ml'
+      }
     },
     anupana: ['Equal quantity of water'],
     contraindications: ['Constipation'],
-    categories: ['Digestive System'],
+    preparation: 'Fermented decoction with Kutaja bark and jaggery',
     reference: 'Bhaishajya Ratnavali 7/188-192'
   },
   {
@@ -63,7 +73,9 @@ export const arishtas: Formulation[] = [
     name: 'Ashokarishta',
     sanskritName: 'अशोकारिष्ट',
     type: 'arishta',
-    category: 'Women\'s Health',
+    clinicalSystems: ['Reproductive System'],
+    indicationCategories: ['Women\'s Health'],
+    traditionalCategories: ['Rasayana'],
     ingredients: [
       { herb: 'Ashoka', quantity: '4.8 kg', part: 'bark' },
       { herb: 'Dhataki', quantity: '960 g', part: 'flower' },
@@ -80,19 +92,24 @@ export const arishtas: Formulation[] = [
     dosage: {
       amount: '15-30ml',
       frequency: 'Twice daily',
-      duration: 'As prescribed'
+      duration: 'As prescribed',
+      form: {
+        liquid: '15-30ml'
+      }
     },
     anupana: ['Equal quantity of water'],
     contraindications: ['Pregnancy', 'Bleeding disorders'],
-    reference: 'Bhaishajya Ratnavali 66/115-121',
-    categories: ['Women\'s Health', 'General Tonic']
+    preparation: 'Fermented decoction with Ashoka bark',
+    reference: 'Bhaishajya Ratnavali 66/115-121'
   },
   {
     id: 'dashmularishta',
     name: 'Dashmularishta',
     sanskritName: 'दशमूलारिष्ट',
     type: 'arishta',
-    category: 'Respiratory System',
+    clinicalSystems: ['Respiratory System', 'Musculoskeletal System'],
+    indicationCategories: ['Respiratory Conditions', 'Musculoskeletal Issues'],
+    traditionalCategories: ['Vatahara', 'Shothahara'],
     ingredients: [
       { herb: 'Dashmoola', quantity: '4.8 kg', part: 'roots' },
       { herb: 'Dhataki', quantity: '960 g', part: 'flower' },
@@ -110,11 +127,14 @@ export const arishtas: Formulation[] = [
     dosage: {
       amount: '15-30ml',
       frequency: 'Twice daily after meals',
-      duration: '2-3 months'
+      duration: '2-3 months',
+      form: {
+        liquid: '15-30ml'
+      }
     },
     anupana: ['Equal quantity of water'],
     contraindications: ['Pregnancy', 'Peptic ulcer'],
-    reference: 'Bhaishajya Ratnavali',
-    categories: ['Respiratory System', 'Musculoskeletal']
+    preparation: 'Fermented decoction with Dashmoola roots',
+    reference: 'Bhaishajya Ratnavali'
   }
 ];

@@ -1,11 +1,13 @@
 import { X } from 'lucide-react';
 import { herbs } from '../data/herbs';
+import { Herb } from '../types/ayurveda';
 
 interface HerbsListProps {
   onClose: () => void;
+  onHerbSelect?: (herb: Herb) => void;
 }
 
-export function HerbsList({ onClose }: HerbsListProps) {
+export function HerbsList({ onClose, onHerbSelect }: HerbsListProps) {
   return (
     <div className="fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4">
       <div className="bg-white rounded-xl w-full max-w-4xl max-h-[80vh] overflow-hidden flex flex-col">
@@ -18,7 +20,11 @@ export function HerbsList({ onClose }: HerbsListProps) {
         <div className="p-6 overflow-y-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {herbs.map((herb) => (
-              <div key={herb.id} className="bg-gray-50 rounded-lg p-4 border">
+              <div 
+                key={herb.id} 
+                className="bg-gray-50 rounded-lg p-4 border cursor-pointer hover:bg-gray-100 transition-colors"
+                onClick={() => onHerbSelect?.(herb)}
+              >
                 <h3 className="font-semibold text-gray-800">{herb.name}</h3>
                 <p className="text-sm text-gray-600">{herb.sanskritName}</p>
                 <p className="text-xs text-gray-500 mt-1">{herb.botanicalName}</p>

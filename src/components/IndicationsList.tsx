@@ -5,9 +5,10 @@ import { formulations } from '../data/index';
 
 interface IndicationsListProps {
   onClose: () => void;
+  onIndicationSelect?: (indication: string) => void;
 }
 
-export function IndicationsList({ onClose }: IndicationsListProps) {
+export function IndicationsList({ onClose, onIndicationSelect }: IndicationsListProps) {
   const [searchTerm, setSearchTerm] = useState('');
 
   // Get all unique indications and sort them alphabetically
@@ -82,6 +83,7 @@ export function IndicationsList({ onClose }: IndicationsListProps) {
                     <li
                       key={index}
                       className="text-gray-600 hover:text-emerald-600 cursor-pointer transition-colors"
+                      onClick={() => onIndicationSelect?.(indication)}
                     >
                       {indication}
                     </li>

@@ -1,10 +1,25 @@
 import { X } from 'lucide-react';
-import { formulationsByType } from '../data';
+import { formulationsByType } from '../data/index';
+import { FormulationType } from '../types/ayurveda';
 
 interface FormulationTypesListProps {
   onClose: () => void;
   onTypeSelect: (type: string) => void;
 }
+
+// Mapping from formulation group keys to FormulationType
+const typeMapping: Record<string, FormulationType> = {
+  arishtas: 'arishta',
+  vatis: 'vati',
+  kashayas: 'kashaya',
+  ghritas: 'ghrita',
+  churnas: 'churna',
+  tailas: 'taila',
+  bhasmas: 'bhasma',
+  rasas: 'rasa',
+  guggulus: 'guggulu',
+  avalehas: 'avaleha',
+};
 
 export function FormulationTypesList({ onClose, onTypeSelect }: FormulationTypesListProps) {
   const types = Object.keys(formulationsByType);
@@ -25,11 +40,11 @@ export function FormulationTypesList({ onClose, onTypeSelect }: FormulationTypes
                 key={type}
                 className="p-2 bg-gray-50 rounded-md capitalize cursor-pointer hover:bg-gray-100"
                 onClick={() => {
-                  onTypeSelect(type);
+                  onTypeSelect(typeMapping[type] || type);
                   onClose();
                 }}
               >
-                {type}
+                {type} ({formulationsByType[type as keyof typeof formulationsByType].length})
               </li>
             ))}
           </ul>

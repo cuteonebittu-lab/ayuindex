@@ -33,7 +33,7 @@ function App() {
       ...prev,
       category: []
     }));
-  }, []);
+  }, [setFilters]);
 
   const handleFormulationTypeSelect = (type: string) => {
     setCategory('formulations');
@@ -44,6 +44,7 @@ function App() {
       type: [type as FormulationType],
       category: []
     });
+    setSearchTerm('');
   };
 
   return (
@@ -55,6 +56,11 @@ function App() {
           herbCount={herbs.length}
           formulationCount={formulations.length}
           onFormulationTypeSelect={handleFormulationTypeSelect}
+          onHerbSelect={setSelectedHerb}
+          onIndicationSelect={(indication) => {
+            setSearchTerm(indication);
+            setCategory('all');
+          }}
         />
         
         <SearchBar

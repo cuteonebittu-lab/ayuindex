@@ -1,5 +1,5 @@
 import React from 'react';
-import { X, Beaker, AlertTriangle, Droplets, Clock, BookOpen, Users } from 'lucide-react';
+import { X, Beaker, AlertTriangle, Droplets, Clock, Users } from 'lucide-react';
 import { Formulation } from '../types/ayurveda';
 
 interface FormulationDetailProps {
@@ -7,7 +7,7 @@ interface FormulationDetailProps {
   onClose: () => void;
 }
 
-const typeColors = {
+const typeColors: Record<string, string> = {
   churna: 'bg-yellow-100 text-yellow-800 border-yellow-200',
   vati: 'bg-green-100 text-green-800 border-green-200',
   ghrita: 'bg-orange-100 text-orange-800 border-orange-200',
@@ -15,7 +15,11 @@ const typeColors = {
   asava: 'bg-red-100 text-red-800 border-red-200',
   arishta: 'bg-pink-100 text-pink-800 border-pink-200',
   bhasma: 'bg-gray-100 text-gray-800 border-gray-200',
-  rasa: 'bg-indigo-100 text-indigo-800 border-indigo-200'
+  rasa: 'bg-indigo-100 text-indigo-800 border-indigo-200',
+  kashaya: 'bg-blue-100 text-blue-800 border-blue-200',
+  kadha: 'bg-blue-100 text-blue-800 border-blue-200',
+  guggulu: 'bg-teal-100 text-teal-800 border-teal-200',
+  avaleha: 'bg-amber-100 text-amber-800 border-amber-200'
 };
 
 export function FormulationDetail({ formulation, onClose }: FormulationDetailProps) {

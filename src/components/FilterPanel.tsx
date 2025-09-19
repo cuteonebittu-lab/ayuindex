@@ -1,13 +1,13 @@
 import { X } from 'lucide-react';
 import React from 'react';
-import { FormulationType, FormulationCategory } from '../types/ayurveda';
+import { FormulationType, IndicationCategory } from '../types/ayurveda';
 
 interface FilterTypes {
   rasa: string;
   guna: string;
   virya: string;
   type: FormulationType;
-  category: FormulationCategory;
+  category: IndicationCategory;
 }
 
 type FilterOptions = {
@@ -58,27 +58,27 @@ const filterGroups: Array<{
 const healthCategories: {
   key: 'category';
   label: string;
-  options: FormulationCategory[];
+  options: IndicationCategory[];
 } = {
   key: 'category',
   label: 'Health Category',
   options: [
-    'Digestive System',
-    'Respiratory System',
+    'Digestive Disorders',
+    'Respiratory Conditions',
     'Mental Health',
     'Women\'s Health',
-    'Rejuvenative',
-    'Fever',
-    'Nervous System',
-    'Urinary System',
-    'Liver',
-    'Blood',
-    'Musculoskeletal',
-    'Skin Health',
     'Metabolic Disorders',
-    'Oral Health',
-    'General Tonic'
-  ] as FormulationCategory[]
+    'Fever & Infections',
+    'Neurological Disorders',
+    'Urinary Disorders',
+    'Skin Conditions',
+    'Musculoskeletal Issues',
+    'Cardiovascular Conditions',
+    'Eye Disorders',
+    'ENT Conditions',
+    'Dental & Oral Health',
+    'General Health & Wellness'
+  ] as IndicationCategory[]
 };
 
 function FilterGroup<K extends keyof FilterTypes>({
