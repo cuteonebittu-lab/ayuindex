@@ -11,6 +11,7 @@ import { bhasmas } from './bhasmas';
 import { guggulus } from './guggulus';
 import { avalehas } from './avalehas';
 import { rasas } from './rasas';
+import { syrups } from './syrups';
 
 // Export formulations grouped by type
 export const formulationsByType = {
@@ -24,6 +25,7 @@ export const formulationsByType = {
   rasas,
   guggulus,
   avalehas,
+  syrups,
 };
 
 // Export a combined array of all formulations
@@ -37,5 +39,6 @@ export const allFormulations: Formulation[] = [
   ...bhasmas,
   ...rasas,
   ...guggulus,
-  ...avalehas
+  ...avalehas,
+  ...syrups
 ];

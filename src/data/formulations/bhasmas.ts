@@ -41,5 +41,40 @@ export const bhasmas: Formulation[] = [
         ]
       }
     ]
+  },
+  {
+    id: 'yava-kshara',
+    name: 'Yava Kshara',
+    sanskritName: 'यव क्षार',
+    type: 'bhasma',
+    clinicalSystems: ['Urinary System'],
+    indicationCategories: ['Urinary Disorders'],
+    traditionalCategories: ['Pittahara'],
+    ingredients: [
+      { herb: 'Barley whole plant', quantity: '1 part' }
+    ],
+    indications: [
+      'Urinary coolant',
+      'Hematuria (blood in urine)'
+    ],
+    dosage: {
+      amount: '125-500 mg',
+      frequency: 'twice a day',
+      duration: 'before meals (or per physician)'
+    },
+    anupana: ['Warm water'],
+    contraindications: [],
+    reference: 'Nakra Ayurveda',
+    adultDosage: '125-500 mg twice a day before meals (or per physician)',
+    modeOfAction: 'Classical herbomineral alkali for urinary system.',
+    generalConsiderations: 'Use with strict supervision. Use with strict supervision; especially in bleeding / sensitive conditions',
+    brands: [
+      {
+        name: 'Nakra Ayurveda',
+        products: [
+          { name: 'Yava Kshara', price: 150, quantity: '10g' }
+        ]
+      }
+    ]
   }
 ];

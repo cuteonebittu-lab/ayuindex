@@ -235,5 +235,462 @@ export const vatis: Formulation[] = [
         ]
       }
     ]
+  },
+  {
+    id: 'punarnavadi-mandoor',
+    name: 'Punarnavadi Mandoor',
+    sanskritName: 'पुनर्नवादि मंडूर',
+    type: 'vati',
+    clinicalSystems: ['Urinary System', 'Digestive System', 'Hematopoietic System'],
+    indicationCategories: ['Urinary Disorders', 'Metabolic Disorders'],
+    traditionalCategories: ['Shothahara', 'Deepana', 'Tridoshahara'],
+    ingredients: [
+      { herb: 'Punarnava', quantity: '48 g', part: 'powder' },
+      { herb: 'Shunthi', quantity: '48 g', part: 'powder' },
+      { herb: 'Pippali', quantity: '48 g', part: 'powder' },
+      { herb: 'Maricha', quantity: '48 g', part: 'powder' },
+      { herb: 'Amalaki', quantity: '48 g', part: 'powder' },
+      { herb: 'Haritaki', quantity: '48 g', part: 'powder' },
+      { herb: 'Chavya', quantity: '48 g', part: 'powder' },
+      { herb: 'Haridra', quantity: '48 g', part: 'powder' },
+      { herb: 'Daru Haridra', quantity: '48 g', part: 'powder' },
+      { herb: 'Kushta', quantity: '48 g', part: 'powder' },
+      { herb: 'Danti', quantity: '48 g', part: 'powder' },
+      { herb: 'Kutaja Phala', quantity: '48 g', part: 'powder' },
+      { herb: 'Musta', quantity: '48 g', part: 'powder' },
+      { herb: 'Vidanga', quantity: '48 g', part: 'powder' },
+      { herb: 'Chitrak Moola', quantity: '48 g', part: 'powder' },
+      { herb: 'Mandoora Bhasma', quantity: '1.92 kg' },
+      { herb: 'Cow Urine', quantity: '6.144 litre' }
+    ],
+    indications: [
+      'Anaemia',
+      'Splenomegaly',
+      'Haemorrhoids',
+      'Malabsorption syndrome',
+      'Chronic fever',
+      'Inflammatory conditions',
+      'Infective skin diseases',
+      'Helminthiasis'
+    ],
+    dosage: {
+      amount: '500 mg- 1 g',
+      frequency: 'Once or twice daily before or after food',
+      duration: 'Maximum up to 4-6 months',
+      form: {
+        tablet: '500 mg- 1 g'
+      }
+    },
+    anupana: ['Water', 'Buttermilk'],
+    contraindications: ['Hemosiderosis'],
+    preparation: 'All the ingredients are made into fine paste with cow urine and tablets are prepared.',
+    reference: 'Charak Samhita Chikitsa Sthana 16/93-95, Bhaishajya Ratnavali',
+    brands: [
+      {
+        name: 'Dabur',
+        products: [
+          { name: 'Dabur Punarnavadi Mandoor', price: 180, quantity: '60 tablets' }
+        ]
+      },
+      {
+        name: 'Shree Dootpapeshwar Ltd.',
+        products: [
+          { name: 'S.D.P. Punarnavadi Mandoor', price: 200, quantity: '60 tablets' }
+        ]
+      },
+      {
+        name: 'Zandu',
+        products: [
+          { name: 'Zandu Punarnavadi Mandoor', price: 190, quantity: '60 tablets' }
+        ]
+      },
+      {
+        name: 'Baidyanath',
+        products: [
+          { name: 'Baidyanath Punarnavadi Mandoor', price: 195, quantity: '60 tablets' }
+        ]
+      },
+      {
+        name: 'Arya Vaidya Pharmacy',
+        products: [
+          { name: 'AVP Punarnavadi Mandooram', price: 210, quantity: '60 tablets' }
+        ]
+      }
+    ]
+  },
+  {
+    id: 'bgr-34',
+    name: 'BGR-34',
+    sanskritName: 'बीजीआर-३४',
+    type: 'vati',
+    clinicalSystems: ['Endocrine System'],
+    indicationCategories: ['Metabolic Disorders'],
+    traditionalCategories: [],
+    ingredients: [
+      { herb: 'Daruharidra (Berberis aristata)', quantity: 'Proprietary' },
+      { herb: 'Giloy (Tinospora cordifolia)', quantity: 'Proprietary' },
+      { herb: 'Vijaysar (Pterocarpus marsupium)', quantity: 'Proprietary' },
+      { herb: 'Gudmar (Gymnema sylvestre)', quantity: 'Proprietary' },
+      { herb: 'Manjeestha (Rubia cordifolia)', quantity: 'Proprietary' },
+      { herb: 'Fenugreek (Trigonella foenum-graecum)', quantity: 'Proprietary' }
+    ],
+    indications: [
+      'To support glycemic control',
+      'Management of diabetes mellitus (adjunct)'
+    ],
+    dosage: {
+      amount: '1 tablet',
+      frequency: 'Twice daily',
+      duration: 'As per clinician',
+      form: {
+        tablet: '1 tablet'
+      }
+    },
+    anupana: ['Water'],
+    contraindications: [],
+    preparation: 'Tablet / capsule form (proprietary extraction, standardisation)',
+    reference: 'Wikipedia',
+    brands: [
+      {
+        name: 'AIMIL Pharmaceuticals',
+        products: [
+          { name: 'BGR-34', price: 500, quantity: '100 tablets' }
+        ]
+      }
+    ]
+  },
+  {
+    id: 'chandraprabha-vati-new',
+    name: 'Chandraprabha Vati',
+    sanskritName: 'चन्द्रप्रभा वटी',
+    type: 'vati',
+    clinicalSystems: ['Urinary System', 'Reproductive System'],
+    indicationCategories: ['Urinary Disorders', "Women's Health", "Men's Health"],
+    traditionalCategories: ['Deepana', 'Pachana', 'Tridoshahara'],
+    ingredients: [
+      { herb: 'Multiple mineral + herbal components (Loha, Rasa dravyas, etc.)', quantity: 'Proprietary' }
+    ],
+    indications: [
+      'Urinary & genitourinary tract disorders',
+      'Reproductive issues (variant dependent)'
+    ],
+    dosage: {
+      amount: 'As per physician',
+      frequency: 'As directed',
+      duration: 'from 60 tablet packs'
+    },
+    anupana: ['Warm water'],
+    contraindications: ['Pregnancy'],
+    reference: 'SudhaTatva',
+    adultDosage: 'Usually from 60 tablets pack; dosage depends on condition and physician\'s instructions',
+    modeOfAction: 'Acts on urinary and reproductive systems.',
+    generalConsiderations: 'Classical mineral-herbal formulation with multiple variants.',
+    brands: [
+      {
+        name: 'Dabur',
+        products: [
+          { name: 'Dabur Chandraprabha Vati', price: 95, quantity: '60 tablets' }
+        ]
+      },
+      {
+        name: 'Baidyanath',
+        products: [
+          { name: 'Baidyanath Chandraprabha Vati', price: 100, quantity: '60 tablets' }
+        ]
+      }
+    ]
+  },
+  {
+    id: 'laghusutshekhar-vati',
+    name: 'Laghusutshekhar Vati',
+    sanskritName: 'लघुसूतशेखर वटी',
+    type: 'vati',
+    clinicalSystems: ['Digestive System', 'Nervous System'],
+    indicationCategories: ['Digestive Disorders', 'Neurological Disorders'],
+    traditionalCategories: ['Pittahara', 'Vedanasthapana'],
+    ingredients: [
+      { herb: 'Purified Swarna Gairika (cinnabar/gairika processed)', quantity: '1 part' },
+      { herb: 'Sunthi (ginger)', quantity: '1 part' }
+    ],
+    indications: [
+      'Acidity',
+      'Gastritis',
+      'Headache',
+      'Migraine'
+    ],
+    dosage: {
+      amount: '1-2 tablets',
+      frequency: 'twice a day',
+      duration: 'before or after food or as directed by physician'
+    },
+    anupana: ['Warm water'],
+    contraindications: ['Pregnancy'],
+    reference: 'Classical Ayurvedic Text',
+    adultDosage: '1-2 tablets, twice a day before or after food or as directed by physician',
+    modeOfAction: 'Relieves acidity and helps in gastritis.',
+    generalConsiderations: 'Useful for digestive and headache disorders.',
+    brands: [
+      {
+        name: 'Dabur',
+        products: [
+          { name: 'Dabur Laghusutshekhar Vati', price: 85, quantity: '60 tablets' }
+        ]
+      }
+    ]
+  },
+  {
+    id: 'samshamani-vati',
+    name: 'Samshamani Vati',
+    sanskritName: 'संशमनी वटी',
+    type: 'vati',
+    clinicalSystems: ['Immune System', 'Digestive System'],
+    indicationCategories: ['Fever & Infections', 'Digestive Disorders'],
+    traditionalCategories: ['Jwaraghna', 'Pittahara'],
+    ingredients: [
+      { herb: 'Guduchi (Tinospora cordifolia) aqueous extract', quantity: '1 part' }
+    ],
+    indications: [
+      'Chronic fever',
+      'Viral and bacterial infections',
+      'Immuno-modulation',
+      'Inflammation',
+      'Indigestion',
+      'Pitta disorders'
+    ],
+    dosage: {
+      amount: '1-2 tablets',
+      frequency: 'twice a day',
+      duration: 'as directed'
+    },
+    anupana: ['Warm water'],
+    contraindications: [],
+    reference: 'Classical Ayurvedic Text',
+    adultDosage: '1-2 tablets, twice a day or as directed',
+    modeOfAction: 'Immunomodulatory and antipyretic.',
+    generalConsiderations: 'Useful for fever and immune support.',
+    brands: [
+      {
+        name: 'Dabur',
+        products: [
+          { name: 'Dabur Samshamani Vati', price: 90, quantity: '60 tablets' }
+        ]
+      }
+    ]
+  },
+  {
+    id: 'praval-panchamrut-tablet',
+    name: 'Praval Panchamrut Tablet',
+    sanskritName: 'प्रवाल पञ्चामृत वटी',
+    type: 'vati',
+    clinicalSystems: ['Digestive System'],
+    indicationCategories: ['Digestive Disorders'],
+    traditionalCategories: ['Pittahara', 'Deepana'],
+    ingredients: [
+      { herb: 'Praval Pishti', quantity: '1 part' },
+      { herb: 'Shankha Bhasma', quantity: '1 part' },
+      { herb: 'Shukti Bhasma', quantity: '1 part' },
+      { herb: 'Kapardika Bhasma', quantity: '1 part' },
+      { herb: 'Guduchi Satva', quantity: '1 part' },
+      { herb: 'Godugdha (cow\'s milk)', quantity: '1 part' }
+    ],
+    indications: [
+      'Bloating',
+      'Hyperacidity',
+      'Anorexia',
+      'Diarrhea',
+      'Indigestion'
+    ],
+    dosage: {
+      amount: '1-2 tablets',
+      frequency: 'as directed',
+      duration: 'as directed by physician'
+    },
+    anupana: ['Warm water'],
+    contraindications: [],
+    reference: 'Classical Ayurvedic Text',
+    adultDosage: 'As directed by physician (common general usage would be 1-2 tablets)',
+    modeOfAction: 'Classical mineral-herbal tablet for digestive issues.',
+    generalConsiderations: 'Useful for various digestive disorders.',
+    brands: [
+      {
+        name: 'Dabur',
+        products: [
+          { name: 'Dabur Praval Panchamrut Tablet', price: 120, quantity: '60 tablets' }
+        ]
+      }
+    ]
+  },
+  {
+    id: 'agnitundi-vati',
+    name: 'Agnitundi Vati',
+    sanskritName: 'अग्नितुण्डी वटी',
+    type: 'vati',
+    clinicalSystems: ['Digestive System'],
+    indicationCategories: ['Digestive Disorders'],
+    traditionalCategories: ['Deepana', 'Pachana'],
+    ingredients: [
+      { herb: 'Ajamoda (Trachyspermum roxburghianum)', quantity: '1 part' },
+      { herb: 'Haritaki (Terminalia chebula)', quantity: '1 part' },
+      { herb: 'Amalaki (Emblica officinalis)', quantity: '1 part' },
+      { herb: 'Sarjikshara (sodium bicarbonate)', quantity: '1 part' },
+      { herb: 'Yava Kshara (barley alkali)', quantity: '1 part' },
+      { herb: 'Vatsanabha (Aconitum ferox, purified)', quantity: '1 part' },
+      { herb: 'Jeeraka (Cuminum cyminum)', quantity: '1 part' },
+      { herb: 'Vibhitaki (Terminalia bellerica)', quantity: '1 part' },
+      { herb: 'Purified Mercury (Sūta)', quantity: '1 part' },
+      { herb: 'Gandhaka (purified Sulphur)', quantity: '1 part' },
+      { herb: 'Chitraka (Plumbago zeylanica)', quantity: '1 part' },
+      { herb: 'Rock salt (Saindhava)', quantity: '1 part' },
+      { herb: 'Sea salt (Samudra Lavana)', quantity: '1 part' },
+      { herb: 'Borax (Tankana Bhasma)', quantity: '1 part' },
+      { herb: 'Sochal salt (Sauvarchala Lavana)', quantity: '1 part' },
+      { herb: 'Vidanga (Embelia ribes)', quantity: '1 part' },
+      { herb: 'Vishamushti (purified Strychnos nux vomica)', quantity: '1 part' },
+      { herb: 'Jambira swarasa (lemon juice)', quantity: '1 part' }
+    ],
+    indications: [
+      'Digestive stimulation (Agni)',
+      'Acid dyspepsia'
+    ],
+    dosage: {
+      amount: '½-1 tablet',
+      frequency: 'twice daily',
+      duration: 'morning & evening'
+    },
+    anupana: ['Lime juice', 'Warm water'],
+    contraindications: ['Pregnancy', 'Lactation', 'Children'],
+    reference: 'Nakra Ayurveda',
+    adultDosage: '½ to 1 tablet (≈ 62.5 mg to 125 mg) twice a day, morning & evening',
+    modeOfAction: 'Strong mineral-herbal formulation for digestive stimulation.',
+    generalConsiderations: 'Potent formulation requiring strict medical supervision. Use under direct medical supervision due to potent ingredients (e.g. Aconitum etc.)',
+    brands: [
+      {
+        name: 'Nakra Ayurveda',
+        products: [
+          { name: 'Agnitundi Vati', price: 150, quantity: '30 tablets' }
+        ]
+      }
+    ]
+  },
+  {
+    id: 'alkaloplan-capsules',
+    name: 'Alkaloplan Capsules',
+    sanskritName: 'अल्कालोप्लान कैप्सूल',
+    type: 'vati',
+    clinicalSystems: ['Digestive System'],
+    indicationCategories: ['Digestive Disorders'],
+    traditionalCategories: ['Pittahara', 'Kaphahara'],
+    ingredients: [
+      { herb: 'Sajjikshar (soda bi carbonate)', quantity: '300 mg' },
+      { herb: 'Mukta Shukti (purified pearl / oyster shell)', quantity: '100 mg' },
+      { herb: 'Giloy Satva (Tinospora cordifolia extract)', quantity: '100 mg' }
+    ],
+    indications: [
+      'Acidity',
+      'Gastritis',
+      'Abdominal colic',
+      'Symptoms of digestive discomfort',
+      'Pitta / kapha balance'
+    ],
+    dosage: {
+      amount: '1-2 tablets',
+      frequency: 'as labeled',
+      duration: 'as directed'
+    },
+    anupana: ['Warm water'],
+    contraindications: [],
+    reference: 'Planet Ayurveda',
+    adultDosage: 'As labeled (manufacturer instructions; commonly 1-2 tablets)',
+    modeOfAction: 'Alkalinizing and balancing for digestive discomfort.',
+    generalConsiderations: 'Proprietary mineral-herbal capsule.',
+    brands: [
+      {
+        name: 'Planet Ayurveda',
+        products: [
+          { name: 'Alkaloplan Capsules', price: 180, quantity: '60 capsules' }
+        ]
+      }
+    ]
+  },
+  {
+    id: 'boswellia-curcumin',
+    name: 'Boswellia Curcumin',
+    sanskritName: 'बोसवेलिया कर्क्यूमिन',
+    type: 'vati',
+    clinicalSystems: ['Musculoskeletal System'],
+    indicationCategories: ['Musculoskeletal Issues'],
+    traditionalCategories: ['Shothahara', 'Vedanasthapana'],
+    ingredients: [
+      { herb: 'Shallaki (Boswellia serrata)', quantity: '1 part' },
+      { herb: 'Curcumin (Curcuma longa)', quantity: '1 part' }
+    ],
+    indications: [
+      'Anti-inflammatory',
+      'Helpful in osteoarthritis',
+      'Rheumatoid arthritis',
+      'Joint pain',
+      'Reducing stiffness'
+    ],
+    dosage: {
+      amount: '1 capsule',
+      frequency: 'twice a day',
+      duration: 'after a meal'
+    },
+    anupana: ['Plain water'],
+    contraindications: [],
+    reference: 'Planet Ayurveda',
+    adultDosage: '1 capsule twice a day after a meal with plain water',
+    modeOfAction: 'Anti-inflammatory and analgesic properties.',
+    generalConsiderations: 'Proprietary herbal capsule for joint health.',
+    brands: [
+      {
+        name: 'Planet Ayurveda',
+        products: [
+          { name: 'Boswellia Curcumin', price: 250, quantity: '60 capsules' }
+        ]
+      }
+    ]
+  },
+  {
+    id: 'panchkola-capsules',
+    name: 'Panchkola Capsules',
+    sanskritName: 'पंचकोल कैप्सूल',
+    type: 'vati',
+    clinicalSystems: ['Digestive System'],
+    indicationCategories: ['Digestive Disorders', 'Metabolic Disorders'],
+    traditionalCategories: ['Deepana', 'Pachana'],
+    ingredients: [
+      { herb: 'Pippali (Piper longum fruit)', quantity: '100 mg' },
+      { herb: 'Pippali root (Piper longum root)', quantity: '100 mg' },
+      { herb: 'Chavya (Piper retrofractum)', quantity: '100 mg' },
+      { herb: 'Chitraka (Plumbago zeylanica)', quantity: '100 mg' },
+      { herb: 'Sonth / Shunthi (Zingiber officinale)', quantity: '100 mg' }
+    ],
+    indications: [
+      'Supports digestion',
+      'Detoxification',
+      'Metabolic balance',
+      'Stimulates liver/pancreas/intestines to secrete digestive juices',
+      'Used in digestive, detox / metabolic disorders'
+    ],
+    dosage: {
+      amount: '1-2 capsules',
+      frequency: 'twice daily',
+      duration: 'half an hour after meals'
+    },
+    anupana: ['Plain water'],
+    contraindications: [],
+    reference: 'planetayurveda.eu',
+    adultDosage: '1-2 capsules twice daily, half an hour after meals, with plain water',
+    modeOfAction: 'Supports digestive and metabolic functions.',
+    generalConsiderations: 'Proprietary extract capsule.',
+    brands: [
+      {
+        name: 'Planet Ayurveda',
+        products: [
+          { name: 'Panchkola Capsules', price: 200, quantity: '60 capsules' }
+        ]
+      }
+    ]
   }
 ];

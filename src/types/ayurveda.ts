@@ -66,7 +66,8 @@ export type FormulationType =
   | 'kashaya'  // Decoction
   | 'kadha'    // Decoction (alternative term)
   | 'guggulu'  // Guggulu-based preparations
-  | 'avaleha'; // Linctus/Confection
+  | 'avaleha'  // Linctus/Confection
+  | 'syrup';   // Syrup
 
 // Dosage forms and their standard measurements
 export type DosageForm = {

@@ -10,47 +10,33 @@ export const avalehas: Formulation[] = [
     indicationCategories: ['Respiratory Conditions', 'General Health & Wellness', 'Digestive Disorders'],
     traditionalCategories: ['Rasayana', 'Balya', 'Kaphahara'],
     ingredients: [
-      { herb: 'Amalaki (Emblica officinalis)', quantity: '1 part' },
-      { herb: 'Dashamoola (group of ten roots)', quantity: 'q.s.' },
-      { herb: 'Ashtavarga (group of eight herbs)', quantity: 'q.s.' },
-      { herb: 'Sharkara (Sugar)', quantity: 'q.s.' },
-      { herb: 'Madhu (Honey)', quantity: 'q.s.' },
-      { herb: 'Ghrita (Ghee)', quantity: 'q.s.' }
+      { herb: 'Amla (Emblica officinalis) pulp (primary base)', quantity: '500 g' },
+      { herb: 'Ghee', quantity: '100 g' },
+      { herb: 'Sesame oil', quantity: '50 g' },
+      { herb: 'Honey', quantity: '200 g' },
+      { herb: 'Sugar or jaggery', quantity: '300 g' },
+      { herb: 'Long list of herbs/extracts (example): Ashwagandha, Shatavari, Giloy, Pippali, Dalchini, Lavanga, Ela, Yavani, etc. (classical formulations use 30–50 herbs; commercial brands standardize key extracts)', quantity: 'various' }
     ],
     indications: [
-      'Kasa (Cough)',
-      'Shwasa (Asthma)',
-      'Kshaya (Tuberculosis/Wasting)',
-      'Hridroga (Heart disease)',
-      'Vatarakta (Gout)',
-      'Pipasa (Thirst)',
-      'Mutra Dosha (Urinary disorders)'
+      'Rasayana (rejuvenation)',
+      'Immune support',
+      'General vitality',
+      'Respiratory wellness',
+      'Antioxidant support'
     ],
     dosage: {
-      amount: '12-24 grams',
-      frequency: 'once or twice a day',
-      duration: 'as directed by the physician'
+      amount: '10–20 g (1 tablespoon)',
+      frequency: 'once or twice daily',
+      duration: 'depending on brand'
     },
-    anupana: ['Milk', 'Warm water'],
+    anupana: ['Warm milk', 'Warm water', 'Alone'],
     contraindications: [
-      'Ajirna (Indigestion)',
-      'Atisara (Diarrhea)',
       'Uncontrolled Madhumeha (Diabetes Mellitus)'
     ],
-    reference: 'Charaka Samhita, Chikitsa Sthana 1/1/62-74',
-    
-    adultDosage: 'Oral: 12-24 grams once or twice daily, before or after meals.',
-    paediatricDosage: 'Oral: 5-10 grams once or twice daily, often mixed with milk.',
-    doseAdjustment: {
-      hepatic: 'Use with caution in severe liver disease.',
-      renal: 'Use with caution in severe kidney disease.'
-    },
-    pregnancyLactation: 'Consult a physician before use during pregnancy. Generally considered safe during lactation.',
-    modeOfAction: 'Acts as a powerful immunomodulator and antioxidant due to its high content of Vitamin C from Amalaki. It supports respiratory health, nourishes body tissues (Dhatu-poshana), and enhances overall vitality (Ojas).',
-    adverseDrugReactions: 'Generally safe. Overdosage may cause indigestion, bloating, or loose stools.',
-    interactions: 'No known significant interactions. It is advisable to maintain a 30-minute gap with other medications.',
-    contraindicationsWarnings: 'Contraindicated in cases of acute indigestion, diarrhea, and high blood sugar levels. Sugar-free versions are recommended for diabetic patients.',
-    generalConsiderations: 'A traditional rejuvenative tonic suitable for all ages to maintain health and vitality. Its taste profile is a mix of sweet, sour, and spicy.',
+    preparation: 'Prepare concentrated decoction of listed herbs; reduce and mix with amla pulp cooked with sugar/jaggery to jam-like consistency; add ghee/oils; finally mix powdered herbs/extracts and preserve in sterile jars with honey/ghee.',
+    reference: 'WHO/peer-reviewed reviews on Chyawanprash composition and uses, PMC review on Chyawanprash formulation and properties',
+    adultDosage: '10–20 g (1 tablespoon) once or twice daily; may be taken with warm milk/water.',
+    generalConsiderations: 'High sugar variants: caution in diabetes — use diabetic variants or consult clinician. Store in cool dry place; follow manufacturer shelf-life.',
     brands: [
       {
         name: 'Dabur',
@@ -72,5 +58,72 @@ export const avalehas: Formulation[] = [
         ]
       }
     ]
+  },
+  {
+    id: 'vikramprash',
+    name: 'Vikramprash',
+    sanskritName: 'विक्रमप्राश',
+    type: 'avaleha',
+    clinicalSystems: ['Immune System'],
+    indicationCategories: ['General Health & Wellness'],
+    traditionalCategories: ['Rasayana', 'Balya'],
+    ingredients: [
+      { herb: 'Bilva (Aegle marmelos)', quantity: 'Principal herb' },
+      { herb: 'Many other herbs (full list not disclosed)', quantity: 'Proprietary' }
+    ],
+    indications: [
+      'General immune support',
+      'Tonic',
+      'Adaptogen properties'
+    ],
+    dosage: {
+      amount: '1-2 teaspoons (adults), ½ teaspoon (children)',
+      frequency: 'as directed',
+      duration: 'with lukewarm water or milk'
+    },
+    anupana: ['Lukewarm water', 'Milk'],
+    contraindications: [],
+    reference: 'Planet Ayurveda',
+    adultDosage: 'Adults — 1 to 2 teaspoons with lukewarm water or milk; Children — ½ teaspoon with lukewarm water or milk',
+    modeOfAction: 'General immune support and tonic.',
+    generalConsiderations: 'Proprietary avaleha (like chyavanprash) for immunity support.',
+    brands: [
+      {
+        name: 'Planet Ayurveda',
+        products: [
+          { name: 'Vikramprash', price: 300, quantity: '500g' }
+        ]
+      }
+    ]
+  },
+  {
+    id: 'anantamul-avaleha',
+    name: 'Anantamul Avaleha',
+    sanskritName: 'अनंतमूल अवलेह',
+    type: 'avaleha',
+    clinicalSystems: ['Integumentary System', 'Hematopoietic System'],
+    indicationCategories: ['Skin Conditions', 'General Health & Wellness'],
+    traditionalCategories: ['Rasayana'],
+    ingredients: [
+      { herb: 'Anantamul (Hemidesmus indicus) root extract', quantity: '50 g' },
+      { herb: 'Sugar/jaggery', quantity: '300 g' },
+      { herb: 'Ghee / oil', quantity: '50 g' },
+      { herb: 'Supporting herbs (Manjistha, Nagarmotha)', quantity: 'various' }
+    ],
+    indications: [
+      'General debility',
+      'Skin disorders (adjunct)',
+      'Blood purifier (classical use)'
+    ],
+    dosage: {
+      amount: '1-2 teaspoons',
+      frequency: 'twice daily',
+      duration: 'after meals (adult)'
+    },
+    anupana: ['Warm water'],
+    contraindications: [],
+    generalConsiderations: 'High sugar content: caution in diabetics. Follow product labeling.',
+    reference: 'Classical Ayurvedic Text',
+    brands: []
   }
 ];
