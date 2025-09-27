@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
+import { Routes, Route } from 'react-router-dom';
 import { Header } from './components/Header';
+import { FormulationSubcategoryList } from './components/FormulationSubcategoryList';
 import { SearchBar } from './components/SearchBar';
 import { FilterPanel } from './components/FilterPanel';
 import { Stats } from './components/Stats';
@@ -11,11 +13,13 @@ import { useSearch } from './hooks/useSearch';
 import { herbs } from './data/herbs';
 import { formulations } from './data/index';
 import { Herb, Formulation, FormulationType } from './types/ayurveda';
+import { FormulationSubcategoryPage } from './components/FormulationSubcategoryPage';
 
 function App() {
   const [showFilters, setShowFilters] = useState(false);
   const [selectedHerb, setSelectedHerb] = useState<Herb | null>(null);
   const [selectedFormulation, setSelectedFormulation] = useState<Formulation | null>(null);
+  const [selectedFormulationType, setSelectedFormulationType] = useState<string | null>(null);
 
   const {
     searchTerm,
@@ -47,15 +51,23 @@ function App() {
     setSearchTerm('');
   };
 
+  const handleSubcategorySelect = (type: string) => {
+    setSelectedFormulationType(type);
+  };
+
   return (
     <div className="min-h-screen bg-gray-50">
       <Header />
       
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <Routes>
+        <Route path="/formulations/:subcategory" element={<FormulationSubcategoryPage />} />
+        <Route path="/clinical-systems/:subcategory" element={<FormulationSubcategoryPage />} />
+        <Route path="/" element={
+          <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <Stats
           herbCount={herbs.length}
           formulationCount={formulations.length}
-          onFormulationTypeSelect={handleFormulationTypeSelect}
+          onFormulationTypeSelect={handleSubcategorySelect}
           onHerbSelect={setSelectedHerb}
           onIndicationSelect={(indication) => {
             setSearchTerm(indication);
@@ -149,6 +161,8 @@ function App() {
           )}
         </div>
       </main>
+        } />
+      </Routes>
 
       {/* Modals */}
       {selectedHerb && (
@@ -162,6 +176,14 @@ function App() {
         <FormulationDetail
           formulation={selectedFormulation}
           onClose={() => setSelectedFormulation(null)}
+        />
+      )}
+
+      {selectedFormulationType && (
+        <FormulationSubcategoryList
+          type={selectedFormulationType}
+          onClose={() => setSelectedFormulationType(null)}
+          onFormulationSelect={setSelectedFormulation}
         />
       )}
     </div>

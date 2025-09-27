@@ -6,7 +6,9 @@ export const tailas: Formulation[] = [
     name: 'Ksheerbala Taila',
     sanskritName: 'क्षीरबला तैल',
     type: 'taila',
-    category: 'Nervous System',
+    clinicalSystems: ['Nervous System', 'Musculoskeletal System'],
+    indicationCategories: ['Neurological Disorders', 'Musculoskeletal Issues'],
+    traditionalCategories: ['Vatahara', 'Balya'],
     ingredients: [
       { herb: 'Bala', quantity: '4.8 kg', part: 'root' },
       { herb: 'Cow\'s Milk', quantity: '12.288 L' },
@@ -26,6 +28,19 @@ export const tailas: Formulation[] = [
     anupana: ['Not applicable (external use)'],
     contraindications: ['None for external application'],
     reference: 'Ashtanga Hridaya',
-    categories: ['Nervous System', 'Musculoskeletal']
+    brands: [
+      {
+        name: 'Kottakkal Arya Vaidya Sala',
+        products: [
+          { name: 'Ksheerbala Thailam (101)', price: 300, quantity: '200ml' }
+        ]
+      },
+      {
+        name: 'Nagarjuna',
+        products: [
+          { name: 'Ksheerabala Thailam', price: 280, quantity: '200ml' }
+        ]
+      }
+    ]
   }
 ];

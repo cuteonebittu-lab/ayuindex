@@ -32,7 +32,21 @@ export const vatis: Formulation[] = [
     anupana: ['Warm water'],
     contraindications: ['Pregnancy', 'Bleeding disorders'],
     preparation: 'Herbal tablets with Triphala and Guggulu',
-    reference: 'Sharangadhara Samhita Madhyama 7/82-83'
+    reference: 'Sharangadhara Samhita Madhyama 7/82-83',
+    brands: [
+      {
+        name: 'Dabur',
+        products: [
+          { name: 'Dabur Triphala Guggulu', price: 150, quantity: '60 tablets' }
+        ]
+      },
+      {
+        name: 'Baidyanath',
+        products: [
+          { name: 'Baidyanath Triphala Guggulu', price: 160, quantity: '60 tablets' }
+        ]
+      }
+    ]
   },
   {
     id: 'khadiradi-vati',
@@ -64,7 +78,21 @@ export const vatis: Formulation[] = [
     anupana: ['Warm water'],
     contraindications: ['Pitta disorders'],
     preparation: 'Herbal tablets for throat and respiratory conditions',
-    reference: 'Sharangadhara Samhita Madhyama 7/22-24'
+    reference: 'Sharangadhara Samhita Madhyama 7/22-24',
+    brands: [
+      {
+        name: 'Dabur',
+        products: [
+          { name: 'Dabur Khadiradi Vati', price: 80, quantity: '80 tablets' }
+        ]
+      },
+      {
+        name: 'Baidyanath',
+        products: [
+          { name: 'Baidyanath Khadiradi Vati', price: 90, quantity: '80 tablets' }
+        ]
+      }
+    ]
   },
   {
     id: 'arogyavardhini-vati',
@@ -98,39 +126,21 @@ export const vatis: Formulation[] = [
     anupana: ['Warm water'],
     contraindications: ['Pregnancy', 'Lactation'],
     preparation: 'Herbo-mineral tablets for liver and metabolic health',
-    reference: 'Rasaratnasamucchaya 20/87-92'
-  },
-  {
-    id: 'yogaraja-guggulu',
-    name: 'Yogaraja Guggulu',
-    sanskritName: 'योगराज गुग्गुलु',
-    type: 'vati',
-    clinicalSystems: ['Musculoskeletal System'],
-    indicationCategories: ['Musculoskeletal Issues', 'Metabolic Disorders'],
-    traditionalCategories: ['Vatahara', 'Shothahara'],
-    ingredients: [
-      { herb: 'Guggulu', quantity: '1 part' },
-      { herb: 'Triphala', quantity: '1 part' },
-      { herb: 'Trikatu', quantity: '1 part' }
-    ],
-    indications: [
-      'Arthritis',
-      'Joint pain',
-      'Obesity',
-      'Metabolic disorders'
-    ],
-    dosage: {
-      amount: '500mg-1g',
-      frequency: 'Thrice daily',
-      duration: '2-3 months',
-      form: {
-        tablet: '500mg-1g'
+    reference: 'Rasaratnasamucchaya 20/87-92',
+    brands: [
+      {
+        name: 'Dabur',
+        products: [
+          { name: 'Dabur Arogyavardhini Vati', price: 110, quantity: '60 tablets' }
+        ]
+      },
+      {
+        name: 'Baidyanath',
+        products: [
+          { name: 'Baidyanath Arogyavardhini Vati', price: 120, quantity: '60 tablets' }
+        ]
       }
-    },
-    anupana: ['Warm water', 'Ginger juice'],
-    contraindications: ['Pregnancy', 'Bleeding disorders'],
-    preparation: 'Guggulu-based tablets for joint health',
-    reference: 'Sharangadhara Samhita Madhyama 7/70-81'
+    ]
   },
   {
     id: 'chandraprabha-vati',
@@ -162,7 +172,21 @@ export const vatis: Formulation[] = [
     anupana: ['Warm water'],
     contraindications: ['Pregnancy'],
     preparation: 'Herbo-mineral tablets for urinary and reproductive health',
-    reference: 'Sharangadhara Samhita'
+    reference: 'Sharangadhara Samhita',
+    brands: [
+      {
+        name: 'Dabur',
+        products: [
+          { name: 'Dabur Chandraprabha Vati', price: 90, quantity: '60 tablets' }
+        ]
+      },
+      {
+        name: 'Baidyanath',
+        products: [
+          { name: 'Baidyanath Chandraprabha Vati', price: 100, quantity: '60 tablets' }
+        ]
+      }
+    ]
   },
   {
     id: 'kamadugha-rasa',
@@ -196,6 +220,20 @@ export const vatis: Formulation[] = [
     anupana: ['Cold water', 'Honey'],
     contraindications: ['Low gastric acid'],
     preparation: 'Mineral-based tablets for digestive health',
-    reference: 'Rasendra Sara Sangraha'
+    reference: 'Rasendra Sara Sangraha',
+    brands: [
+      {
+        name: 'Dabur',
+        products: [
+          { name: 'Dabur Kamadugha Rasa', price: 220, quantity: '30 tablets' }
+        ]
+      },
+      {
+        name: 'Baidyanath',
+        products: [
+          { name: 'Baidyanath Kamadugha Rasa', price: 230, quantity: '30 tablets' }
+        ]
+      }
+    ]
   }
 ];

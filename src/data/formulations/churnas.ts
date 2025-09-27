@@ -6,7 +6,9 @@ export const churnas: Formulation[] = [
     name: 'Pushyanuga Churna',
     sanskritName: 'पुष्यानुग चूर्ण',
     type: 'churna',
-    category: 'Women\'s Health',
+    clinicalSystems: ['Reproductive System'],
+    indicationCategories: ["Women's Health"],
+    traditionalCategories: ['Kaphahara', 'Shothahara'],
     ingredients: [
       { herb: 'Lodhra', quantity: '1 part', part: 'bark' },
       { herb: 'Musta', quantity: '1 part', part: 'rhizome' },
@@ -26,15 +28,30 @@ export const churnas: Formulation[] = [
     },
     anupana: ['Warm water', 'Honey'],
     contraindications: ['Pregnancy'],
-    categories: ['Women\'s Health'],
-    reference: 'Ashtanga Hridaya Uttara 33/45-48'
+    reference: 'Ashtanga Hridaya Uttara 33/45-48',
+    brands: [
+      {
+        name: 'Dabur',
+        products: [
+          { name: 'Dabur Pushyanuga Churna', price: 120, quantity: '60g' }
+        ]
+      },
+      {
+        name: 'Baidyanath',
+        products: [
+          { name: 'Baidyanath Pushyanuga Churna', price: 130, quantity: '60g' }
+        ]
+      }
+    ]
   },
   {
     id: 'hingwastaka-churna',
     name: 'Hingwastaka Churna',
     sanskritName: 'हिंग्वष्टक चूर्ण',
     type: 'churna',
-    category: 'Digestive System',
+    clinicalSystems: ['Digestive System'],
+    indicationCategories: ['Digestive Disorders'],
+    traditionalCategories: ['Deepana', 'Pachana'],
     ingredients: [
       { herb: 'Hing', quantity: '1 part' },
       { herb: 'Trikatu', quantity: '1 part' },
@@ -55,15 +72,30 @@ export const churnas: Formulation[] = [
     },
     anupana: ['Warm water'],
     contraindications: ['Peptic ulcer'],
-    categories: ['Digestive System'],
-    reference: 'Sharangadhara Samhita Madhyama 6/102-104'
+    reference: 'Sharangadhara Samhita Madhyama 6/102-104',
+    brands: [
+      {
+        name: 'Dabur',
+        products: [
+          { name: 'Dabur Hingwastaka Churna', price: 80, quantity: '100g' }
+        ]
+      },
+      {
+        name: 'Baidyanath',
+        products: [
+          { name: 'Baidyanath Hingwastaka Churna', price: 90, quantity: '100g' }
+        ]
+      }
+    ]
   },
   {
     id: 'avipattikar-churna',
     name: 'Avipattikar Churna',
     sanskritName: 'अविपत्तिकर चूर्ण',
     type: 'churna',
-    category: 'Digestive System',
+    clinicalSystems: ['Digestive System'],
+    indicationCategories: ['Digestive Disorders'],
+    traditionalCategories: ['Deepana', 'Pachana'],
     ingredients: [
       { herb: 'Trikatu', quantity: '1 part' },
       { herb: 'Triphala', quantity: '1 part' },
@@ -83,15 +115,30 @@ export const churnas: Formulation[] = [
     },
     anupana: ['Warm water'],
     contraindications: ['Peptic ulcer'],
-    categories: ['Digestive System'],
-    reference: 'Bhaishajya Ratnavali 10/32-36'
+    reference: 'Bhaishajya Ratnavali 10/32-36',
+    brands: [
+      {
+        name: 'Dabur',
+        products: [
+          { name: 'Dabur Avipattikar Churna', price: 90, quantity: '60g' }
+        ]
+      },
+      {
+        name: 'Baidyanath',
+        products: [
+          { name: 'Baidyanath Avipattikar Churna', price: 100, quantity: '60g' }
+        ]
+      }
+    ]
   },
   {
     id: 'triphala-churna',
     name: 'Triphala Churna',
     sanskritName: 'त्रिफला चूर्ण',
     type: 'churna',
-    category: 'Digestive System',
+    clinicalSystems: ['Digestive System', 'Nervous System', 'Integumentary System'],
+    indicationCategories: ['Digestive Disorders', 'Eye Disorders', 'Metabolic Disorders', 'Skin Conditions', 'General Health & Wellness'],
+    traditionalCategories: ['Rasayana', 'Anulomana', 'Chakshushya'],
     ingredients: [
       { herb: 'Haritaki', quantity: '1 part', part: 'fruit' },
       { herb: 'Bibhitaki', quantity: '1 part', part: 'fruit' },
@@ -112,6 +159,25 @@ export const churnas: Formulation[] = [
     anupana: ['Warm water', 'Honey'],
     contraindications: ['Pregnancy', 'Diarrhea'],
     reference: 'Sharangadhara Samhita',
-    categories: ['Digestive System', 'General Tonic']
+    brands: [
+      {
+        name: 'Dabur',
+        products: [
+          { name: 'Dabur Triphala Churna', price: 70, quantity: '120g' }
+        ]
+      },
+      {
+        name: 'Baidyanath',
+        products: [
+          { name: 'Baidyanath Triphala Churna', price: 75, quantity: '120g' }
+        ]
+      },
+      {
+        name: 'Zandu',
+        products: [
+          { name: 'Zandu Triphala Churna', price: 65, quantity: '120g' }
+        ]
+      }
+    ]
   }
 ];

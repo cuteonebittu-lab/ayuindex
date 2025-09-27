@@ -6,7 +6,9 @@ export const kashayas: Formulation[] = [
     name: 'Shadangapaniya',
     sanskritName: 'षडंग पानीय',
     type: 'kashaya',
-    category: 'Fever',
+    clinicalSystems: ['Immune System', 'Urinary System'],
+    indicationCategories: ['Fever & Infections', 'General Health & Wellness'],
+    traditionalCategories: ['Jwaraghna', 'Pittahara'],
     ingredients: [
       { herb: 'Musta', quantity: '1 part', part: 'rhizome' },
       { herb: 'Parpataka', quantity: '1 part', part: 'whole plant' },
@@ -30,14 +32,29 @@ export const kashayas: Formulation[] = [
     anupana: ['Cool water'],
     contraindications: ['Cold and cough'],
     reference: 'Charaka Samhita',
-    categories: ['Fever', 'General Tonic']
+    brands: [
+      {
+        name: 'Dabur',
+        products: [
+          { name: 'Dabur Shadangapaniya', price: 100, quantity: '200ml' }
+        ]
+      },
+      {
+        name: 'Baidyanath',
+        products: [
+          { name: 'Baidyanath Shadangapaniya', price: 110, quantity: '200ml' }
+        ]
+      }
+    ]
   },
   {
     id: 'guduchyadi-kashaya',
     name: 'Guduchyadi Kashaya',
     sanskritName: 'गुडूच्यादि कषाय',
     type: 'kashaya',
-    category: 'Fever',
+    clinicalSystems: ['Immune System'],
+    indicationCategories: ['Fever & Infections', 'General Health & Wellness'],
+    traditionalCategories: ['Jwaraghna', 'Rasayana'],
     ingredients: [
       { herb: 'Guduchi', quantity: '1 part', part: 'stem' },
       { herb: 'Haritaki', quantity: '1 part', part: 'fruit' },
@@ -58,6 +75,19 @@ export const kashayas: Formulation[] = [
     anupana: ['Warm water'],
     contraindications: ['Pregnancy'],
     reference: 'Ashtanga Hridaya',
-    categories: ['Fever', 'General Tonic']
+    brands: [
+      {
+        name: 'Dabur',
+        products: [
+          { name: 'Dabur Guduchyadi Kashaya', price: 130, quantity: '200ml' }
+        ]
+      },
+      {
+        name: 'Baidyanath',
+        products: [
+          { name: 'Baidyanath Guduchyadi Kashaya', price: 140, quantity: '200ml' }
+        ]
+      }
+    ]
   }
 ];

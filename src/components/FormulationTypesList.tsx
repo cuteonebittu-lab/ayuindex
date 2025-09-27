@@ -40,7 +40,7 @@ export function FormulationTypesList({ onClose, onTypeSelect }: FormulationTypes
                 key={type}
                 className="p-2 bg-gray-50 rounded-md capitalize cursor-pointer hover:bg-gray-100"
                 onClick={() => {
-                  onTypeSelect(typeMapping[type] || type);
+                  onTypeSelect(type);
                   onClose();
                 }}
               >

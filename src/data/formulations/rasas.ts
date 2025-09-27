@@ -6,7 +6,9 @@ export const rasas: Formulation[] = [
     name: 'Sootshekhar Rasa',
     sanskritName: 'सूतशेखर रस',
     type: 'rasa',
-    category: 'Respiratory System',
+    clinicalSystems: ['Respiratory System', 'Immune System'],
+    indicationCategories: ['Respiratory Conditions', 'Fever & Infections'],
+    traditionalCategories: ['Jwaraghna', 'Kaphahara'],
     ingredients: [
       { herb: 'Parada', quantity: '1 part' },
       { herb: 'Gandhaka', quantity: '1 part' },
@@ -28,6 +30,19 @@ export const rasas: Formulation[] = [
     anupana: ['Honey', 'Tulsi leaf juice'],
     contraindications: ['Pregnancy', 'Heart conditions'],
     reference: 'Rasa Tarangini',
-    categories: ['Respiratory System', 'Fever']
+    brands: [
+      {
+        name: 'Dabur',
+        products: [
+          { name: 'Dabur Sootshekhar Rasa', price: 180, quantity: '30 tablets' }
+        ]
+      },
+      {
+        name: 'Baidyanath',
+        products: [
+          { name: 'Baidyanath Sootshekhar Rasa', price: 190, quantity: '30 tablets' }
+        ]
+      }
+    ]
   }
 ];

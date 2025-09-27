@@ -1,5 +1,5 @@
 import React from 'react';
-import { X, Beaker, AlertTriangle, Droplets, Clock, Users } from 'lucide-react';
+import { X, Beaker, AlertTriangle, Droplets, Clock, Users, ShoppingCart } from 'lucide-react';
 import { Formulation } from '../types/ayurveda';
 
 interface FormulationDetailProps {
@@ -154,6 +154,34 @@ export function FormulationDetail({ formulation, onClose }: FormulationDetailPro
                   <div key={index} className="flex items-center gap-2 p-3 bg-red-50 rounded-lg border border-red-200">
                     <div className="w-2 h-2 bg-red-500 rounded-full"></div>
                     <span className="text-red-700">{contraindication}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Brands */}
+          {formulation.brands && formulation.brands.length > 0 && (
+            <div>
+              <h3 className="text-lg font-semibold text-gray-800 flex items-center gap-2 mb-4">
+                <ShoppingCart className="w-5 h-5 text-emerald-600" />
+                Marketed Brands
+              </h3>
+              <div className="space-y-4">
+                {formulation.brands.map((brand) => (
+                  <div key={brand.name} className="p-4 bg-gray-50 rounded-lg">
+                    <h4 className="font-semibold text-gray-700 mb-2">{brand.name}</h4>
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
+                      {brand.products.map((product) => (
+                        <div key={product.name} className="p-3 bg-white rounded-lg border border-gray-200 flex justify-between items-center">
+                          <div>
+                            <p className="font-medium text-gray-800">{product.name}</p>
+                            <p className="text-sm text-gray-500">{product.quantity}</p>
+                          </div>
+                          <p className="font-semibold text-emerald-600">₹{product.price}</p>
+                        </div>
+                      ))}
+                    </div>
                   </div>
                 ))}
               </div>

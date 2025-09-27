@@ -6,7 +6,9 @@ export const ghritas: Formulation[] = [
     name: 'Brahmi Ghrita',
     sanskritName: 'ब्राह्मी घृत',
     type: 'ghrita',
-    category: 'Mental Health',
+    clinicalSystems: ['Nervous System'],
+    indicationCategories: ['Mental Health', 'Neurological Disorders'],
+    traditionalCategories: ['Medhya', 'Rasayana'],
     ingredients: [
       { herb: 'Brahmi', quantity: '4.8 kg', part: 'whole plant' },
       { herb: 'Vacha', quantity: '960 g', part: 'rhizome' },
@@ -29,15 +31,30 @@ export const ghritas: Formulation[] = [
     },
     anupana: ['Warm milk', 'Warm water'],
     contraindications: ['High cholesterol', 'Obesity'],
-    categories: ['Mental Health', 'Nervous System'],
-    reference: 'Charaka Samhita Chikitsa Sthana 9/41-43'
+    reference: 'Charaka Samhita Chikitsa Sthana 9/41-43',
+    brands: [
+      {
+        name: 'Dabur',
+        products: [
+          { name: 'Dabur Brahmi Ghrita', price: 250, quantity: '200g' }
+        ]
+      },
+      {
+        name: 'Baidyanath',
+        products: [
+          { name: 'Baidyanath Brahmi Ghrita', price: 260, quantity: '200g' }
+        ]
+      }
+    ]
   },
   {
     id: 'panchatikta-ghrita',
     name: 'Panchatikta Ghrita',
     sanskritName: 'पञ्चतिक्त घृत',
     type: 'ghrita',
-    category: 'Skin Health',
+    clinicalSystems: ['Integumentary System', 'Hematopoietic System'],
+    indicationCategories: ['Skin Conditions', 'General Health & Wellness'],
+    traditionalCategories: ['Shothahara', 'Kaphahara'],
     ingredients: [
       { herb: 'Nimba', quantity: '1 part', part: 'bark' },
       { herb: 'Patola', quantity: '1 part', part: 'leaves' },
@@ -61,14 +78,29 @@ export const ghritas: Formulation[] = [
     anupana: ['Warm water', 'Warm milk'],
     contraindications: ['High cholesterol', 'Obesity'],
     reference: 'Ashtanga Hridaya',
-    categories: ['Skin Health', 'Blood']
+    brands: [
+      {
+        name: 'Dabur',
+        products: [
+          { name: 'Dabur Panchatikta Ghrita', price: 280, quantity: '200g' }
+        ]
+      },
+      {
+        name: 'Baidyanath',
+        products: [
+          { name: 'Baidyanath Panchatikta Ghrita', price: 290, quantity: '200g' }
+        ]
+      }
+    ]
   },
   {
     id: 'jatyadi-ghrita',
     name: 'Jatyadi Ghrita',
     sanskritName: 'जात्यादि घृत',
     type: 'ghrita',
-    category: 'Skin Health',
+    clinicalSystems: ['Integumentary System'],
+    indicationCategories: ['Skin Conditions'],
+    traditionalCategories: ['Shothahara'],
     ingredients: [
       { herb: 'Jati', quantity: '1 part', part: 'leaves' },
       { herb: 'Nimbapatra', quantity: '1 part', part: 'leaves' },
@@ -91,6 +123,19 @@ export const ghritas: Formulation[] = [
     anupana: ['Not applicable (external use)'],
     contraindications: ['None for external application'],
     reference: 'Sharangadhara Samhita',
-    categories: ['Skin Health', 'General Tonic']
+    brands: [
+      {
+        name: 'Dabur',
+        products: [
+          { name: 'Dabur Jatyadi Ghrita', price: 150, quantity: '20g' }
+        ]
+      },
+      {
+        name: 'Baidyanath',
+        products: [
+          { name: 'Baidyanath Jatyadi Ghrita', price: 160, quantity: '20g' }
+        ]
+      }
+    ]
   }
 ];

@@ -6,7 +6,9 @@ export const bhasmas: Formulation[] = [
     name: 'Mandura Bhasma',
     sanskritName: 'मण्डूर भस्म',
     type: 'bhasma',
-    category: 'Blood',
+    clinicalSystems: ['Hematopoietic System', 'Digestive System'],
+    indicationCategories: ['General Health & Wellness', 'Digestive Disorders'],
+    traditionalCategories: ['Deepana', 'Pachana'],
     ingredients: [
       { herb: 'Iron Rust', quantity: '1 part' },
       { herb: 'Triphala Decoction', quantity: 'As needed' }
@@ -25,6 +27,19 @@ export const bhasmas: Formulation[] = [
     anupana: ['Honey', 'Ghee'],
     contraindications: ['Pregnancy', 'Bleeding disorders'],
     reference: 'Rasa Tarangini',
-    categories: ['Blood', 'Liver']
+    brands: [
+      {
+        name: 'Dabur',
+        products: [
+          { name: 'Dabur Mandur Bhasma', price: 180, quantity: '10g' }
+        ]
+      },
+      {
+        name: 'Baidyanath',
+        products: [
+          { name: 'Baidyanath Mandur Bhasma', price: 190, quantity: '10g' }
+        ]
+      }
+    ]
   }
 ];

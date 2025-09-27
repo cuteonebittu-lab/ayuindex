@@ -50,7 +50,8 @@ export type TraditionalCategory =
   | 'Hridya'        // Cardiac tonic
   | 'Jwaraghna'     // Antipyretic
   | 'Shothahara'    // Anti-inflammatory
-  | 'Vedanasthapana'; // Analgesic
+  | 'Vedanasthapana' // Analgesic
+  | 'Am Pachak';    // Toxin digester
 
 // Standard Ayurvedic formulation types
 export type FormulationType = 
@@ -118,6 +119,16 @@ export interface Formulation {
   contraindicationsWarnings?: string;
   generalConsiderations?: string;
   image?: string;
+  brands?: Brand[];
+}
+
+export interface Brand {
+  name: string;
+  products: {
+    name: string;
+    price: number;
+    quantity: string;
+  }[];
 }
 
 export interface Herb {
@@ -137,6 +148,7 @@ export interface Herb {
   anupana: string[];
   contraindications: string[];
   image?: string;
+  brands?: Brand[];
 }
 
 export type SearchCategory = 'all' | 'herbs' | 'formulations';

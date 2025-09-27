@@ -33,7 +33,21 @@ export const arishtas: Formulation[] = [
     anupana: ['Equal quantity of water'],
     contraindications: ['Pregnancy', 'Alcoholism'],
     preparation: 'Fermented decoction with herbs and jaggery',
-    reference: 'Bhaishajya Ratnavali 73/54-60'
+    reference: 'Bhaishajya Ratnavali 73/54-60',
+    brands: [
+      {
+        name: 'Dabur',
+        products: [
+          { name: 'Dabur Saraswatarishta', price: 200, quantity: '450ml' }
+        ]
+      },
+      {
+        name: 'Baidyanath',
+        products: [
+          { name: 'Baidyanath Saraswatarishta', price: 210, quantity: '450ml' }
+        ]
+      }
+    ]
   },
   {
     id: 'kutajarishta',

@@ -121,7 +121,10 @@ export function Stats({ herbCount, formulationCount, onFormulationTypeSelect, on
       {showFormulations && (
         <FormulationTypesList
           onClose={() => setShowFormulations(false)}
-          onTypeSelect={onFormulationTypeSelect}
+          onTypeSelect={(type) => {
+            onFormulationTypeSelect(type);
+            setShowFormulations(false);
+          }}
         />
       )}
       {showIndications && (

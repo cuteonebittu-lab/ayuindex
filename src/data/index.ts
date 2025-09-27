@@ -1,17 +1,8 @@
 import { Formulation } from '../types/ayurveda';
 import { validateUniqueFormulationIds } from './utils/formulation-validation';
 
-// Import each formulation type
-import { arishtas } from './formulations/arishtas';
-import { vatis } from './formulations/vatis';
-import { kashayas } from './formulations/kashayas';
-import { ghritas } from './formulations/ghritas';
-import { churnas } from './formulations/churnas';
-import { tailas } from './formulations/tailas';
-import { bhasmas } from './formulations/bhasmas';
-import { rasas } from './formulations/rasas';
-import { guggulus } from './formulations/guggulus';
-import { avalehas } from './formulations/avalehas';
+// Import all formulations and formulations by type from the centralized formulations index
+import { allFormulations, formulationsByType } from './formulations/index';
 
 // Import categorized formulations
 import { 
@@ -23,18 +14,7 @@ import {
 } from './categories/category-formulations';
 
 // Export formulations by type
-export const formulationsByType = {
-  arishtas,
-  vatis,
-  kashayas,
-  ghritas,
-  churnas,
-  tailas,
-  bhasmas,
-  rasas,
-  guggulus,
-  avalehas,
-};
+export { formulationsByType };
 
 // Export formulations by category
 export const formulationsByCategory = {
@@ -45,20 +25,8 @@ export const formulationsByCategory = {
   blood: bloodFormulations
 };
 
-// Export all formulations in a single array
 // Validate that there are no duplicate IDs across all formulation types
-validateUniqueFormulationIds({
-  arishtas,
-  vatis,
-  kashayas,
-  ghritas,
-  churnas,
-  tailas,
-  bhasmas,
-  rasas,
-  guggulus,
-  avalehas
-});
+validateUniqueFormulationIds(formulationsByType);
 
 // Validate that there are no duplicate IDs across all category-based formulations
 validateUniqueFormulationIds({
@@ -71,16 +39,7 @@ validateUniqueFormulationIds({
 
 // Combine all formulations into a single array
 export const formulations: Formulation[] = [
-  ...arishtas,
-  ...vatis,
-  ...kashayas,
-  ...ghritas,
-  ...churnas,
-  ...tailas,
-  ...bhasmas,
-  ...rasas,
-  ...guggulus,
-  ...avalehas,
+  ...allFormulations,
   ...mentalHealthFormulations,
   ...metabolicFormulations,
   ...digestiveFormulations,
