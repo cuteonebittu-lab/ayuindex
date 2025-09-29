@@ -10,6 +10,10 @@ export default defineConfig({
       { 
         find: '@', 
         replacement: path.resolve(process.cwd(), 'src') 
+      },
+      {
+        find: '@data',
+        replacement: path.resolve(process.cwd(), 'data')
       }
     ]
   },

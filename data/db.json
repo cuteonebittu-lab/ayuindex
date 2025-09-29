@@ -1,0 +1,33 @@
+{
+  "herbs": [],
+  "formulations": [],
+  "single-herbs": [],
+  "categories": {
+    "clinical-systems": {
+      "cardiovascular": [],
+      "digestive": [],
+      "endocrine": [],
+      "hematopoietic": [],
+      "immune": [],
+      "integumentary": [],
+      "musculoskeletal": [],
+      "nervous": [],
+      "reproductive": [],
+      "respiratory": [],
+      "urinary": []
+    },
+    "formulations": {
+      "arishtas": [],
+      "avalehas": [],
+      "bhasmas": [],
+      "churnas": [],
+      "ghritas": [],
+      "guggulus": [],
+      "kashayas": [],
+      "rasas": [],
+      "syrups": [],
+      "tailas": [],
+      "vatis": []
+    }
+  }
+}

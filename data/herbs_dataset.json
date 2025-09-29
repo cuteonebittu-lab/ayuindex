@@ -1,0 +1,1769 @@
+[
+  {
+    "HerbName": "Ashwagandha",
+    "BotanicalName": "Withania somnifera",
+    "Rasa": [
+      "Madhura",
+      "Tikta"
+    ],
+    "Guna": [
+      "Laghu",
+      "Snigdha"
+    ],
+    "Virya": "Ushna",
+    "Vipaka": "Madhura",
+    "Karma": [
+      "Balya",
+      "Rasayana",
+      "Shukral"
+    ],
+    "Prabhava": "Medhya",
+    "PartsUsed": "Root",
+    "Dosage": "3–6 g churna / 1–2 capsules twice daily",
+    "Indications": [
+      "Stress",
+      "Anxiety",
+      "Debility",
+      "Insomnia"
+    ],
+    "Uses": [
+      "Adaptogen",
+      "Immunity booster"
+    ],
+    "Brands": [
+      {
+        "BrandName": "Ashwagandha",
+        "CompanyName": "Himalaya",
+        "FormulationType": "Capsule",
+        "PackageSize": "60 caps",
+        "Price": "₹240",
+        "MarketedIndications": [
+          "Stress relief",
+          "Energy booster"
+        ]
+      },
+      {
+        "BrandName": "Ashwagandha Churna",
+        "CompanyName": "Dabur",
+        "FormulationType": "Churna",
+        "PackageSize": "100 g",
+        "Price": "₹95",
+        "MarketedIndications": [
+          "Strength",
+          "Immunity"
+        ]
+      }
+    ]
+  },
+  {
+    "HerbName": "Shatavari",
+    "BotanicalName": "Asparagus racemosus",
+    "Rasa": [
+      "Madhura",
+      "Tikta"
+    ],
+    "Guna": [
+      "Guru",
+      "Snigdha"
+    ],
+    "Virya": "Sheeta",
+    "Vipaka": "Madhura",
+    "Karma": [
+      "Stanyajanana",
+      "Rasayana",
+      "Balya"
+    ],
+    "Prabhava": "Female tonic",
+    "PartsUsed": "Root",
+    "Dosage": "3–6 g churna / 1–2 capsules twice daily",
+    "Indications": [
+      "Infertility",
+      "Menopause",
+      "Weakness"
+    ],
+    "Uses": [
+      "Female reproductive health",
+      "Galactagogue"
+    ],
+    "Brands": [
+      {
+        "BrandName": "Shatavari",
+        "CompanyName": "Himalaya",
+        "FormulationType": "Capsule",
+        "PackageSize": "60 caps",
+        "Price": "₹260",
+        "MarketedIndications": [
+          "Female tonic",
+          "Lactation support"
+        ]
+      },
+      {
+        "BrandName": "Shatavari Kalpa",
+        "CompanyName": "Baidyanath",
+        "FormulationType": "Granules",
+        "PackageSize": "200 g",
+        "Price": "₹195",
+        "MarketedIndications": [
+          "Lactation",
+          "Strength"
+        ]
+      }
+    ]
+  },
+  {
+    "HerbName": "Amla",
+    "BotanicalName": "Botanical_3",
+    "Rasa": [
+      "Madhura"
+    ],
+    "Guna": [
+      "Laghu"
+    ],
+    "Virya": "Ushna",
+    "Vipaka": "Madhura",
+    "Karma": [
+      "Rasayana"
+    ],
+    "Prabhava": "Generic",
+    "PartsUsed": "Root",
+    "Dosage": "1–2 g / day",
+    "Indications": [
+      "General health"
+    ],
+    "Uses": [
+      "General tonic"
+    ],
+    "Brands": [
+      {
+        "BrandName": "Amla Brand1",
+        "CompanyName": "Himalaya",
+        "FormulationType": "Capsule",
+        "PackageSize": "60 caps",
+        "Price": "₹200",
+        "MarketedIndications": [
+          "General health"
+        ]
+      },
+      {
+        "BrandName": "Amla Brand2",
+        "CompanyName": "Dabur",
+        "FormulationType": "Churna",
+        "PackageSize": "100 g",
+        "Price": "₹120",
+        "MarketedIndications": [
+          "General health"
+        ]
+      }
+    ]
+  },
+  {
+    "HerbName": "Giloy",
+    "BotanicalName": "Botanical_4",
+    "Rasa": [
+      "Madhura"
+    ],
+    "Guna": [
+      "Laghu"
+    ],
+    "Virya": "Ushna",
+    "Vipaka": "Madhura",
+    "Karma": [
+      "Rasayana"
+    ],
+    "Prabhava": "Generic",
+    "PartsUsed": "Root",
+    "Dosage": "1–2 g / day",
+    "Indications": [
+      "General health"
+    ],
+    "Uses": [
+      "General tonic"
+    ],
+    "Brands": [
+      {
+        "BrandName": "Giloy Brand1",
+        "CompanyName": "Himalaya",
+        "FormulationType": "Capsule",
+        "PackageSize": "60 caps",
+        "Price": "₹200",
+        "MarketedIndications": [
+          "General health"
+        ]
+      },
+      {
+        "BrandName": "Giloy Brand2",
+        "CompanyName": "Dabur",
+        "FormulationType": "Churna",
+        "PackageSize": "100 g",
+        "Price": "₹120",
+        "MarketedIndications": [
+          "General health"
+        ]
+      }
+    ]
+  },
+  {
+    "HerbName": "Haritaki",
+    "BotanicalName": "Botanical_5",
+    "Rasa": [
+      "Madhura"
+    ],
+    "Guna": [
+      "Laghu"
+    ],
+    "Virya": "Ushna",
+    "Vipaka": "Madhura",
+    "Karma": [
+      "Rasayana"
+    ],
+    "Prabhava": "Generic",
+    "PartsUsed": "Root",
+    "Dosage": "1–2 g / day",
+    "Indications": [
+      "General health"
+    ],
+    "Uses": [
+      "General tonic"
+    ],
+    "Brands": [
+      {
+        "BrandName": "Haritaki Brand1",
+        "CompanyName": "Himalaya",
+        "FormulationType": "Capsule",
+        "PackageSize": "60 caps",
+        "Price": "₹200",
+        "MarketedIndications": [
+          "General health"
+        ]
+      },
+      {
+        "BrandName": "Haritaki Brand2",
+        "CompanyName": "Dabur",
+        "FormulationType": "Churna",
+        "PackageSize": "100 g",
+        "Price": "₹120",
+        "MarketedIndications": [
+          "General health"
+        ]
+      }
+    ]
+  },
+  {
+    "HerbName": "Bibhitaki",
+    "BotanicalName": "Botanical_6",
+    "Rasa": [
+      "Madhura"
+    ],
+    "Guna": [
+      "Laghu"
+    ],
+    "Virya": "Ushna",
+    "Vipaka": "Madhura",
+    "Karma": [
+      "Rasayana"
+    ],
+    "Prabhava": "Generic",
+    "PartsUsed": "Root",
+    "Dosage": "1–2 g / day",
+    "Indications": [
+      "General health"
+    ],
+    "Uses": [
+      "General tonic"
+    ],
+    "Brands": [
+      {
+        "BrandName": "Bibhitaki Brand1",
+        "CompanyName": "Himalaya",
+        "FormulationType": "Capsule",
+        "PackageSize": "60 caps",
+        "Price": "₹200",
+        "MarketedIndications": [
+          "General health"
+        ]
+      },
+      {
+        "BrandName": "Bibhitaki Brand2",
+        "CompanyName": "Dabur",
+        "FormulationType": "Churna",
+        "PackageSize": "100 g",
+        "Price": "₹120",
+        "MarketedIndications": [
+          "General health"
+        ]
+      }
+    ]
+  },
+  {
+    "HerbName": "Triphala",
+    "BotanicalName": "Botanical_7",
+    "Rasa": [
+      "Madhura"
+    ],
+    "Guna": [
+      "Laghu"
+    ],
+    "Virya": "Ushna",
+    "Vipaka": "Madhura",
+    "Karma": [
+      "Rasayana"
+    ],
+    "Prabhava": "Generic",
+    "PartsUsed": "Root",
+    "Dosage": "1–2 g / day",
+    "Indications": [
+      "General health"
+    ],
+    "Uses": [
+      "General tonic"
+    ],
+    "Brands": [
+      {
+        "BrandName": "Triphala Brand1",
+        "CompanyName": "Himalaya",
+        "FormulationType": "Capsule",
+        "PackageSize": "60 caps",
+        "Price": "₹200",
+        "MarketedIndications": [
+          "General health"
+        ]
+      },
+      {
+        "BrandName": "Triphala Brand2",
+        "CompanyName": "Dabur",
+        "FormulationType": "Churna",
+        "PackageSize": "100 g",
+        "Price": "₹120",
+        "MarketedIndications": [
+          "General health"
+        ]
+      }
+    ]
+  },
+  {
+    "HerbName": "Brahmi",
+    "BotanicalName": "Botanical_8",
+    "Rasa": [
+      "Madhura"
+    ],
+    "Guna": [
+      "Laghu"
+    ],
+    "Virya": "Ushna",
+    "Vipaka": "Madhura",
+    "Karma": [
+      "Rasayana"
+    ],
+    "Prabhava": "Generic",
+    "PartsUsed": "Root",
+    "Dosage": "1–2 g / day",
+    "Indications": [
+      "General health"
+    ],
+    "Uses": [
+      "General tonic"
+    ],
+    "Brands": [
+      {
+        "BrandName": "Brahmi Brand1",
+        "CompanyName": "Himalaya",
+        "FormulationType": "Capsule",
+        "PackageSize": "60 caps",
+        "Price": "₹200",
+        "MarketedIndications": [
+          "General health"
+        ]
+      },
+      {
+        "BrandName": "Brahmi Brand2",
+        "CompanyName": "Dabur",
+        "FormulationType": "Churna",
+        "PackageSize": "100 g",
+        "Price": "₹120",
+        "MarketedIndications": [
+          "General health"
+        ]
+      }
+    ]
+  },
+  {
+    "HerbName": "Jatamansi",
+    "BotanicalName": "Botanical_9",
+    "Rasa": [
+      "Madhura"
+    ],
+    "Guna": [
+      "Laghu"
+    ],
+    "Virya": "Ushna",
+    "Vipaka": "Madhura",
+    "Karma": [
+      "Rasayana"
+    ],
+    "Prabhava": "Generic",
+    "PartsUsed": "Root",
+    "Dosage": "1–2 g / day",
+    "Indications": [
+      "General health"
+    ],
+    "Uses": [
+      "General tonic"
+    ],
+    "Brands": [
+      {
+        "BrandName": "Jatamansi Brand1",
+        "CompanyName": "Himalaya",
+        "FormulationType": "Capsule",
+        "PackageSize": "60 caps",
+        "Price": "₹200",
+        "MarketedIndications": [
+          "General health"
+        ]
+      },
+      {
+        "BrandName": "Jatamansi Brand2",
+        "CompanyName": "Dabur",
+        "FormulationType": "Churna",
+        "PackageSize": "100 g",
+        "Price": "₹120",
+        "MarketedIndications": [
+          "General health"
+        ]
+      }
+    ]
+  },
+  {
+    "HerbName": "Arjuna",
+    "BotanicalName": "Botanical_10",
+    "Rasa": [
+      "Madhura"
+    ],
+    "Guna": [
+      "Laghu"
+    ],
+    "Virya": "Ushna",
+    "Vipaka": "Madhura",
+    "Karma": [
+      "Rasayana"
+    ],
+    "Prabhava": "Generic",
+    "PartsUsed": "Root",
+    "Dosage": "1–2 g / day",
+    "Indications": [
+      "General health"
+    ],
+    "Uses": [
+      "General tonic"
+    ],
+    "Brands": [
+      {
+        "BrandName": "Arjuna Brand1",
+        "CompanyName": "Himalaya",
+        "FormulationType": "Capsule",
+        "PackageSize": "60 caps",
+        "Price": "₹200",
+        "MarketedIndications": [
+          "General health"
+        ]
+      },
+      {
+        "BrandName": "Arjuna Brand2",
+        "CompanyName": "Dabur",
+        "FormulationType": "Churna",
+        "PackageSize": "100 g",
+        "Price": "₹120",
+        "MarketedIndications": [
+          "General health"
+        ]
+      }
+    ]
+  },
+  {
+    "HerbName": "Gokshura",
+    "BotanicalName": "Botanical_11",
+    "Rasa": [
+      "Madhura"
+    ],
+    "Guna": [
+      "Laghu"
+    ],
+    "Virya": "Ushna",
+    "Vipaka": "Madhura",
+    "Karma": [
+      "Rasayana"
+    ],
+    "Prabhava": "Generic",
+    "PartsUsed": "Root",
+    "Dosage": "1–2 g / day",
+    "Indications": [
+      "General health"
+    ],
+    "Uses": [
+      "General tonic"
+    ],
+    "Brands": [
+      {
+        "BrandName": "Gokshura Brand1",
+        "CompanyName": "Himalaya",
+        "FormulationType": "Capsule",
+        "PackageSize": "60 caps",
+        "Price": "₹200",
+        "MarketedIndications": [
+          "General health"
+        ]
+      },
+      {
+        "BrandName": "Gokshura Brand2",
+        "CompanyName": "Dabur",
+        "FormulationType": "Churna",
+        "PackageSize": "100 g",
+        "Price": "₹120",
+        "MarketedIndications": [
+          "General health"
+        ]
+      }
+    ]
+  },
+  {
+    "HerbName": "Punarnava",
+    "BotanicalName": "Botanical_12",
+    "Rasa": [
+      "Madhura"
+    ],
+    "Guna": [
+      "Laghu"
+    ],
+    "Virya": "Ushna",
+    "Vipaka": "Madhura",
+    "Karma": [
+      "Rasayana"
+    ],
+    "Prabhava": "Generic",
+    "PartsUsed": "Root",
+    "Dosage": "1–2 g / day",
+    "Indications": [
+      "General health"
+    ],
+    "Uses": [
+      "General tonic"
+    ],
+    "Brands": [
+      {
+        "BrandName": "Punarnava Brand1",
+        "CompanyName": "Himalaya",
+        "FormulationType": "Capsule",
+        "PackageSize": "60 caps",
+        "Price": "₹200",
+        "MarketedIndications": [
+          "General health"
+        ]
+      },
+      {
+        "BrandName": "Punarnava Brand2",
+        "CompanyName": "Dabur",
+        "FormulationType": "Churna",
+        "PackageSize": "100 g",
+        "Price": "₹120",
+        "MarketedIndications": [
+          "General health"
+        ]
+      }
+    ]
+  },
+  {
+    "HerbName": "Pippali",
+    "BotanicalName": "Botanical_13",
+    "Rasa": [
+      "Madhura"
+    ],
+    "Guna": [
+      "Laghu"
+    ],
+    "Virya": "Ushna",
+    "Vipaka": "Madhura",
+    "Karma": [
+      "Rasayana"
+    ],
+    "Prabhava": "Generic",
+    "PartsUsed": "Root",
+    "Dosage": "1–2 g / day",
+    "Indications": [
+      "General health"
+    ],
+    "Uses": [
+      "General tonic"
+    ],
+    "Brands": [
+      {
+        "BrandName": "Pippali Brand1",
+        "CompanyName": "Himalaya",
+        "FormulationType": "Capsule",
+        "PackageSize": "60 caps",
+        "Price": "₹200",
+        "MarketedIndications": [
+          "General health"
+        ]
+      },
+      {
+        "BrandName": "Pippali Brand2",
+        "CompanyName": "Dabur",
+        "FormulationType": "Churna",
+        "PackageSize": "100 g",
+        "Price": "₹120",
+        "MarketedIndications": [
+          "General health"
+        ]
+      }
+    ]
+  },
+  {
+    "HerbName": "Tulsi",
+    "BotanicalName": "Botanical_14",
+    "Rasa": [
+      "Madhura"
+    ],
+    "Guna": [
+      "Laghu"
+    ],
+    "Virya": "Ushna",
+    "Vipaka": "Madhura",
+    "Karma": [
+      "Rasayana"
+    ],
+    "Prabhava": "Generic",
+    "PartsUsed": "Root",
+    "Dosage": "1–2 g / day",
+    "Indications": [
+      "General health"
+    ],
+    "Uses": [
+      "General tonic"
+    ],
+    "Brands": [
+      {
+        "BrandName": "Tulsi Brand1",
+        "CompanyName": "Himalaya",
+        "FormulationType": "Capsule",
+        "PackageSize": "60 caps",
+        "Price": "₹200",
+        "MarketedIndications": [
+          "General health"
+        ]
+      },
+      {
+        "BrandName": "Tulsi Brand2",
+        "CompanyName": "Dabur",
+        "FormulationType": "Churna",
+        "PackageSize": "100 g",
+        "Price": "₹120",
+        "MarketedIndications": [
+          "General health"
+        ]
+      }
+    ]
+  },
+  {
+    "HerbName": "Neem",
+    "BotanicalName": "Botanical_15",
+    "Rasa": [
+      "Madhura"
+    ],
+    "Guna": [
+      "Laghu"
+    ],
+    "Virya": "Ushna",
+    "Vipaka": "Madhura",
+    "Karma": [
+      "Rasayana"
+    ],
+    "Prabhava": "Generic",
+    "PartsUsed": "Root",
+    "Dosage": "1–2 g / day",
+    "Indications": [
+      "General health"
+    ],
+    "Uses": [
+      "General tonic"
+    ],
+    "Brands": [
+      {
+        "BrandName": "Neem Brand1",
+        "CompanyName": "Himalaya",
+        "FormulationType": "Capsule",
+        "PackageSize": "60 caps",
+        "Price": "₹200",
+        "MarketedIndications": [
+          "General health"
+        ]
+      },
+      {
+        "BrandName": "Neem Brand2",
+        "CompanyName": "Dabur",
+        "FormulationType": "Churna",
+        "PackageSize": "100 g",
+        "Price": "₹120",
+        "MarketedIndications": [
+          "General health"
+        ]
+      }
+    ]
+  },
+  {
+    "HerbName": "Kalmegh",
+    "BotanicalName": "Botanical_16",
+    "Rasa": [
+      "Madhura"
+    ],
+    "Guna": [
+      "Laghu"
+    ],
+    "Virya": "Ushna",
+    "Vipaka": "Madhura",
+    "Karma": [
+      "Rasayana"
+    ],
+    "Prabhava": "Generic",
+    "PartsUsed": "Root",
+    "Dosage": "1–2 g / day",
+    "Indications": [
+      "General health"
+    ],
+    "Uses": [
+      "General tonic"
+    ],
+    "Brands": [
+      {
+        "BrandName": "Kalmegh Brand1",
+        "CompanyName": "Himalaya",
+        "FormulationType": "Capsule",
+        "PackageSize": "60 caps",
+        "Price": "₹200",
+        "MarketedIndications": [
+          "General health"
+        ]
+      },
+      {
+        "BrandName": "Kalmegh Brand2",
+        "CompanyName": "Dabur",
+        "FormulationType": "Churna",
+        "PackageSize": "100 g",
+        "Price": "₹120",
+        "MarketedIndications": [
+          "General health"
+        ]
+      }
+    ]
+  },
+  {
+    "HerbName": "Vidanga",
+    "BotanicalName": "Botanical_17",
+    "Rasa": [
+      "Madhura"
+    ],
+    "Guna": [
+      "Laghu"
+    ],
+    "Virya": "Ushna",
+    "Vipaka": "Madhura",
+    "Karma": [
+      "Rasayana"
+    ],
+    "Prabhava": "Generic",
+    "PartsUsed": "Root",
+    "Dosage": "1–2 g / day",
+    "Indications": [
+      "General health"
+    ],
+    "Uses": [
+      "General tonic"
+    ],
+    "Brands": [
+      {
+        "BrandName": "Vidanga Brand1",
+        "CompanyName": "Himalaya",
+        "FormulationType": "Capsule",
+        "PackageSize": "60 caps",
+        "Price": "₹200",
+        "MarketedIndications": [
+          "General health"
+        ]
+      },
+      {
+        "BrandName": "Vidanga Brand2",
+        "CompanyName": "Dabur",
+        "FormulationType": "Churna",
+        "PackageSize": "100 g",
+        "Price": "₹120",
+        "MarketedIndications": [
+          "General health"
+        ]
+      }
+    ]
+  },
+  {
+    "HerbName": "Manjistha",
+    "BotanicalName": "Botanical_18",
+    "Rasa": [
+      "Madhura"
+    ],
+    "Guna": [
+      "Laghu"
+    ],
+    "Virya": "Ushna",
+    "Vipaka": "Madhura",
+    "Karma": [
+      "Rasayana"
+    ],
+    "Prabhava": "Generic",
+    "PartsUsed": "Root",
+    "Dosage": "1–2 g / day",
+    "Indications": [
+      "General health"
+    ],
+    "Uses": [
+      "General tonic"
+    ],
+    "Brands": [
+      {
+        "BrandName": "Manjistha Brand1",
+        "CompanyName": "Himalaya",
+        "FormulationType": "Capsule",
+        "PackageSize": "60 caps",
+        "Price": "₹200",
+        "MarketedIndications": [
+          "General health"
+        ]
+      },
+      {
+        "BrandName": "Manjistha Brand2",
+        "CompanyName": "Dabur",
+        "FormulationType": "Churna",
+        "PackageSize": "100 g",
+        "Price": "₹120",
+        "MarketedIndications": [
+          "General health"
+        ]
+      }
+    ]
+  },
+  {
+    "HerbName": "Yashtimadhu",
+    "BotanicalName": "Botanical_19",
+    "Rasa": [
+      "Madhura"
+    ],
+    "Guna": [
+      "Laghu"
+    ],
+    "Virya": "Ushna",
+    "Vipaka": "Madhura",
+    "Karma": [
+      "Rasayana"
+    ],
+    "Prabhava": "Generic",
+    "PartsUsed": "Root",
+    "Dosage": "1–2 g / day",
+    "Indications": [
+      "General health"
+    ],
+    "Uses": [
+      "General tonic"
+    ],
+    "Brands": [
+      {
+        "BrandName": "Yashtimadhu Brand1",
+        "CompanyName": "Himalaya",
+        "FormulationType": "Capsule",
+        "PackageSize": "60 caps",
+        "Price": "₹200",
+        "MarketedIndications": [
+          "General health"
+        ]
+      },
+      {
+        "BrandName": "Yashtimadhu Brand2",
+        "CompanyName": "Dabur",
+        "FormulationType": "Churna",
+        "PackageSize": "100 g",
+        "Price": "₹120",
+        "MarketedIndications": [
+          "General health"
+        ]
+      }
+    ]
+  },
+  {
+    "HerbName": "Bhringraj",
+    "BotanicalName": "Botanical_20",
+    "Rasa": [
+      "Madhura"
+    ],
+    "Guna": [
+      "Laghu"
+    ],
+    "Virya": "Ushna",
+    "Vipaka": "Madhura",
+    "Karma": [
+      "Rasayana"
+    ],
+    "Prabhava": "Generic",
+    "PartsUsed": "Root",
+    "Dosage": "1–2 g / day",
+    "Indications": [
+      "General health"
+    ],
+    "Uses": [
+      "General tonic"
+    ],
+    "Brands": [
+      {
+        "BrandName": "Bhringraj Brand1",
+        "CompanyName": "Himalaya",
+        "FormulationType": "Capsule",
+        "PackageSize": "60 caps",
+        "Price": "₹200",
+        "MarketedIndications": [
+          "General health"
+        ]
+      },
+      {
+        "BrandName": "Bhringraj Brand2",
+        "CompanyName": "Dabur",
+        "FormulationType": "Churna",
+        "PackageSize": "100 g",
+        "Price": "₹120",
+        "MarketedIndications": [
+          "General health"
+        ]
+      }
+    ]
+  },
+  {
+    "HerbName": "Kutki",
+    "BotanicalName": "Botanical_21",
+    "Rasa": [
+      "Madhura"
+    ],
+    "Guna": [
+      "Laghu"
+    ],
+    "Virya": "Ushna",
+    "Vipaka": "Madhura",
+    "Karma": [
+      "Rasayana"
+    ],
+    "Prabhava": "Generic",
+    "PartsUsed": "Root",
+    "Dosage": "1–2 g / day",
+    "Indications": [
+      "General health"
+    ],
+    "Uses": [
+      "General tonic"
+    ],
+    "Brands": [
+      {
+        "BrandName": "Kutki Brand1",
+        "CompanyName": "Himalaya",
+        "FormulationType": "Capsule",
+        "PackageSize": "60 caps",
+        "Price": "₹200",
+        "MarketedIndications": [
+          "General health"
+        ]
+      },
+      {
+        "BrandName": "Kutki Brand2",
+        "CompanyName": "Dabur",
+        "FormulationType": "Churna",
+        "PackageSize": "100 g",
+        "Price": "₹120",
+        "MarketedIndications": [
+          "General health"
+        ]
+      }
+    ]
+  },
+  {
+    "HerbName": "Musta",
+    "BotanicalName": "Botanical_22",
+    "Rasa": [
+      "Madhura"
+    ],
+    "Guna": [
+      "Laghu"
+    ],
+    "Virya": "Ushna",
+    "Vipaka": "Madhura",
+    "Karma": [
+      "Rasayana"
+    ],
+    "Prabhava": "Generic",
+    "PartsUsed": "Root",
+    "Dosage": "1–2 g / day",
+    "Indications": [
+      "General health"
+    ],
+    "Uses": [
+      "General tonic"
+    ],
+    "Brands": [
+      {
+        "BrandName": "Musta Brand1",
+        "CompanyName": "Himalaya",
+        "FormulationType": "Capsule",
+        "PackageSize": "60 caps",
+        "Price": "₹200",
+        "MarketedIndications": [
+          "General health"
+        ]
+      },
+      {
+        "BrandName": "Musta Brand2",
+        "CompanyName": "Dabur",
+        "FormulationType": "Churna",
+        "PackageSize": "100 g",
+        "Price": "₹120",
+        "MarketedIndications": [
+          "General health"
+        ]
+      }
+    ]
+  },
+  {
+    "HerbName": "Guduchi",
+    "BotanicalName": "Botanical_23",
+    "Rasa": [
+      "Madhura"
+    ],
+    "Guna": [
+      "Laghu"
+    ],
+    "Virya": "Ushna",
+    "Vipaka": "Madhura",
+    "Karma": [
+      "Rasayana"
+    ],
+    "Prabhava": "Generic",
+    "PartsUsed": "Root",
+    "Dosage": "1–2 g / day",
+    "Indications": [
+      "General health"
+    ],
+    "Uses": [
+      "General tonic"
+    ],
+    "Brands": [
+      {
+        "BrandName": "Guduchi Brand1",
+        "CompanyName": "Himalaya",
+        "FormulationType": "Capsule",
+        "PackageSize": "60 caps",
+        "Price": "₹200",
+        "MarketedIndications": [
+          "General health"
+        ]
+      },
+      {
+        "BrandName": "Guduchi Brand2",
+        "CompanyName": "Dabur",
+        "FormulationType": "Churna",
+        "PackageSize": "100 g",
+        "Price": "₹120",
+        "MarketedIndications": [
+          "General health"
+        ]
+      }
+    ]
+  },
+  {
+    "HerbName": "Shankhapushpi",
+    "BotanicalName": "Botanical_24",
+    "Rasa": [
+      "Madhura"
+    ],
+    "Guna": [
+      "Laghu"
+    ],
+    "Virya": "Ushna",
+    "Vipaka": "Madhura",
+    "Karma": [
+      "Rasayana"
+    ],
+    "Prabhava": "Generic",
+    "PartsUsed": "Root",
+    "Dosage": "1–2 g / day",
+    "Indications": [
+      "General health"
+    ],
+    "Uses": [
+      "General tonic"
+    ],
+    "Brands": [
+      {
+        "BrandName": "Shankhapushpi Brand1",
+        "CompanyName": "Himalaya",
+        "FormulationType": "Capsule",
+        "PackageSize": "60 caps",
+        "Price": "₹200",
+        "MarketedIndications": [
+          "General health"
+        ]
+      },
+      {
+        "BrandName": "Shankhapushpi Brand2",
+        "CompanyName": "Dabur",
+        "FormulationType": "Churna",
+        "PackageSize": "100 g",
+        "Price": "₹120",
+        "MarketedIndications": [
+          "General health"
+        ]
+      }
+    ]
+  },
+  {
+    "HerbName": "Trikatu",
+    "BotanicalName": "Botanical_25",
+    "Rasa": [
+      "Madhura"
+    ],
+    "Guna": [
+      "Laghu"
+    ],
+    "Virya": "Ushna",
+    "Vipaka": "Madhura",
+    "Karma": [
+      "Rasayana"
+    ],
+    "Prabhava": "Generic",
+    "PartsUsed": "Root",
+    "Dosage": "1–2 g / day",
+    "Indications": [
+      "General health"
+    ],
+    "Uses": [
+      "General tonic"
+    ],
+    "Brands": [
+      {
+        "BrandName": "Trikatu Brand1",
+        "CompanyName": "Himalaya",
+        "FormulationType": "Capsule",
+        "PackageSize": "60 caps",
+        "Price": "₹200",
+        "MarketedIndications": [
+          "General health"
+        ]
+      },
+      {
+        "BrandName": "Trikatu Brand2",
+        "CompanyName": "Dabur",
+        "FormulationType": "Churna",
+        "PackageSize": "100 g",
+        "Price": "₹120",
+        "MarketedIndications": [
+          "General health"
+        ]
+      }
+    ]
+  },
+  {
+    "HerbName": "Ashoka",
+    "BotanicalName": "Botanical_26",
+    "Rasa": [
+      "Madhura"
+    ],
+    "Guna": [
+      "Laghu"
+    ],
+    "Virya": "Ushna",
+    "Vipaka": "Madhura",
+    "Karma": [
+      "Rasayana"
+    ],
+    "Prabhava": "Generic",
+    "PartsUsed": "Root",
+    "Dosage": "1–2 g / day",
+    "Indications": [
+      "General health"
+    ],
+    "Uses": [
+      "General tonic"
+    ],
+    "Brands": [
+      {
+        "BrandName": "Ashoka Brand1",
+        "CompanyName": "Himalaya",
+        "FormulationType": "Capsule",
+        "PackageSize": "60 caps",
+        "Price": "₹200",
+        "MarketedIndications": [
+          "General health"
+        ]
+      },
+      {
+        "BrandName": "Ashoka Brand2",
+        "CompanyName": "Dabur",
+        "FormulationType": "Churna",
+        "PackageSize": "100 g",
+        "Price": "₹120",
+        "MarketedIndications": [
+          "General health"
+        ]
+      }
+    ]
+  },
+  {
+    "HerbName": "Haridra",
+    "BotanicalName": "Botanical_27",
+    "Rasa": [
+      "Madhura"
+    ],
+    "Guna": [
+      "Laghu"
+    ],
+    "Virya": "Ushna",
+    "Vipaka": "Madhura",
+    "Karma": [
+      "Rasayana"
+    ],
+    "Prabhava": "Generic",
+    "PartsUsed": "Root",
+    "Dosage": "1–2 g / day",
+    "Indications": [
+      "General health"
+    ],
+    "Uses": [
+      "General tonic"
+    ],
+    "Brands": [
+      {
+        "BrandName": "Haridra Brand1",
+        "CompanyName": "Himalaya",
+        "FormulationType": "Capsule",
+        "PackageSize": "60 caps",
+        "Price": "₹200",
+        "MarketedIndications": [
+          "General health"
+        ]
+      },
+      {
+        "BrandName": "Haridra Brand2",
+        "CompanyName": "Dabur",
+        "FormulationType": "Churna",
+        "PackageSize": "100 g",
+        "Price": "₹120",
+        "MarketedIndications": [
+          "General health"
+        ]
+      }
+    ]
+  },
+  {
+    "HerbName": "Daruharidra",
+    "BotanicalName": "Botanical_28",
+    "Rasa": [
+      "Madhura"
+    ],
+    "Guna": [
+      "Laghu"
+    ],
+    "Virya": "Ushna",
+    "Vipaka": "Madhura",
+    "Karma": [
+      "Rasayana"
+    ],
+    "Prabhava": "Generic",
+    "PartsUsed": "Root",
+    "Dosage": "1–2 g / day",
+    "Indications": [
+      "General health"
+    ],
+    "Uses": [
+      "General tonic"
+    ],
+    "Brands": [
+      {
+        "BrandName": "Daruharidra Brand1",
+        "CompanyName": "Himalaya",
+        "FormulationType": "Capsule",
+        "PackageSize": "60 caps",
+        "Price": "₹200",
+        "MarketedIndications": [
+          "General health"
+        ]
+      },
+      {
+        "BrandName": "Daruharidra Brand2",
+        "CompanyName": "Dabur",
+        "FormulationType": "Churna",
+        "PackageSize": "100 g",
+        "Price": "₹120",
+        "MarketedIndications": [
+          "General health"
+        ]
+      }
+    ]
+  },
+  {
+    "HerbName": "Vidari",
+    "BotanicalName": "Botanical_29",
+    "Rasa": [
+      "Madhura"
+    ],
+    "Guna": [
+      "Laghu"
+    ],
+    "Virya": "Ushna",
+    "Vipaka": "Madhura",
+    "Karma": [
+      "Rasayana"
+    ],
+    "Prabhava": "Generic",
+    "PartsUsed": "Root",
+    "Dosage": "1–2 g / day",
+    "Indications": [
+      "General health"
+    ],
+    "Uses": [
+      "General tonic"
+    ],
+    "Brands": [
+      {
+        "BrandName": "Vidari Brand1",
+        "CompanyName": "Himalaya",
+        "FormulationType": "Capsule",
+        "PackageSize": "60 caps",
+        "Price": "₹200",
+        "MarketedIndications": [
+          "General health"
+        ]
+      },
+      {
+        "BrandName": "Vidari Brand2",
+        "CompanyName": "Dabur",
+        "FormulationType": "Churna",
+        "PackageSize": "100 g",
+        "Price": "₹120",
+        "MarketedIndications": [
+          "General health"
+        ]
+      }
+    ]
+  },
+  {
+    "HerbName": "Shilajit",
+    "BotanicalName": "Botanical_30",
+    "Rasa": [
+      "Madhura"
+    ],
+    "Guna": [
+      "Laghu"
+    ],
+    "Virya": "Ushna",
+    "Vipaka": "Madhura",
+    "Karma": [
+      "Rasayana"
+    ],
+    "Prabhava": "Generic",
+    "PartsUsed": "Root",
+    "Dosage": "1–2 g / day",
+    "Indications": [
+      "General health"
+    ],
+    "Uses": [
+      "General tonic"
+    ],
+    "Brands": [
+      {
+        "BrandName": "Shilajit Brand1",
+        "CompanyName": "Himalaya",
+        "FormulationType": "Capsule",
+        "PackageSize": "60 caps",
+        "Price": "₹200",
+        "MarketedIndications": [
+          "General health"
+        ]
+      },
+      {
+        "BrandName": "Shilajit Brand2",
+        "CompanyName": "Dabur",
+        "FormulationType": "Churna",
+        "PackageSize": "100 g",
+        "Price": "₹120",
+        "MarketedIndications": [
+          "General health"
+        ]
+      }
+    ]
+  },
+  {
+    "HerbName": "Lodhra",
+    "BotanicalName": "Botanical_31",
+    "Rasa": [
+      "Madhura"
+    ],
+    "Guna": [
+      "Laghu"
+    ],
+    "Virya": "Ushna",
+    "Vipaka": "Madhura",
+    "Karma": [
+      "Rasayana"
+    ],
+    "Prabhava": "Generic",
+    "PartsUsed": "Root",
+    "Dosage": "1–2 g / day",
+    "Indications": [
+      "General health"
+    ],
+    "Uses": [
+      "General tonic"
+    ],
+    "Brands": [
+      {
+        "BrandName": "Lodhra Brand1",
+        "CompanyName": "Himalaya",
+        "FormulationType": "Capsule",
+        "PackageSize": "60 caps",
+        "Price": "₹200",
+        "MarketedIndications": [
+          "General health"
+        ]
+      },
+      {
+        "BrandName": "Lodhra Brand2",
+        "CompanyName": "Dabur",
+        "FormulationType": "Churna",
+        "PackageSize": "100 g",
+        "Price": "₹120",
+        "MarketedIndications": [
+          "General health"
+        ]
+      }
+    ]
+  },
+  {
+    "HerbName": "Chandana",
+    "BotanicalName": "Botanical_32",
+    "Rasa": [
+      "Madhura"
+    ],
+    "Guna": [
+      "Laghu"
+    ],
+    "Virya": "Ushna",
+    "Vipaka": "Madhura",
+    "Karma": [
+      "Rasayana"
+    ],
+    "Prabhava": "Generic",
+    "PartsUsed": "Root",
+    "Dosage": "1–2 g / day",
+    "Indications": [
+      "General health"
+    ],
+    "Uses": [
+      "General tonic"
+    ],
+    "Brands": [
+      {
+        "BrandName": "Chandana Brand1",
+        "CompanyName": "Himalaya",
+        "FormulationType": "Capsule",
+        "PackageSize": "60 caps",
+        "Price": "₹200",
+        "MarketedIndications": [
+          "General health"
+        ]
+      },
+      {
+        "BrandName": "Chandana Brand2",
+        "CompanyName": "Dabur",
+        "FormulationType": "Churna",
+        "PackageSize": "100 g",
+        "Price": "₹120",
+        "MarketedIndications": [
+          "General health"
+        ]
+      }
+    ]
+  },
+  {
+    "HerbName": "Guggulu",
+    "BotanicalName": "Botanical_33",
+    "Rasa": [
+      "Madhura"
+    ],
+    "Guna": [
+      "Laghu"
+    ],
+    "Virya": "Ushna",
+    "Vipaka": "Madhura",
+    "Karma": [
+      "Rasayana"
+    ],
+    "Prabhava": "Generic",
+    "PartsUsed": "Root",
+    "Dosage": "1–2 g / day",
+    "Indications": [
+      "General health"
+    ],
+    "Uses": [
+      "General tonic"
+    ],
+    "Brands": [
+      {
+        "BrandName": "Guggulu Brand1",
+        "CompanyName": "Himalaya",
+        "FormulationType": "Capsule",
+        "PackageSize": "60 caps",
+        "Price": "₹200",
+        "MarketedIndications": [
+          "General health"
+        ]
+      },
+      {
+        "BrandName": "Guggulu Brand2",
+        "CompanyName": "Dabur",
+        "FormulationType": "Churna",
+        "PackageSize": "100 g",
+        "Price": "₹120",
+        "MarketedIndications": [
+          "General health"
+        ]
+      }
+    ]
+  },
+  {
+    "HerbName": "Rasna",
+    "BotanicalName": "Botanical_34",
+    "Rasa": [
+      "Madhura"
+    ],
+    "Guna": [
+      "Laghu"
+    ],
+    "Virya": "Ushna",
+    "Vipaka": "Madhura",
+    "Karma": [
+      "Rasayana"
+    ],
+    "Prabhava": "Generic",
+    "PartsUsed": "Root",
+    "Dosage": "1–2 g / day",
+    "Indications": [
+      "General health"
+    ],
+    "Uses": [
+      "General tonic"
+    ],
+    "Brands": [
+      {
+        "BrandName": "Rasna Brand1",
+        "CompanyName": "Himalaya",
+        "FormulationType": "Capsule",
+        "PackageSize": "60 caps",
+        "Price": "₹200",
+        "MarketedIndications": [
+          "General health"
+        ]
+      },
+      {
+        "BrandName": "Rasna Brand2",
+        "CompanyName": "Dabur",
+        "FormulationType": "Churna",
+        "PackageSize": "100 g",
+        "Price": "₹120",
+        "MarketedIndications": [
+          "General health"
+        ]
+      }
+    ]
+  },
+  {
+    "HerbName": "Bhallataka",
+    "BotanicalName": "Botanical_35",
+    "Rasa": [
+      "Madhura"
+    ],
+    "Guna": [
+      "Laghu"
+    ],
+    "Virya": "Ushna",
+    "Vipaka": "Madhura",
+    "Karma": [
+      "Rasayana"
+    ],
+    "Prabhava": "Generic",
+    "PartsUsed": "Root",
+    "Dosage": "1–2 g / day",
+    "Indications": [
+      "General health"
+    ],
+    "Uses": [
+      "General tonic"
+    ],
+    "Brands": [
+      {
+        "BrandName": "Bhallataka Brand1",
+        "CompanyName": "Himalaya",
+        "FormulationType": "Capsule",
+        "PackageSize": "60 caps",
+        "Price": "₹200",
+        "MarketedIndications": [
+          "General health"
+        ]
+      },
+      {
+        "BrandName": "Bhallataka Brand2",
+        "CompanyName": "Dabur",
+        "FormulationType": "Churna",
+        "PackageSize": "100 g",
+        "Price": "₹120",
+        "MarketedIndications": [
+          "General health"
+        ]
+      }
+    ]
+  },
+  {
+    "HerbName": "Karanja",
+    "BotanicalName": "Botanical_36",
+    "Rasa": [
+      "Madhura"
+    ],
+    "Guna": [
+      "Laghu"
+    ],
+    "Virya": "Ushna",
+    "Vipaka": "Madhura",
+    "Karma": [
+      "Rasayana"
+    ],
+    "Prabhava": "Generic",
+    "PartsUsed": "Root",
+    "Dosage": "1–2 g / day",
+    "Indications": [
+      "General health"
+    ],
+    "Uses": [
+      "General tonic"
+    ],
+    "Brands": [
+      {
+        "BrandName": "Karanja Brand1",
+        "CompanyName": "Himalaya",
+        "FormulationType": "Capsule",
+        "PackageSize": "60 caps",
+        "Price": "₹200",
+        "MarketedIndications": [
+          "General health"
+        ]
+      },
+      {
+        "BrandName": "Karanja Brand2",
+        "CompanyName": "Dabur",
+        "FormulationType": "Churna",
+        "PackageSize": "100 g",
+        "Price": "₹120",
+        "MarketedIndications": [
+          "General health"
+        ]
+      }
+    ]
+  },
+  {
+    "HerbName": "Arka",
+    "BotanicalName": "Botanical_37",
+    "Rasa": [
+      "Madhura"
+    ],
+    "Guna": [
+      "Laghu"
+    ],
+    "Virya": "Ushna",
+    "Vipaka": "Madhura",
+    "Karma": [
+      "Rasayana"
+    ],
+    "Prabhava": "Generic",
+    "PartsUsed": "Root",
+    "Dosage": "1–2 g / day",
+    "Indications": [
+      "General health"
+    ],
+    "Uses": [
+      "General tonic"
+    ],
+    "Brands": [
+      {
+        "BrandName": "Arka Brand1",
+        "CompanyName": "Himalaya",
+        "FormulationType": "Capsule",
+        "PackageSize": "60 caps",
+        "Price": "₹200",
+        "MarketedIndications": [
+          "General health"
+        ]
+      },
+      {
+        "BrandName": "Arka Brand2",
+        "CompanyName": "Dabur",
+        "FormulationType": "Churna",
+        "PackageSize": "100 g",
+        "Price": "₹120",
+        "MarketedIndications": [
+          "General health"
+        ]
+      }
+    ]
+  },
+  {
+    "HerbName": "Bhumi Amla",
+    "BotanicalName": "Botanical_38",
+    "Rasa": [
+      "Madhura"
+    ],
+    "Guna": [
+      "Laghu"
+    ],
+    "Virya": "Ushna",
+    "Vipaka": "Madhura",
+    "Karma": [
+      "Rasayana"
+    ],
+    "Prabhava": "Generic",
+    "PartsUsed": "Root",
+    "Dosage": "1–2 g / day",
+    "Indications": [
+      "General health"
+    ],
+    "Uses": [
+      "General tonic"
+    ],
+    "Brands": [
+      {
+        "BrandName": "Bhumi Amla Brand1",
+        "CompanyName": "Himalaya",
+        "FormulationType": "Capsule",
+        "PackageSize": "60 caps",
+        "Price": "₹200",
+        "MarketedIndications": [
+          "General health"
+        ]
+      },
+      {
+        "BrandName": "Bhumi Amla Brand2",
+        "CompanyName": "Dabur",
+        "FormulationType": "Churna",
+        "PackageSize": "100 g",
+        "Price": "₹120",
+        "MarketedIndications": [
+          "General health"
+        ]
+      }
+    ]
+  }
+]

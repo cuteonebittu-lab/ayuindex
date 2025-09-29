@@ -5,9 +5,11 @@ import { Formulation } from '../types/ayurveda';
 interface FormulationCardProps {
   formulation: Formulation;
   onClick: () => void;
+  onEdit: () => void;
+  onDelete: () => void;
 }
 
-const typeColors = {
+const typeColors: Record<Formulation['type'], string> = {
   churna: 'bg-yellow-100 text-yellow-800',
   vati: 'bg-green-100 text-green-800',
   ghrita: 'bg-orange-100 text-orange-800',
@@ -15,15 +17,48 @@ const typeColors = {
   asava: 'bg-red-100 text-red-800',
   arishta: 'bg-pink-100 text-pink-800',
   bhasma: 'bg-gray-100 text-gray-800',
-  rasa: 'bg-indigo-100 text-indigo-800'
+  rasa: 'bg-indigo-100 text-indigo-800',
+  kashaya: 'bg-cyan-100 text-cyan-800',
+  kadha: 'bg-lime-100 text-lime-800',
+  guggulu: 'bg-amber-100 text-amber-800',
+  avaleha: 'bg-rose-100 text-rose-800',
+  syrup: 'bg-teal-100 text-teal-800',
 };
 
-export function FormulationCard({ formulation, onClick }: FormulationCardProps) {
+export function FormulationCard({ formulation, onClick, onEdit, onDelete }: FormulationCardProps) {
+  const handleEditClick = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    onEdit();
+  };
+
+  const handleDeleteClick = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    onDelete();
+  };
+
   return (
     <div
       onClick={onClick}
-      className="bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md hover:border-emerald-200 transition-all duration-300 cursor-pointer group"
+      className="bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md hover:border-emerald-200 transition-all duration-300 cursor-pointer group relative"
     >
+      <div className="absolute top-4 right-4 flex gap-2 opacity-0 group-hover:opacity-100 transition-opacity">
+        <button
+          onClick={handleEditClick}
+          className="p-1.5 bg-gray-100 rounded-md hover:bg-gray-200 text-gray-600"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.5L15.232 5.232z" />
+          </svg>
+        </button>
+        <button
+          onClick={handleDeleteClick}
+          className="p-1.5 bg-red-50 rounded-md hover:bg-red-100 text-red-600"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+          </svg>
+        </button>
+      </div>
       <div className="flex items-start gap-4">
         <div className="w-12 h-12 bg-emerald-100 rounded-lg flex items-center justify-center group-hover:bg-emerald-200 transition-colors">
           <Beaker className="w-6 h-6 text-emerald-600" />

@@ -76,6 +76,9 @@ export type DosageForm = {
   liquid?: string;   // in ml
   oil?: string;      // in ml
   ghee?: string;     // in grams
+  decoction?: string; // in ml
+  juice?: string;    // in ml
+  extract?: string;  // in mg
 };
 
 // Extended Formulation interface with standardized fields
@@ -143,13 +146,51 @@ export interface Herb {
   guna: string[];
   virya: string;
   vipaka: string;
+  karma?: string[];
   prabhava?: string;
   indications: string[];
-  dosage: DosageForm;
-  anupana: string[];
-  contraindications: string[];
+  formsAndPackaging?: string[];
+  typicalDosage?: DosageForm;
+  anupana?: string[];
+  contraindications?: string[];
   image?: string;
-  brands?: Brand[];
+  brandsAndPrices?: {
+    brand: string;
+    sku_title: string;
+    pack_size: string;
+    price_inr: number;
+    retailer: string;
+    product_url: string;
+  }[];
+  sourceDocs?: {
+    type: string;
+    url: string;
+  }[];
+}
+
+export interface SingleHerbBrand {
+  BrandName: string;
+  CompanyName: string;
+  FormulationType: string;
+  PackageSize: string;
+  Price: string;
+  MarketedIndications: string[];
+}
+
+export interface SingleHerb {
+  HerbName: string;
+  BotanicalName: string;
+  Rasa: string[];
+  Guna: string[];
+  Virya: string;
+  Vipaka: string;
+  Karma: string[];
+  Prabhava: string;
+  PartsUsed: string;
+  Dosage: string;
+  Indications: string[];
+  Uses: string[];
+  Brands: SingleHerbBrand[];
 }
 
 export type SearchCategory = 'all' | 'herbs' | 'formulations';

@@ -37,6 +37,8 @@ validateUniqueFormulationIds({
   blood: bloodFormulations
 });
 
+import { singleHerbs } from './single-herbs';
+
 // Combine all formulations into a single array
 export const formulations: Formulation[] = [
   ...allFormulations,
@@ -46,3 +48,5 @@ export const formulations: Formulation[] = [
   ...musculoskeletalFormulations,
   ...bloodFormulations
 ];
+
+export { singleHerbs };

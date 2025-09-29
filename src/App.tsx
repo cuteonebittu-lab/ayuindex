@@ -10,16 +10,21 @@ import { FormulationCard } from './components/FormulationCard';
 import { HerbDetail } from './components/HerbDetail';
 import { FormulationDetail } from './components/FormulationDetail';
 import { useSearch } from './hooks/useSearch';
-import { herbs } from './data/herbs';
-import { formulations } from './data/index';
+import { herbs as herbsData } from './data/herbs';
+import { formulations as formulationsData } from './data/index';
 import { Herb, Formulation, FormulationType } from './types/ayurveda';
 import { FormulationSubcategoryPage } from './components/FormulationSubcategoryPage';
+import { AddForm } from './components/AddForm';
+import { EditForm } from './components/EditForm';
 
 function App() {
   const [showFilters, setShowFilters] = useState(false);
   const [selectedHerb, setSelectedHerb] = useState<Herb | null>(null);
   const [selectedFormulation, setSelectedFormulation] = useState<Formulation | null>(null);
+  const [editingItem, setEditingItem] = useState<Herb | Formulation | null>(null);
   const [selectedFormulationType, setSelectedFormulationType] = useState<string | null>(null);
+  const [herbs, setHerbs] = useState<Herb[]>(herbsData);
+  const [formulations, setFormulations] = useState<Formulation[]>(formulationsData);
 
   const {
     searchTerm,
@@ -53,6 +58,71 @@ function App() {
 
   const handleSubcategorySelect = (type: string) => {
     setSelectedFormulationType(type);
+  };
+
+  const handleEditHerb = (herb: Herb) => {
+    setEditingItem(herb);
+  };
+
+  const handleDeleteHerb = (herbToDelete: Herb) => {
+    setHerbs(herbs.filter(herb => herb.id !== herbToDelete.id));
+  };
+
+  const handleEditFormulation = (formulation: Formulation) => {
+    setEditingItem(formulation);
+  };
+
+  const handleDeleteFormulation = (formulationToDelete: Formulation) => {
+    setFormulations(formulations.filter(formulation => formulation.id !== formulationToDelete.id));
+  };
+
+  const handleAddHerb = (herb: Partial<Herb>) => {
+    const newHerb: Herb = {
+      id: `herb-${Date.now()}`,
+      name: herb.name || 'New Herb',
+      sanskritName: '',
+      botanicalName: '',
+      family: '',
+      parts: [],
+      rasa: [],
+      guna: [],
+      virya: '',
+      vipaka: '',
+      indications: [],
+    };
+    setHerbs([newHerb, ...herbs]);
+  };
+
+  const handleAddFormulation = (formulation: Partial<Formulation>) => {
+    const newFormulation: Formulation = {
+      id: `formulation-${Date.now()}`,
+      name: formulation.name || 'New Formulation',
+      sanskritName: '',
+      type: 'churna',
+      clinicalSystems: [],
+      indicationCategories: [],
+      traditionalCategories: [],
+      ingredients: [],
+      indications: [],
+      dosage: {
+        amount: '',
+        frequency: '',
+        duration: '',
+      },
+      anupana: [],
+      contraindications: [],
+      reference: '',
+    };
+    setFormulations([newFormulation, ...formulations]);
+  };
+
+  const handleSaveItem = (item: Herb | Formulation) => {
+    if ('botanicalName' in item) {
+      setHerbs(herbs.map(h => h.id === item.id ? item : h));
+    } else {
+      setFormulations(formulations.map(f => f.id === item.id ? item : f));
+    }
+    setEditingItem(null);
   };
 
   return (
@@ -91,6 +161,11 @@ function App() {
           setFilters={setFilters}
         />
 
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+          <AddForm onAdd={handleAddHerb} type="herb" />
+          <AddForm onAdd={handleAddFormulation} type="formulation" />
+        </div>
+
         {/* Results */}
         <div className="space-y-8">
           {/* Herbs Section */}
@@ -108,6 +183,8 @@ function App() {
                     key={herb.id}
                     herb={herb}
                     onClick={() => setSelectedHerb(herb)}
+                    onEdit={() => handleEditHerb(herb)}
+                    onDelete={() => handleDeleteHerb(herb)}
                   />
                 ))}
               </div>
@@ -140,6 +217,8 @@ function App() {
                           key={formulation.id}
                           formulation={formulation}
                           onClick={() => setSelectedFormulation(formulation)}
+                          onEdit={() => handleEditFormulation(formulation)}
+                          onDelete={() => handleDeleteFormulation(formulation)}
                         />
                       ))}
                     </div>
@@ -186,6 +265,12 @@ function App() {
           onFormulationSelect={setSelectedFormulation}
         />
       )}
+
+      <EditForm
+        item={editingItem}
+        onSave={handleSaveItem}
+        onClose={() => setEditingItem(null)}
+      />
     </div>
   );
 }
