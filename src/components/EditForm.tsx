@@ -185,14 +185,21 @@ export function EditForm({ item, onSave, onClose }: EditFormProps) {
                   </select>
                 </div>
                 <div>
-                  <label htmlFor="ingredients" className="block text-sm font-medium text-gray-700">Ingredients (comma separated)</label>
+                  <label htmlFor="ingredients" className="block text-sm font-medium text-gray-700">Ingredients (JSON format)</label>
                   <textarea
                     id="ingredients"
                     name="ingredients"
-                    rows={3}
-                    value={Array.isArray((formData as Partial<Formulation>).ingredients) ? (formData as Partial<Formulation>).ingredients?.join(', ') : ''}
-                    onChange={(e) => handleArrayChange('ingredients', e.target.value)}
-                    className="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-emerald-500 focus:border-emerald-500"
+                    rows={5}
+                    value={JSON.stringify((formData as Partial<Formulation>).ingredients || [], null, 2)}
+                    onChange={(e) => {
+                      try {
+                        const parsed = JSON.parse(e.target.value);
+                        setFormData(prev => ({ ...prev, ingredients: parsed }));
+                      } catch (error) {
+                        console.error("Invalid JSON for ingredients");
+                      }
+                    }}
+                    className="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-emerald-500 focus:border-emerald-500 font-mono text-sm"
                   />
                 </div>
                 <div>
