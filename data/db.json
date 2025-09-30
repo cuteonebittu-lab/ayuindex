@@ -1,33 +1,4068 @@
 {
-  "herbs": [],
-  "formulations": [],
-  "single-herbs": [],
-  "categories": {
-    "clinical-systems": {
-      "cardiovascular": [],
-      "digestive": [],
-      "endocrine": [],
-      "hematopoietic": [],
-      "immune": [],
-      "integumentary": [],
-      "musculoskeletal": [],
-      "nervous": [],
-      "reproductive": [],
-      "respiratory": [],
-      "urinary": []
+  "herbs": [
+    {
+      "id": "ashwagandha",
+      "name": "Ashwagandha",
+      "sanskritName": "Ashwagandha",
+      "botanicalName": "Withania somnifera",
+      "family": "",
+      "parts": [
+        "Root"
+      ],
+      "rasa": [
+        "Madhura",
+        "Tikta"
+      ],
+      "guna": [
+        "Laghu",
+        "Snigdha"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "karma": [
+        "Balya",
+        "Rasayana",
+        "Shukral"
+      ],
+      "prabhava": "Medhya",
+      "indications": [
+        "Stress",
+        "Anxiety",
+        "Debility",
+        "Insomnia"
+      ],
+      "typicalDosage": {
+        "powder": "3–6 g churna / 1–2 capsules twice daily"
+      },
+      "brandsAndPrices": [
+        {
+          "brand": "Ashwagandha",
+          "sku_title": "Himalaya Ashwagandha 60 caps",
+          "pack_size": "60 caps",
+          "price_inr": 240,
+          "retailer": "Himalaya",
+          "product_url": ""
+        },
+        {
+          "brand": "Ashwagandha Churna",
+          "sku_title": "Dabur Ashwagandha Churna 100 g",
+          "pack_size": "100 g",
+          "price_inr": 95,
+          "retailer": "Dabur",
+          "product_url": ""
+        }
+      ]
     },
-    "formulations": {
-      "arishtas": [],
-      "avalehas": [],
-      "bhasmas": [],
-      "churnas": [],
-      "ghritas": [],
-      "guggulus": [],
-      "kashayas": [],
-      "rasas": [],
-      "syrups": [],
-      "tailas": [],
-      "vatis": []
+    {
+      "id": "shatavari",
+      "name": "Shatavari",
+      "sanskritName": "Shatavari",
+      "botanicalName": "Asparagus racemosus",
+      "family": "",
+      "parts": [
+        "Root"
+      ],
+      "rasa": [
+        "Madhura",
+        "Tikta"
+      ],
+      "guna": [
+        "Guru",
+        "Snigdha"
+      ],
+      "virya": "Sheeta",
+      "vipaka": "Madhura",
+      "karma": [
+        "Stanyajanana",
+        "Rasayana",
+        "Balya"
+      ],
+      "prabhava": "Female tonic",
+      "indications": [
+        "Infertility",
+        "Menopause",
+        "Weakness"
+      ],
+      "typicalDosage": {
+        "powder": "3–6 g churna / 1–2 capsules twice daily"
+      },
+      "brandsAndPrices": [
+        {
+          "brand": "Shatavari",
+          "sku_title": "Himalaya Shatavari 60 caps",
+          "pack_size": "60 caps",
+          "price_inr": 260,
+          "retailer": "Himalaya",
+          "product_url": ""
+        },
+        {
+          "brand": "Shatavari Kalpa",
+          "sku_title": "Baidyanath Shatavari Kalpa 200 g",
+          "pack_size": "200 g",
+          "price_inr": 195,
+          "retailer": "Baidyanath",
+          "product_url": ""
+        }
+      ]
+    },
+    {
+      "id": "amla",
+      "name": "Amla",
+      "sanskritName": "Amla",
+      "botanicalName": "Botanical_3",
+      "family": "",
+      "parts": [
+        "Root"
+      ],
+      "rasa": [
+        "Madhura"
+      ],
+      "guna": [
+        "Laghu"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "karma": [
+        "Rasayana"
+      ],
+      "prabhava": "Generic",
+      "indications": [
+        "General health"
+      ],
+      "typicalDosage": {
+        "powder": "1–2 g / day"
+      },
+      "brandsAndPrices": [
+        {
+          "brand": "Amla Brand1",
+          "sku_title": "Himalaya Amla Brand1 60 caps",
+          "pack_size": "60 caps",
+          "price_inr": 200,
+          "retailer": "Himalaya",
+          "product_url": ""
+        },
+        {
+          "brand": "Amla Brand2",
+          "sku_title": "Dabur Amla Brand2 100 g",
+          "pack_size": "100 g",
+          "price_inr": 120,
+          "retailer": "Dabur",
+          "product_url": ""
+        }
+      ]
+    },
+    {
+      "id": "giloy",
+      "name": "Giloy",
+      "sanskritName": "Giloy",
+      "botanicalName": "Botanical_4",
+      "family": "",
+      "parts": [
+        "Root"
+      ],
+      "rasa": [
+        "Madhura"
+      ],
+      "guna": [
+        "Laghu"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "karma": [
+        "Rasayana"
+      ],
+      "prabhava": "Generic",
+      "indications": [
+        "General health"
+      ],
+      "typicalDosage": {
+        "powder": "1–2 g / day"
+      },
+      "brandsAndPrices": [
+        {
+          "brand": "Giloy Brand1",
+          "sku_title": "Himalaya Giloy Brand1 60 caps",
+          "pack_size": "60 caps",
+          "price_inr": 200,
+          "retailer": "Himalaya",
+          "product_url": ""
+        },
+        {
+          "brand": "Giloy Brand2",
+          "sku_title": "Dabur Giloy Brand2 100 g",
+          "pack_size": "100 g",
+          "price_inr": 120,
+          "retailer": "Dabur",
+          "product_url": ""
+        }
+      ]
+    },
+    {
+      "id": "haritaki",
+      "name": "Haritaki",
+      "sanskritName": "Haritaki",
+      "botanicalName": "Botanical_5",
+      "family": "",
+      "parts": [
+        "Root"
+      ],
+      "rasa": [
+        "Madhura"
+      ],
+      "guna": [
+        "Laghu"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "karma": [
+        "Rasayana"
+      ],
+      "prabhava": "Generic",
+      "indications": [
+        "General health"
+      ],
+      "typicalDosage": {
+        "powder": "1–2 g / day"
+      },
+      "brandsAndPrices": [
+        {
+          "brand": "Haritaki Brand1",
+          "sku_title": "Himalaya Haritaki Brand1 60 caps",
+          "pack_size": "60 caps",
+          "price_inr": 200,
+          "retailer": "Himalaya",
+          "product_url": ""
+        },
+        {
+          "brand": "Haritaki Brand2",
+          "sku_title": "Dabur Haritaki Brand2 100 g",
+          "pack_size": "100 g",
+          "price_inr": 120,
+          "retailer": "Dabur",
+          "product_url": ""
+        }
+      ]
+    },
+    {
+      "id": "bibhitaki",
+      "name": "Bibhitaki",
+      "sanskritName": "Bibhitaki",
+      "botanicalName": "Botanical_6",
+      "family": "",
+      "parts": [
+        "Root"
+      ],
+      "rasa": [
+        "Madhura"
+      ],
+      "guna": [
+        "Laghu"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "karma": [
+        "Rasayana"
+      ],
+      "prabhava": "Generic",
+      "indications": [
+        "General health"
+      ],
+      "typicalDosage": {
+        "powder": "1–2 g / day"
+      },
+      "brandsAndPrices": [
+        {
+          "brand": "Bibhitaki Brand1",
+          "sku_title": "Himalaya Bibhitaki Brand1 60 caps",
+          "pack_size": "60 caps",
+          "price_inr": 200,
+          "retailer": "Himalaya",
+          "product_url": ""
+        },
+        {
+          "brand": "Bibhitaki Brand2",
+          "sku_title": "Dabur Bibhitaki Brand2 100 g",
+          "pack_size": "100 g",
+          "price_inr": 120,
+          "retailer": "Dabur",
+          "product_url": ""
+        }
+      ]
+    },
+    {
+      "id": "triphala",
+      "name": "Triphala",
+      "sanskritName": "Triphala",
+      "botanicalName": "Botanical_7",
+      "family": "",
+      "parts": [
+        "Root"
+      ],
+      "rasa": [
+        "Madhura"
+      ],
+      "guna": [
+        "Laghu"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "karma": [
+        "Rasayana"
+      ],
+      "prabhava": "Generic",
+      "indications": [
+        "General health"
+      ],
+      "typicalDosage": {
+        "powder": "1–2 g / day"
+      },
+      "brandsAndPrices": [
+        {
+          "brand": "Triphala Brand1",
+          "sku_title": "Himalaya Triphala Brand1 60 caps",
+          "pack_size": "60 caps",
+          "price_inr": 200,
+          "retailer": "Himalaya",
+          "product_url": ""
+        },
+        {
+          "brand": "Triphala Brand2",
+          "sku_title": "Dabur Triphala Brand2 100 g",
+          "pack_size": "100 g",
+          "price_inr": 120,
+          "retailer": "Dabur",
+          "product_url": ""
+        }
+      ]
+    },
+    {
+      "id": "brahmi",
+      "name": "Brahmi",
+      "sanskritName": "Brahmi",
+      "botanicalName": "Botanical_8",
+      "family": "",
+      "parts": [
+        "Root"
+      ],
+      "rasa": [
+        "Madhura"
+      ],
+      "guna": [
+        "Laghu"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "karma": [
+        "Rasayana"
+      ],
+      "prabhava": "Generic",
+      "indications": [
+        "General health"
+      ],
+      "typicalDosage": {
+        "powder": "1–2 g / day"
+      },
+      "brandsAndPrices": [
+        {
+          "brand": "Brahmi Brand1",
+          "sku_title": "Himalaya Brahmi Brand1 60 caps",
+          "pack_size": "60 caps",
+          "price_inr": 200,
+          "retailer": "Himalaya",
+          "product_url": ""
+        },
+        {
+          "brand": "Brahmi Brand2",
+          "sku_title": "Dabur Brahmi Brand2 100 g",
+          "pack_size": "100 g",
+          "price_inr": 120,
+          "retailer": "Dabur",
+          "product_url": ""
+        }
+      ]
+    },
+    {
+      "id": "jatamansi",
+      "name": "Jatamansi",
+      "sanskritName": "Jatamansi",
+      "botanicalName": "Botanical_9",
+      "family": "",
+      "parts": [
+        "Root"
+      ],
+      "rasa": [
+        "Madhura"
+      ],
+      "guna": [
+        "Laghu"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "karma": [
+        "Rasayana"
+      ],
+      "prabhava": "Generic",
+      "indications": [
+        "General health"
+      ],
+      "typicalDosage": {
+        "powder": "1–2 g / day"
+      },
+      "brandsAndPrices": [
+        {
+          "brand": "Jatamansi Brand1",
+          "sku_title": "Himalaya Jatamansi Brand1 60 caps",
+          "pack_size": "60 caps",
+          "price_inr": 200,
+          "retailer": "Himalaya",
+          "product_url": ""
+        },
+        {
+          "brand": "Jatamansi Brand2",
+          "sku_title": "Dabur Jatamansi Brand2 100 g",
+          "pack_size": "100 g",
+          "price_inr": 120,
+          "retailer": "Dabur",
+          "product_url": ""
+        }
+      ]
+    },
+    {
+      "id": "arjuna",
+      "name": "Arjuna",
+      "sanskritName": "Arjuna",
+      "botanicalName": "Botanical_10",
+      "family": "",
+      "parts": [
+        "Root"
+      ],
+      "rasa": [
+        "Madhura"
+      ],
+      "guna": [
+        "Laghu"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "karma": [
+        "Rasayana"
+      ],
+      "prabhava": "Generic",
+      "indications": [
+        "General health"
+      ],
+      "typicalDosage": {
+        "powder": "1–2 g / day"
+      },
+      "brandsAndPrices": [
+        {
+          "brand": "Arjuna Brand1",
+          "sku_title": "Himalaya Arjuna Brand1 60 caps",
+          "pack_size": "60 caps",
+          "price_inr": 200,
+          "retailer": "Himalaya",
+          "product_url": ""
+        },
+        {
+          "brand": "Arjuna Brand2",
+          "sku_title": "Dabur Arjuna Brand2 100 g",
+          "pack_size": "100 g",
+          "price_inr": 120,
+          "retailer": "Dabur",
+          "product_url": ""
+        }
+      ]
+    },
+    {
+      "id": "gokshura",
+      "name": "Gokshura",
+      "sanskritName": "Gokshura",
+      "botanicalName": "Botanical_11",
+      "family": "",
+      "parts": [
+        "Root"
+      ],
+      "rasa": [
+        "Madhura"
+      ],
+      "guna": [
+        "Laghu"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "karma": [
+        "Rasayana"
+      ],
+      "prabhava": "Generic",
+      "indications": [
+        "General health"
+      ],
+      "typicalDosage": {
+        "powder": "1–2 g / day"
+      },
+      "brandsAndPrices": [
+        {
+          "brand": "Gokshura Brand1",
+          "sku_title": "Himalaya Gokshura Brand1 60 caps",
+          "pack_size": "60 caps",
+          "price_inr": 200,
+          "retailer": "Himalaya",
+          "product_url": ""
+        },
+        {
+          "brand": "Gokshura Brand2",
+          "sku_title": "Dabur Gokshura Brand2 100 g",
+          "pack_size": "100 g",
+          "price_inr": 120,
+          "retailer": "Dabur",
+          "product_url": ""
+        }
+      ]
+    },
+    {
+      "id": "punarnava",
+      "name": "Punarnava",
+      "sanskritName": "Punarnava",
+      "botanicalName": "Botanical_12",
+      "family": "",
+      "parts": [
+        "Root"
+      ],
+      "rasa": [
+        "Madhura"
+      ],
+      "guna": [
+        "Laghu"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "karma": [
+        "Rasayana"
+      ],
+      "prabhava": "Generic",
+      "indications": [
+        "General health"
+      ],
+      "typicalDosage": {
+        "powder": "1–2 g / day"
+      },
+      "brandsAndPrices": [
+        {
+          "brand": "Punarnava Brand1",
+          "sku_title": "Himalaya Punarnava Brand1 60 caps",
+          "pack_size": "60 caps",
+          "price_inr": 200,
+          "retailer": "Himalaya",
+          "product_url": ""
+        },
+        {
+          "brand": "Punarnava Brand2",
+          "sku_title": "Dabur Punarnava Brand2 100 g",
+          "pack_size": "100 g",
+          "price_inr": 120,
+          "retailer": "Dabur",
+          "product_url": ""
+        }
+      ]
+    },
+    {
+      "id": "pippali",
+      "name": "Pippali",
+      "sanskritName": "Pippali",
+      "botanicalName": "Botanical_13",
+      "family": "",
+      "parts": [
+        "Root"
+      ],
+      "rasa": [
+        "Madhura"
+      ],
+      "guna": [
+        "Laghu"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "karma": [
+        "Rasayana"
+      ],
+      "prabhava": "Generic",
+      "indications": [
+        "General health"
+      ],
+      "typicalDosage": {
+        "powder": "1–2 g / day"
+      },
+      "brandsAndPrices": [
+        {
+          "brand": "Pippali Brand1",
+          "sku_title": "Himalaya Pippali Brand1 60 caps",
+          "pack_size": "60 caps",
+          "price_inr": 200,
+          "retailer": "Himalaya",
+          "product_url": ""
+        },
+        {
+          "brand": "Pippali Brand2",
+          "sku_title": "Dabur Pippali Brand2 100 g",
+          "pack_size": "100 g",
+          "price_inr": 120,
+          "retailer": "Dabur",
+          "product_url": ""
+        }
+      ]
+    },
+    {
+      "id": "tulsi",
+      "name": "Tulsi",
+      "sanskritName": "Tulsi",
+      "botanicalName": "Botanical_14",
+      "family": "",
+      "parts": [
+        "Root"
+      ],
+      "rasa": [
+        "Madhura"
+      ],
+      "guna": [
+        "Laghu"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "karma": [
+        "Rasayana"
+      ],
+      "prabhava": "Generic",
+      "indications": [
+        "General health"
+      ],
+      "typicalDosage": {
+        "powder": "1–2 g / day"
+      },
+      "brandsAndPrices": [
+        {
+          "brand": "Tulsi Brand1",
+          "sku_title": "Himalaya Tulsi Brand1 60 caps",
+          "pack_size": "60 caps",
+          "price_inr": 200,
+          "retailer": "Himalaya",
+          "product_url": ""
+        },
+        {
+          "brand": "Tulsi Brand2",
+          "sku_title": "Dabur Tulsi Brand2 100 g",
+          "pack_size": "100 g",
+          "price_inr": 120,
+          "retailer": "Dabur",
+          "product_url": ""
+        }
+      ]
+    },
+    {
+      "id": "neem",
+      "name": "Neem",
+      "sanskritName": "Neem",
+      "botanicalName": "Botanical_15",
+      "family": "",
+      "parts": [
+        "Root"
+      ],
+      "rasa": [
+        "Madhura"
+      ],
+      "guna": [
+        "Laghu"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "karma": [
+        "Rasayana"
+      ],
+      "prabhava": "Generic",
+      "indications": [
+        "General health"
+      ],
+      "typicalDosage": {
+        "powder": "1–2 g / day"
+      },
+      "brandsAndPrices": [
+        {
+          "brand": "Neem Brand1",
+          "sku_title": "Himalaya Neem Brand1 60 caps",
+          "pack_size": "60 caps",
+          "price_inr": 200,
+          "retailer": "Himalaya",
+          "product_url": ""
+        },
+        {
+          "brand": "Neem Brand2",
+          "sku_title": "Dabur Neem Brand2 100 g",
+          "pack_size": "100 g",
+          "price_inr": 120,
+          "retailer": "Dabur",
+          "product_url": ""
+        }
+      ]
+    },
+    {
+      "id": "kalmegh",
+      "name": "Kalmegh",
+      "sanskritName": "Kalmegh",
+      "botanicalName": "Botanical_16",
+      "family": "",
+      "parts": [
+        "Root"
+      ],
+      "rasa": [
+        "Madhura"
+      ],
+      "guna": [
+        "Laghu"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "karma": [
+        "Rasayana"
+      ],
+      "prabhava": "Generic",
+      "indications": [
+        "General health"
+      ],
+      "typicalDosage": {
+        "powder": "1–2 g / day"
+      },
+      "brandsAndPrices": [
+        {
+          "brand": "Kalmegh Brand1",
+          "sku_title": "Himalaya Kalmegh Brand1 60 caps",
+          "pack_size": "60 caps",
+          "price_inr": 200,
+          "retailer": "Himalaya",
+          "product_url": ""
+        },
+        {
+          "brand": "Kalmegh Brand2",
+          "sku_title": "Dabur Kalmegh Brand2 100 g",
+          "pack_size": "100 g",
+          "price_inr": 120,
+          "retailer": "Dabur",
+          "product_url": ""
+        }
+      ]
+    },
+    {
+      "id": "vidanga",
+      "name": "Vidanga",
+      "sanskritName": "Vidanga",
+      "botanicalName": "Botanical_17",
+      "family": "",
+      "parts": [
+        "Root"
+      ],
+      "rasa": [
+        "Madhura"
+      ],
+      "guna": [
+        "Laghu"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "karma": [
+        "Rasayana"
+      ],
+      "prabhava": "Generic",
+      "indications": [
+        "General health"
+      ],
+      "typicalDosage": {
+        "powder": "1–2 g / day"
+      },
+      "brandsAndPrices": [
+        {
+          "brand": "Vidanga Brand1",
+          "sku_title": "Himalaya Vidanga Brand1 60 caps",
+          "pack_size": "60 caps",
+          "price_inr": 200,
+          "retailer": "Himalaya",
+          "product_url": ""
+        },
+        {
+          "brand": "Vidanga Brand2",
+          "sku_title": "Dabur Vidanga Brand2 100 g",
+          "pack_size": "100 g",
+          "price_inr": 120,
+          "retailer": "Dabur",
+          "product_url": ""
+        }
+      ]
+    },
+    {
+      "id": "manjistha",
+      "name": "Manjistha",
+      "sanskritName": "Manjistha",
+      "botanicalName": "Botanical_18",
+      "family": "",
+      "parts": [
+        "Root"
+      ],
+      "rasa": [
+        "Madhura"
+      ],
+      "guna": [
+        "Laghu"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "karma": [
+        "Rasayana"
+      ],
+      "prabhava": "Generic",
+      "indications": [
+        "General health"
+      ],
+      "typicalDosage": {
+        "powder": "1–2 g / day"
+      },
+      "brandsAndPrices": [
+        {
+          "brand": "Manjistha Brand1",
+          "sku_title": "Himalaya Manjistha Brand1 60 caps",
+          "pack_size": "60 caps",
+          "price_inr": 200,
+          "retailer": "Himalaya",
+          "product_url": ""
+        },
+        {
+          "brand": "Manjistha Brand2",
+          "sku_title": "Dabur Manjistha Brand2 100 g",
+          "pack_size": "100 g",
+          "price_inr": 120,
+          "retailer": "Dabur",
+          "product_url": ""
+        }
+      ]
+    },
+    {
+      "id": "yashtimadhu",
+      "name": "Yashtimadhu",
+      "sanskritName": "Yashtimadhu",
+      "botanicalName": "Botanical_19",
+      "family": "",
+      "parts": [
+        "Root"
+      ],
+      "rasa": [
+        "Madhura"
+      ],
+      "guna": [
+        "Laghu"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "karma": [
+        "Rasayana"
+      ],
+      "prabhava": "Generic",
+      "indications": [
+        "General health"
+      ],
+      "typicalDosage": {
+        "powder": "1–2 g / day"
+      },
+      "brandsAndPrices": [
+        {
+          "brand": "Yashtimadhu Brand1",
+          "sku_title": "Himalaya Yashtimadhu Brand1 60 caps",
+          "pack_size": "60 caps",
+          "price_inr": 200,
+          "retailer": "Himalaya",
+          "product_url": ""
+        },
+        {
+          "brand": "Yashtimadhu Brand2",
+          "sku_title": "Dabur Yashtimadhu Brand2 100 g",
+          "pack_size": "100 g",
+          "price_inr": 120,
+          "retailer": "Dabur",
+          "product_url": ""
+        }
+      ]
+    },
+    {
+      "id": "bhringraj",
+      "name": "Bhringraj",
+      "sanskritName": "Bhringraj",
+      "botanicalName": "Botanical_20",
+      "family": "",
+      "parts": [
+        "Root"
+      ],
+      "rasa": [
+        "Madhura"
+      ],
+      "guna": [
+        "Laghu"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "karma": [
+        "Rasayana"
+      ],
+      "prabhava": "Generic",
+      "indications": [
+        "General health"
+      ],
+      "typicalDosage": {
+        "powder": "1–2 g / day"
+      },
+      "brandsAndPrices": [
+        {
+          "brand": "Bhringraj Brand1",
+          "sku_title": "Himalaya Bhringraj Brand1 60 caps",
+          "pack_size": "60 caps",
+          "price_inr": 200,
+          "retailer": "Himalaya",
+          "product_url": ""
+        },
+        {
+          "brand": "Bhringraj Brand2",
+          "sku_title": "Dabur Bhringraj Brand2 100 g",
+          "pack_size": "100 g",
+          "price_inr": 120,
+          "retailer": "Dabur",
+          "product_url": ""
+        }
+      ]
+    },
+    {
+      "id": "kutki",
+      "name": "Kutki",
+      "sanskritName": "Kutki",
+      "botanicalName": "Botanical_21",
+      "family": "",
+      "parts": [
+        "Root"
+      ],
+      "rasa": [
+        "Madhura"
+      ],
+      "guna": [
+        "Laghu"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "karma": [
+        "Rasayana"
+      ],
+      "prabhava": "Generic",
+      "indications": [
+        "General health"
+      ],
+      "typicalDosage": {
+        "powder": "1–2 g / day"
+      },
+      "brandsAndPrices": [
+        {
+          "brand": "Kutki Brand1",
+          "sku_title": "Himalaya Kutki Brand1 60 caps",
+          "pack_size": "60 caps",
+          "price_inr": 200,
+          "retailer": "Himalaya",
+          "product_url": ""
+        },
+        {
+          "brand": "Kutki Brand2",
+          "sku_title": "Dabur Kutki Brand2 100 g",
+          "pack_size": "100 g",
+          "price_inr": 120,
+          "retailer": "Dabur",
+          "product_url": ""
+        }
+      ]
+    },
+    {
+      "id": "musta",
+      "name": "Musta",
+      "sanskritName": "Musta",
+      "botanicalName": "Botanical_22",
+      "family": "",
+      "parts": [
+        "Root"
+      ],
+      "rasa": [
+        "Madhura"
+      ],
+      "guna": [
+        "Laghu"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "karma": [
+        "Rasayana"
+      ],
+      "prabhava": "Generic",
+      "indications": [
+        "General health"
+      ],
+      "typicalDosage": {
+        "powder": "1–2 g / day"
+      },
+      "brandsAndPrices": [
+        {
+          "brand": "Musta Brand1",
+          "sku_title": "Himalaya Musta Brand1 60 caps",
+          "pack_size": "60 caps",
+          "price_inr": 200,
+          "retailer": "Himalaya",
+          "product_url": ""
+        },
+        {
+          "brand": "Musta Brand2",
+          "sku_title": "Dabur Musta Brand2 100 g",
+          "pack_size": "100 g",
+          "price_inr": 120,
+          "retailer": "Dabur",
+          "product_url": ""
+        }
+      ]
+    },
+    {
+      "id": "guduchi",
+      "name": "Guduchi",
+      "sanskritName": "Guduchi",
+      "botanicalName": "Botanical_23",
+      "family": "",
+      "parts": [
+        "Root"
+      ],
+      "rasa": [
+        "Madhura"
+      ],
+      "guna": [
+        "Laghu"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "karma": [
+        "Rasayana"
+      ],
+      "prabhava": "Generic",
+      "indications": [
+        "General health"
+      ],
+      "typicalDosage": {
+        "powder": "1–2 g / day"
+      },
+      "brandsAndPrices": [
+        {
+          "brand": "Guduchi Brand1",
+          "sku_title": "Himalaya Guduchi Brand1 60 caps",
+          "pack_size": "60 caps",
+          "price_inr": 200,
+          "retailer": "Himalaya",
+          "product_url": ""
+        },
+        {
+          "brand": "Guduchi Brand2",
+          "sku_title": "Dabur Guduchi Brand2 100 g",
+          "pack_size": "100 g",
+          "price_inr": 120,
+          "retailer": "Dabur",
+          "product_url": ""
+        }
+      ]
+    },
+    {
+      "id": "shankhapushpi",
+      "name": "Shankhapushpi",
+      "sanskritName": "Shankhapushpi",
+      "botanicalName": "Botanical_24",
+      "family": "",
+      "parts": [
+        "Root"
+      ],
+      "rasa": [
+        "Madhura"
+      ],
+      "guna": [
+        "Laghu"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "karma": [
+        "Rasayana"
+      ],
+      "prabhava": "Generic",
+      "indications": [
+        "General health"
+      ],
+      "typicalDosage": {
+        "powder": "1–2 g / day"
+      },
+      "brandsAndPrices": [
+        {
+          "brand": "Shankhapushpi Brand1",
+          "sku_title": "Himalaya Shankhapushpi Brand1 60 caps",
+          "pack_size": "60 caps",
+          "price_inr": 200,
+          "retailer": "Himalaya",
+          "product_url": ""
+        },
+        {
+          "brand": "Shankhapushpi Brand2",
+          "sku_title": "Dabur Shankhapushpi Brand2 100 g",
+          "pack_size": "100 g",
+          "price_inr": 120,
+          "retailer": "Dabur",
+          "product_url": ""
+        }
+      ]
+    },
+    {
+      "id": "trikatu",
+      "name": "Trikatu",
+      "sanskritName": "Trikatu",
+      "botanicalName": "Botanical_25",
+      "family": "",
+      "parts": [
+        "Root"
+      ],
+      "rasa": [
+        "Madhura"
+      ],
+      "guna": [
+        "Laghu"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "karma": [
+        "Rasayana"
+      ],
+      "prabhava": "Generic",
+      "indications": [
+        "General health"
+      ],
+      "typicalDosage": {
+        "powder": "1–2 g / day"
+      },
+      "brandsAndPrices": [
+        {
+          "brand": "Trikatu Brand1",
+          "sku_title": "Himalaya Trikatu Brand1 60 caps",
+          "pack_size": "60 caps",
+          "price_inr": 200,
+          "retailer": "Himalaya",
+          "product_url": ""
+        },
+        {
+          "brand": "Trikatu Brand2",
+          "sku_title": "Dabur Trikatu Brand2 100 g",
+          "pack_size": "100 g",
+          "price_inr": 120,
+          "retailer": "Dabur",
+          "product_url": ""
+        }
+      ]
+    },
+    {
+      "id": "ashoka",
+      "name": "Ashoka",
+      "sanskritName": "Ashoka",
+      "botanicalName": "Botanical_26",
+      "family": "",
+      "parts": [
+        "Root"
+      ],
+      "rasa": [
+        "Madhura"
+      ],
+      "guna": [
+        "Laghu"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "karma": [
+        "Rasayana"
+      ],
+      "prabhava": "Generic",
+      "indications": [
+        "General health"
+      ],
+      "typicalDosage": {
+        "powder": "1–2 g / day"
+      },
+      "brandsAndPrices": [
+        {
+          "brand": "Ashoka Brand1",
+          "sku_title": "Himalaya Ashoka Brand1 60 caps",
+          "pack_size": "60 caps",
+          "price_inr": 200,
+          "retailer": "Himalaya",
+          "product_url": ""
+        },
+        {
+          "brand": "Ashoka Brand2",
+          "sku_title": "Dabur Ashoka Brand2 100 g",
+          "pack_size": "100 g",
+          "price_inr": 120,
+          "retailer": "Dabur",
+          "product_url": ""
+        }
+      ]
+    },
+    {
+      "id": "haridra",
+      "name": "Haridra",
+      "sanskritName": "Haridra",
+      "botanicalName": "Botanical_27",
+      "family": "",
+      "parts": [
+        "Root"
+      ],
+      "rasa": [
+        "Madhura"
+      ],
+      "guna": [
+        "Laghu"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "karma": [
+        "Rasayana"
+      ],
+      "prabhava": "Generic",
+      "indications": [
+        "General health"
+      ],
+      "typicalDosage": {
+        "powder": "1–2 g / day"
+      },
+      "brandsAndPrices": [
+        {
+          "brand": "Haridra Brand1",
+          "sku_title": "Himalaya Haridra Brand1 60 caps",
+          "pack_size": "60 caps",
+          "price_inr": 200,
+          "retailer": "Himalaya",
+          "product_url": ""
+        },
+        {
+          "brand": "Haridra Brand2",
+          "sku_title": "Dabur Haridra Brand2 100 g",
+          "pack_size": "100 g",
+          "price_inr": 120,
+          "retailer": "Dabur",
+          "product_url": ""
+        }
+      ]
+    },
+    {
+      "id": "daruharidra",
+      "name": "Daruharidra",
+      "sanskritName": "Daruharidra",
+      "botanicalName": "Botanical_28",
+      "family": "",
+      "parts": [
+        "Root"
+      ],
+      "rasa": [
+        "Madhura"
+      ],
+      "guna": [
+        "Laghu"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "karma": [
+        "Rasayana"
+      ],
+      "prabhava": "Generic",
+      "indications": [
+        "General health"
+      ],
+      "typicalDosage": {
+        "powder": "1–2 g / day"
+      },
+      "brandsAndPrices": [
+        {
+          "brand": "Daruharidra Brand1",
+          "sku_title": "Himalaya Daruharidra Brand1 60 caps",
+          "pack_size": "60 caps",
+          "price_inr": 200,
+          "retailer": "Himalaya",
+          "product_url": ""
+        },
+        {
+          "brand": "Daruharidra Brand2",
+          "sku_title": "Dabur Daruharidra Brand2 100 g",
+          "pack_size": "100 g",
+          "price_inr": 120,
+          "retailer": "Dabur",
+          "product_url": ""
+        }
+      ]
+    },
+    {
+      "id": "vidari",
+      "name": "Vidari",
+      "sanskritName": "Vidari",
+      "botanicalName": "Botanical_29",
+      "family": "",
+      "parts": [
+        "Root"
+      ],
+      "rasa": [
+        "Madhura"
+      ],
+      "guna": [
+        "Laghu"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "karma": [
+        "Rasayana"
+      ],
+      "prabhava": "Generic",
+      "indications": [
+        "General health"
+      ],
+      "typicalDosage": {
+        "powder": "1–2 g / day"
+      },
+      "brandsAndPrices": [
+        {
+          "brand": "Vidari Brand1",
+          "sku_title": "Himalaya Vidari Brand1 60 caps",
+          "pack_size": "60 caps",
+          "price_inr": 200,
+          "retailer": "Himalaya",
+          "product_url": ""
+        },
+        {
+          "brand": "Vidari Brand2",
+          "sku_title": "Dabur Vidari Brand2 100 g",
+          "pack_size": "100 g",
+          "price_inr": 120,
+          "retailer": "Dabur",
+          "product_url": ""
+        }
+      ]
+    },
+    {
+      "id": "shilajit",
+      "name": "Shilajit",
+      "sanskritName": "Shilajit",
+      "botanicalName": "Botanical_30",
+      "family": "",
+      "parts": [
+        "Root"
+      ],
+      "rasa": [
+        "Madhura"
+      ],
+      "guna": [
+        "Laghu"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "karma": [
+        "Rasayana"
+      ],
+      "prabhava": "Generic",
+      "indications": [
+        "General health"
+      ],
+      "typicalDosage": {
+        "powder": "1–2 g / day"
+      },
+      "brandsAndPrices": [
+        {
+          "brand": "Shilajit Brand1",
+          "sku_title": "Himalaya Shilajit Brand1 60 caps",
+          "pack_size": "60 caps",
+          "price_inr": 200,
+          "retailer": "Himalaya",
+          "product_url": ""
+        },
+        {
+          "brand": "Shilajit Brand2",
+          "sku_title": "Dabur Shilajit Brand2 100 g",
+          "pack_size": "100 g",
+          "price_inr": 120,
+          "retailer": "Dabur",
+          "product_url": ""
+        }
+      ]
+    },
+    {
+      "id": "lodhra",
+      "name": "Lodhra",
+      "sanskritName": "Lodhra",
+      "botanicalName": "Botanical_31",
+      "family": "",
+      "parts": [
+        "Root"
+      ],
+      "rasa": [
+        "Madhura"
+      ],
+      "guna": [
+        "Laghu"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "karma": [
+        "Rasayana"
+      ],
+      "prabhava": "Generic",
+      "indications": [
+        "General health"
+      ],
+      "typicalDosage": {
+        "powder": "1–2 g / day"
+      },
+      "brandsAndPrices": [
+        {
+          "brand": "Lodhra Brand1",
+          "sku_title": "Himalaya Lodhra Brand1 60 caps",
+          "pack_size": "60 caps",
+          "price_inr": 200,
+          "retailer": "Himalaya",
+          "product_url": ""
+        },
+        {
+          "brand": "Lodhra Brand2",
+          "sku_title": "Dabur Lodhra Brand2 100 g",
+          "pack_size": "100 g",
+          "price_inr": 120,
+          "retailer": "Dabur",
+          "product_url": ""
+        }
+      ]
+    },
+    {
+      "id": "chandana",
+      "name": "Chandana",
+      "sanskritName": "Chandana",
+      "botanicalName": "Botanical_32",
+      "family": "",
+      "parts": [
+        "Root"
+      ],
+      "rasa": [
+        "Madhura"
+      ],
+      "guna": [
+        "Laghu"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "karma": [
+        "Rasayana"
+      ],
+      "prabhava": "Generic",
+      "indications": [
+        "General health"
+      ],
+      "typicalDosage": {
+        "powder": "1–2 g / day"
+      },
+      "brandsAndPrices": [
+        {
+          "brand": "Chandana Brand1",
+          "sku_title": "Himalaya Chandana Brand1 60 caps",
+          "pack_size": "60 caps",
+          "price_inr": 200,
+          "retailer": "Himalaya",
+          "product_url": ""
+        },
+        {
+          "brand": "Chandana Brand2",
+          "sku_title": "Dabur Chandana Brand2 100 g",
+          "pack_size": "100 g",
+          "price_inr": 120,
+          "retailer": "Dabur",
+          "product_url": ""
+        }
+      ]
+    },
+    {
+      "id": "guggulu",
+      "name": "Guggulu",
+      "sanskritName": "Guggulu",
+      "botanicalName": "Botanical_33",
+      "family": "",
+      "parts": [
+        "Root"
+      ],
+      "rasa": [
+        "Madhura"
+      ],
+      "guna": [
+        "Laghu"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "karma": [
+        "Rasayana"
+      ],
+      "prabhava": "Generic",
+      "indications": [
+        "General health"
+      ],
+      "typicalDosage": {
+        "powder": "1–2 g / day"
+      },
+      "brandsAndPrices": [
+        {
+          "brand": "Guggulu Brand1",
+          "sku_title": "Himalaya Guggulu Brand1 60 caps",
+          "pack_size": "60 caps",
+          "price_inr": 200,
+          "retailer": "Himalaya",
+          "product_url": ""
+        },
+        {
+          "brand": "Guggulu Brand2",
+          "sku_title": "Dabur Guggulu Brand2 100 g",
+          "pack_size": "100 g",
+          "price_inr": 120,
+          "retailer": "Dabur",
+          "product_url": ""
+        }
+      ]
+    },
+    {
+      "id": "rasna",
+      "name": "Rasna",
+      "sanskritName": "Rasna",
+      "botanicalName": "Botanical_34",
+      "family": "",
+      "parts": [
+        "Root"
+      ],
+      "rasa": [
+        "Madhura"
+      ],
+      "guna": [
+        "Laghu"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "karma": [
+        "Rasayana"
+      ],
+      "prabhava": "Generic",
+      "indications": [
+        "General health"
+      ],
+      "typicalDosage": {
+        "powder": "1–2 g / day"
+      },
+      "brandsAndPrices": [
+        {
+          "brand": "Rasna Brand1",
+          "sku_title": "Himalaya Rasna Brand1 60 caps",
+          "pack_size": "60 caps",
+          "price_inr": 200,
+          "retailer": "Himalaya",
+          "product_url": ""
+        },
+        {
+          "brand": "Rasna Brand2",
+          "sku_title": "Dabur Rasna Brand2 100 g",
+          "pack_size": "100 g",
+          "price_inr": 120,
+          "retailer": "Dabur",
+          "product_url": ""
+        }
+      ]
+    },
+    {
+      "id": "bhallataka",
+      "name": "Bhallataka",
+      "sanskritName": "Bhallataka",
+      "botanicalName": "Botanical_35",
+      "family": "",
+      "parts": [
+        "Root"
+      ],
+      "rasa": [
+        "Madhura"
+      ],
+      "guna": [
+        "Laghu"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "karma": [
+        "Rasayana"
+      ],
+      "prabhava": "Generic",
+      "indications": [
+        "General health"
+      ],
+      "typicalDosage": {
+        "powder": "1–2 g / day"
+      },
+      "brandsAndPrices": [
+        {
+          "brand": "Bhallataka Brand1",
+          "sku_title": "Himalaya Bhallataka Brand1 60 caps",
+          "pack_size": "60 caps",
+          "price_inr": 200,
+          "retailer": "Himalaya",
+          "product_url": ""
+        },
+        {
+          "brand": "Bhallataka Brand2",
+          "sku_title": "Dabur Bhallataka Brand2 100 g",
+          "pack_size": "100 g",
+          "price_inr": 120,
+          "retailer": "Dabur",
+          "product_url": ""
+        }
+      ]
+    },
+    {
+      "id": "karanja",
+      "name": "Karanja",
+      "sanskritName": "Karanja",
+      "botanicalName": "Botanical_36",
+      "family": "",
+      "parts": [
+        "Root"
+      ],
+      "rasa": [
+        "Madhura"
+      ],
+      "guna": [
+        "Laghu"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "karma": [
+        "Rasayana"
+      ],
+      "prabhava": "Generic",
+      "indications": [
+        "General health"
+      ],
+      "typicalDosage": {
+        "powder": "1–2 g / day"
+      },
+      "brandsAndPrices": [
+        {
+          "brand": "Karanja Brand1",
+          "sku_title": "Himalaya Karanja Brand1 60 caps",
+          "pack_size": "60 caps",
+          "price_inr": 200,
+          "retailer": "Himalaya",
+          "product_url": ""
+        },
+        {
+          "brand": "Karanja Brand2",
+          "sku_title": "Dabur Karanja Brand2 100 g",
+          "pack_size": "100 g",
+          "price_inr": 120,
+          "retailer": "Dabur",
+          "product_url": ""
+        }
+      ]
+    },
+    {
+      "id": "arka",
+      "name": "Arka",
+      "sanskritName": "Arka",
+      "botanicalName": "Botanical_37",
+      "family": "",
+      "parts": [
+        "Root"
+      ],
+      "rasa": [
+        "Madhura"
+      ],
+      "guna": [
+        "Laghu"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "karma": [
+        "Rasayana"
+      ],
+      "prabhava": "Generic",
+      "indications": [
+        "General health"
+      ],
+      "typicalDosage": {
+        "powder": "1–2 g / day"
+      },
+      "brandsAndPrices": [
+        {
+          "brand": "Arka Brand1",
+          "sku_title": "Himalaya Arka Brand1 60 caps",
+          "pack_size": "60 caps",
+          "price_inr": 200,
+          "retailer": "Himalaya",
+          "product_url": ""
+        },
+        {
+          "brand": "Arka Brand2",
+          "sku_title": "Dabur Arka Brand2 100 g",
+          "pack_size": "100 g",
+          "price_inr": 120,
+          "retailer": "Dabur",
+          "product_url": ""
+        }
+      ]
+    },
+    {
+      "id": "bhumi-amla",
+      "name": "Bhumi Amla",
+      "sanskritName": "Bhumi Amla",
+      "botanicalName": "Botanical_38",
+      "family": "",
+      "parts": [
+        "Root"
+      ],
+      "rasa": [
+        "Madhura"
+      ],
+      "guna": [
+        "Laghu"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "karma": [
+        "Rasayana"
+      ],
+      "prabhava": "Generic",
+      "indications": [
+        "General health"
+      ],
+      "typicalDosage": {
+        "powder": "1–2 g / day"
+      },
+      "brandsAndPrices": [
+        {
+          "brand": "Bhumi Amla Brand1",
+          "sku_title": "Himalaya Bhumi Amla Brand1 60 caps",
+          "pack_size": "60 caps",
+          "price_inr": 200,
+          "retailer": "Himalaya",
+          "product_url": ""
+        },
+        {
+          "brand": "Bhumi Amla Brand2",
+          "sku_title": "Dabur Bhumi Amla Brand2 100 g",
+          "pack_size": "100 g",
+          "price_inr": 120,
+          "retailer": "Dabur",
+          "product_url": ""
+        }
+      ]
+    },
+    {
+      "id": "36af",
+      "name": "sandeep",
+      "sanskritName": "",
+      "botanicalName": "",
+      "family": "",
+      "parts": [],
+      "rasa": [],
+      "guna": [],
+      "virya": "",
+      "vipaka": "",
+      "indications": []
     }
-  }
+  ],
+  "formulations": [
+    {
+      "id": "saraswatarishta",
+      "name": "Saraswatarishta",
+      "sanskritName": "सारस्वतारिष्ट",
+      "type": "arishta",
+      "clinicalSystems": [
+        "Nervous System"
+      ],
+      "indicationCategories": [
+        "Mental Health"
+      ],
+      "traditionalCategories": [
+        "Medhya",
+        "Rasayana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Brahmi",
+          "quantity": "4.8 kg",
+          "part": "whole plant"
+        },
+        {
+          "herb": "Vacha",
+          "quantity": "960 g",
+          "part": "rhizome"
+        },
+        {
+          "herb": "Shankhapushpi",
+          "quantity": "960 g",
+          "part": "whole plant"
+        },
+        {
+          "herb": "Dhataki",
+          "quantity": "960 g",
+          "part": "flower"
+        }
+      ],
+      "indications": [
+        "Memory enhancement",
+        "Speech disorders",
+        "Mental fatigue",
+        "Concentration issues",
+        "Learning disabilities"
+      ],
+      "dosage": {
+        "amount": "15-30ml",
+        "frequency": "Twice daily",
+        "duration": "2-3 months",
+        "form": {
+          "liquid": "15-30ml"
+        }
+      },
+      "anupana": [
+        "Equal quantity of water"
+      ],
+      "contraindications": [
+        "Pregnancy",
+        "Alcoholism"
+      ],
+      "preparation": "Fermented decoction with herbs and jaggery",
+      "reference": "Bhaishajya Ratnavali 73/54-60",
+      "brands": [
+        {
+          "name": "Dabur",
+          "products": [
+            {
+              "name": "Dabur Saraswatarishta",
+              "price": 200,
+              "quantity": "450ml"
+            }
+          ]
+        },
+        {
+          "name": "Baidyanath",
+          "products": [
+            {
+              "name": "Baidyanath Saraswatarishta",
+              "price": 210,
+              "quantity": "450ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kutajarishta",
+      "name": "Kutajarishta",
+      "sanskritName": "कुटजारिष्ट",
+      "type": "arishta",
+      "clinicalSystems": [
+        "Digestive System"
+      ],
+      "indicationCategories": [
+        "Digestive Disorders"
+      ],
+      "traditionalCategories": [
+        "Deepana",
+        "Pachana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Kutaja",
+          "quantity": "4.8 kg",
+          "part": "bark"
+        },
+        {
+          "herb": "Dhataki",
+          "quantity": "960 g",
+          "part": "flower"
+        },
+        {
+          "herb": "Musta",
+          "quantity": "48 g",
+          "part": "rhizome"
+        },
+        {
+          "herb": "Jaggery",
+          "quantity": "4.8 kg"
+        }
+      ],
+      "indications": [
+        "Diarrhea",
+        "Dysentery",
+        "IBS",
+        "Intestinal infections"
+      ],
+      "dosage": {
+        "amount": "15-30ml",
+        "frequency": "Twice daily",
+        "duration": "Until symptoms subside",
+        "form": {
+          "liquid": "15-30ml"
+        }
+      },
+      "anupana": [
+        "Equal quantity of water"
+      ],
+      "contraindications": [
+        "Constipation"
+      ],
+      "preparation": "Fermented decoction with Kutaja bark and jaggery",
+      "reference": "Bhaishajya Ratnavali 7/188-192"
+    },
+    {
+      "id": "ashokarishta",
+      "name": "Ashokarishta",
+      "sanskritName": "अशोकारिष्ट",
+      "type": "arishta",
+      "clinicalSystems": [
+        "Reproductive System"
+      ],
+      "indicationCategories": [
+        "Women\"s Health"
+      ],
+      "traditionalCategories": [
+        "Rasayana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Ashoka",
+          "quantity": "4.8 kg",
+          "part": "bark"
+        },
+        {
+          "herb": "Dhataki",
+          "quantity": "960 g",
+          "part": "flower"
+        },
+        {
+          "herb": "Jaggery",
+          "quantity": "4.8 kg"
+        },
+        {
+          "herb": "Water",
+          "quantity": "49.152 L"
+        }
+      ],
+      "indications": [
+        "Menorrhagia",
+        "Leucorrhoea",
+        "Irregular menstruation",
+        "Uterine disorders",
+        "Dysmenorrhea"
+      ],
+      "dosage": {
+        "amount": "15-30ml",
+        "frequency": "Twice daily",
+        "duration": "As prescribed",
+        "form": {
+          "liquid": "15-30ml"
+        }
+      },
+      "anupana": [
+        "Equal quantity of water"
+      ],
+      "contraindications": [
+        "Pregnancy",
+        "Bleeding disorders"
+      ],
+      "preparation": "Fermented decoction with Ashoka bark",
+      "reference": "Bhaishajya Ratnavali 66/115-121"
+    },
+    {
+      "id": "dashmularishta",
+      "name": "Dashmularishta",
+      "sanskritName": "दशमूलारिष्ट",
+      "type": "arishta",
+      "clinicalSystems": [
+        "Respiratory System",
+        "Musculoskeletal System"
+      ],
+      "indicationCategories": [
+        "Respiratory Conditions",
+        "Musculoskeletal Issues"
+      ],
+      "traditionalCategories": [
+        "Vatahara",
+        "Shothahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Dashmoola",
+          "quantity": "4.8 kg",
+          "part": "roots"
+        },
+        {
+          "herb": "Dhataki",
+          "quantity": "960 g",
+          "part": "flower"
+        },
+        {
+          "herb": "Shunthi",
+          "quantity": "48 g",
+          "part": "rhizome"
+        },
+        {
+          "herb": "Jaggery",
+          "quantity": "4.8 kg"
+        }
+      ],
+      "indications": [
+        "Respiratory disorders",
+        "Cough",
+        "Bronchitis",
+        "Asthma",
+        "Joint pain",
+        "Arthritis"
+      ],
+      "dosage": {
+        "amount": "15-30ml",
+        "frequency": "Twice daily after meals",
+        "duration": "2-3 months",
+        "form": {
+          "liquid": "15-30ml"
+        }
+      },
+      "anupana": [
+        "Equal quantity of water"
+      ],
+      "contraindications": [
+        "Pregnancy",
+        "Peptic ulcer"
+      ],
+      "preparation": "Fermented decoction with Dashmoola roots",
+      "reference": "Bhaishajya Ratnavali"
+    },
+    {
+      "id": "dashmularishta-modern",
+      "name": "Dashmularishta",
+      "sanskritName": "दशमूलारिष्ट",
+      "type": "arishta",
+      "clinicalSystems": [
+        "Respiratory System",
+        "Musculoskeletal System",
+        "Nervous System"
+      ],
+      "indicationCategories": [
+        "Respiratory Conditions",
+        "Musculoskeletal Issues",
+        "Neurological Disorders"
+      ],
+      "traditionalCategories": [
+        "Vatahara",
+        "Shothahara",
+        "Vedanasthapana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Dashamula (ten roots)",
+          "quantity": "Proprietary"
+        },
+        {
+          "herb": "Supporting herbs",
+          "quantity": "Proprietary"
+        },
+        {
+          "herb": "Jaggery/sugar",
+          "quantity": "Ferment base"
+        }
+      ],
+      "indications": [
+        "Vata disorders",
+        "Analgesic",
+        "Anti-inflammatory",
+        "Respiratory conditions",
+        "Debility"
+      ],
+      "dosage": {
+        "amount": "12-24 ml",
+        "frequency": "Diluted with water",
+        "duration": "As prescribed",
+        "form": {
+          "liquid": "12-24 ml"
+        }
+      },
+      "anupana": [
+        "Diluted with water"
+      ],
+      "contraindications": [
+        "Pregnancy",
+        "Diabetes"
+      ],
+      "preparation": "Fermented liquid (asava / arishta): decoction of herbs + powder + sugar / jaggery, allow fermentation, filter, bottle",
+      "reference": "mohtaayurved.com, Scribd",
+      "brands": []
+    },
+    {
+      "id": "khadirarishta",
+      "name": "Khadirarishta",
+      "sanskritName": "खदिरारिष्ट",
+      "type": "arishta",
+      "clinicalSystems": [
+        "Integumentary System",
+        "Urinary System",
+        "Cardiovascular System"
+      ],
+      "indicationCategories": [
+        "Skin Conditions",
+        "Urinary Disorders",
+        "Cardiovascular Conditions"
+      ],
+      "traditionalCategories": [
+        "Kaphahara",
+        "Pittahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Khadira (Acacia catechu)",
+          "quantity": "Principal herb"
+        },
+        {
+          "herb": "13 other herbs (detailed list not fully given)",
+          "quantity": "Proprietary"
+        }
+      ],
+      "indications": [
+        "Skin ailments (Kushthas)",
+        "Skin lesions with Vata–Kapha predominance",
+        "Urinary calculi",
+        "Flatulence",
+        "Cardiac tonic"
+      ],
+      "dosage": {
+        "amount": "3 teaspoons",
+        "frequency": "twice daily",
+        "duration": "as directed by Ayurvedic physician"
+      },
+      "anupana": [
+        "Equal amount of lukewarm water"
+      ],
+      "contraindications": [],
+      "reference": "Always Ayurveda",
+      "adultDosage": "3 teaspoons twice daily with equal amount of lukewarm water",
+      "modeOfAction": "Acts on skin, urinary, and cardiovascular systems.",
+      "generalConsiderations": "The Asava / Arishta class is self-preserving via its alcohol content; ideal use within about one year of purchase.",
+      "brands": [
+        {
+          "name": "Planet Ayurveda",
+          "products": [
+            {
+              "name": "Khadirarishta",
+              "price": 250,
+              "quantity": "450ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arvindasav",
+      "name": "Arvindasav",
+      "sanskritName": "अर्विन्दासव",
+      "type": "arishta",
+      "clinicalSystems": [
+        "Digestive System",
+        "Immune System"
+      ],
+      "indicationCategories": [
+        "Digestive Disorders",
+        "General Health & Wellness"
+      ],
+      "traditionalCategories": [
+        "Deepana",
+        "Balya"
+      ],
+      "ingredients": [
+        {
+          "herb": "Gambahri (Gmelina arborea)",
+          "quantity": "1 part"
+        },
+        {
+          "herb": "Manjistha (Rubia cordifolia)",
+          "quantity": "1 part"
+        },
+        {
+          "herb": "Anantamul (Hemidesmus indicus)",
+          "quantity": "1 part"
+        },
+        {
+          "herb": "Jatamansi (Nardostachys jatamansi)",
+          "quantity": "1 part"
+        },
+        {
+          "herb": "Nagarmotha (Cyperus rotundus)",
+          "quantity": "1 part"
+        },
+        {
+          "herb": "Amalaki (Emblica officinalis)",
+          "quantity": "1 part"
+        },
+        {
+          "herb": "Vacha (Acorus calamus)",
+          "quantity": "1 part"
+        },
+        {
+          "herb": "Gur (jaggery)",
+          "quantity": "1 part"
+        }
+      ],
+      "indications": [
+        "Loss of appetite",
+        "General weakness",
+        "Low immunity",
+        "Improving digestion and metabolism"
+      ],
+      "dosage": {
+        "amount": "2 teaspoons",
+        "frequency": "twice daily",
+        "duration": "after a meal"
+      },
+      "anupana": [
+        "Equal amount of water"
+      ],
+      "contraindications": [],
+      "reference": "Always Ayurveda",
+      "adultDosage": "2 teaspoons twice daily after a meal with equal amount of water",
+      "modeOfAction": "Supports digestion and immunity.",
+      "generalConsiderations": "Classical Asava/Arishta formulation.",
+      "brands": [
+        {
+          "name": "Planet Ayurveda",
+          "products": [
+            {
+              "name": "Arvindasav",
+              "price": 220,
+              "quantity": "450ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kumaryasava",
+      "name": "Kumaryasava",
+      "sanskritName": "कुमार्यासव",
+      "type": "arishta",
+      "clinicalSystems": [
+        "Digestive System"
+      ],
+      "indicationCategories": [
+        "Digestive Disorders",
+        "General Health & Wellness"
+      ],
+      "traditionalCategories": [
+        "Deepana",
+        "Pachana",
+        "Rasayana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Aloe (Kumari) juice/pulp (Aloe vera)",
+          "quantity": "200 g"
+        },
+        {
+          "herb": "Supporting herbs (Manjistha, Nagarmotha, etc.)",
+          "quantity": "various"
+        },
+        {
+          "herb": "Jaggery (gur) for fermentation medium",
+          "quantity": "250 g"
+        }
+      ],
+      "indications": [
+        "Liver & digestive complaints",
+        "Loss of appetite",
+        "General weakness",
+        "Immune support (as tonic)"
+      ],
+      "dosage": {
+        "amount": "10 ml",
+        "frequency": "twice daily",
+        "duration": "after meals"
+      },
+      "anupana": [
+        "Water"
+      ],
+      "contraindications": [
+        "Excess alcohol-containing formulations if contraindicated"
+      ],
+      "generalConsiderations": "Use per physician in pregnancy/lactation.",
+      "preparation": "Decoction of herbs is prepared and cooled; mixed with aloe juice and jaggery (as sugar source) and allowed to ferment naturally for defined period (7–21 days) until desired alcoholic strength; filter and bottle.",
+      "reference": "Ayurvedic Formulary citations (PlanetAyurveda summary), 1mg / product monographs",
+      "brands": [
+        {
+          "name": "Dabur",
+          "products": [
+            {
+              "name": "Dabur Kumaryasava",
+              "price": 180,
+              "quantity": "450ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shadangapaniya",
+      "name": "Shadangapaniya",
+      "sanskritName": "षडंग पानीय",
+      "type": "kashaya",
+      "clinicalSystems": [
+        "Immune System",
+        "Urinary System"
+      ],
+      "indicationCategories": [
+        "Fever & Infections",
+        "General Health & Wellness"
+      ],
+      "traditionalCategories": [
+        "Jwaraghna",
+        "Pittahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Musta",
+          "quantity": "1 part",
+          "part": "rhizome"
+        },
+        {
+          "herb": "Parpataka",
+          "quantity": "1 part",
+          "part": "whole plant"
+        },
+        {
+          "herb": "Ushira",
+          "quantity": "1 part",
+          "part": "root"
+        },
+        {
+          "herb": "Chandana",
+          "quantity": "1 part",
+          "part": "heartwood"
+        },
+        {
+          "herb": "Udichya",
+          "quantity": "1 part",
+          "part": "rhizome"
+        },
+        {
+          "herb": "Nagara",
+          "quantity": "1 part",
+          "part": "rhizome"
+        }
+      ],
+      "indications": [
+        "Fever",
+        "Thirst",
+        "Burning sensation",
+        "Heat stroke",
+        "Summer disorders"
+      ],
+      "dosage": {
+        "amount": "15-30ml",
+        "frequency": "3-4 times daily",
+        "duration": "As needed"
+      },
+      "anupana": [
+        "Cool water"
+      ],
+      "contraindications": [
+        "Cold and cough"
+      ],
+      "reference": "Charaka Samhita",
+      "brands": [
+        {
+          "name": "Dabur",
+          "products": [
+            {
+              "name": "Dabur Shadangapaniya",
+              "price": 100,
+              "quantity": "200ml"
+            }
+          ]
+        },
+        {
+          "name": "Baidyanath",
+          "products": [
+            {
+              "name": "Baidyanath Shadangapaniya",
+              "price": 110,
+              "quantity": "200ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "guduchyadi-kashaya",
+      "name": "Guduchyadi Kashaya",
+      "sanskritName": "गुडूच्यादि कषाय",
+      "type": "kashaya",
+      "clinicalSystems": [
+        "Immune System"
+      ],
+      "indicationCategories": [
+        "Fever & Infections",
+        "General Health & Wellness"
+      ],
+      "traditionalCategories": [
+        "Jwaraghna",
+        "Rasayana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Guduchi",
+          "quantity": "1 part",
+          "part": "stem"
+        },
+        {
+          "herb": "Haritaki",
+          "quantity": "1 part",
+          "part": "fruit"
+        },
+        {
+          "herb": "Bibhitaki",
+          "quantity": "1 part",
+          "part": "fruit"
+        },
+        {
+          "herb": "Amalaki",
+          "quantity": "1 part",
+          "part": "fruit"
+        }
+      ],
+      "indications": [
+        "Chronic fever",
+        "General debility",
+        "Loss of appetite",
+        "Weakness after fever"
+      ],
+      "dosage": {
+        "amount": "15-30ml",
+        "frequency": "Twice daily before food",
+        "duration": "7-14 days"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "reference": "Ashtanga Hridaya",
+      "brands": [
+        {
+          "name": "Dabur",
+          "products": [
+            {
+              "name": "Dabur Guduchyadi Kashaya",
+              "price": 130,
+              "quantity": "200ml"
+            }
+          ]
+        },
+        {
+          "name": "Baidyanath",
+          "products": [
+            {
+              "name": "Baidyanath Guduchyadi Kashaya",
+              "price": 140,
+              "quantity": "200ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mahamanjishthadi-kadha",
+      "name": "Mahamanjishthadi Kādā",
+      "sanskritName": "महामञ्जिष्ठादि काढा",
+      "type": "kashaya",
+      "clinicalSystems": [
+        "Integumentary System",
+        "Hematopoietic System",
+        "Immune System"
+      ],
+      "indicationCategories": [
+        "Skin Conditions",
+        "General Health & Wellness"
+      ],
+      "traditionalCategories": [
+        "Rasayana",
+        "Shothahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Manjishtha (Rubia cordifolia)",
+          "quantity": "Proprietary"
+        },
+        {
+          "herb": "Nagarmotha (Cyperus rotundus)",
+          "quantity": "Proprietary"
+        },
+        {
+          "herb": "Kutaja",
+          "quantity": "Proprietary"
+        },
+        {
+          "herb": "Giloy (Tinospora cordifolia)",
+          "quantity": "Proprietary"
+        }
+      ],
+      "indications": [
+        "Blood purifier",
+        "Skin disorders",
+        "Detoxification",
+        "Liver support",
+        "Blood purification"
+      ],
+      "dosage": {
+        "amount": "1-2 tola (approx)",
+        "frequency": "Morning & evening after food",
+        "duration": "As directed",
+        "form": {
+          "liquid": "1-2 tola (approx)"
+        }
+      },
+      "anupana": [
+        "Equal volume water"
+      ],
+      "contraindications": [],
+      "preparation": "Decoction (Kadha) prepared from the herbs",
+      "reference": "mohtaayurved.com",
+      "brands": []
+    },
+    {
+      "id": "mahasudarshan-kadha",
+      "name": "Mahasudarshan Kāḍa",
+      "sanskritName": "महासुदर्शन काढा",
+      "type": "kashaya",
+      "clinicalSystems": [
+        "Immune System",
+        "Digestive System",
+        "Respiratory System"
+      ],
+      "indicationCategories": [
+        "Fever & Infections",
+        "Digestive Disorders",
+        "Respiratory Conditions"
+      ],
+      "traditionalCategories": [
+        "Jwaraghna",
+        "Deepana",
+        "Pachana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Haritaki (Terminalia chebula)",
+          "quantity": "10 g"
+        },
+        {
+          "herb": "Bahera (Terminalia bellirica)",
+          "quantity": "10 g"
+        },
+        {
+          "herb": "Amla (Emblica officinalis)",
+          "quantity": "10 g"
+        },
+        {
+          "herb": "Turmeric (Curcuma longa)",
+          "quantity": "2 g"
+        },
+        {
+          "herb": "Daruharidra (Berberis aristata)",
+          "quantity": "2 g"
+        },
+        {
+          "herb": "Shunthi / Ginger (Zingiber officinalis)",
+          "quantity": "2 g"
+        },
+        {
+          "herb": "Pippali, Maricha, other supportive herbs (Piper longum / Piper nigrum)",
+          "quantity": "small qty"
+        }
+      ],
+      "indications": [
+        "Fever",
+        "Acute infections",
+        "Digestive issues",
+        "Hepatoprotective adjunct",
+        "Detoxification",
+        "Respiratory conditions"
+      ],
+      "dosage": {
+        "amount": "10–20 ml",
+        "frequency": "twice daily",
+        "duration": "adult"
+      },
+      "anupana": [
+        "Honey",
+        "Warm water"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "generalConsiderations": "Use per physician in pregnant women. Some formulas may be strong for children; adjust dose.",
+      "preparation": "Boil herbs in water (e.g., 400 ml for 10 g total herbs) reduce to 1/4 volume, filter — serve warm. For concentrated use, reduce further per classical instruction.",
+      "reference": "AyurMedInfo / AyurTimes Mahasudarshan kadha summaries",
+      "brands": [
+        {
+          "name": "Dabur",
+          "products": [
+            {
+              "name": "Dabur Mahasudarshan Kadha",
+              "price": 150,
+              "quantity": "200ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trikuta-kshirapaka",
+      "name": "Trikuta Kṣīrapāka",
+      "sanskritName": "त्रिकूट क्षीरपाक",
+      "type": "kashaya",
+      "clinicalSystems": [
+        "Digestive System"
+      ],
+      "indicationCategories": [
+        "Digestive Disorders"
+      ],
+      "traditionalCategories": [
+        "Deepana",
+        "Pachana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Black pepper, long pepper, ginger (Trikatu)",
+          "quantity": "1 part"
+        },
+        {
+          "herb": "Milk",
+          "quantity": "8 parts"
+        },
+        {
+          "herb": "Water",
+          "quantity": "32 parts"
+        }
+      ],
+      "indications": [
+        "Digestion support with moderated pungency"
+      ],
+      "dosage": {
+        "amount": "~50 ml",
+        "frequency": "as directed",
+        "duration": "as directed"
+      },
+      "anupana": [
+        "Itself (milk)",
+        "Water"
+      ],
+      "contraindications": [],
+      "reference": "Classical Ayurvedic Text",
+      "adultDosage": "~50 ml (or as classical texts direct)",
+      "modeOfAction": "Milk-based decoction to moderate the hot/pungent action of Trikatu.",
+      "generalConsiderations": "Used when digestion support is needed with a milk basis, to calm irritative effect in some patients.",
+      "brands": []
+    },
+    {
+      "id": "brahmi-ghrita",
+      "name": "Brahmi Ghrita",
+      "sanskritName": "ब्राह्मी घृत",
+      "type": "ghrita",
+      "clinicalSystems": [
+        "Nervous System"
+      ],
+      "indicationCategories": [
+        "Mental Health",
+        "Neurological Disorders"
+      ],
+      "traditionalCategories": [
+        "Medhya",
+        "Rasayana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Brahmi",
+          "quantity": "4.8 kg",
+          "part": "whole plant"
+        },
+        {
+          "herb": "Vacha",
+          "quantity": "960 g",
+          "part": "rhizome"
+        },
+        {
+          "herb": "Shankhapushpi",
+          "quantity": "960 g",
+          "part": "whole plant"
+        },
+        {
+          "herb": "Cow Ghee",
+          "quantity": "4.8 kg"
+        }
+      ],
+      "indications": [
+        "Memory enhancement",
+        "Mental disorders",
+        "Anxiety",
+        "Depression",
+        "Insomnia",
+        "ADHD",
+        "Epilepsy"
+      ],
+      "dosage": {
+        "amount": "5-10g",
+        "frequency": "Twice daily",
+        "duration": "3-6 months"
+      },
+      "anupana": [
+        "Warm milk",
+        "Warm water"
+      ],
+      "contraindications": [
+        "High cholesterol",
+        "Obesity"
+      ],
+      "reference": "Charaka Samhita Chikitsa Sthana 9/41-43",
+      "brands": [
+        {
+          "name": "Dabur",
+          "products": [
+            {
+              "name": "Dabur Brahmi Ghrita",
+              "price": 250,
+              "quantity": "200g"
+            }
+          ]
+        },
+        {
+          "name": "Baidyanath",
+          "products": [
+            {
+              "name": "Baidyanath Brahmi Ghrita",
+              "price": 260,
+              "quantity": "200g"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panchatikta-ghrita",
+      "name": "Panchatikta Ghrita",
+      "sanskritName": "पञ्चतिक्त घृत",
+      "type": "ghrita",
+      "clinicalSystems": [
+        "Integumentary System",
+        "Hematopoietic System"
+      ],
+      "indicationCategories": [
+        "Skin Conditions",
+        "General Health & Wellness"
+      ],
+      "traditionalCategories": [
+        "Shothahara",
+        "Kaphahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Nimba",
+          "quantity": "1 part",
+          "part": "bark"
+        },
+        {
+          "herb": "Patola",
+          "quantity": "1 part",
+          "part": "leaves"
+        },
+        {
+          "herb": "Vasa",
+          "quantity": "1 part",
+          "part": "leaves"
+        },
+        {
+          "herb": "Guduchi",
+          "quantity": "1 part",
+          "part": "stem"
+        },
+        {
+          "herb": "Kantakari",
+          "quantity": "1 part",
+          "part": "whole plant"
+        },
+        {
+          "herb": "Cow Ghee",
+          "quantity": "4 parts"
+        }
+      ],
+      "indications": [
+        "Skin diseases",
+        "Psoriasis",
+        "Eczema",
+        "Chronic dermatitis",
+        "Blood disorders"
+      ],
+      "dosage": {
+        "amount": "10-20ml",
+        "frequency": "Twice daily",
+        "duration": "1-3 months"
+      },
+      "anupana": [
+        "Warm water",
+        "Warm milk"
+      ],
+      "contraindications": [
+        "High cholesterol",
+        "Obesity"
+      ],
+      "reference": "Ashtanga Hridaya",
+      "brands": [
+        {
+          "name": "Dabur",
+          "products": [
+            {
+              "name": "Dabur Panchatikta Ghrita",
+              "price": 280,
+              "quantity": "200g"
+            }
+          ]
+        },
+        {
+          "name": "Baidyanath",
+          "products": [
+            {
+              "name": "Baidyanath Panchatikta Ghrita",
+              "price": 290,
+              "quantity": "200g"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jatyadi-ghrita",
+      "name": "Jatyadi Ghrita",
+      "sanskritName": "जात्यादि घृत",
+      "type": "ghrita",
+      "clinicalSystems": [
+        "Integumentary System"
+      ],
+      "indicationCategories": [
+        "Skin Conditions"
+      ],
+      "traditionalCategories": [
+        "Shothahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Jati",
+          "quantity": "1 part",
+          "part": "leaves"
+        },
+        {
+          "herb": "Nimbapatra",
+          "quantity": "1 part",
+          "part": "leaves"
+        },
+        {
+          "herb": "Patola",
+          "quantity": "1 part",
+          "part": "leaves"
+        },
+        {
+          "herb": "Karanja",
+          "quantity": "1 part",
+          "part": "seeds"
+        },
+        {
+          "herb": "Cow Ghee",
+          "quantity": "4 parts"
+        }
+      ],
+      "indications": [
+        "Wounds",
+        "Ulcers",
+        "Burns",
+        "Surgical wounds",
+        "Diabetic ulcers"
+      ],
+      "dosage": {
+        "amount": "External application",
+        "frequency": "2-3 times daily",
+        "duration": "Until healing"
+      },
+      "anupana": [
+        "Not applicable (external use)"
+      ],
+      "contraindications": [
+        "None for external application"
+      ],
+      "reference": "Sharangadhara Samhita",
+      "brands": [
+        {
+          "name": "Dabur",
+          "products": [
+            {
+              "name": "Dabur Jatyadi Ghrita",
+              "price": 150,
+              "quantity": "20g"
+            }
+          ]
+        },
+        {
+          "name": "Baidyanath",
+          "products": [
+            {
+              "name": "Baidyanath Jatyadi Ghrita",
+              "price": 160,
+              "quantity": "20g"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mandura-bhasma",
+      "name": "Mandura Bhasma",
+      "sanskritName": "मण्डूर भस्म",
+      "type": "bhasma",
+      "clinicalSystems": [
+        "Hematopoietic System",
+        "Digestive System"
+      ],
+      "indicationCategories": [
+        "General Health & Wellness",
+        "Digestive Disorders"
+      ],
+      "traditionalCategories": [
+        "Deepana",
+        "Pachana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Iron Rust",
+          "quantity": "1 part"
+        },
+        {
+          "herb": "Triphala Decoction",
+          "quantity": "As needed"
+        }
+      ],
+      "indications": [
+        "Anemia",
+        "Jaundice",
+        "Liver disorders",
+        "Spleen disorders"
+      ],
+      "dosage": {
+        "amount": "125-250mg",
+        "frequency": "Twice daily",
+        "duration": "1-3 months"
+      },
+      "anupana": [
+        "Honey",
+        "Ghee"
+      ],
+      "contraindications": [
+        "Pregnancy",
+        "Bleeding disorders"
+      ],
+      "reference": "Rasa Tarangini",
+      "brands": [
+        {
+          "name": "Dabur",
+          "products": [
+            {
+              "name": "Dabur Mandur Bhasma",
+              "price": 180,
+              "quantity": "10g"
+            }
+          ]
+        },
+        {
+          "name": "Baidyanath",
+          "products": [
+            {
+              "name": "Baidyanath Mandur Bhasma",
+              "price": 190,
+              "quantity": "10g"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yava-kshara",
+      "name": "Yava Kshara",
+      "sanskritName": "यव क्षार",
+      "type": "bhasma",
+      "clinicalSystems": [
+        "Urinary System"
+      ],
+      "indicationCategories": [
+        "Urinary Disorders"
+      ],
+      "traditionalCategories": [
+        "Pittahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Barley whole plant",
+          "quantity": "1 part"
+        }
+      ],
+      "indications": [
+        "Urinary coolant",
+        "Hematuria (blood in urine)"
+      ],
+      "dosage": {
+        "amount": "125-500 mg",
+        "frequency": "twice a day",
+        "duration": "before meals (or per physician)"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [],
+      "reference": "Nakra Ayurveda",
+      "adultDosage": "125-500 mg twice a day before meals (or per physician)",
+      "modeOfAction": "Classical herbomineral alkali for urinary system.",
+      "generalConsiderations": "Use with strict supervision. Use with strict supervision; especially in bleeding / sensitive conditions",
+      "brands": [
+        {
+          "name": "Nakra Ayurveda",
+          "products": [
+            {
+              "name": "Yava Kshara",
+              "price": 150,
+              "quantity": "10g"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sootshekhar-rasa",
+      "name": "Sootshekhar Rasa",
+      "sanskritName": "सूतशेखर रस",
+      "type": "rasa",
+      "clinicalSystems": [
+        "Respiratory System",
+        "Immune System"
+      ],
+      "indicationCategories": [
+        "Respiratory Conditions",
+        "Fever & Infections"
+      ],
+      "traditionalCategories": [
+        "Jwaraghna",
+        "Kaphahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Parada",
+          "quantity": "1 part"
+        },
+        {
+          "herb": "Gandhaka",
+          "quantity": "1 part"
+        },
+        {
+          "herb": "Vatsanabha",
+          "quantity": "1 part"
+        },
+        {
+          "herb": "Tankana",
+          "quantity": "1 part"
+        }
+      ],
+      "indications": [
+        "Fever",
+        "Common cold",
+        "Bronchitis",
+        "Cough",
+        "Sinusitis"
+      ],
+      "dosage": {
+        "amount": "125mg",
+        "frequency": "Twice daily",
+        "duration": "3-7 days"
+      },
+      "anupana": [
+        "Honey",
+        "Tulsi leaf juice"
+      ],
+      "contraindications": [
+        "Pregnancy",
+        "Heart conditions"
+      ],
+      "reference": "Rasa Tarangini",
+      "brands": [
+        {
+          "name": "Dabur",
+          "products": [
+            {
+              "name": "Dabur Sootshekhar Rasa",
+              "price": 180,
+              "quantity": "30 tablets"
+            }
+          ]
+        },
+        {
+          "name": "Baidyanath",
+          "products": [
+            {
+              "name": "Baidyanath Sootshekhar Rasa",
+              "price": 190,
+              "quantity": "30 tablets"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panchamrit-parpati",
+      "name": "Panchamrit Parpati",
+      "sanskritName": "पञ्चामृत पर्पटी",
+      "type": "rasa",
+      "clinicalSystems": [
+        "Digestive System",
+        "Hematopoietic System"
+      ],
+      "indicationCategories": [
+        "Digestive Disorders",
+        "General Health & Wellness"
+      ],
+      "traditionalCategories": [
+        "Deepana",
+        "Pachana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Abhraka Bhasma",
+          "quantity": "1 part"
+        },
+        {
+          "herb": "Gandhaka (sulphur)",
+          "quantity": "1 part"
+        },
+        {
+          "herb": "Ghee",
+          "quantity": "1 part"
+        },
+        {
+          "herb": "Lauha Bhasma (iron)",
+          "quantity": "1 part"
+        },
+        {
+          "herb": "Para (mercury)",
+          "quantity": "1 part"
+        },
+        {
+          "herb": "Tamra Bhasma (copper / related)",
+          "quantity": "1 part"
+        }
+      ],
+      "indications": [
+        "Diarrhea",
+        "Dysentery with fever",
+        "Weakness",
+        "Anemia"
+      ],
+      "dosage": {
+        "amount": "1-2 tablets",
+        "frequency": "2-3 times a day",
+        "duration": "as per practitioner"
+      },
+      "anupana": [
+        "Milk",
+        "Lukewarm water"
+      ],
+      "contraindications": [
+        "Children",
+        "Pregnancy",
+        "Lactation"
+      ],
+      "reference": "Nakra Ayurveda",
+      "adultDosage": "1-2 tablets with milk or lukewarm water 2-3 times a day (or per practitioner)",
+      "modeOfAction": "Classical herbo-mineral formulation for digestive and hematopoietic systems.",
+      "generalConsiderations": "High risk if misused; must be taken under expert supervision. High risk if misused; must be taken under expert supervision",
+      "brands": [
+        {
+          "name": "Nakra Ayurveda",
+          "products": [
+            {
+              "name": "Panchamrit Parpati",
+              "price": 200,
+              "quantity": "30 tablets"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trikatu-syrup",
+      "name": "Trikatu Syrup",
+      "sanskritName": "त्रिकटु सिरप",
+      "type": "syrup",
+      "clinicalSystems": [
+        "Digestive System",
+        "Respiratory System"
+      ],
+      "indicationCategories": [
+        "Digestive Disorders",
+        "Respiratory Conditions"
+      ],
+      "traditionalCategories": [
+        "Deepana",
+        "Pachana",
+        "Kaphahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Black pepper (Piper nigrum)",
+          "quantity": "1 part"
+        },
+        {
+          "herb": "Long pepper (Piper longum)",
+          "quantity": "1 part"
+        },
+        {
+          "herb": "Ginger (Zingiber officinale)",
+          "quantity": "1 part"
+        }
+      ],
+      "indications": [
+        "Enhances digestion",
+        "Stimulates Agni (digestive fire)",
+        "Helps with gas, bloating, indigestion, flatulence"
+      ],
+      "dosage": {
+        "amount": "~5 ml",
+        "frequency": "twice a day",
+        "duration": "as directed"
+      },
+      "anupana": [
+        "Warm water",
+        "Lukewarm water"
+      ],
+      "contraindications": [
+        "Hyperacidity",
+        "Gastritis"
+      ],
+      "reference": "Classical Ayurvedic Text",
+      "adultDosage": "~5 ml twice a day (or 1 teaspoon twice daily in many syrup / liquid versions)",
+      "modeOfAction": "Stimulates digestive enzymes and improves metabolism.",
+      "generalConsiderations": "Classical Trikatu combination in syrup form.",
+      "brands": [
+        {
+          "name": "Dabur",
+          "products": [
+            {
+              "name": "Dabur Trikatu Syrup",
+              "price": 100,
+              "quantity": "200ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "triphala-guggulu",
+      "name": "Triphala Guggulu",
+      "sanskritName": "त्रिफला गुग्गुलु",
+      "type": "vatis",
+      "clinicalSystems": [
+        "Musculoskeletal System",
+        "Integumentary System"
+      ],
+      "indicationCategories": [
+        "Metabolic Disorders",
+        "Musculoskeletal Issues",
+        "Skin Conditions"
+      ],
+      "traditionalCategories": [
+        "Kaphahara",
+        "Shothahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Triphala",
+          "quantity": "3 parts"
+        },
+        {
+          "herb": "Guggulu",
+          "quantity": "1 part"
+        },
+        {
+          "herb": "Pippali",
+          "quantity": "1 part"
+        }
+      ],
+      "indications": [
+        "Obesity",
+        "High cholesterol",
+        "Arthritis",
+        "Joint pain",
+        "Skin disorders"
+      ],
+      "dosage": {
+        "amount": "500mg-1g",
+        "frequency": "Thrice daily",
+        "duration": "2-3 months"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Pregnancy",
+        "Bleeding disorders"
+      ],
+      "reference": "Sharangadhara Samhita Madhyama 7/82-83"
+    },
+    {
+      "id": "khadiradi-vati",
+      "name": "Khadiradi Vati",
+      "sanskritName": "खदिरादि वटी",
+      "type": "vatis",
+      "clinicalSystems": [
+        "Respiratory System"
+      ],
+      "indicationCategories": [
+        "Respiratory Conditions"
+      ],
+      "traditionalCategories": [
+        "Chakshushya",
+        "Shothahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Khadira",
+          "quantity": "1 part",
+          "part": "heartwood"
+        },
+        {
+          "herb": "Trikatu",
+          "quantity": "1 part"
+        },
+        {
+          "herb": "Honey",
+          "quantity": "As needed"
+        }
+      ],
+      "indications": [
+        "Cough",
+        "Bronchitis",
+        "Throat infections",
+        "Hoarseness of voice"
+      ],
+      "dosage": {
+        "amount": "250-500mg",
+        "frequency": "Thrice daily",
+        "duration": "7-14 days"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Pitta disorders"
+      ],
+      "reference": "Sharangadhara Samhita Madhyama 7/22-24"
+    },
+    {
+      "id": "arogyavardhini-vati",
+      "name": "Arogyavardhini Vati",
+      "sanskritName": "आरोग्यवर्धिनी वटी",
+      "type": "vatis",
+      "clinicalSystems": [
+        "Digestive System",
+        "Integumentary System"
+      ],
+      "indicationCategories": [
+        "Metabolic Disorders",
+        "Digestive Disorders",
+        "Skin Conditions"
+      ],
+      "traditionalCategories": [
+        "Deepana",
+        "Pachana",
+        "Rasayana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Kutki",
+          "quantity": "1 part",
+          "part": "root"
+        },
+        {
+          "herb": "Triphala",
+          "quantity": "1 part",
+          "part": "fruit"
+        },
+        {
+          "herb": "Tamra Bhasma",
+          "quantity": "1/16 part"
+        },
+        {
+          "herb": "Abhrak Bhasma",
+          "quantity": "1/16 part"
+        }
+      ],
+      "indications": [
+        "Liver disorders",
+        "Skin diseases",
+        "Metabolic disorders",
+        "Obesity",
+        "Diabetes"
+      ],
+      "dosage": {
+        "amount": "250-500mg",
+        "frequency": "Twice daily",
+        "duration": "1-3 months"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Pregnancy",
+        "Lactation"
+      ],
+      "reference": "Rasaratnasamucchaya 20/87-92"
+    },
+    {
+      "id": "chandraprabha-vati",
+      "name": "Chandraprabha Vati",
+      "sanskritName": "चन्द्रप्रभा वटी",
+      "type": "vatis",
+      "clinicalSystems": [
+        "Urinary System",
+        "Endocrine System"
+      ],
+      "indicationCategories": [
+        "Urinary Disorders",
+        "Metabolic Disorders"
+      ],
+      "traditionalCategories": [
+        "Deepana",
+        "Pachana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Shilajit",
+          "quantity": "1 part"
+        },
+        {
+          "herb": "Guggulu",
+          "quantity": "1 part"
+        },
+        {
+          "herb": "Triphala",
+          "quantity": "1 part"
+        }
+      ],
+      "indications": [
+        "Urinary tract infections",
+        "Diabetes",
+        "Renal calculi",
+        "Erectile dysfunction"
+      ],
+      "dosage": {
+        "amount": "2 tablets",
+        "frequency": "Twice daily",
+        "duration": "As prescribed"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "reference": "Sharangadhara Samhita"
+    },
+    {
+      "id": "kamadugha-rasa",
+      "name": "Kamadugha Rasa",
+      "sanskritName": "कामदुघा रस",
+      "type": "vatis",
+      "clinicalSystems": [
+        "Digestive System"
+      ],
+      "indicationCategories": [
+        "Digestive Disorders"
+      ],
+      "traditionalCategories": [
+        "Deepana",
+        "Pachana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Mukta Bhasma",
+          "quantity": "1 part"
+        },
+        {
+          "herb": "Pravala Bhasma",
+          "quantity": "1 part"
+        },
+        {
+          "herb": "Shankha Bhasma",
+          "quantity": "1 part"
+        },
+        {
+          "herb": "Shukti Bhasma",
+          "quantity": "1 part"
+        }
+      ],
+      "indications": [
+        "Hyperacidity",
+        "Heartburn",
+        "Gastritis",
+        "Ulcers",
+        "Indigestion"
+      ],
+      "dosage": {
+        "amount": "250-500mg",
+        "frequency": "2-3 times daily",
+        "duration": "As needed"
+      },
+      "anupana": [
+        "Cold water",
+        "Honey"
+      ],
+      "contraindications": [
+        "Low gastric acid"
+      ],
+      "reference": "Rasendra Sara Sangraha"
+    },
+    {
+      "id": "punarnavadi-mandoor",
+      "name": "Punarnavadi Mandoor",
+      "sanskritName": "पुनर्नवादि मंडूर",
+      "type": "vatis",
+      "clinicalSystems": [
+        "Urinary System",
+        "Digestive System",
+        "Hematopoietic System"
+      ],
+      "indicationCategories": [
+        "Urinary Disorders",
+        "Metabolic Disorders"
+      ],
+      "traditionalCategories": [
+        "Shothahara",
+        "Deepana",
+        "Tridoshahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Punarnava",
+          "quantity": "48 g",
+          "part": "powder"
+        },
+        {
+          "herb": "Shunthi",
+          "quantity": "48 g",
+          "part": "powder"
+        },
+        {
+          "herb": "Pippali",
+          "quantity": "48 g",
+          "part": "powder"
+        },
+        {
+          "herb": "Maricha",
+          "quantity": "48 g",
+          "part": "powder"
+        },
+        {
+          "herb": "Amalaki",
+          "quantity": "48 g",
+          "part": "powder"
+        },
+        {
+          "herb": "Haritaki",
+          "quantity": "48 g",
+          "part": "powder"
+        },
+        {
+          "herb": "Chavya",
+          "quantity": "48 g",
+          "part": "powder"
+        },
+        {
+          "herb": "Haridra",
+          "quantity": "48 g",
+          "part": "powder"
+        },
+        {
+          "herb": "Daru Haridra",
+          "quantity": "48 g",
+          "part": "powder"
+        },
+        {
+          "herb": "Kushta",
+          "quantity": "48 g",
+          "part": "powder"
+        },
+        {
+          "herb": "Danti",
+          "quantity": "48 g",
+          "part": "powder"
+        },
+        {
+          "herb": "Kutaja Phala",
+          "quantity": "48 g",
+          "part": "powder"
+        },
+        {
+          "herb": "Musta",
+          "quantity": "48 g",
+          "part": "powder"
+        },
+        {
+          "herb": "Vidanga",
+          "quantity": "48 g",
+          "part": "powder"
+        },
+        {
+          "herb": "Chitrak Moola",
+          "quantity": "48 g",
+          "part": "powder"
+        },
+        {
+          "herb": "Mandoora Bhasma",
+          "quantity": "1.92 kg"
+        }
+      ],
+      "indications": [
+        "Anaemia",
+        "Splenomegaly",
+        "Haemorrhoids",
+        "Malabsorption syndrome",
+        "Chronic fever",
+        "Inflammatory conditions",
+        "Infective skin diseases",
+        "Helminthiasis"
+      ],
+      "dosage": {
+        "amount": "500 mg- 1 g",
+        "frequency": "Once or twice daily before or after food",
+        "duration": "Maximum up to 4-6 months"
+      },
+      "anupana": [
+        "Water",
+        "Buttermilk"
+      ],
+      "contraindications": [
+        "Hemosiderosis"
+      ],
+      "reference": "Charak Samhita Chikitsa Sthana 16/93-95, Bhaishajya Ratnavali"
+    },
+    {
+      "id": "bgr-34",
+      "name": "BGR-34",
+      "sanskritName": "बीजीआर-३४",
+      "type": "vatis",
+      "clinicalSystems": [
+        "Endocrine System"
+      ],
+      "indicationCategories": [
+        "Metabolic Disorders"
+      ],
+      "traditionalCategories": [],
+      "ingredients": [
+        {
+          "herb": "Daruharidra (Berberis aristata)",
+          "quantity": "Proprietary"
+        },
+        {
+          "herb": "Giloy (Tinospora cordifolia)",
+          "quantity": "Proprietary"
+        },
+        {
+          "herb": "Vijaysar (Pterocarpus marsupium)",
+          "quantity": "Proprietary"
+        },
+        {
+          "herb": "Gudmar (Gymnema sylvestre)",
+          "quantity": "Proprietary"
+        },
+        {
+          "herb": "Manjeestha (Rubia cordifolia)",
+          "quantity": "Proprietary"
+        },
+        {
+          "herb": "Fenugreek (Trigonella foenum-graecum)",
+          "quantity": "Proprietary"
+        }
+      ],
+      "indications": [
+        "To support glycemic control",
+        "Management of diabetes mellitus (adjunct)"
+      ],
+      "dosage": {
+        "amount": "1 tablet",
+        "frequency": "Twice daily",
+        "duration": "As per clinician"
+      },
+      "anupana": [
+        "Water"
+      ],
+      "contraindications": [],
+      "reference": "Wikipedia"
+    },
+    {
+      "id": "laghusutshekhar-vati",
+      "name": "Laghusutshekhar Vati",
+      "sanskritName": "लघुसूतशेखर वटी",
+      "type": "vatis",
+      "clinicalSystems": [
+        "Digestive System",
+        "Nervous System"
+      ],
+      "indicationCategories": [
+        "Digestive Disorders",
+        "Neurological Disorders"
+      ],
+      "traditionalCategories": [
+        "Pittahara",
+        "Vedanasthapana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Purified Swarna Gairika (cinnabar/gairika processed)",
+          "quantity": "1 part"
+        },
+        {
+          "herb": "Sunthi (ginger)",
+          "quantity": "1 part"
+        }
+      ],
+      "indications": [
+        "Acidity",
+        "Gastritis",
+        "Headache",
+        "Migraine"
+      ],
+      "dosage": {
+        "amount": "1-2 tablets",
+        "frequency": "twice a day",
+        "duration": "before or after food or as directed by physician"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "reference": "Classical Ayurvedic Text"
+    },
+    {
+      "id": "samshamani-vati",
+      "name": "Samshamani Vati",
+      "sanskritName": "संशमनी वटी",
+      "type": "vatis",
+      "clinicalSystems": [
+        "Immune System",
+        "Digestive System"
+      ],
+      "indicationCategories": [
+        "Fever & Infections",
+        "Digestive Disorders"
+      ],
+      "traditionalCategories": [
+        "Jwaraghna",
+        "Pittahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Guduchi (Tinospora cordifolia) aqueous extract",
+          "quantity": "1 part"
+        }
+      ],
+      "indications": [
+        "Chronic fever",
+        "Viral and bacterial infections",
+        "Immuno-modulation",
+        "Inflammation",
+        "Indigestion",
+        "Pitta disorders"
+      ],
+      "dosage": {
+        "amount": "1-2 tablets",
+        "frequency": "twice a day",
+        "duration": "as directed"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [],
+      "reference": "Classical Ayurvedic Text"
+    },
+    {
+      "id": "praval-panchamrut-tablet",
+      "name": "Praval Panchamrut Tablet",
+      "sanskritName": "प्रवाल पञ्चामृत वटी",
+      "type": "vatis",
+      "clinicalSystems": [
+        "Digestive System"
+      ],
+      "indicationCategories": [
+        "Digestive Disorders"
+      ],
+      "traditionalCategories": [
+        "Pittahara",
+        "Deepana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Praval Pishti",
+          "quantity": "1 part"
+        },
+        {
+          "herb": "Shankha Bhasma",
+          "quantity": "1 part"
+        },
+        {
+          "herb": "Shukti Bhasma",
+          "quantity": "1 part"
+        },
+        {
+          "herb": "Kapardika Bhasma",
+          "quantity": "1 part"
+        },
+        {
+          "herb": "Guduchi Satva",
+          "quantity": "1 part"
+        },
+        {
+          "herb": "Godugdha (cow's milk)",
+          "quantity": "1 part"
+        }
+      ],
+      "indications": [
+        "Bloating",
+        "Hyperacidity",
+        "Anorexia",
+        "Diarrhea",
+        "Indigestion"
+      ],
+      "dosage": {
+        "amount": "1-2 tablets",
+        "frequency": "as directed",
+        "duration": "as directed by physician"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [],
+      "reference": "Classical Ayurvedic Text"
+    },
+    {
+      "id": "boswellia-curcumin",
+      "name": "Boswellia Curcumin",
+      "sanskritName": "बोसवेलिया कर्क्यूमिन",
+      "type": "vatis",
+      "clinicalSystems": [
+        "Musculoskeletal System"
+      ],
+      "indicationCategories": [
+        "Musculoskeletal Issues"
+      ],
+      "traditionalCategories": [
+        "Shothahara",
+        "Vedanasthapana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Shallaki (Boswellia serrata)",
+          "quantity": "1 part"
+        },
+        {
+          "herb": "Curcumin (Curcuma longa)",
+          "quantity": "1 part"
+        }
+      ],
+      "indications": [
+        "Anti-inflammatory",
+        "Helpful in osteoarthritis",
+        "Rheumatoid arthritis",
+        "Joint pain",
+        "Reducing stiffness"
+      ],
+      "dosage": {
+        "amount": "1 capsule",
+        "frequency": "twice a day",
+        "duration": "after a meal"
+      },
+      "anupana": [
+        "Plain water"
+      ],
+      "contraindications": [],
+      "reference": "Planet Ayurveda"
+    },
+    {
+      "id": "panchkola-capsules",
+      "name": "Panchkola Capsules",
+      "sanskritName": "पंचकोल कैप्सूल",
+      "type": "vatis",
+      "clinicalSystems": [
+        "Digestive System"
+      ],
+      "indicationCategories": [
+        "Digestive Disorders",
+        "Metabolic Disorders"
+      ],
+      "traditionalCategories": [
+        "Deepana",
+        "Pachana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Pippali (Piper longum fruit)",
+          "quantity": "100 mg"
+        },
+        {
+          "herb": "Pippali root (Piper longum root)",
+          "quantity": "100 mg"
+        },
+        {
+          "herb": "Chavya (Piper retrofractum)",
+          "quantity": "100 mg"
+        },
+        {
+          "herb": "Chitraka (Plumbago zeylanica)",
+          "quantity": "100 mg"
+        },
+        {
+          "herb": "Sonth / Shunthi (Zingiber officinale)",
+          "quantity": "100 mg"
+        }
+      ],
+      "indications": [
+        "Supports digestion",
+        "Detoxification",
+        "Metabolic balance",
+        "Stimulates liver/pancreas/intestines to secrete digestive juices",
+        "Used in digestive, detox / metabolic disorders"
+      ],
+      "dosage": {
+        "amount": "1-2 capsules",
+        "frequency": "twice daily",
+        "duration": "half an hour after meals"
+      },
+      "anupana": [
+        "Plain water"
+      ],
+      "contraindications": [],
+      "reference": "planetayurveda.eu"
+    },
+    {
+      "id": "triphala-churna",
+      "name": "Triphala Churna",
+      "sanskritName": "त्रिफला चूर्ण",
+      "type": "churnas",
+      "clinicalSystems": [
+        "Digestive System"
+      ],
+      "indicationCategories": [
+        "Digestive Disorders",
+        "General Health & Wellness"
+      ],
+      "traditionalCategories": [
+        "Rasayana",
+        "Deepana",
+        "Pachana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Haritaki",
+          "quantity": "1 part"
+        },
+        {
+          "herb": "Bibhitaki",
+          "quantity": "1 part"
+        },
+        {
+          "herb": "Amla",
+          "quantity": "1 part"
+        }
+      ],
+      "indications": [
+        "Constipation",
+        "Poor digestion",
+        "Eye disorders",
+        "Detoxification"
+      ],
+      "dosage": {
+        "amount": "3-6g",
+        "frequency": "Twice daily",
+        "duration": "As needed"
+      },
+      "anupana": [
+        "Warm water",
+        "Honey"
+      ],
+      "contraindications": [
+        "Diarrhea",
+        "Pregnancy"
+      ],
+      "reference": "Charaka Samhita"
+    },
+    {
+      "id": "ashwagandha-churna",
+      "name": "Ashwagandha Churna",
+      "sanskritName": "अश्वगंधा चूर्ण",
+      "type": "churnas",
+      "clinicalSystems": [
+        "Nervous System",
+        "Reproductive System"
+      ],
+      "indicationCategories": [
+        "Stress",
+        "Weakness",
+        "Insomnia"
+      ],
+      "traditionalCategories": [
+        "Balya",
+        "Rasayana",
+        "Vajikarana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Ashwagandha",
+          "quantity": "100%"
+        }
+      ],
+      "indications": [
+        "Stress",
+        "Anxiety",
+        "Weakness",
+        "Insomnia",
+        "Low libido"
+      ],
+      "dosage": {
+        "amount": "3-6g",
+        "frequency": "Twice daily",
+        "duration": "Long-term use"
+      },
+      "anupana": [
+        "Milk",
+        "Ghee"
+      ],
+      "contraindications": [
+        "Hyperthyroidism"
+      ],
+      "reference": "Charaka Samhita"
+    }
+  ]
 }

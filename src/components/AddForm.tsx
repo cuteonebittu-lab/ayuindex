@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 
+import { Herb, Formulation } from '../types/ayurveda';
+
 interface AddFormProps {
-  onAdd: (item: any) => void;
+  onAdd: (item: Partial<Herb> | Partial<Formulation>) => void;
   type: 'herb' | 'formulation';
 }
 

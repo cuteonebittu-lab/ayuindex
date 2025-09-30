@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { Header } from './components/Header';
 import { FormulationSubcategoryList } from './components/FormulationSubcategoryList';
@@ -10,12 +10,11 @@ import { FormulationCard } from './components/FormulationCard';
 import { HerbDetail } from './components/HerbDetail';
 import { FormulationDetail } from './components/FormulationDetail';
 import { useSearch } from './hooks/useSearch';
-import { herbs as herbsData } from './data/herbs';
-import { formulations as formulationsData } from './data/index';
-import { Herb, Formulation, FormulationType } from './types/ayurveda';
+import { Herb, Formulation } from './types/ayurveda';
 import { FormulationSubcategoryPage } from './components/FormulationSubcategoryPage';
 import { AddForm } from './components/AddForm';
 import { EditForm } from './components/EditForm';
+import { herbApi, formulationApi } from './services/api';
 
 function App() {
   const [showFilters, setShowFilters] = useState(false);
@@ -23,8 +22,9 @@ function App() {
   const [selectedFormulation, setSelectedFormulation] = useState<Formulation | null>(null);
   const [editingItem, setEditingItem] = useState<Herb | Formulation | null>(null);
   const [selectedFormulationType, setSelectedFormulationType] = useState<string | null>(null);
-  const [herbs, setHerbs] = useState<Herb[]>(herbsData);
-  const [formulations, setFormulations] = useState<Formulation[]>(formulationsData);
+  const [herbs, setHerbs] = useState<Herb[]>([]);
+  const [formulations, setFormulations] = useState<Formulation[]>([]);
+  const [loading, setLoading] = useState(true);
 
   const {
     searchTerm,
@@ -36,6 +36,27 @@ function App() {
     filteredResults
   } = useSearch({ herbs, formulations });
 
+  // Load data from API on component mount
+  useEffect(() => {
+    const loadData = async () => {
+      try {
+        setLoading(true);
+        const [herbsData, formulationsData] = await Promise.all([
+          herbApi.getAll(),
+          formulationApi.getAll()
+        ]);
+        setHerbs(herbsData);
+        setFormulations(formulationsData);
+      } catch (error) {
+        console.error('Error loading data:', error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    loadData();
+  }, []);
+
   // Initialize filters with new category array
   React.useEffect(() => {
     setFilters(prev => ({
@@ -43,18 +64,6 @@ function App() {
       category: []
     }));
   }, [setFilters]);
-
-  const handleFormulationTypeSelect = (type: string) => {
-    setCategory('formulations');
-    setFilters({
-      rasa: [],
-      guna: [],
-      virya: [],
-      type: [type as FormulationType],
-      category: []
-    });
-    setSearchTerm('');
-  };
 
   const handleSubcategorySelect = (type: string) => {
     setSelectedFormulationType(type);
@@ -64,65 +73,87 @@ function App() {
     setEditingItem(herb);
   };
 
-  const handleDeleteHerb = (herbToDelete: Herb) => {
-    setHerbs(herbs.filter(herb => herb.id !== herbToDelete.id));
+  const handleDeleteHerb = async (herbToDelete: Herb) => {
+    try {
+      await herbApi.delete(herbToDelete.id);
+      setHerbs(herbs.filter(herb => herb.id !== herbToDelete.id));
+    } catch (error) {
+      console.error('Error deleting herb:', error);
+    }
   };
 
   const handleEditFormulation = (formulation: Formulation) => {
     setEditingItem(formulation);
   };
 
-  const handleDeleteFormulation = (formulationToDelete: Formulation) => {
-    setFormulations(formulations.filter(formulation => formulation.id !== formulationToDelete.id));
-  };
-
-  const handleAddHerb = (herb: Partial<Herb>) => {
-    const newHerb: Herb = {
-      id: `herb-${Date.now()}`,
-      name: herb.name || 'New Herb',
-      sanskritName: '',
-      botanicalName: '',
-      family: '',
-      parts: [],
-      rasa: [],
-      guna: [],
-      virya: '',
-      vipaka: '',
-      indications: [],
-    };
-    setHerbs([newHerb, ...herbs]);
-  };
-
-  const handleAddFormulation = (formulation: Partial<Formulation>) => {
-    const newFormulation: Formulation = {
-      id: `formulation-${Date.now()}`,
-      name: formulation.name || 'New Formulation',
-      sanskritName: '',
-      type: 'churna',
-      clinicalSystems: [],
-      indicationCategories: [],
-      traditionalCategories: [],
-      ingredients: [],
-      indications: [],
-      dosage: {
-        amount: '',
-        frequency: '',
-        duration: '',
-      },
-      anupana: [],
-      contraindications: [],
-      reference: '',
-    };
-    setFormulations([newFormulation, ...formulations]);
-  };
-
-  const handleSaveItem = (item: Herb | Formulation) => {
-    if ('botanicalName' in item) {
-      setHerbs(herbs.map(h => h.id === item.id ? item : h));
-    } else {
-      setFormulations(formulations.map(f => f.id === item.id ? item : f));
+  const handleDeleteFormulation = async (formulationToDelete: Formulation) => {
+    try {
+      await formulationApi.delete(formulationToDelete.id);
+      setFormulations(formulations.filter(formulation => formulation.id !== formulationToDelete.id));
+    } catch (error) {
+      console.error('Error deleting formulation:', error);
     }
-    setEditingItem(null);
+  };
+
+  const handleAddHerb = async (herb: Partial<Herb>) => {
+    try {
+      const newHerb = await herbApi.create({
+        name: herb.name || 'New Herb',
+        sanskritName: '',
+        botanicalName: '',
+        family: '',
+        parts: [],
+        rasa: [],
+        guna: [],
+        virya: '',
+        vipaka: '',
+        indications: [],
+      });
+      setHerbs([newHerb, ...herbs]);
+    } catch (error) {
+      console.error('Error adding herb:', error);
+    }
+  };
+
+  const handleAddFormulation = async (formulation: Partial<Formulation>) => {
+    try {
+      const newFormulation = await formulationApi.create({
+        name: formulation.name || 'New Formulation',
+        sanskritName: '',
+        type: 'churna',
+        clinicalSystems: [],
+        indicationCategories: [],
+        traditionalCategories: [],
+        ingredients: [],
+        indications: [],
+        dosage: {
+          amount: '',
+          frequency: '',
+          duration: '',
+        },
+        anupana: [],
+        contraindications: [],
+        reference: '',
+      });
+      setFormulations([newFormulation, ...formulations]);
+    } catch (error) {
+      console.error('Error adding formulation:', error);
+    }
+  };
+
+  const handleSaveItem = async (item: Herb | Formulation) => {
+    try {
+      if ('botanicalName' in item) {
+        await herbApi.update(item.id, item);
+        setHerbs(herbs.map(h => h.id === item.id ? item : h));
+      } else {
+        await formulationApi.update(item.id, item);
+        setFormulations(formulations.map(f => f.id === item.id ? item : f));
+      }
+      setEditingItem(null);
+    } catch (error) {
+      console.error('Error saving item:', error);
+    }
   };
 
   return (
@@ -161,84 +192,96 @@ function App() {
           setFilters={setFilters}
         />
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
-          <AddForm onAdd={handleAddHerb} type="herb" />
-          <AddForm onAdd={handleAddFormulation} type="formulation" />
-        </div>
-
-        {/* Results */}
-        <div className="space-y-8">
-          {/* Herbs Section */}
-          {(category === 'all' || category === 'herbs') && filteredResults.herbs.length > 0 && (
-            <section>
-              <h2 className="text-2xl font-bold text-gray-800 mb-6 flex items-center gap-2">
-                <div className="w-8 h-8 bg-emerald-100 rounded-lg flex items-center justify-center">
-                  <span className="text-emerald-600 font-bold text-sm">H</span>
-                </div>
-                Single Herbs ({filteredResults.herbs.length})
-              </h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {filteredResults.herbs.map((herb) => (
-                  <HerbCard
-                    key={herb.id}
-                    herb={herb}
-                    onClick={() => setSelectedHerb(herb)}
-                    onEdit={() => handleEditHerb(herb)}
-                    onDelete={() => handleDeleteHerb(herb)}
-                  />
-                ))}
-              </div>
-            </section>
-          )}
-
-          {/* Formulations Section */}
-          {(category === 'all' || category === 'formulations') && filteredResults.formulations.length > 0 && (
-            <section>
-              <div>
-                {Object.entries(
-                  filteredResults.formulations.reduce((acc, formulation) => {
-                    if (!acc[formulation.type]) {
-                      acc[formulation.type] = [];
-                    }
-                    acc[formulation.type].push(formulation);
-                    return acc;
-                  }, {} as Record<string, Formulation[]>)
-                ).map(([type, formulationsOfType]) => (
-                  <div key={type} className="mb-8">
-                    <h3 className="text-xl font-semibold text-gray-700 mb-4 capitalize flex items-center gap-2">
-                      <div className="w-7 h-7 bg-blue-100 rounded-lg flex items-center justify-center">
-                        <span className="text-blue-600 font-bold text-xs">{type.charAt(0).toUpperCase()}</span>
-                      </div>
-                      {type} ({formulationsOfType.length})
-                    </h3>
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                      {formulationsOfType.map((formulation) => (
-                        <FormulationCard
-                          key={formulation.id}
-                          formulation={formulation}
-                          onClick={() => setSelectedFormulation(formulation)}
-                          onEdit={() => handleEditFormulation(formulation)}
-                          onDelete={() => handleDeleteFormulation(formulation)}
-                        />
-                      ))}
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </section>
-          )}
-
-          {/* No Results */}
-          {filteredResults.herbs.length === 0 && filteredResults.formulations.length === 0 && (
-            <div className="text-center py-12">
-              <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-gray-400 text-2xl">🔍</span>
-              </div>
-              <h3 className="text-lg font-medium text-gray-600 mb-2">No results found</h3>
-              <p className="text-gray-500">Try adjusting your search terms or filters</p>
+        {loading ? (
+          <div className="text-center py-12">
+            <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <span className="text-gray-400 text-2xl">⏳</span>
             </div>
-          )}
-        </div>
+            <h3 className="text-lg font-medium text-gray-600 mb-2">Loading data...</h3>
+            <p className="text-gray-500">Please wait while we load your Ayurveda data</p>
+          </div>
+        ) : (
+          <>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+              <AddForm onAdd={handleAddHerb} type="herb" />
+              <AddForm onAdd={handleAddFormulation} type="formulation" />
+            </div>
+
+            {/* Results */}
+            <div className="space-y-8">
+              {/* Herbs Section */}
+              {(category === 'all' || category === 'herbs') && filteredResults.herbs.length > 0 && (
+                <section>
+                  <h2 className="text-2xl font-bold text-gray-800 mb-6 flex items-center gap-2">
+                    <div className="w-8 h-8 bg-emerald-100 rounded-lg flex items-center justify-center">
+                      <span className="text-emerald-600 font-bold text-sm">H</span>
+                    </div>
+                    Single Herbs ({filteredResults.herbs.length})
+                  </h2>
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    {filteredResults.herbs.map((herb) => (
+                      <HerbCard
+                        key={herb.id}
+                        herb={herb}
+                        onClick={() => setSelectedHerb(herb)}
+                        onEdit={() => handleEditHerb(herb)}
+                        onDelete={() => handleDeleteHerb(herb)}
+                      />
+                    ))}
+                  </div>
+                </section>
+              )}
+
+              {/* Formulations Section */}
+              {(category === 'all' || category === 'formulations') && filteredResults.formulations.length > 0 && (
+                <section>
+                  <div>
+                    {Object.entries(
+                      filteredResults.formulations.reduce((acc, formulation) => {
+                        if (!acc[formulation.type]) {
+                          acc[formulation.type] = [];
+                        }
+                        acc[formulation.type].push(formulation);
+                        return acc;
+                      }, {} as Record<string, Formulation[]>)
+                    ).map(([type, formulationsOfType]) => (
+                      <div key={type} className="mb-8">
+                        <h3 className="text-xl font-semibold text-gray-700 mb-4 capitalize flex items-center gap-2">
+                          <div className="w-7 h-7 bg-blue-100 rounded-lg flex items-center justify-center">
+                            <span className="text-blue-600 font-bold text-xs">{type.charAt(0).toUpperCase()}</span>
+                          </div>
+                          {type} ({formulationsOfType.length})
+                        </h3>
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                          {formulationsOfType.map((formulation) => (
+                            <FormulationCard
+                              key={formulation.id}
+                              formulation={formulation}
+                              onClick={() => setSelectedFormulation(formulation)}
+                              onEdit={() => handleEditFormulation(formulation)}
+                              onDelete={() => handleDeleteFormulation(formulation)}
+                            />
+                          ))}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </section>
+              )}
+
+              {/* No Results */}
+              {filteredResults.herbs.length === 0 && filteredResults.formulations.length === 0 && (
+                <div className="text-center py-12">
+                  <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <span className="text-gray-400 text-2xl">🔍</span>
+                  </div>
+                  <h3 className="text-lg font-medium text-gray-600 mb-2">No results found</h3>
+                  <p className="text-gray-500">Try adjusting your search terms or filters</p>
+                </div>
+              )}
+            </div>
+          </>
+        )}
       </main>
         } />
       </Routes>

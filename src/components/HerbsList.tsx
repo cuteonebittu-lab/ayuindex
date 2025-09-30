@@ -1,5 +1,6 @@
+import { useState, useEffect } from 'react';
 import { X } from 'lucide-react';
-import { herbs } from '../data/herbs';
+import { herbApi } from '../services/api';
 import { Herb } from '../types/ayurveda';
 
 interface HerbsListProps {
@@ -8,11 +9,52 @@ interface HerbsListProps {
 }
 
 export function HerbsList({ onClose, onHerbSelect }: HerbsListProps) {
+  const [herbs, setHerbs] = useState<Herb[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const loadHerbs = async () => {
+      try {
+        setLoading(true);
+        const herbsData = await herbApi.getAll();
+        setHerbs(herbsData);
+      } catch (error) {
+        console.error('Error loading herbs:', error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    loadHerbs();
+  }, []);
+
+  if (loading) {
+    return (
+      <div className="fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4">
+        <div className="bg-white rounded-xl w-full max-w-4xl max-h-[80vh] overflow-hidden flex flex-col">
+          <div className="p-4 border-b flex items-center justify-between">
+            <h2 className="text-xl font-semibold text-gray-800">Single Herbs</h2>
+            <button onClick={onClose} className="p-2 hover:bg-gray-100 rounded-lg">
+              <X className="w-5 h-5" />
+            </button>
+          </div>
+          <div className="p-8 text-center">
+            <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <span className="text-gray-400 text-2xl">⏳</span>
+            </div>
+            <h3 className="text-lg font-medium text-gray-600 mb-2">Loading herbs...</h3>
+            <p className="text-gray-500">Please wait while we load the data</p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4">
       <div className="bg-white rounded-xl w-full max-w-4xl max-h-[80vh] overflow-hidden flex flex-col">
         <div className="p-4 border-b flex items-center justify-between">
-          <h2 className="text-xl font-semibold text-gray-800">Single Herbs</h2>
+          <h2 className="text-xl font-semibold text-gray-800">Single Herbs ({herbs.length})</h2>
           <button onClick={onClose} className="p-2 hover:bg-gray-100 rounded-lg">
             <X className="w-5 h-5" />
           </button>
