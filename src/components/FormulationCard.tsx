@@ -36,6 +36,11 @@ export function FormulationCard({ formulation, onClick, onEdit, onDelete }: Form
     onDelete();
   };
 
+  // Safe handling for indications array
+  const indicationsText = Array.isArray(formulation.indications) && formulation.indications.length > 0 
+    ? `${formulation.indications.slice(0, 2).join(', ')}${formulation.indications.length > 2 ? '...' : ''}`
+    : 'No indications specified';
+
   return (
     <div
       onClick={onClick}
@@ -86,11 +91,10 @@ export function FormulationCard({ formulation, onClick, onEdit, onDelete }: Form
             </div>
             
             <div className="text-sm text-gray-600">
-              <strong>For:</strong> {formulation.indications.slice(0, 2).join(', ')}
-              {formulation.indications.length > 2 && '...'}
+              <strong>For:</strong> {indicationsText}
             </div>
             
-            {formulation.contraindications.length > 0 && (
+            {Array.isArray(formulation.contraindications) && formulation.contraindications.length > 0 && (
               <div className="flex items-center gap-2 text-sm">
                 <AlertTriangle className="w-4 h-4 text-amber-500" />
                 <span className="text-gray-600">

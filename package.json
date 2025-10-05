@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "db:populate": "node scripts/populate-db.cjs",
+    "db:populate": "node scripts/populate-all-formulations.cjs",
     "db:server": "json-server --watch data/db.json --port 3001"
   },
   "dependencies": {

@@ -1,4 +1,4 @@
-import { Formulation } from '../../types/ayurveda';
+import { Formulation } from '../../types/ayurveda.ts';
 
 export const ghritas: Formulation[] = [
   {

@@ -1,19 +1,22 @@
 import React, { useState, useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
-import { Header } from './components/Header';
+import { Header } from './components/common/Header';
 import { FormulationSubcategoryList } from './components/FormulationSubcategoryList';
-import { SearchBar } from './components/SearchBar';
-import { FilterPanel } from './components/FilterPanel';
+import { SearchBar } from './components/common/SearchBar';
+import { FilterPanel } from './components/common/FilterPanel';
 import { Stats } from './components/Stats';
-import { HerbCard } from './components/HerbCard';
+import { HerbCard } from './components/herbs/HerbCard';
 import { FormulationCard } from './components/FormulationCard';
-import { HerbDetail } from './components/HerbDetail';
+import { HerbDetail } from './components/herbs/HerbDetail';
 import { FormulationDetail } from './components/FormulationDetail';
 import { useSearch } from './hooks/useSearch';
 import { Herb, Formulation } from './types/ayurveda';
 import { FormulationSubcategoryPage } from './components/FormulationSubcategoryPage';
 import { AddForm } from './components/AddForm';
 import { EditForm } from './components/EditForm';
+import HerbUpload from './components/HerbUpload';
+import FormulationUpload from './components/FormulationUpload';
+import FileUpload from './components/FileUpload';
 import { herbApi, formulationApi } from './services/api';
 
 function App() {
@@ -156,6 +159,20 @@ function App() {
     }
   };
 
+  const handleDataImported = async () => {
+    // Reload data after import
+    try {
+      const [herbsData, formulationsData] = await Promise.all([
+        herbApi.getAll(),
+        formulationApi.getAll()
+      ]);
+      setHerbs(herbsData);
+      setFormulations(formulationsData);
+    } catch (error) {
+      console.error('Error reloading data after import:', error);
+    }
+  };
+
   return (
     <div className="min-h-screen bg-gray-50">
       <Header />
@@ -166,8 +183,8 @@ function App() {
         <Route path="/" element={
           <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <Stats
-          herbCount={herbs.length}
-          formulationCount={formulations.length}
+          herbs={herbs}
+          formulations={formulations}
           onFormulationTypeSelect={handleSubcategorySelect}
           onHerbSelect={setSelectedHerb}
           onIndicationSelect={(indication) => {
@@ -205,6 +222,12 @@ function App() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
               <AddForm onAdd={handleAddHerb} type="herb" />
               <AddForm onAdd={handleAddFormulation} type="formulation" />
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+              <HerbUpload onDataImported={handleDataImported} />
+              <FormulationUpload onDataImported={handleDataImported} />
+              <FileUpload onDataImported={handleDataImported} />
             </div>
 
             {/* Results */}
@@ -304,6 +327,7 @@ function App() {
       {selectedFormulationType && (
         <FormulationSubcategoryList
           type={selectedFormulationType}
+          formulations={formulations}
           onClose={() => setSelectedFormulationType(null)}
           onFormulationSelect={setSelectedFormulation}
         />

@@ -1,71 +1,74 @@
 const fs = require('fs');
 const path = require('path');
 
-// Read the current db.json
-const dbPath = path.resolve(__dirname, '../data/db.json');
-const db = JSON.parse(fs.readFileSync(dbPath, 'utf8'));
+// Import all individual formulation types
+const { arishtas } = require('../src/data/formulations/arishtas.ts');
+const { vatis } = require('../src/data/formulations/vatis.ts');
+const { kashayas } = require('../src/data/formulations/kashayas.ts');
+const { ghritas } = require('../src/data/formulations/ghritas.ts');
+const { churnas } = require('../src/data/formulations/churnas.ts');
+const { tailas } = require('../src/data/formulations/tailas.ts');
+const { bhasmas } = require('../src/data/formulations/bhasmas.ts');
+const { guggulus } = require('../src/data/formulations/guggulus.ts');
+const { avalehas } = require('../src/data/formulations/avalehas.ts');
+const { rasas } = require('../src/data/formulations/rasas.ts');
+const { syrups } = require('../src/data/formulations/syrups.ts');
+const { commercialProducts } = require('../src/data/formulations/commercial-products.ts');
 
-// Import all formulation data from TypeScript files
-const formulationsPath = path.resolve(__dirname, '../src/data/formulations');
+// Read the herbs data from the JSON file
+const herbsData = require('../data/herbs_dataset.json');
 
-// Helper function to read and parse TypeScript files
-function parseTypeScriptFile(filePath) {
-  try {
-    const content = fs.readFileSync(filePath, 'utf8');
-    // Extract the array content between export const and the closing bracket
-    const match = content.match(/export\s+const\s+\w+\s*:\s*Formulation\[\]\s*=\s*\[([\s\S]*?)\];/);
-    if (match) {
-      // Convert TypeScript object to JSON
-      let arrayContent = match[1];
-      
-      // Fix TypeScript syntax to JSON
-      arrayContent = arrayContent
-        .replace(/'/g, '"') // Replace single quotes with double quotes
-        .replace(/(\w+):/g, '"$1":') // Add quotes to property names
-        .replace(/,\s*}/g, '}') // Remove trailing commas
-        .replace(/,\s*\]/g, ']'); // Remove trailing commas in arrays
-      
-      // Parse as JSON
-      return JSON.parse(`[${arrayContent}]`);
-    }
-  } catch (error) {
-    console.error(`Error parsing ${filePath}:`, error.message);
-  }
-  return [];
-}
+// Map the herbs data to match the Herb type structure
+const herbs = herbsData.map((herb) => ({
+  id: herb.HerbName.toLowerCase().replace(/ /g, '-'),
+  name: herb.HerbName,
+  sanskritName: herb.HerbName, // Assuming HerbName is the Sanskrit name for now
+  botanicalName: herb.BotanicalName,
+  family: '', // This information is not in the JSON file
+  parts: [herb.PartsUsed],
+  rasa: herb.Rasa,
+  guna: herb.Guna,
+  virya: herb.Virya,
+  vipaka: herb.Vipaka,
+  karma: Array.isArray(herb.Karma) ? herb.Karma : [herb.Karma],
+  prabhava: herb.Prabhava,
+  indications: herb.Indications,
+  typicalDosage: {
+    powder: herb.Dosage,
+  },
+  brandsAndPrices: herb.Brands.map((brand) => ({
+    brand: brand.BrandName,
+    sku_title: `${brand.CompanyName} ${brand.BrandName} ${brand.PackageSize}`,
+    pack_size: brand.PackageSize,
+    price_inr: Number(brand.Price.replace('₹', '').trim()),
+    retailer: brand.CompanyName,
+    product_url: '', // This information is not in the JSON file
+  })),
+}));
 
-// Get all formulation files
-const formulationFiles = [
-  'arishtas.ts',
-  'vatis.ts',
-  'kashayas.ts',
-  'ghritas.ts',
-  'churnas.ts',
-  'tailas.ts',
-  'bhasmas.ts',
-  'rasas.ts',
-  'guggulus.ts',
-  'avalehas.ts',
-  'syrups.ts'
+// Combine all formulations into a single array
+const allFormulations = [
+  ...arishtas,
+  ...vatis,
+  ...kashayas,
+  ...ghritas,
+  ...churnas,
+  ...tailas,
+  ...bhasmas,
+  ...rasas,
+  ...guggulus,
+  ...avalehas,
+  ...syrups,
+  ...commercialProducts
 ];
 
-let allFormulations = [];
+const db = {
+  herbs,
+  formulations: allFormulations
+};
 
-// Read each formulation file
-formulationFiles.forEach(file => {
-  const filePath = path.join(formulationsPath, file);
-  if (fs.existsSync(filePath)) {
-    const formulations = parseTypeScriptFile(filePath);
-    console.log(`Loaded ${formulations.length} formulations from ${file}`);
-    allFormulations = [...allFormulations, ...formulations];
-  }
-});
-
-// Replace formulations in the database
-db.formulations = allFormulations;
-
-// Write back to db.json
+const dbPath = path.resolve(__dirname, '../data/db.json');
 fs.writeFileSync(dbPath, JSON.stringify(db, null, 2));
 
-console.log('Successfully populated all formulations in data/db.json');
-console.log(`Total formulations: ${allFormulations.length}`);
+console.log('Successfully populated data/db.json');
+console.log(`Added ${herbs.length} herbs and ${allFormulations.length} formulations`);

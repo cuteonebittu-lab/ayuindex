@@ -1,49 +1,27 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { Leaf, Beaker, BookOpen, Users, Stethoscope } from 'lucide-react';
-import { herbApi, formulationApi } from '../services/api';
-import { clinicalSystemMap } from '../data/categories/clinical-systems';
 import { IndicationsList } from './IndicationsList';
-import { HerbsList } from './HerbsList';
+import { HerbsList } from './herbs/HerbsList';
 import { FormulationTypesList } from './FormulationTypesList';
 import { ClassicalReferencesList } from './ClassicalReferencesList';
 import { ClinicalSystemsList } from './ClinicalSystemsList';
 
-import { Herb } from '../types/ayurveda';
+import { Herb, Formulation } from '../types/ayurveda';
 
 interface StatsProps {
-  herbCount: number;
-  formulationCount: number;
+  herbs: Herb[];
+  formulations: Formulation[];
   onFormulationTypeSelect: (type: string) => void;
   onHerbSelect: (herb: Herb) => void;
   onIndicationSelect?: (indication: string) => void;
 }
 
-export function Stats({ herbCount, formulationCount, onHerbSelect, onIndicationSelect }: StatsProps) {
+export function Stats({ herbs, formulations, onHerbSelect, onIndicationSelect }: StatsProps) {
   const [showIndications, setShowIndications] = useState(false);
   const [showHerbs, setShowHerbs] = useState(false);
   const [showFormulations, setShowFormulations] = useState(false);
   const [showReferences, setShowReferences] = useState(false);
   const [showClinicalSystems, setShowClinicalSystems] = useState(false);
-  const [herbs, setHerbs] = useState<any[]>([]);
-  const [formulations, setFormulations] = useState<any[]>([]);
-
-  // Load data from API
-  useEffect(() => {
-    const loadData = async () => {
-      try {
-        const [herbsData, formulationsData] = await Promise.all([
-          herbApi.getAll(),
-          formulationApi.getAll()
-        ]);
-        setHerbs(herbsData);
-        setFormulations(formulationsData);
-      } catch (error) {
-        console.error('Error loading data:', error);
-      }
-    };
-
-    loadData();
-  }, []);
 
   // Calculate total unique indications across all herbs and formulations
   const totalIndications = [...new Set([
@@ -56,18 +34,20 @@ export function Stats({ herbCount, formulationCount, onHerbSelect, onIndicationS
     formulations.filter((f: any) => f.reference).map((f: any) => f.reference)
   )].length;
 
+  const clinicalSystemsCount = [...new Set(formulations.flatMap(f => f.clinicalSystems))].length;
+
   const stats = [
     {
       icon: Leaf,
       label: 'Single Herbs',
-      value: herbCount,
+      value: herbs.length,
       color: 'text-emerald-600',
       bg: 'bg-emerald-50'
     },
     {
       icon: Beaker,
       label: 'Formulations',
-      value: formulationCount,
+      value: formulations.length,
       color: 'text-blue-600',
       bg: 'bg-blue-50'
     },
@@ -88,7 +68,7 @@ export function Stats({ herbCount, formulationCount, onHerbSelect, onIndicationS
     {
       icon: Stethoscope,
       label: 'Clinical Systems',
-      value: Object.keys(clinicalSystemMap).length,
+      value: clinicalSystemsCount,
       color: 'text-rose-600',
       bg: 'bg-rose-50'
     }
@@ -139,6 +119,7 @@ export function Stats({ herbCount, formulationCount, onHerbSelect, onIndicationS
       {/* Modals */}
       {showHerbs && (
         <HerbsList 
+          herbs={herbs}
           onClose={() => setShowHerbs(false)}
           onHerbSelect={(herb) => {
             onHerbSelect(herb);
@@ -148,11 +129,14 @@ export function Stats({ herbCount, formulationCount, onHerbSelect, onIndicationS
       )}
       {showFormulations && (
         <FormulationTypesList
+          formulations={formulations}
           onClose={() => setShowFormulations(false)}
         />
       )}
       {showIndications && (
         <IndicationsList 
+          herbs={herbs}
+          formulations={formulations}
           onClose={() => setShowIndications(false)}
           onIndicationSelect={(indication) => {
             onIndicationSelect?.(indication);
@@ -161,10 +145,10 @@ export function Stats({ herbCount, formulationCount, onHerbSelect, onIndicationS
         />
       )}
       {showReferences && (
-        <ClassicalReferencesList onClose={() => setShowReferences(false)} />
+        <ClassicalReferencesList formulations={formulations} onClose={() => setShowReferences(false)} />
       )}
       {showClinicalSystems && (
-        <ClinicalSystemsList onClose={() => setShowClinicalSystems(false)} />
+        <ClinicalSystemsList formulations={formulations} onClose={() => setShowClinicalSystems(false)} />
       )}
     </>
   );

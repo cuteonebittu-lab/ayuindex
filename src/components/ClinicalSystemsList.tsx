@@ -1,13 +1,14 @@
 import { X } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { clinicalSystemMap } from '../data/categories/clinical-systems';
+import { Formulation } from '../types/ayurveda';
 
 interface ClinicalSystemsListProps {
+  formulations: Formulation[];
   onClose: () => void;
 }
 
-export function ClinicalSystemsList({ onClose }: ClinicalSystemsListProps) {
-  const systems = Object.entries(clinicalSystemMap);
+export function ClinicalSystemsList({ formulations, onClose }: ClinicalSystemsListProps) {
+  const systems = [...new Set(formulations.flatMap(f => f.clinicalSystems))];
 
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
@@ -20,10 +21,10 @@ export function ClinicalSystemsList({ onClose }: ClinicalSystemsListProps) {
         </div>
         <div className="overflow-y-auto p-4">
           <ul className="space-y-2">
-            {systems.map(([systemName, systemId]) => (
-              <li key={systemId}>
+            {systems.map((systemName) => (
+              <li key={systemName}>
                 <Link
-                  to={`/clinical-systems/${systemId}`}
+                  to={`/clinical-systems/${systemName}`}
                   onClick={onClose}
                   className="block p-2 bg-gray-50 rounded-md hover:bg-gray-100 transition-colors"
                 >

@@ -1,0 +1,83 @@
+{
+  "herbs": [
+    {
+      "id": "test-tulsi",
+      "name": "Tulsi",
+      "sanskritName": "Tulsi",
+      "botanicalName": "Ocimum sanctum",
+      "family": "Lamiaceae",
+      "parts": ["Leaves", "Seeds"],
+      "rasa": ["Madhura", "Tikta", "Katu"],
+      "guna": ["Laghu", "Ruksha"],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "karma": ["Kaphahara", "Pittahara", "Vatahara"],
+      "prabhava": "Immunity booster",
+      "indications": ["Cough", "Cold", "Fever", "Respiratory disorders"],
+      "typicalDosage": {
+        "powder": "3-6 g per day",
+        "juice": "10-20 ml per day"
+      },
+      "anupana": ["Honey", "Warm water"],
+      "contraindications": ["Pregnancy"]
+    },
+    {
+      "id": "test-neem",
+      "name": "Neem",
+      "sanskritName": "Nimba",
+      "botanicalName": "Azadirachta indica",
+      "family": "Meliaceae",
+      "parts": ["Leaves", "Bark", "Seeds"],
+      "rasa": ["Tikta"],
+      "guna": ["Laghu", "Ruksha"],
+      "virya": "Sheeta",
+      "vipaka": "Katu",
+      "karma": ["Kaphahara", "Pittahara"],
+      "prabhava": "Blood purifier",
+      "indications": ["Skin diseases", "Diabetes", "Fever", "Wounds"],
+      "typicalDosage": {
+        "powder": "3-6 g per day",
+        "capsule": "1-2 capsules twice daily"
+      },
+      "anupana": ["Water"],
+      "contraindications": ["Weak digestion"]
+    }
+  ],
+  "formulations": [
+    {
+      "id": "test-triphala-churna",
+      "name": "Triphala Churna",
+      "sanskritName": "त्रिफला चूर्ण",
+      "type": "churna",
+      "clinicalSystems": ["Digestive System"],
+      "indicationCategories": ["Digestive Disorders", "General Health & Wellness"],
+      "traditionalCategories": ["Rasayana", "Deepana", "Pachana"],
+      "ingredients": [
+        {
+          "herb": "Haritaki",
+          "quantity": "1 part",
+          "part": "fruit"
+        },
+        {
+          "herb": "Bibhitaki",
+          "quantity": "1 part",
+          "part": "fruit"
+        },
+        {
+          "herb": "Amla",
+          "quantity": "1 part",
+          "part": "fruit"
+        }
+      ],
+      "indications": ["Constipation", "Poor digestion", "Eye disorders", "Detoxification"],
+      "dosage": {
+        "amount": "3-6g",
+        "frequency": "Twice daily",
+        "duration": "As needed"
+      },
+      "anupana": ["Warm water", "Honey"],
+      "contraindications": ["Diarrhea", "Pregnancy"],
+      "reference": "Charaka Samhita"
+    }
+  ]
+}

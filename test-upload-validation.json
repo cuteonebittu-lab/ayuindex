@@ -1,0 +1,47 @@
+{
+  "herbs": [
+    {
+      "id": "test-validation-herb",
+      "name": "Validation Test Herb",
+      "sanskritName": "परिक्षण औषधि",
+      "botanicalName": "TestPlant valida",
+      "family": "Testaceae",
+      "parts": ["Root", "Leaves"],
+      "rasa": ["Madhura", "Tikta"],
+      "guna": ["Laghu"],
+      "virya": "Sheeta",
+      "vipaka": "Madhura",
+      "karma": ["Balya"],
+      "prabhava": "Test herb",
+      "indications": ["Testing", "Validation"],
+      "typicalDosage": {
+        "powder": "1-2g per day"
+      },
+      "anupana": ["Water"],
+      "contraindications": ["None"]
+    }
+  ],
+  "formulations": [
+    {
+      "id": "test-validation-formulation",
+      "name": "Validation Test Formulation",
+      "sanskritName": "परिक्षण संयोजन",
+      "type": "churna",
+      "clinicalSystems": ["Digestive System"],
+      "indicationCategories": ["Digestive Disorders"],
+      "traditionalCategories": ["Deepana"],
+      "ingredients": [
+        {"herb": "Test Herb", "quantity": "100g", "part": "powder"}
+      ],
+      "indications": ["Test indication"],
+      "dosage": {
+        "amount": "3-6g",
+        "frequency": "Twice daily",
+        "duration": "7 days"
+      },
+      "anupana": ["Warm water"],
+      "contraindications": ["None"],
+      "reference": "Test Reference"
+    }
+  ]
+}

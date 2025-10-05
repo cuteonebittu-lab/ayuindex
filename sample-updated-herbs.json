@@ -1,0 +1,88 @@
+{
+  "herbs": [
+    {
+      "id": "test-tulsi-sandeep",
+      "name": "Tulsi (Updated)",
+      "sanskritName": "Tulsi (Updated)",
+      "botanicalName": "Ocimum sanctum",
+      "family": "Lamiaceae",
+      "parts": ["Leaves", "Seeds", "Flowers"],
+      "rasa": ["Madhura", "Tikta", "Katu"],
+      "guna": ["Laghu", "Ruksha"],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "karma": ["Kaphahara", "Pittahara", "Vatahara", "Immunomodulator"],
+      "prabhava": "Immunity booster and stress reliever",
+      "indications": ["Cough", "Cold", "Fever", "Respiratory disorders", "Stress", "Anxiety"],
+      "typicalDosage": {
+        "powder": "3-6 g per day",
+        "juice": "10-20 ml per day",
+        "tea": "2-3 cups per day"
+      },
+      "anupana": ["Honey", "Warm water", "Milk"],
+      "contraindications": ["Pregnancy", "Hypoglycemia"]
+    },
+    {
+      "id": "new-herb-test",
+      "name": "Turmeric",
+      "sanskritName": "Haridra",
+      "botanicalName": "Curcuma longa",
+      "family": "Zingiberaceae",
+      "parts": ["Rhizome"],
+      "rasa": ["Tikta", "Katu"],
+      "guna": ["Laghu", "Ruksha"],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "karma": ["Kaphahara", "Pittahara", "Shothahara"],
+      "prabhava": "Anti-inflammatory",
+      "indications": ["Inflammation", "Arthritis", "Skin diseases", "Wound healing"],
+      "typicalDosage": {
+        "powder": "1-3 g per day"
+      },
+      "anupana": ["Warm water", "Milk"],
+      "contraindications": ["Bleeding disorders"]
+    }
+  ],
+  "formulations": [
+    {
+      "id": "test-triphala-churna",
+      "name": "Triphala Churna (Enhanced)",
+      "sanskritName": "त्रिफला चूर्ण (संवर्धित)",
+      "type": "churna",
+      "clinicalSystems": ["Digestive System", "Immune System"],
+      "indicationCategories": ["Digestive Disorders", "General Health & Wellness", "Eye Disorders"],
+      "traditionalCategories": ["Rasayana", "Deepana", "Pachana", "Chakshushya"],
+      "ingredients": [
+        {
+          "herb": "Haritaki",
+          "quantity": "1 part",
+          "part": "fruit"
+        },
+        {
+          "herb": "Bibhitaki",
+          "quantity": "1 part",
+          "part": "fruit"
+        },
+        {
+          "herb": "Amla",
+          "quantity": "1 part",
+          "part": "fruit"
+        },
+        {
+          "herb": "Ghee",
+          "quantity": "1/4 part",
+          "part": "processed"
+        }
+      ],
+      "indications": ["Constipation", "Poor digestion", "Eye disorders", "Detoxification", "Immunity"],
+      "dosage": {
+        "amount": "3-6g",
+        "frequency": "Twice daily",
+        "duration": "Long-term use recommended"
+      },
+      "anupana": ["Warm water", "Honey", "Ghee"],
+      "contraindications": ["Diarrhea", "Pregnancy", "Severe dehydration"],
+      "reference": "Charaka Samhita (Updated)"
+    }
+  ]
+}
