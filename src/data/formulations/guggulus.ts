@@ -234,5 +234,45 @@ export const guggulus: Formulation[] = [
         ]
       }
     ]
+  },
+  {
+    id: 'kaishore-guggulu',
+    name: 'Kaishore Guggulu',
+    sanskritName: 'कैशोर गुग्गुलु',
+    type: 'guggulu',
+    clinicalSystems: ['Musculoskeletal System', 'Integumentary System', 'Hematopoietic System'],
+    indicationCategories: ['Musculoskeletal Issues', 'Skin Conditions', 'General Health & Wellness'],
+    traditionalCategories: ['Raktashodhaka', 'Shothahara', 'Rasayana'],
+    ingredients: [
+      { herb: 'Shuddha Guggulu', quantity: '1 part' },
+      { herb: 'Triphala', quantity: '1 part' },
+      { herb: 'Guduchi', quantity: '1 part' },
+      { herb: 'Trikatu', quantity: '1 part' },
+      { herb: 'Vidanga', quantity: '1 part' }
+    ],
+    indications: [
+      'Gout',
+      'Arthritis',
+      'Skin diseases',
+      'Blood purifier',
+      'Boils',
+      'Acne'
+    ],
+    dosage: {
+      amount: '1-2 tablets',
+      frequency: 'Twice daily',
+      duration: 'As prescribed'
+    },
+    anupana: ['Warm water'],
+    contraindications: ['Pregnancy', 'Bleeding disorders'],
+    reference: 'Bhaishajya Ratnavali',
+    brands: [
+      {
+        name: 'Dabur',
+        products: [
+          { name: 'Dabur Kaishore Guggulu', price: 120, quantity: '60 tablets' }
+        ]
+      }
+    ]
   }
 ];

@@ -197,5 +197,152 @@ export const kashayas: Formulation[] = [
     modeOfAction: 'Milk-based decoction to moderate the hot/pungent action of Trikatu.',
     generalConsiderations: 'Used when digestion support is needed with a milk basis, to calm irritative effect in some patients.',
     brands: []
+  },
+  {
+    id: 'dashamula-kashaya',
+    name: 'Dashamula Kashaya',
+    sanskritName: 'दशमूल कषाय',
+    type: 'kashaya',
+    clinicalSystems: ['Respiratory System', 'Nervous System'],
+    indicationCategories: ['Respiratory Conditions', 'Neurological Disorders'],
+    traditionalCategories: ['Vatahara', 'Shothahara'],
+    ingredients: [
+      { herb: 'Bilva', quantity: '1 part', part: 'root' },
+      { herb: 'Agnimantha', quantity: '1 part', part: 'root' },
+      { herb: 'Shyonaka', quantity: '1 part', part: 'root' },
+      { herb: 'Patala', quantity: '1 part', part: 'root' },
+      { herb: 'Gambhari', quantity: '1 part', part: 'root' },
+      { herb: 'Brihati', quantity: '1 part', part: 'root' },
+      { herb: 'Kantakari', quantity: '1 part', part: 'root' },
+      { herb: 'Gokshura', quantity: '1 part', part: 'fruit' },
+      { herb: 'Shalaparni', quantity: '1 part', part: 'root' },
+      { herb: 'Prishniparni', quantity: '1 part', part: 'root' }
+    ],
+    indications: [
+      'Cough',
+      'Cold',
+      'Asthma',
+      'Bronchitis',
+      'Vata disorders'
+    ],
+    dosage: {
+      amount: '15-30ml',
+      frequency: 'Twice daily',
+      duration: 'As needed'
+    },
+    anupana: ['Warm water', 'Honey'],
+    contraindications: ['High pitta'],
+    reference: 'Sahasrayogam',
+    brands: [
+      {
+        name: 'Kottakkal',
+        products: [
+          { name: 'Kottakkal Dashamula Kashayam', price: 150, quantity: '200ml' }
+        ]
+      }
+    ]
+  },
+  {
+    id: 'guggulutiktaka-kashayam',
+    name: 'Guggulutiktaka Kashayam',
+    sanskritName: 'गुग्गुलुतिक्तक कषायम्',
+    type: 'kashaya',
+    clinicalSystems: ['Integumentary System', 'Digestive System', 'Immune System'],
+    indicationCategories: ['Skin Conditions', 'Digestive Disorders', 'Metabolic Disorders'],
+    traditionalCategories: ['Shothahara', 'Virechana', 'Kaphahara'],
+    ingredients: [
+      { herb: 'Nimba (Neem)', quantity: '1 part' },
+      { herb: 'Guggulu', quantity: '1 part' },
+      { herb: 'Manjishtha', quantity: '1 part' },
+      { herb: 'Black Pepper', quantity: '1 part' },
+      { herb: 'Vacha', quantity: '1 part' }
+    ],
+    indications: [
+      'Chronic skin diseases',
+      'Leprosy',
+      'Eczema',
+      'Psoriasis',
+      'Fistula',
+      'Indigestion',
+      'Diabetes',
+      'Blood purification'
+    ],
+    dosage: {
+      amount: '15 ml',
+      frequency: 'Twice daily',
+      duration: 'As directed by physician'
+    },
+    anupana: ['Lukewarm water'],
+    contraindications: ['Pregnancy'],
+    reference: 'Ashtaanga Hrudayam',
+    brands: [
+      {
+        name: 'Baidyanath',
+        products: [
+          { name: 'Guggulutiktaka Kashayam', price: 9.95, quantity: '200 ml' }
+        ]
+      },
+      {
+        name: 'AVN',
+        products: [
+          { name: 'Gulgulutiktakam Kashayam', price: 9.99, quantity: '100 Tablets' }
+        ]
+      },
+      {
+        name: 'AVP Kottakal',
+        products: [
+          { name: 'Gulguluthikthakam Kashayam', price: 350, quantity: '100 Tablets' }
+        ]
+      },
+      {
+        name: 'Nagarjuna',
+        products: [
+          { name: 'Gulguluthikthakam Kashayam', price: 170, quantity: '200 ml' }
+        ]
+      },
+      {
+        name: 'Aimil',
+        products: [
+          { name: 'Gulguluthikthakam Kashayam', price: 530, quantity: '200 ml' }
+        ]
+      },
+      {
+        name: 'Kerala Ayurveda',
+        products: [
+          { name: 'Gulguluthikthakam Kashayam', price: 440, quantity: '200 ml' },
+          { name: 'Gulguluthikthakam Kwath', price: 183, quantity: '200 ml' }
+        ]
+      },
+      {
+        name: 'Solumiks',
+        products: [
+          { name: 'Gulguluthikthakam Kashayam', price: 530, quantity: '200 ml' }
+        ]
+      },
+      {
+        name: 'Dhootapapeshwar',
+        products: [
+          { name: 'Gulguluthikthakam Kashayam', price: 530, quantity: '200 ml' }
+        ]
+      },
+      {
+        name: 'Zandu',
+        products: [
+          { name: 'Gulguluthikthakam Kashayam', price: 530, quantity: '200 ml' }
+        ]
+      },
+      {
+        name: 'Sandu',
+        products: [
+          { name: 'Gulguluthikthakam Kashayam', price: 530, quantity: '200 ml' }
+        ]
+      },
+      {
+        name: 'JRK Pharmaceuticals',
+        products: [
+          { name: 'Gulguluthikthakam Kashayam', price: 530, quantity: '200 ml' }
+        ]
+      }
+    ]
   }
 ];

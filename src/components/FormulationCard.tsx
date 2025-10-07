@@ -23,6 +23,9 @@ const typeColors: Record<Formulation['type'], string> = {
   guggulu: 'bg-amber-100 text-amber-800',
   avaleha: 'bg-rose-100 text-rose-800',
   syrup: 'bg-teal-100 text-teal-800',
+  lehyam: 'bg-fuchsia-100 text-fuchsia-800',
+  kashayam: 'bg-sky-100 text-sky-800',
+  'commercial-product': 'bg-gray-200 text-gray-800',
 };
 
 export function FormulationCard({ formulation, onClick, onEdit, onDelete }: FormulationCardProps) {

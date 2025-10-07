@@ -137,5 +137,42 @@ export const ghritas: Formulation[] = [
         ]
       }
     ]
+  },
+  {
+    id: 'triphala-ghrita',
+    name: 'Triphala Ghrita',
+    sanskritName: 'त्रिफला घृत',
+    type: 'ghrita',
+    clinicalSystems: ['Nervous System', 'Digestive System'],
+    indicationCategories: ['Eye Disorders', 'Digestive Disorders'],
+    traditionalCategories: ['Chakshushya', 'Rasayana'],
+    ingredients: [
+      { herb: 'Haritaki', quantity: '1 part', part: 'fruit' },
+      { herb: 'Bibhitaki', quantity: '1 part', part: 'fruit' },
+      { herb: 'Amalaki', quantity: '1 part', part: 'fruit' },
+      { herb: 'Cow Ghee', quantity: '4 parts' }
+    ],
+    indications: [
+      'Eye diseases',
+      'Constipation',
+      'Weak eyesight',
+      'Dry eyes'
+    ],
+    dosage: {
+      amount: '5-10g',
+      frequency: 'Twice daily',
+      duration: '1-3 months'
+    },
+    anupana: ['Warm milk', 'Warm water'],
+    contraindications: ['High cholesterol', 'Obesity'],
+    reference: 'Ashtanga Hridaya',
+    brands: [
+      {
+        name: 'Dabur',
+        products: [
+          { name: 'Dabur Triphala Ghrita', price: 200, quantity: '150g' }
+        ]
+      }
+    ]
   }
 ];

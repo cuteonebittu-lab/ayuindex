@@ -76,5 +76,40 @@ export const bhasmas: Formulation[] = [
         ]
       }
     ]
+  },
+  {
+    id: 'abhraka-bhasma',
+    name: 'Abhraka Bhasma',
+    sanskritName: 'अभ्रक भस्म',
+    type: 'bhasma',
+    clinicalSystems: ['Respiratory System', 'Immune System'],
+    indicationCategories: ['Respiratory Conditions', 'General Health & Wellness'],
+    traditionalCategories: ['Rasayana', 'Balya'],
+    ingredients: [
+      { herb: 'Mica', quantity: '1 part' },
+      { herb: 'Herbal juices (e.g., Triphala, Guduchi)', quantity: 'As needed' }
+    ],
+    indications: [
+      'Asthma',
+      'Chronic cough',
+      'General debility',
+      'Immunity booster'
+    ],
+    dosage: {
+      amount: '125-250mg',
+      frequency: 'Twice daily',
+      duration: '1-3 months'
+    },
+    anupana: ['Honey', 'Ghee'],
+    contraindications: ['Pregnancy', 'High blood pressure'],
+    reference: 'Rasa Tarangini',
+    brands: [
+      {
+        name: 'Dabur',
+        products: [
+          { name: 'Dabur Abhraka Bhasma', price: 250, quantity: '10g' }
+        ]
+      }
+    ]
   }
 ];

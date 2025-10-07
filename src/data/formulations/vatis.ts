@@ -692,5 +692,132 @@ export const vatis: Formulation[] = [
         ]
       }
     ]
+  },
+  {
+    id: 'sanjivani-vati',
+    name: 'Sanjivani Vati',
+    sanskritName: 'संजीवनी वटी',
+    type: 'vati',
+    clinicalSystems: ['Digestive System', 'Respiratory System'],
+    indicationCategories: ['Digestive Disorders', 'Fever & Infections'],
+    traditionalCategories: ['Deepana', 'Pachana', 'Jwaraghna'],
+    ingredients: [
+      { herb: 'Vidanga', quantity: '1 part', part: 'fruit' },
+      { herb: 'Shunthi', quantity: '1 part', part: 'rhizome' },
+      { herb: 'Pippali', quantity: '1 part', part: 'fruit' },
+      { herb: 'Haritaki', quantity: '1 part', part: 'fruit' },
+      { herb: 'Amalaki', quantity: '1 part', part: 'fruit' },
+      { herb: 'Vacha', quantity: '1 part', part: 'rhizome' },
+      { herb: 'Guduchi', quantity: '1 part', part: 'stem' },
+      { herb: 'Shuddha Bhallataka', quantity: '1 part', part: 'fruit' },
+      { herb: 'Shuddha Vatsanabha', quantity: '1 part', part: 'root' },
+      { herb: 'Gomutra', quantity: 'Q.S.' }
+    ],
+    indications: [
+      'Indigestion',
+      'Fever',
+      'Diarrhea',
+      'Gastroenteritis'
+    ],
+    dosage: {
+      amount: '125-250mg',
+      frequency: 'Twice daily',
+      duration: 'As needed',
+      form: {
+        tablet: '125-250mg'
+      }
+    },
+    anupana: ['Warm water', 'Ginger juice'],
+    contraindications: ['Pregnancy', 'High pitta'],
+    preparation: 'Herbal tablets for digestive and febrile conditions',
+    reference: 'Sharangadhara Samhita',
+    brands: [
+      {
+        name: 'Dabur',
+        products: [
+          { name: 'Dabur Sanjivani Vati', price: 100, quantity: '40 tablets' }
+        ]
+      }
+    ]
+  },
+  {
+    id: 'liv-52',
+    name: 'Liv.52',
+    sanskritName: 'लिव.52',
+    type: 'vati',
+    clinicalSystems: ['Digestive System', 'Hematopoietic System'],
+    indicationCategories: ['Digestive Disorders', 'General Health & Wellness'],
+    traditionalCategories: ['Rasayana', 'Deepana'],
+    ingredients: [
+      { herb: 'Caper Bush', quantity: 'Proprietary' },
+      { herb: 'Chicory', quantity: 'Proprietary' },
+      { herb: 'Black Nightshade', quantity: 'Proprietary' },
+      { herb: 'Arjuna', quantity: 'Proprietary' },
+      { herb: 'Negro Coffee', quantity: 'Proprietary' },
+      { herb: 'Yarrow', quantity: 'Proprietary' },
+      { herb: 'Tamarisk', quantity: 'Proprietary' }
+    ],
+    indications: [
+      'Liver disorders',
+      'Hepatitis',
+      'Jaundice',
+      'Liver cirrhosis',
+      'Fatty liver',
+      'Loss of appetite'
+    ],
+    dosage: {
+      amount: '2 tablets',
+      frequency: 'Twice daily',
+      duration: 'As directed by physician'
+    },
+    anupana: ['Water'],
+    contraindications: [],
+    reference: 'Himalaya Wellness',
+    brands: [
+      {
+        name: 'Himalaya',
+        products: [
+          { name: 'Liv.52', price: 96, quantity: '100 Tablets' },
+          { name: 'Liv.52 DS', price: 180, quantity: '60 Tablets' },
+          { name: 'Liv.52 DS', price: 540, quantity: '180 Tablets' }
+        ]
+      }
+    ]
+  },
+  {
+    id: 'ashwagandha-capsules',
+    name: 'Ashwagandha Capsules',
+    sanskritName: 'अश्वगंधा',
+    type: 'vati',
+    clinicalSystems: ['Nervous System', 'Endocrine System'],
+    indicationCategories: ['Mental Health', 'General Health & Wellness'],
+    traditionalCategories: ['Rasayana', 'Balya', 'Medhya'],
+    ingredients: [
+      { herb: 'Withania somnifera', quantity: 'Standardized extract' }
+    ],
+    indications: [
+      'Stress',
+      'Fatigue',
+      'Anxiety',
+      'General wellness',
+      'Energy enhancement',
+      'Mental clarity'
+    ],
+    dosage: {
+      amount: '1 capsule',
+      frequency: 'Twice daily',
+      duration: 'Regular use'
+    },
+    anupana: ['Water', 'Milk'],
+    contraindications: [],
+    reference: 'Himalaya Wellness',
+    brands: [
+      {
+        name: 'Himalaya',
+        products: [
+          { name: 'Ashwagandha', price: 240, quantity: '60 Capsules' }
+        ]
+      }
+    ]
   }
 ];

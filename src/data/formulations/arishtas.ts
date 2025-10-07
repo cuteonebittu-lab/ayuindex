@@ -305,5 +305,46 @@ export const arishtas: Formulation[] = [
         ]
       }
     ]
+  },
+  {
+    id: 'draksharishta',
+    name: 'Draksharishta',
+    sanskritName: 'द्राक्षारिष्ट',
+    type: 'arishta',
+    clinicalSystems: ['Digestive System', 'Respiratory System'],
+    indicationCategories: ['Digestive Disorders', 'Respiratory Conditions'],
+    traditionalCategories: ['Deepana', 'Pachana', 'Balya'],
+    ingredients: [
+      { herb: 'Draksha (Grapes)', quantity: '2.4 kg', part: 'fruit' },
+      { herb: 'Dhataki', quantity: '384 g', part: 'flower' },
+      { herb: 'Jaggery', quantity: '4.8 kg' }
+    ],
+    indications: [
+      'Indigestion',
+      'Loss of appetite',
+      'Cough',
+      'Cold',
+      'General weakness'
+    ],
+    dosage: {
+      amount: '15-30ml',
+      frequency: 'Twice daily',
+      duration: 'As needed',
+      form: {
+        liquid: '15-30ml'
+      }
+    },
+    anupana: ['Equal quantity of water'],
+    contraindications: ['Diabetes'],
+    preparation: 'Fermented decoction with grapes and jaggery',
+    reference: 'Bhaishajya Ratnavali',
+    brands: [
+      {
+        name: 'Dabur',
+        products: [
+          { name: 'Dabur Draksharishta', price: 180, quantity: '450ml' }
+        ]
+      }
+    ]
   }
 ];

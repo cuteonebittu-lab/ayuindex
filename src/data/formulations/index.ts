@@ -12,8 +12,6 @@ import { guggulus } from './guggulus.ts';
 import { avalehas } from './avalehas.ts';
 import { rasas } from './rasas.ts';
 import { syrups } from './syrups.ts';
-import { commercialProducts } from './commercial-products.ts';
-
 // Export formulations grouped by type
 export const formulationsByType = {
   arishtas,
@@ -27,7 +25,6 @@ export const formulationsByType = {
   guggulus,
   avalehas,
   syrups,
-  commercialProducts,
 };
 
 // Export a combined array of all formulations
@@ -42,6 +39,5 @@ export const allFormulations: Formulation[] = [
   ...rasas,
   ...guggulus,
   ...avalehas,
-  ...syrups,
-  ...commercialProducts
+  ...syrups
 ];

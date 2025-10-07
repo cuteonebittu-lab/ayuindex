@@ -399,5 +399,79 @@ export const churnas: Formulation[] = [
         ]
       }
     ]
+  },
+  {
+    id: 'trikatu-churna',
+    name: 'Trikatu Churna',
+    sanskritName: 'त्रिकटु चूर्ण',
+    type: 'churna',
+    clinicalSystems: ['Digestive System', 'Respiratory System'],
+    indicationCategories: ['Digestive Disorders', 'Respiratory Conditions'],
+    traditionalCategories: ['Deepana', 'Pachana', 'Kaphahara'],
+    ingredients: [
+      { herb: 'Shunthi', quantity: '1 part', part: 'rhizome' },
+      { herb: 'Pippali', quantity: '1 part', part: 'fruit' },
+      { herb: 'Maricha', quantity: '1 part', part: 'fruit' }
+    ],
+    indications: [
+      'Indigestion',
+      'Loss of appetite',
+      'Cough',
+      'Cold',
+      'Obesity'
+    ],
+    dosage: {
+      amount: '1-3g',
+      frequency: 'Twice daily',
+      duration: 'As needed'
+    },
+    anupana: ['Warm water', 'Honey'],
+    contraindications: ['Hyperacidity'],
+    reference: 'Charaka Samhita',
+    brands: [
+      {
+        name: 'Dabur',
+        products: [
+          { name: 'Dabur Trikatu Churna', price: 60, quantity: '100g' }
+        ]
+      }
+    ]
+  },
+  {
+    id: 'triphala-churna-commercial',
+    name: 'Triphala Churna',
+    sanskritName: 'त्रिफला चूर्ण',
+    type: 'churna',
+    clinicalSystems: ['Digestive System'],
+    indicationCategories: ['Digestive Disorders', 'General Health & Wellness'],
+    traditionalCategories: ['Rasayana', 'Deepana', 'Anulomana'],
+    ingredients: [
+      { herb: 'Haritaki', quantity: '1 part' },
+      { herb: 'Bibhitaki', quantity: '1 part' },
+      { herb: 'Amalaki', quantity: '1 part' }
+    ],
+    indications: [
+      'Digestive health',
+      'Bowel regulation',
+      'Detoxification',
+      'Eye health',
+      'General wellness'
+    ],
+    dosage: {
+      amount: '1 teaspoon',
+      frequency: 'At night',
+      duration: 'Regular use'
+    },
+    anupana: ['Warm water'],
+    contraindications: [],
+    reference: 'Classical Ayurvedic Text',
+    brands: [
+      {
+        name: 'AVN',
+        products: [
+          { name: 'Triphala Churna', price: 180, quantity: '100 gm' }
+        ]
+      }
+    ]
   }
 ];

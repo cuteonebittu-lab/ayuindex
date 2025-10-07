@@ -203,5 +203,42 @@ export const tailas: Formulation[] = [
     reference: 'Classical samhitas referenced in planetary ayurveda / EasyAyurveda summaries',
     generalConsiderations: 'Use sterile containers for nasal oils. Do not use in active high fever without advice.',
     brands: []
+  },
+  {
+    id: 'balaswagandhadi-taila',
+    name: 'Balaswagandhadi Taila',
+    sanskritName: 'बलाश्वगंधादि तैल',
+    type: 'taila',
+    clinicalSystems: ['Musculoskeletal System', 'Nervous System'],
+    indicationCategories: ['Musculoskeletal Issues', 'Neurological Disorders'],
+    traditionalCategories: ['Vatahara', 'Balya'],
+    ingredients: [
+      { herb: 'Bala', quantity: '1 part', part: 'root' },
+      { herb: 'Ashwagandha', quantity: '1 part', part: 'root' },
+      { herb: 'Laksha', quantity: '1 part', part: 'resin' },
+      { herb: 'Sesame Oil', quantity: '4 parts' }
+    ],
+    indications: [
+      'Rheumatoid arthritis',
+      'Osteoarthritis',
+      'Neuromuscular weakness',
+      'Body pain'
+    ],
+    dosage: {
+      amount: 'External application',
+      frequency: 'Once or twice daily',
+      duration: 'As prescribed'
+    },
+    anupana: ['Not applicable (external use)'],
+    contraindications: ['Open wounds'],
+    reference: 'Ashtanga Hridaya',
+    brands: [
+      {
+        name: 'Kottakkal Arya Vaidya Sala',
+        products: [
+          { name: 'Kottakkal Balaswagandhadi Thailam', price: 280, quantity: '200ml' }
+        ]
+      }
+    ]
   }
 ];

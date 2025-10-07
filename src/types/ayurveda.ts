@@ -51,7 +51,8 @@ export type TraditionalCategory =
   | 'Jwaraghna'     // Antipyretic
   | 'Shothahara'    // Anti-inflammatory
   | 'Vedanasthapana' // Analgesic
-  | 'Am Pachak';    // Toxin digester
+  | 'Am Pachak'    // Toxin digester
+  | 'Raktashodhaka'; // Blood purifier
 
 // Standard Ayurvedic formulation types
 export type FormulationType = 
@@ -67,7 +68,10 @@ export type FormulationType =
   | 'kadha'    // Decoction (alternative term)
   | 'guggulu'  // Guggulu-based preparations
   | 'avaleha'  // Linctus/Confection
-  | 'syrup';   // Syrup
+  | 'syrup'   // Syrup
+  | 'lehyam'
+  | 'kashayam'
+  | 'commercial-product';
 
 // Dosage forms and their standard measurements
 export type DosageForm = {

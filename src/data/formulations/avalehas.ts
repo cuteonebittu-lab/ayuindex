@@ -125,5 +125,127 @@ export const avalehas: Formulation[] = [
     generalConsiderations: 'High sugar content: caution in diabetics. Follow product labeling.',
     reference: 'Classical Ayurvedic Text',
     brands: []
+  },
+  {
+    id: 'brahma-rasayana',
+    name: 'Brahma Rasayana',
+    sanskritName: 'ब्रह्म रसायन',
+    type: 'avaleha',
+    clinicalSystems: ['Nervous System', 'Immune System'],
+    indicationCategories: ['Mental Health', 'General Health & Wellness'],
+    traditionalCategories: ['Rasayana', 'Medhya', 'Balya'],
+    ingredients: [
+      { herb: 'Dashamoola', quantity: '1 part', part: 'roots' },
+      { herb: 'Pippali', quantity: '1 part', part: 'fruit' },
+      { herb: 'Amla', quantity: '1 part', part: 'fruit' },
+      { herb: 'Ghee', quantity: '1 part' },
+      { herb: 'Honey', quantity: '1 part' },
+      { herb: 'Sugar', quantity: '1 part' }
+    ],
+    indications: [
+      'Memory enhancement',
+      'Anti-aging',
+      'Stress reduction',
+      'Immunity booster',
+      'General debility'
+    ],
+    dosage: {
+      amount: '1-2 teaspoons',
+      frequency: 'Twice daily',
+      duration: 'Long-term use'
+    },
+    anupana: ['Warm milk'],
+    contraindications: ['Diabetes'],
+    reference: 'Charaka Samhita',
+    brands: [
+      {
+        name: 'Dabur',
+        products: [
+          { name: 'Dabur Brahma Rasayana', price: 300, quantity: '250g' }
+        ]
+      }
+    ]
+  },
+  {
+    id: 'chyawanprash-commercial',
+    name: 'Chyawanprash',
+    sanskritName: 'च्यवनप्राश',
+    type: 'avaleha',
+    clinicalSystems: ['Immune System', 'Respiratory System'],
+    indicationCategories: ['General Health & Wellness', 'Respiratory Conditions'],
+    traditionalCategories: ['Rasayana', 'Balya'],
+    ingredients: [
+      { herb: 'Amla', quantity: 'Main ingredient' },
+      { herb: 'Bilya', quantity: 'Proprietary' },
+      { herb: 'Brahmi', quantity: 'Proprietary' },
+      { herb: 'Pippali', quantity: 'Proprietary' },
+      { herb: 'Ashwagandha', quantity: 'Proprietary' },
+      { herb: 'Shatavari', quantity: 'Proprietary' },
+      { herb: 'Gokshura', quantity: 'Proprietary' },
+      { herb: 'Vidanga', quantity: 'Proprietary' },
+      { herb: 'Cardamom', quantity: 'Proprietary' },
+      { herb: 'Cinnamon', quantity: 'Proprietary' }
+    ],
+    indications: [
+      'Immunity enhancement',
+      'Respiratory health',
+      'Digestive health',
+      'Energy and vitality',
+      'Anti-aging',
+      'General wellness'
+    ],
+    dosage: {
+      amount: '1 teaspoon',
+      frequency: 'Twice daily',
+      duration: 'Regular use'
+    },
+    anupana: ['Warm milk', 'Water'],
+    contraindications: ['Diabetes (sugar-containing varieties)'],
+    reference: 'Classical Ayurvedic Text',
+    brands: [
+      {
+        name: 'Dabur',
+        products: [
+          { name: 'Chyawanprash', price: 820, quantity: '1 kg' }
+        ]
+      }
+    ]
+  },
+  {
+    id: 'chyavanaprash-avaleha-commercial',
+    name: 'Chyavanaprash Avaleha',
+    sanskritName: 'च्यवनप्राश अवलेह',
+    type: 'avaleha',
+    clinicalSystems: ['Immune System', 'Respiratory System'],
+    indicationCategories: ['General Health & Wellness', 'Respiratory Conditions'],
+    traditionalCategories: ['Rasayana', 'Balya'],
+    ingredients: [
+      { herb: 'Amla', quantity: 'Main ingredient' },
+      { herb: 'Ashwagandha', quantity: 'Proprietary' },
+      { herb: 'Pippali', quantity: 'Proprietary' },
+      { herb: 'Honey', quantity: 'Proprietary' }
+    ],
+    indications: [
+      'Immunity',
+      'Vitality',
+      'Respiratory health',
+      'Energy enhancement'
+    ],
+    dosage: {
+      amount: '1 teaspoon',
+      frequency: 'Twice daily',
+      duration: 'Regular use'
+    },
+    anupana: ['Warm milk', 'Water'],
+    contraindications: ['Diabetes (sugar-containing varieties)'],
+    reference: 'Kottakkal Arya Vaidya Sala',
+    brands: [
+      {
+        name: 'AVP Kottakal',
+        products: [
+          { name: 'Chyavanaprash Avaleha', price: 420, quantity: '500 gm' }
+        ]
+      }
+    ]
   }
 ];

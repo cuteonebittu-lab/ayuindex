@@ -86,5 +86,45 @@ export const rasas: Formulation[] = [
         ]
       }
     ]
+  },
+  {
+    id: 'mahalakshmi-vilas-rasa',
+    name: 'Mahalakshmi Vilas Rasa',
+    sanskritName: 'महालक्ष्मी विलास रस',
+    type: 'rasa',
+    clinicalSystems: ['Respiratory System', 'Cardiovascular System', 'Immune System'],
+    indicationCategories: ['Respiratory Conditions', 'Cardiovascular Conditions', 'General Health & Wellness'],
+    traditionalCategories: ['Rasayana', 'Balya', 'Tridoshahara'],
+    ingredients: [
+      { herb: 'Abhraka Bhasma', quantity: '1 part' },
+      { herb: 'Shuddha Parada', quantity: '1 part' },
+      { herb: 'Shuddha Gandhaka', quantity: '1 part' },
+      { herb: 'Swarna Bhasma', quantity: '1 part' },
+      { herb: 'Tamra Bhasma', quantity: '1 part' },
+      { herb: 'Loha Bhasma', quantity: '1 part' }
+    ],
+    indications: [
+      'Chronic respiratory diseases',
+      'Heart diseases',
+      'General debility',
+      'Tuberculosis',
+      'Fever'
+    ],
+    dosage: {
+      amount: '125-250mg',
+      frequency: 'Twice daily',
+      duration: 'As prescribed'
+    },
+    anupana: ['Honey', 'Ghee'],
+    contraindications: ['Pregnancy', 'High blood pressure'],
+    reference: 'Bhaishajya Ratnavali',
+    brands: [
+      {
+        name: 'Dabur',
+        products: [
+          { name: 'Dabur Mahalakshmi Vilas Rasa', price: 300, quantity: '10 tablets' }
+        ]
+      }
+    ]
   }
 ];

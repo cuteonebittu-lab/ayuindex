@@ -38,5 +38,44 @@ export const syrups: Formulation[] = [
         ]
       }
     ]
+  },
+  {
+    id: 'honitus-syrup',
+    name: 'Honitus Syrup',
+    sanskritName: 'होनिटस सिरप',
+    type: 'syrup',
+    clinicalSystems: ['Respiratory System'],
+    indicationCategories: ['Respiratory Conditions'],
+    traditionalCategories: ['Kaphahara', 'Vatahara'],
+    ingredients: [
+      { herb: 'Tulsi', quantity: '1 part' },
+      { herb: 'Mulethi', quantity: '1 part' },
+      { herb: 'Banaphsa', quantity: '1 part' },
+      { herb: 'Kantakari', quantity: '1 part' },
+      { herb: 'Pippali', quantity: '1 part' },
+      { herb: 'Honey', quantity: 'Q.S.' }
+    ],
+    indications: [
+      'Cough',
+      'Cold',
+      'Sore throat',
+      'Bronchitis'
+    ],
+    dosage: {
+      amount: '5-10ml',
+      frequency: 'Thrice daily',
+      duration: 'As needed'
+    },
+    anupana: ['Warm water'],
+    contraindications: ['Diabetes'],
+    reference: 'Dabur Product Information',
+    brands: [
+      {
+        name: 'Dabur',
+        products: [
+          { name: 'Dabur Honitus Syrup', price: 110, quantity: '100ml' }
+        ]
+      }
+    ]
   }
 ];
