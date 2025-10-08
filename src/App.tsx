@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, useNavigate } from 'react-router-dom';
 import { Header } from './components/common/Header';
 import { FormulationSubcategoryList } from './components/FormulationSubcategoryList';
 import { SearchBar } from './components/common/SearchBar';
@@ -21,8 +21,6 @@ import { herbApi, formulationApi } from './services/api';
 
 function App() {
   const [showFilters, setShowFilters] = useState(false);
-  const [selectedHerb, setSelectedHerb] = useState<Herb | null>(null);
-  const [selectedFormulation, setSelectedFormulation] = useState<Formulation | null>(null);
   const [editingItem, setEditingItem] = useState<Herb | Formulation | null>(null);
   const [selectedFormulationType, setSelectedFormulationType] = useState<string | null>(null);
   const [herbs, setHerbs] = useState<Herb[]>([]);
@@ -186,7 +184,6 @@ function App() {
           herbs={herbs}
           formulations={formulations}
           onFormulationTypeSelect={handleSubcategorySelect}
-          onHerbSelect={setSelectedHerb}
           onIndicationSelect={(indication) => {
             setSearchTerm(indication);
             setCategory('all');
@@ -246,7 +243,6 @@ function App() {
                       <HerbCard
                         key={herb.id}
                         herb={herb}
-                        onClick={() => setSelectedHerb(herb)}
                         onEdit={() => handleEditHerb(herb)}
                         onDelete={() => handleDeleteHerb(herb)}
                       />
@@ -280,7 +276,6 @@ function App() {
                             <FormulationCard
                               key={formulation.id}
                               formulation={formulation}
-                              onClick={() => setSelectedFormulation(formulation)}
                               onEdit={() => handleEditFormulation(formulation)}
                               onDelete={() => handleDeleteFormulation(formulation)}
                             />
@@ -307,29 +302,20 @@ function App() {
         )}
       </main>
         } />
+        <Route path="/herbs/:id" element={<HerbDetail />} />
+        <Route path="/formulations/:id" element={<FormulationDetail />} />
       </Routes>
 
       {/* Modals */}
-      {selectedHerb && (
-        <HerbDetail
-          herb={selectedHerb}
-          onClose={() => setSelectedHerb(null)}
-        />
-      )}
-
-      {selectedFormulation && (
-        <FormulationDetail
-          formulation={selectedFormulation}
-          onClose={() => setSelectedFormulation(null)}
-        />
-      )}
-
       {selectedFormulationType && (
         <FormulationSubcategoryList
           type={selectedFormulationType}
           formulations={formulations}
           onClose={() => setSelectedFormulationType(null)}
-          onFormulationSelect={setSelectedFormulation}
+          onFormulationSelect={(formulation) => {
+            // Use navigate to go to the formulation detail page
+            // This will be handled by the new route
+          }}
         />
       )}
 

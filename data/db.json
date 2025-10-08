@@ -2311,6 +2311,58 @@
           "250 g"
         ]
       }
+    },
+    {
+      "id": "07a0",
+      "name": "Turmeric",
+      "sanskritName": "Haridra",
+      "botanicalName": "Curcuma longa",
+      "family": "Zingiberaceae",
+      "parts": [
+        "Rhizome"
+      ],
+      "rasa": [
+        "Katu",
+        "Tikta"
+      ],
+      "guna": [
+        "Laghu",
+        "Ruksha"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "karma": [
+        "Pittahara",
+        "Kaphahara",
+        "Varnya"
+      ],
+      "prabhava": "Anti-inflammatory and antiseptic",
+      "indications": [
+        "Arthritis",
+        "Skin diseases",
+        "Digestive disorders"
+      ],
+      "typicalDosage": {
+        "powder": "1–3 g per day",
+        "capsule": "500 mg 1–2 times daily"
+      },
+      "anupana": [
+        "Warm milk",
+        "Ghee"
+      ],
+      "contraindications": [
+        "Gallstones",
+        "Bleeding disorders"
+      ],
+      "marketInfo": {
+        "pricePerKg": "₹150–₹300",
+        "packages": [
+          "100 g",
+          "250 g",
+          "500 g",
+          "1 kg"
+        ]
+      }
     }
   ],
   "formulations": [
@@ -6101,6 +6153,531 @@
           "120 tablets"
         ]
       }
+    },
+    {
+      "id": "ddbd",
+      "name": "Mahakalyanaka Ghrita",
+      "company": "Baidyanath",
+      "type": "Ghrita",
+      "clinicalSystems": [
+        "Nervous",
+        "Reproductive"
+      ],
+      "indicationCategories": [
+        "Memory loss",
+        "Infertility",
+        "Epilepsy"
+      ],
+      "traditionalCategories": [
+        "Medhya",
+        "Rasayana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Brahmi",
+          "quantity": "1 part",
+          "part": "whole plant"
+        },
+        {
+          "herb": "Ashwagandha",
+          "quantity": "1 part",
+          "part": "root"
+        },
+        {
+          "herb": "Shankhapushpi",
+          "quantity": "1 part",
+          "part": "whole plant"
+        }
+      ],
+      "indications": [
+        "Epilepsy",
+        "Mental debility",
+        "Infertility"
+      ],
+      "dosage": {
+        "amount": "5–10 g",
+        "frequency": "Once daily"
+      },
+      "anupana": [
+        "Warm milk"
+      ],
+      "marketInfo": {
+        "price": "₹250–₹600 per 100 g",
+        "packages": [
+          "100 g",
+          "200 g",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "ac48",
+      "name": "Liv.52 DS",
+      "company": "Aimil",
+      "type": "Tablet",
+      "clinicalSystems": [
+        "Liver",
+        "Digestive"
+      ],
+      "indicationCategories": [
+        "Hepatitis",
+        "Fatty liver",
+        "Loss of appetite"
+      ],
+      "traditionalCategories": [
+        "Yakrit vardhaka",
+        "Pachana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Bhumyamalaki",
+          "quantity": "1 part",
+          "part": "whole plant"
+        },
+        {
+          "herb": "Kasani",
+          "quantity": "1 part",
+          "part": "seed"
+        },
+        {
+          "herb": "Mandur bhasma",
+          "quantity": "1 part",
+          "part": "bhasma"
+        }
+      ],
+      "indications": [
+        "Liver support",
+        "Appetite stimulant"
+      ],
+      "dosage": {
+        "amount": "1–2 tablets",
+        "frequency": "Twice daily"
+      },
+      "marketInfo": {
+        "price": "₹150–₹350 for 60 tablets",
+        "packages": [
+          "30",
+          "60",
+          "120 tablets"
+        ]
+      }
+    },
+    {
+      "id": "cba9",
+      "name": "Mahadashmoola Arishta",
+      "company": "Charak",
+      "type": "Arishta",
+      "clinicalSystems": [
+        "Reproductive",
+        "Musculoskeletal"
+      ],
+      "indicationCategories": [
+        "Postpartum weakness",
+        "Vata disorders"
+      ],
+      "traditionalCategories": [
+        "Vatahara",
+        "Brimhana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Dashamoola",
+          "quantity": "major part",
+          "part": "roots"
+        },
+        {
+          "herb": "Gokshura",
+          "quantity": "1 part",
+          "part": "fruit"
+        },
+        {
+          "herb": "Guduchi",
+          "quantity": "1 part",
+          "part": "stem"
+        }
+      ],
+      "indications": [
+        "Fatigue",
+        "Joint pain",
+        "Weakness"
+      ],
+      "dosage": {
+        "amount": "15–30 ml",
+        "frequency": "Twice daily after meals"
+      },
+      "marketInfo": {
+        "price": "₹120–₹250 per 450 ml",
+        "packages": [
+          "200 ml",
+          "450 ml",
+          "1 L"
+        ]
+      }
+    },
+    {
+      "id": "2ff9",
+      "name": "Chyawanprash",
+      "sanskritName": "च्यवनप्राश",
+      "type": "Lehyam (Jam)",
+      "clinicalSystems": [
+        "Respiratory",
+        "Digestive",
+        "Immune"
+      ],
+      "indicationCategories": [
+        "General tonic",
+        "Respiratory wellness"
+      ],
+      "traditionalCategories": [
+        "Rasayana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Amla",
+          "quantity": "major part",
+          "part": "fruit"
+        },
+        {
+          "herb": "Pippali",
+          "quantity": "minor part",
+          "part": "fruit"
+        },
+        {
+          "herb": "Dashamoola",
+          "quantity": "blend",
+          "part": "roots"
+        }
+      ],
+      "indications": [
+        "Immunity booster",
+        "Cold",
+        "Weak digestion"
+      ],
+      "dosage": {
+        "amount": "5–10 g",
+        "frequency": "Once or twice daily"
+      },
+      "anupana": [
+        "Warm milk"
+      ],
+      "contraindications": [
+        "High Kapha"
+      ],
+      "reference": "Charaka Samhita",
+      "marketInfo": {
+        "price": "₹200–₹800 per 500 g",
+        "packages": [
+          "250 g",
+          "500 g",
+          "1 kg"
+        ]
+      }
+    },
+    {
+      "id": "bdd9",
+      "name": "Pancharishta",
+      "company": "Zandu",
+      "type": "arishta",
+      "clinicalSystems": [
+        "Digestive System"
+      ],
+      "indicationCategories": [
+        "Indigestion",
+        "Loss of Appetite",
+        "General Weakness"
+      ],
+      "traditionalCategories": [
+        "Deepana",
+        "Pachana",
+        "Rasayana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Draksha",
+          "quantity": "1 part",
+          "part": "fruit"
+        },
+        {
+          "herb": "Dashmool",
+          "quantity": "1 part",
+          "part": "root"
+        },
+        {
+          "herb": "Ashwagandha",
+          "quantity": "1 part",
+          "part": "root"
+        }
+      ],
+      "indications": [
+        "Indigestion",
+        "Loss of appetite",
+        "Fatigue",
+        "Weak digestion"
+      ],
+      "dosage": {
+        "amount": "15-30 ml",
+        "frequency": "Twice daily after meals",
+        "duration": "As directed by physician"
+      },
+      "priceRange": "₹120-₹160",
+      "availablePackages": [
+        "450 ml",
+        "650 ml"
+      ],
+      "reference": "Zandu Official Formulary"
+    },
+    {
+      "id": "d1ad",
+      "name": "Suvarna Sutshekhar Ras",
+      "company": "Dhootapapeshwar",
+      "type": "ras aushadhi",
+      "clinicalSystems": [
+        "Nervous System",
+        "Digestive System"
+      ],
+      "indicationCategories": [
+        "Hyperacidity",
+        "Migraine",
+        "Epilepsy"
+      ],
+      "traditionalCategories": [
+        "Medhya",
+        "Rasayana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Suvarna Bhasma",
+          "quantity": "1 part",
+          "part": "bhasma"
+        },
+        {
+          "herb": "Shankha Bhasma",
+          "quantity": "1 part",
+          "part": "bhasma"
+        },
+        {
+          "herb": "Vatsanabha",
+          "quantity": "1 part",
+          "part": "root"
+        }
+      ],
+      "indications": [
+        "Migraine",
+        "Epilepsy",
+        "Heartburn",
+        "Digestive imbalance"
+      ],
+      "dosage": {
+        "amount": "1 tablet",
+        "frequency": "Once or twice daily",
+        "duration": "Under medical supervision"
+      },
+      "priceRange": "₹2500-₹3500 (per 10 tabs)",
+      "availablePackages": [
+        "10 tabs",
+        "30 tabs"
+      ],
+      "reference": "Rasaratna Samuccaya"
+    },
+    {
+      "id": "b191",
+      "name": "Brahmi Ghritham",
+      "company": "AVN",
+      "type": "ghrita",
+      "clinicalSystems": [
+        "Nervous System",
+        "Cognitive Health"
+      ],
+      "indicationCategories": [
+        "Memory Loss",
+        "Anxiety",
+        "Insomnia"
+      ],
+      "traditionalCategories": [
+        "Medhya Rasayana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Brahmi",
+          "quantity": "1 part",
+          "part": "whole plant"
+        },
+        {
+          "herb": "Vacha",
+          "quantity": "1 part",
+          "part": "rhizome"
+        },
+        {
+          "herb": "Shankhpushpi",
+          "quantity": "1 part",
+          "part": "whole plant"
+        }
+      ],
+      "indications": [
+        "Memory improvement",
+        "Anxiety",
+        "Sleep disorders"
+      ],
+      "dosage": {
+        "amount": "5-10 g",
+        "frequency": "Once daily with warm milk",
+        "duration": "1-2 months"
+      },
+      "priceRange": "₹220-₹280",
+      "availablePackages": [
+        "150 g",
+        "300 g"
+      ],
+      "reference": "Ashtanga Hridaya"
+    },
+    {
+      "id": "decd",
+      "name": "Ashokarishta",
+      "company": "Dabur",
+      "type": "arishta",
+      "clinicalSystems": [
+        "Female Reproductive System"
+      ],
+      "indicationCategories": [
+        "Menstrual Disorders",
+        "Leucorrhoea"
+      ],
+      "traditionalCategories": [
+        "Stree Roga Chikitsa"
+      ],
+      "ingredients": [
+        {
+          "herb": "Ashoka",
+          "quantity": "1 part",
+          "part": "bark"
+        },
+        {
+          "herb": "Dhataki",
+          "quantity": "1 part",
+          "part": "flower"
+        },
+        {
+          "herb": "Amalaki",
+          "quantity": "1 part",
+          "part": "fruit"
+        }
+      ],
+      "indications": [
+        "Irregular menstruation",
+        "Menorrhagia",
+        "Fatigue"
+      ],
+      "dosage": {
+        "amount": "15-30 ml",
+        "frequency": "Twice daily after meals",
+        "duration": "As needed"
+      },
+      "priceRange": "₹130-₹160",
+      "availablePackages": [
+        "450 ml",
+        "680 ml"
+      ],
+      "reference": "Bhaishajya Ratnavali"
+    },
+    {
+      "id": "4800",
+      "name": "Livomyn",
+      "company": "Charak",
+      "type": "tablet",
+      "clinicalSystems": [
+        "Liver Care"
+      ],
+      "indicationCategories": [
+        "Hepatitis",
+        "Jaundice",
+        "Liver Detox"
+      ],
+      "traditionalCategories": [
+        "Yakrit Uttejak"
+      ],
+      "ingredients": [
+        {
+          "herb": "Kalmegh",
+          "quantity": "1 part",
+          "part": "whole plant"
+        },
+        {
+          "herb": "Punarnava",
+          "quantity": "1 part",
+          "part": "root"
+        },
+        {
+          "herb": "Bhringraj",
+          "quantity": "1 part",
+          "part": "whole plant"
+        }
+      ],
+      "indications": [
+        "Liver detox",
+        "Fatty liver",
+        "Jaundice"
+      ],
+      "dosage": {
+        "amount": "1-2 tablets",
+        "frequency": "Twice daily",
+        "duration": "As directed"
+      },
+      "priceRange": "₹140-₹180",
+      "availablePackages": [
+        "30 tabs",
+        "60 tabs"
+      ],
+      "reference": "Charak Company Formulary"
+    },
+    {
+      "id": "a433",
+      "name": "Amyron",
+      "company": "Aimil",
+      "type": "tonic",
+      "clinicalSystems": [
+        "Hematopoietic System"
+      ],
+      "indicationCategories": [
+        "Anemia",
+        "Fatigue",
+        "Post-illness Recovery"
+      ],
+      "traditionalCategories": [
+        "Rasayana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Ashwagandha",
+          "quantity": "1 part",
+          "part": "root"
+        },
+        {
+          "herb": "Shatavari",
+          "quantity": "1 part",
+          "part": "root"
+        },
+        {
+          "herb": "Amalaki",
+          "quantity": "1 part",
+          "part": "fruit"
+        }
+      ],
+      "indications": [
+        "Weakness",
+        "Anemia",
+        "Post-illness fatigue"
+      ],
+      "dosage": {
+        "amount": "10-15 ml",
+        "frequency": "Twice daily",
+        "duration": "As prescribed"
+      },
+      "priceRange": "₹180-₹250",
+      "availablePackages": [
+        "200 ml",
+        "450 ml"
+      ],
+      "reference": "Aimil Formulary"
     }
   ]
 }

@@ -1,10 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Beaker, Clock, AlertTriangle } from 'lucide-react';
-import { Formulation } from '../types/ayurveda';
+import { Formulation } from '@/types/ayurveda';
 
 interface FormulationCardProps {
   formulation: Formulation;
-  onClick: () => void;
   onEdit: () => void;
   onDelete: () => void;
 }
@@ -28,7 +28,7 @@ const typeColors: Record<Formulation['type'], string> = {
   'commercial-product': 'bg-gray-200 text-gray-800',
 };
 
-export function FormulationCard({ formulation, onClick, onEdit, onDelete }: FormulationCardProps) {
+export function FormulationCard({ formulation, onEdit, onDelete }: FormulationCardProps) {
   const handleEditClick = (e: React.MouseEvent) => {
     e.stopPropagation();
     onEdit();
@@ -45,9 +45,9 @@ export function FormulationCard({ formulation, onClick, onEdit, onDelete }: Form
     : 'No indications specified';
 
   return (
-    <div
-      onClick={onClick}
-      className="bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md hover:border-emerald-200 transition-all duration-300 cursor-pointer group relative"
+    <Link
+      to={`/formulations/${formulation.id}`}
+      className="bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md hover:border-emerald-200 transition-all duration-300 cursor-pointer group relative block"
     >
       <div className="absolute top-4 right-4 flex gap-2 opacity-0 group-hover:opacity-100 transition-opacity">
         <button
@@ -109,6 +109,6 @@ export function FormulationCard({ formulation, onClick, onEdit, onDelete }: Form
           </div>
         </div>
       </div>
-    </div>
+    </Link>
   );
 }

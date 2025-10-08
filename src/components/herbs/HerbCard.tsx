@@ -1,15 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Leaf, AlertTriangle, Droplets } from 'lucide-react';
-import { Herb } from '../types/ayurveda';
+import { Herb } from '@/types/ayurveda';
 
 interface HerbCardProps {
   herb: Herb;
-  onClick: () => void;
   onEdit: () => void;
   onDelete: () => void;
 }
 
-export function HerbCard({ herb, onClick, onEdit, onDelete }: HerbCardProps) {
+export function HerbCard({ herb, onEdit, onDelete }: HerbCardProps) {
   const handleEditClick = (e: React.MouseEvent) => {
     e.stopPropagation();
     onEdit();
@@ -21,9 +21,9 @@ export function HerbCard({ herb, onClick, onEdit, onDelete }: HerbCardProps) {
   };
 
   return (
-    <div
-      onClick={onClick}
-      className="bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md hover:border-emerald-200 transition-all duration-300 cursor-pointer group relative"
+    <Link
+      to={`/herbs/${herb.id}`}
+      className="bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md hover:border-emerald-200 transition-all duration-300 cursor-pointer group relative block"
     >
       <div className="absolute top-4 right-4 flex gap-2">
         <button
@@ -56,7 +56,7 @@ export function HerbCard({ herb, onClick, onEdit, onDelete }: HerbCardProps) {
           <p className="text-xs text-gray-400 italic mb-3">{herb.botanicalName}</p>
           
           <div className="flex flex-wrap gap-1 mb-3">
-            {herb.rasa.slice(0, 3).map((rasa) => (
+            {herb.rasa.slice(0, 3).map((rasa: string) => (
               <span
                 key={rasa}
                 className="px-2 py-1 bg-blue-50 text-blue-700 text-xs rounded-full"
@@ -92,6 +92,6 @@ export function HerbCard({ herb, onClick, onEdit, onDelete }: HerbCardProps) {
           </div>
         </div>
       </div>
-    </div>
+    </Link>
   );
 }

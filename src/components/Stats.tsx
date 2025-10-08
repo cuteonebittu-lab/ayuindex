@@ -12,11 +12,10 @@ interface StatsProps {
   herbs: Herb[];
   formulations: Formulation[];
   onFormulationTypeSelect: (type: string) => void;
-  onHerbSelect: (herb: Herb) => void;
   onIndicationSelect?: (indication: string) => void;
 }
 
-export function Stats({ herbs, formulations, onHerbSelect, onIndicationSelect }: StatsProps) {
+export function Stats({ herbs, formulations, onIndicationSelect }: StatsProps) {
   const [showIndications, setShowIndications] = useState(false);
   const [showHerbs, setShowHerbs] = useState(false);
   const [showFormulations, setShowFormulations] = useState(false);
@@ -121,8 +120,8 @@ export function Stats({ herbs, formulations, onHerbSelect, onIndicationSelect }:
         <HerbsList 
           herbs={herbs}
           onClose={() => setShowHerbs(false)}
-          onHerbSelect={(herb) => {
-            onHerbSelect(herb);
+          onHerbSelect={() => {
+            // Navigation to herb detail page will be handled by HerbCard
             setShowHerbs(false);
           }}
         />

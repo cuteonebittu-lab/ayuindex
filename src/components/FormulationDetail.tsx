@@ -1,11 +1,8 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import { useParams, useNavigate } from 'react-router-dom';
 import { X, Beaker, AlertTriangle, Droplets, Clock, Users, ShoppingCart } from 'lucide-react';
-import { Formulation } from '../types/ayurveda';
-
-interface FormulationDetailProps {
-  formulation: Formulation;
-  onClose: () => void;
-}
+import { Formulation } from '@/types/ayurveda';
+import { formulationApi } from '@/services/api';
 
 const typeColors: Record<string, string> = {
   churna: 'bg-yellow-100 text-yellow-800 border-yellow-200',
@@ -22,11 +19,71 @@ const typeColors: Record<string, string> = {
   avaleha: 'bg-amber-100 text-amber-800 border-amber-200'
 };
 
-export function FormulationDetail({ formulation, onClose }: FormulationDetailProps) {
+export function FormulationDetail() {
+  const { id } = useParams<{ id: string }>();
+  const navigate = useNavigate();
+  const [formulation, setFormulation] = useState<Formulation | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    const fetchFormulation = async () => {
+      if (!id) {
+        setError('Formulation ID is missing.');
+        setLoading(false);
+        return;
+      }
+      try {
+        setLoading(true);
+        const fetchedFormulation = await formulationApi.getById(id);
+        setFormulation(fetchedFormulation);
+      } catch (err) {
+        console.error('Error fetching formulation:', err);
+        setError('Failed to load formulation details.');
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchFormulation();
+  }, [id]);
+
+  if (loading) {
+    return (
+      <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
+        <div className="bg-white rounded-2xl max-w-5xl w-full max-h-[90vh] overflow-y-auto p-6 text-center">
+          Loading formulation details...
+        </div>
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
+        <div className="bg-white rounded-2xl max-w-5xl w-full max-h-[90vh] overflow-y-auto p-6 text-center text-red-600">
+          {error}
+          <button onClick={() => navigate('/')} className="mt-4 px-4 py-2 bg-blue-500 text-white rounded">Go Back</button>
+        </div>
+      </div>
+    );
+  }
+
+  if (!formulation) {
+    return (
+      <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
+        <div className="bg-white rounded-2xl max-w-5xl w-full max-h-[90vh] overflow-y-auto p-6 text-center">
+          Formulation not found.
+          <button onClick={() => navigate('/')} className="mt-4 px-4 py-2 bg-blue-500 text-white rounded">Go Back</button>
+        </div>
+      </div>
+    );
+  }
+
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
-      <div className="bg-white rounded-2xl max-w-5xl w-full max-h-[90vh] overflow-y-auto">
-        <div className="sticky top-0 bg-white border-b border-gray-100 p-6 flex items-center justify-between rounded-t-2xl">
+    <main className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <div className="bg-white rounded-2xl shadow-xl border border-gray-100">
+        <div className="sticky top-0 bg-white border-b border-gray-100 p-6 flex items-center justify-between rounded-t-2xl z-10">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 bg-emerald-100 rounded-lg flex items-center justify-center">
               <Beaker className="w-5 h-5 text-emerald-600" />
@@ -42,7 +99,7 @@ export function FormulationDetail({ formulation, onClose }: FormulationDetailPro
             </div>
           </div>
           <button
-            onClick={onClose}
+            onClick={() => navigate(-1)} // Go back to the previous page
             className="text-gray-400 hover:text-gray-600 transition-colors"
           >
             <X className="w-6 h-6" />
@@ -57,7 +114,7 @@ export function FormulationDetail({ formulation, onClose }: FormulationDetailPro
               Ingredients
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-              {formulation.ingredients.map((ingredient, index) => (
+              {formulation.ingredients.map((ingredient: { herb: string; part?: string; quantity: string }, index: number) => (
                 <div key={index} className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
                   <div>
                     <span className="font-medium text-gray-700">{ingredient.herb}</span>
@@ -78,7 +135,7 @@ export function FormulationDetail({ formulation, onClose }: FormulationDetailPro
               Therapeutic Indications
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
-              {formulation.indications.map((indication, index) => (
+              {formulation.indications.map((indication: string, index: number) => (
                 <div key={index} className="flex items-center gap-2 p-3 bg-emerald-50 rounded-lg">
                   <div className="w-2 h-2 bg-emerald-500 rounded-full"></div>
                   <span className="text-gray-700">{indication}</span>
@@ -113,7 +170,7 @@ export function FormulationDetail({ formulation, onClose }: FormulationDetailPro
           <div>
             <h3 className="text-lg font-semibold text-gray-800 mb-4">Anupana (Vehicle)</h3>
             <div className="flex flex-wrap gap-2">
-              {formulation.anupana.map((vehicle) => (
+              {formulation.anupana.map((vehicle: string) => (
                 <span
                   key={vehicle}
                   className="px-4 py-2 bg-amber-50 text-amber-700 rounded-lg border border-amber-200"
@@ -150,7 +207,7 @@ export function FormulationDetail({ formulation, onClose }: FormulationDetailPro
                 Contraindications & Precautions
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
-                {formulation.contraindications.map((contraindication, index) => (
+                {formulation.contraindications.map((contraindication: string, index: number) => (
                   <div key={index} className="flex items-center gap-2 p-3 bg-red-50 rounded-lg border border-red-200">
                     <div className="w-2 h-2 bg-red-500 rounded-full"></div>
                     <span className="text-red-700">{contraindication}</span>
@@ -168,11 +225,11 @@ export function FormulationDetail({ formulation, onClose }: FormulationDetailPro
                 Marketed Brands
               </h3>
               <div className="space-y-4">
-                {formulation.brands.map((brand) => (
+                {formulation.brands.map((brand: { name: string; products: { name: string; quantity: string; price: number }[] }) => (
                   <div key={brand.name} className="p-4 bg-gray-50 rounded-lg">
                     <h4 className="font-semibold text-gray-700 mb-2">{brand.name}</h4>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
-                      {brand.products.map((product) => (
+                      {brand.products.map((product: { name: string; quantity: string; price: number }) => (
                         <div key={product.name} className="p-3 bg-white rounded-lg border border-gray-200 flex justify-between items-center">
                           <div>
                             <p className="font-medium text-gray-800">{product.name}</p>
@@ -189,6 +246,6 @@ export function FormulationDetail({ formulation, onClose }: FormulationDetailPro
           )}
         </div>
       </div>
-    </div>
+    </main>
   );
 }

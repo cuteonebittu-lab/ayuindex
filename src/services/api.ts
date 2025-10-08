@@ -79,4 +79,4 @@ export const formulationApi = {
 };
 
 // Import types from ayurveda
-import { Herb, Formulation } from '../types/ayurveda';
+import { Herb, Formulation } from '@/types/ayurveda';

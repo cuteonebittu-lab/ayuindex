@@ -1,13 +1,70 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import { useParams, useNavigate } from 'react-router-dom';
 import { X, Leaf, AlertTriangle, Droplets, Clock, BookOpen } from 'lucide-react';
-import { Herb } from '../types/ayurveda';
+import { Herb } from '@/types/ayurveda';
+import { herbApi } from '@/services/api';
 
-interface HerbDetailProps {
-  herb: Herb;
-  onClose: () => void;
-}
+export function HerbDetail() {
+  const { id } = useParams<{ id: string }>();
+  const navigate = useNavigate();
+  const [herb, setHerb] = useState<Herb | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
 
-export function HerbDetail({ herb, onClose }: HerbDetailProps) {
+  useEffect(() => {
+    const fetchHerb = async () => {
+      if (!id) {
+        setError('Herb ID is missing.');
+        setLoading(false);
+        return;
+      }
+      try {
+        setLoading(true);
+        const fetchedHerb = await herbApi.getById(id); // Corrected to getById
+        setHerb(fetchedHerb);
+      } catch (err) {
+        console.error('Error fetching herb:', err);
+        setError('Failed to load herb details.');
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchHerb();
+  }, [id]);
+
+  if (loading) {
+    return (
+      <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
+        <div className="bg-white rounded-2xl max-w-4xl w-full max-h-[90vh] overflow-y-auto p-6 text-center">
+          Loading herb details...
+        </div>
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
+        <div className="bg-white rounded-2xl max-w-4xl w-full max-h-[90vh] overflow-y-auto p-6 text-center text-red-600">
+          {error}
+          <button onClick={() => navigate('/')} className="mt-4 px-4 py-2 bg-blue-500 text-white rounded">Go Back</button>
+        </div>
+      </div>
+    );
+  }
+
+  if (!herb) {
+    return (
+      <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
+        <div className="bg-white rounded-2xl max-w-4xl w-full max-h-[90vh] overflow-y-auto p-6 text-center">
+          Herb not found.
+          <button onClick={() => navigate('/')} className="mt-4 px-4 py-2 bg-blue-500 text-white rounded">Go Back</button>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
       <div className="bg-white rounded-2xl max-w-4xl w-full max-h-[90vh] overflow-y-auto">
@@ -22,7 +79,7 @@ export function HerbDetail({ herb, onClose }: HerbDetailProps) {
             </div>
           </div>
           <button
-            onClick={onClose}
+            onClick={() => navigate(-1)} // Go back to the previous page
             className="text-gray-400 hover:text-gray-600 transition-colors"
           >
             <X className="w-6 h-6" />
@@ -60,7 +117,7 @@ export function HerbDetail({ herb, onClose }: HerbDetailProps) {
                 <div>
                   <span className="font-medium text-gray-700">Rasa (Taste):</span>
                   <div className="flex flex-wrap gap-1 mt-1">
-                    {herb.rasa.map((rasa) => (
+                    {herb.rasa.map((rasa: string) => (
                       <span key={rasa} className="px-2 py-1 bg-blue-50 text-blue-700 text-sm rounded-full">
                         {rasa}
                       </span>
@@ -70,7 +127,7 @@ export function HerbDetail({ herb, onClose }: HerbDetailProps) {
                 <div>
                   <span className="font-medium text-gray-700">Guna (Quality):</span>
                   <div className="flex flex-wrap gap-1 mt-1">
-                    {herb.guna.map((guna) => (
+                    {herb.guna.map((guna: string) => (
                       <span key={guna} className="px-2 py-1 bg-purple-50 text-purple-700 text-sm rounded-full">
                         {guna}
                       </span>
@@ -99,7 +156,7 @@ export function HerbDetail({ herb, onClose }: HerbDetailProps) {
                   <div>
                     <span className="font-medium text-gray-700">Karma (Actions):</span>
                     <div className="flex flex-wrap gap-1 mt-1">
-                      {herb.karma.map((k) => (
+                      {herb.karma.map((k: string) => (
                         <span key={k} className="px-2 py-1 bg-green-50 text-green-700 text-sm rounded-full">
                           {k}
                         </span>
@@ -118,7 +175,7 @@ export function HerbDetail({ herb, onClose }: HerbDetailProps) {
               Therapeutic Indications
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
-              {herb.indications.map((indication, index) => (
+              {herb.indications.map((indication: string, index: number) => (
                 <div key={index} className="flex items-center gap-2 p-3 bg-emerald-50 rounded-lg">
                   <div className="w-2 h-2 bg-emerald-500 rounded-full"></div>
                   <span className="text-gray-700">{indication}</span>
@@ -135,7 +192,7 @@ export function HerbDetail({ herb, onClose }: HerbDetailProps) {
                 Forms and Packaging
               </h3>
               <div className="flex flex-wrap gap-2">
-                {herb.formsAndPackaging.map((form, index) => (
+                {herb.formsAndPackaging.map((form: string, index: number) => (
                   <span
                     key={index}
                     className="px-3 py-2 bg-indigo-50 text-indigo-700 rounded-lg border border-indigo-200"
@@ -212,7 +269,7 @@ export function HerbDetail({ herb, onClose }: HerbDetailProps) {
             <div>
               <h3 className="text-lg font-semibold text-gray-800 mb-4">Anupana (Vehicle)</h3>
               <div className="flex flex-wrap gap-2">
-                {herb.anupana.map((vehicle) => (
+                {herb.anupana.map((vehicle: string) => (
                   <span
                     key={vehicle}
                     className="px-3 py-2 bg-amber-50 text-amber-700 rounded-lg border border-amber-200"
@@ -232,7 +289,7 @@ export function HerbDetail({ herb, onClose }: HerbDetailProps) {
                 Brands and Prices
               </h3>
               <div className="space-y-4">
-                {herb.brandsAndPrices.map((brandInfo, index) => (
+                {herb.brandsAndPrices.map((brandInfo, index: number) => (
                   <div key={index} className="p-4 bg-gray-50 rounded-lg border border-gray-200">
                     <p className="font-medium text-gray-700">{brandInfo.brand}</p>
                     <p className="text-gray-600 text-sm">SKU: {brandInfo.sku_title}</p>
@@ -263,7 +320,7 @@ export function HerbDetail({ herb, onClose }: HerbDetailProps) {
                 Source Documents
               </h3>
               <div className="space-y-2">
-                {herb.sourceDocs.map((doc, index) => (
+                {herb.sourceDocs.map((doc, index: number) => (
                   <a
                     key={index}
                     href={doc.url}
@@ -286,7 +343,7 @@ export function HerbDetail({ herb, onClose }: HerbDetailProps) {
                 Contraindications
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
-                {herb.contraindications.map((contraindication, index) => (
+                {herb.contraindications.map((contraindication: string, index: number) => (
                   <div key={index} className="flex items-center gap-2 p-3 bg-red-50 rounded-lg border border-red-200">
                     <div className="w-2 h-2 bg-red-500 rounded-full"></div>
                     <span className="text-red-700">{contraindication}</span>
