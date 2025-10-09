@@ -2,14 +2,12 @@ import { useParams, useLocation } from 'react-router-dom';
 import { FormulationCard } from './FormulationCard';
 import { Formulation } from '../types/ayurveda';
 import { useState, useEffect } from 'react';
-import { FormulationDetail } from './FormulationDetail';
 import { clinicalSystemMap } from '../data/categories/clinical-systems';
 import { formulationApi } from '../services/api';
 
 export function FormulationSubcategoryPage() {
   const { subcategory } = useParams<{ subcategory: string }>();
   const location = useLocation();
-  const [selectedFormulation, setSelectedFormulation] = useState<Formulation | null>(null);
   const [formulations, setFormulations] = useState<Formulation[]>([]);
   const [loading, setLoading] = useState(true);
 
@@ -68,18 +66,11 @@ export function FormulationSubcategoryPage() {
               <FormulationCard
                 key={formulation.id}
                 formulation={formulation}
-                onClick={() => setSelectedFormulation(formulation)}
                 onEdit={() => {}}
                 onDelete={() => {}}
               />
             ))}
           </div>
-          {selectedFormulation && (
-            <FormulationDetail
-              formulation={selectedFormulation}
-              onClose={() => setSelectedFormulation(null)}
-            />
-          )}
         </>
       )}
     </div>
