@@ -99,7 +99,7 @@ export function FormulationDetail() {
             </div>
           </div>
           <button
-            onClick={() => navigate(-1)} // Go back to the previous page
+            onClick={() => navigate(-1)}
             className="text-gray-400 hover:text-gray-600 transition-colors"
           >
             <X className="w-6 h-6" />
@@ -150,20 +150,26 @@ export function FormulationDetail() {
               <Clock className="w-5 h-5 text-emerald-600" />
               Dosage & Administration
             </h3>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              <div className="p-4 bg-blue-50 rounded-lg border border-blue-200">
-                <h4 className="font-medium text-blue-800 mb-2">Amount</h4>
-                <p className="text-blue-700">{formulation.dosage.amount}</p>
+            {typeof formulation.dosage === 'object' && formulation.dosage !== null ? (
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div className="p-4 bg-blue-50 rounded-lg border border-blue-200">
+                  <h4 className="font-medium text-blue-800 mb-2">Amount</h4>
+                  <p className="text-blue-700">{formulation.dosage.amount || 'Not specified'}</p>
+                </div>
+                <div className="p-4 bg-green-50 rounded-lg border border-green-200">
+                  <h4 className="font-medium text-green-800 mb-2">Frequency</h4>
+                  <p className="text-green-700">{formulation.dosage.frequency || 'Not specified'}</p>
+                </div>
+                <div className="p-4 bg-purple-50 rounded-lg border border-purple-200">
+                  <h4 className="font-medium text-purple-800 mb-2">Duration</h4>
+                  <p className="text-purple-700">{formulation.dosage.duration || 'Not specified'}</p>
+                </div>
               </div>
-              <div className="p-4 bg-green-50 rounded-lg border border-green-200">
-                <h4 className="font-medium text-green-800 mb-2">Frequency</h4>
-                <p className="text-green-700">{formulation.dosage.frequency}</p>
+            ) : (
+              <div className="p-4 bg-gray-50 rounded-lg border border-gray-200">
+                <p className="text-gray-700">{formulation.dosage || 'Dosage information not available'}</p>
               </div>
-              <div className="p-4 bg-purple-50 rounded-lg border border-purple-200">
-                <h4 className="font-medium text-purple-800 mb-2">Duration</h4>
-                <p className="text-purple-700">{formulation.dosage.duration}</p>
-              </div>
-            </div>
+            )}
           </div>
 
           {/* Anupana */}

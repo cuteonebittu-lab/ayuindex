@@ -4712,6 +4712,7 @@
     },
     {
       "id": "af78",
+      "name": "Liv.52",
       "brand": "Himalaya",
       "product": "Liv.52",
       "pack": "100 Tablets",
@@ -4725,6 +4726,7 @@
     },
     {
       "id": "df7d",
+      "name": "Chyawanprash",
       "brand": "Dabur",
       "product": "Chyawanprash",
       "pack": "1 kg",
@@ -4738,6 +4740,7 @@
     },
     {
       "id": "b008",
+      "name": "Ashwagandha Capsules",
       "brand": "Himalaya",
       "product": "Ashwagandha",
       "pack": "60 Capsules",
@@ -4751,6 +4754,7 @@
     },
     {
       "id": "a76a",
+      "name": "Aloederm Aloe Hydro Gel",
       "brand": "Dabur",
       "product": "Aloederm Aloe Hydro Gel",
       "pack": "100 gm",
@@ -4764,6 +4768,7 @@
     },
     {
       "id": "f5bc",
+      "name": "Sugarfree Chyawan-Vit",
       "brand": "Baidyanath",
       "product": "Sugarfree Chyawan-Vit",
       "pack": "1 kg (Pack of 2)",
@@ -4777,6 +4782,7 @@
     },
     {
       "id": "1aa2",
+      "name": "Gotu Kola Capsules",
       "brand": "Himalaya",
       "product": "Gotu Kola Capsules",
       "pack": "60 Capsules",
@@ -4790,6 +4796,7 @@
     },
     {
       "id": "4c00",
+      "name": "Honitus Syrup",
       "brand": "Dabur",
       "product": "Honitus Syrup",
       "pack": "100 ml",
@@ -4803,6 +4810,7 @@
     },
     {
       "id": "6d9c",
+      "name": "Himalayan Ashwagandha Churna",
       "brand": "Baidyanath",
       "product": "Himalayan Ashwagandha Churna",
       "pack": "200 gm",
@@ -4816,6 +4824,7 @@
     },
     {
       "id": "4f2b",
+      "name": "Aravindasavam",
       "brand": "AVP Kottakal",
       "product": "Aravindasavam",
       "pack": "450 ml",
@@ -4829,6 +4838,7 @@
     },
     {
       "id": "5c90",
+      "name": "Dasamoolarishtam",
       "brand": "Nagarjuna",
       "product": "Dasamoolarishtam",
       "pack": "450 ml",
@@ -4842,6 +4852,7 @@
     },
     {
       "id": "310c",
+      "name": "Manasamithra Gulika",
       "brand": "Kerala Ayurveda",
       "product": "Manasamithra Gulika",
       "pack": "100 Tablets",
@@ -4855,6 +4866,7 @@
     },
     {
       "id": "cc43",
+      "name": "Kesari Jivan",
       "brand": "Zandu",
       "product": "Kesari Jivan",
       "pack": "900 gm",
