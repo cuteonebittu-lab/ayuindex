@@ -2684,66 +2684,56 @@
       "brands": []
     },
     {
-      "id": "khadirarishta",
-      "name": "Khadirarishta",
-      "sanskritName": "खदिरारिष्ट",
-      "type": "arishta",
+      "name": "Khadira Arishta",
+      "company": "Unjha / Classical",
+      "type": "Arishta (Fermented liquid)",
       "clinicalSystems": [
-        "Integumentary System",
-        "Urinary System",
-        "Cardiovascular System"
+        "Dermatology",
+        "Blood"
       ],
       "indicationCategories": [
-        "Skin Conditions",
-        "Urinary Disorders",
-        "Cardiovascular Conditions"
+        "Skin disorders",
+        "Raktashodhaka"
       ],
       "traditionalCategories": [
-        "Kaphahara",
-        "Pittahara"
+        "Raktashodhaka"
       ],
       "ingredients": [
         {
           "herb": "Khadira (Acacia catechu)",
-          "quantity": "Principal herb"
+          "quantity": "main",
+          "part": "heartwood"
         },
         {
-          "herb": "13 other herbs (detailed list not fully given)",
-          "quantity": "Proprietary"
+          "herb": "Manjistha",
+          "quantity": "supportive",
+          "part": "root"
         }
       ],
       "indications": [
-        "Skin ailments (Kushthas)",
-        "Skin lesions with Vata–Kapha predominance",
-        "Urinary calculi",
-        "Flatulence",
-        "Cardiac tonic"
+        "Eczema",
+        "Leucoderma adjunct",
+        "Skin purification"
       ],
       "dosage": {
-        "amount": "3 teaspoons",
-        "frequency": "twice daily",
-        "duration": "as directed by Ayurvedic physician"
+        "amount": "15-30 ml",
+        "frequency": "Twice daily"
       },
       "anupana": [
-        "Equal amount of lukewarm water"
+        "Water"
       ],
-      "contraindications": [],
-      "reference": "Always Ayurveda",
-      "adultDosage": "3 teaspoons twice daily with equal amount of lukewarm water",
-      "modeOfAction": "Acts on skin, urinary, and cardiovascular systems.",
-      "generalConsiderations": "The Asava / Arishta class is self-preserving via its alcohol content; ideal use within about one year of purchase.",
-      "brands": [
-        {
-          "name": "Planet Ayurveda",
-          "products": [
-            {
-              "name": "Khadirarishta",
-              "price": 250,
-              "quantity": "450ml"
-            }
-          ]
-        }
-      ]
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "reference": "Classical arishta recipes",
+      "marketInfo": {
+        "priceRange": "₹120-₹260 per 450 ml",
+        "packages": [
+          "200 ml",
+          "450 ml"
+        ]
+      },
+      "id": "khadirarishta"
     },
     {
       "id": "arvindasav",
@@ -3956,121 +3946,125 @@
     },
     {
       "name": "Arogyavardhini Vati",
-      "sanskritName": "आरोग्यवर्धिनी वटी",
-      "type": "vati",
+      "company": "Himalaya / Generic",
+      "type": "Tablet",
       "clinicalSystems": [
-        "Liver",
-        "Digestive"
+        "Digestive",
+        "Hepatic"
       ],
       "indicationCategories": [
-        "Liver Disorders",
-        "Skin Diseases"
+        "Liver support",
+        "Detox",
+        "Skin disorders"
       ],
       "traditionalCategories": [
-        "Deepana",
         "Pachana",
         "Raktashodhaka"
       ],
       "ingredients": [
         {
-          "herb": "Katuki",
-          "quantity": "1 part",
+          "herb": "Haritaki",
+          "quantity": "component",
+          "part": "fruit"
+        },
+        {
+          "herb": "Kutki",
+          "quantity": "component",
           "part": "root"
         },
         {
           "herb": "Triphala",
-          "quantity": "1 part",
+          "quantity": "blend",
           "part": "fruits"
-        },
-        {
-          "herb": "Nimba",
-          "quantity": "1 part",
-          "part": "bark"
-        },
-        {
-          "herb": "Shilajit",
-          "quantity": "1 part",
-          "part": "mineral"
         }
       ],
       "indications": [
-        "Jaundice",
-        "Acne",
-        "Liver enlargement",
+        "Liver detox",
+        "Chronic skin issues",
         "Indigestion"
       ],
       "dosage": {
         "amount": "1-2 tablets",
-        "frequency": "Twice daily after meals"
+        "frequency": "Twice daily",
+        "duration": "As directed"
       },
       "anupana": [
         "Warm water"
       ],
       "contraindications": [
-        "Pregnancy"
+        "Pregnancy",
+        "Severe liver failure"
       ],
-      "reference": "Rasaratna Samuchchaya",
+      "reference": "Classical Rasayana compendia",
+      "marketInfo": {
+        "priceRange": "₹140-₹420 for 60 tabs",
+        "availablePackages": [
+          "30 tabs",
+          "60 tabs"
+        ]
+      },
       "id": "arogyavardhini-vati"
     },
     {
       "name": "Chandraprabha Vati",
-      "sanskritName": "चन्द्रप्रभा वटी",
-      "type": "vati",
+      "company": "Classical / Multiple brands",
+      "type": "Tablet / Vati",
       "clinicalSystems": [
-        "Urinary System",
-        "Endocrine System"
+        "Urinary",
+        "Reproductive",
+        "Metabolic"
       ],
       "indicationCategories": [
-        "Urinary Disorders",
-        "Diabetes",
-        "Reproductive Health"
+        "Urinary disorders",
+        "Diabetes adjunct",
+        "Reproductive health"
       ],
       "traditionalCategories": [
-        "Rasayana",
-        "Mutrala",
-        "Tridoshahara"
+        "Mutravirechaka",
+        "Rasayana"
       ],
       "ingredients": [
         {
           "herb": "Shilajit",
-          "quantity": "1 part",
-          "part": "mineral"
-        },
-        {
-          "herb": "Guggulu",
-          "quantity": "1 part",
+          "quantity": "minor",
           "part": "resin"
         },
         {
-          "herb": "Haridra",
-          "quantity": "1 part",
-          "part": "rhizome"
+          "herb": "Guggulu",
+          "quantity": "supportive",
+          "part": "resin"
         },
         {
-          "herb": "Triphala",
-          "quantity": "1 part",
-          "part": "mixture"
+          "herb": "Punarnava",
+          "quantity": "supportive",
+          "part": "root"
         }
       ],
       "indications": [
-        "Diabetes",
-        "UTI",
-        "Prostate disorders",
-        "Backache"
+        "Urinary tract disorders",
+        "Dysuria",
+        "General debility"
       ],
       "dosage": {
         "amount": "1-2 tablets",
         "frequency": "Twice daily",
-        "duration": "As advised"
+        "duration": "As directed"
       },
       "anupana": [
-        "Warm water",
-        "Cow milk"
+        "Warm water"
       ],
       "contraindications": [
-        "Pregnancy"
+        "Pregnancy",
+        "Severe kidney disease"
       ],
-      "reference": "Bhaishajya Ratnavali",
+      "reference": "Classical compendia / Proprietary variants",
+      "marketInfo": {
+        "priceRange": "₹120-₹380 for 60 tabs",
+        "availablePackages": [
+          "30 tabs",
+          "60 tabs"
+        ]
+      },
       "id": "chandraprabha-vati"
     },
     {
@@ -9992,6 +9986,3373 @@
       "packages": [
         "450 ml bottle"
       ]
+    },
+    {
+      "id": "03e0",
+      "name": "Lakshadi Ghrita",
+      "company": "Classical / Multiple",
+      "type": "Ghrita (Medicated ghee)",
+      "clinicalSystems": [
+        "Reproductive",
+        "Musculoskeletal"
+      ],
+      "indicationCategories": [
+        "Vata disorders",
+        "Nervine tonic",
+        "Postnatal care"
+      ],
+      "traditionalCategories": [
+        "Brimhana",
+        "Vatahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Laksha (Laccifer lacca)",
+          "quantity": "base",
+          "part": "lac"
+        },
+        {
+          "herb": "Dashamoola",
+          "quantity": "supportive",
+          "part": "roots"
+        },
+        {
+          "herb": "Cow ghee",
+          "quantity": "vehicle",
+          "part": "ghee"
+        }
+      ],
+      "indications": [
+        "Postnatal weakness",
+        "Joint pain",
+        "Vata imbalance"
+      ],
+      "dosage": {
+        "amount": "2-5 g",
+        "frequency": "Once daily with warm milk"
+      },
+      "anupana": [
+        "Warm milk"
+      ],
+      "contraindications": [
+        "Hyperlipidemia",
+        "Gallstones"
+      ],
+      "reference": "Classical ghrita texts (Charaka/Ashtanga)",
+      "marketInfo": {
+        "priceRange": "₹320-₹900 for 150 g",
+        "packages": [
+          "50 g",
+          "150 g"
+        ]
+      }
+    },
+    {
+      "id": "6c43",
+      "name": "Guluchyadi Kashayam",
+      "company": "Charak / Proprietary variants",
+      "type": "Kashayam (Decoction)",
+      "clinicalSystems": [
+        "Hepatic",
+        "Immunity"
+      ],
+      "indicationCategories": [
+        "Fever",
+        "Liver tonic",
+        "Immune support"
+      ],
+      "traditionalCategories": [
+        "Jvarahara",
+        "Yakritotthejaka"
+      ],
+      "ingredients": [
+        {
+          "herb": "Guduchi (Tinospora cordifolia)",
+          "quantity": "major",
+          "part": "stem"
+        },
+        {
+          "herb": "Amalaki",
+          "quantity": "supportive",
+          "part": "fruit"
+        },
+        {
+          "herb": "Haridra",
+          "quantity": "supportive",
+          "part": "rhizome"
+        }
+      ],
+      "indications": [
+        "Fever management",
+        "Post-infection recovery",
+        "Liver support"
+      ],
+      "dosage": {
+        "amount": "15-30 ml",
+        "frequency": "Twice daily"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Autoimmune conditions — consult"
+      ],
+      "reference": "Classical formulations / Charaka",
+      "marketInfo": {
+        "priceRange": "₹140-₹360 per 200 ml",
+        "packages": [
+          "100 ml",
+          "200 ml"
+        ]
+      }
+    },
+    {
+      "id": "07a9",
+      "name": "Chitrakadi Vati",
+      "company": "Dabur / Generic",
+      "type": "Tablet",
+      "clinicalSystems": [
+        "Digestive"
+      ],
+      "indicationCategories": [
+        "Indigestion",
+        "Loss of appetite",
+        "Dyspepsia"
+      ],
+      "traditionalCategories": [
+        "Deepana",
+        "Pachana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Chitraka (Plumbago zeylanica)",
+          "quantity": "main",
+          "part": "root"
+        },
+        {
+          "herb": "Pippali",
+          "quantity": "supportive",
+          "part": "fruit"
+        }
+      ],
+      "indications": [
+        "Chronic indigestion",
+        "Poor digestion",
+        "Anorexia"
+      ],
+      "dosage": {
+        "amount": "1-2 tablets",
+        "frequency": "Before meals"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "reference": "Classical formula adaptations",
+      "marketInfo": {
+        "priceRange": "₹60-₹180 for 60 tabs",
+        "packages": [
+          "30 tabs",
+          "60 tabs"
+        ]
+      }
+    },
+    {
+      "id": "5da1",
+      "name": "Madhuyasti Arishta",
+      "company": "Baidyanath",
+      "type": "Arishta",
+      "clinicalSystems": [
+        "Respiratory",
+        "Digestive"
+      ],
+      "indicationCategories": [
+        "Chronic cough",
+        "Bronchial conditions"
+      ],
+      "traditionalCategories": [
+        "Kashaya adjunct",
+        "Balya"
+      ],
+      "ingredients": [
+        {
+          "herb": "Madhuyashti (Glycyrrhiza glabra)",
+          "quantity": "main",
+          "part": "root"
+        },
+        {
+          "herb": "Vasa",
+          "quantity": "supportive",
+          "part": "leaf"
+        }
+      ],
+      "indications": [
+        "Cough relief",
+        "Throat soothing"
+      ],
+      "dosage": {
+        "amount": "10-15 ml",
+        "frequency": "Twice daily"
+      },
+      "anupana": [
+        "Water"
+      ],
+      "contraindications": [
+        "Hypertension"
+      ],
+      "reference": "Baidyanath proprietary/arista tradition",
+      "marketInfo": {
+        "priceRange": "₹130-₹320 per 450 ml",
+        "packages": [
+          "200 ml",
+          "450 ml"
+        ]
+      }
+    },
+    {
+      "id": "032d",
+      "name": "Triphalaadi Vati",
+      "company": "Himalaya / Generic",
+      "type": "Tablet",
+      "clinicalSystems": [
+        "Digestive",
+        "Ocular"
+      ],
+      "indicationCategories": [
+        "Constipation",
+        "Eye health support",
+        "Detox"
+      ],
+      "traditionalCategories": [
+        "Anulomana",
+        "Rasayana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Haritaki",
+          "quantity": "1 part",
+          "part": "fruit"
+        },
+        {
+          "herb": "Bibhitaki",
+          "quantity": "1 part",
+          "part": "fruit"
+        },
+        {
+          "herb": "Amla",
+          "quantity": "1 part",
+          "part": "fruit"
+        }
+      ],
+      "indications": [
+        "Constipation relief",
+        "Digestive cleansing",
+        "Eye disorders adjunct"
+      ],
+      "dosage": {
+        "amount": "1-2 tablets",
+        "frequency": "Once daily"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Loose motions"
+      ],
+      "reference": "Classical Triphala preparations",
+      "marketInfo": {
+        "priceRange": "₹90-₹260 for 60 tabs",
+        "packages": [
+          "30 tabs",
+          "60 tabs"
+        ]
+      }
+    },
+    {
+      "id": "094f",
+      "name": "Rajanyadi Kashayam",
+      "company": "Kottakkal / Classical",
+      "type": "Kashayam",
+      "clinicalSystems": [
+        "Dermatology",
+        "Blood"
+      ],
+      "indicationCategories": [
+        "Chronic skin diseases",
+        "Raktashodhaka action"
+      ],
+      "traditionalCategories": [
+        "Kusthahara",
+        "Raktashodhaka"
+      ],
+      "ingredients": [
+        {
+          "herb": "Rajani (Senna alexandrina)",
+          "quantity": "major",
+          "part": "leaf"
+        },
+        {
+          "herb": "Manjistha",
+          "quantity": "supportive",
+          "part": "root"
+        }
+      ],
+      "indications": [
+        "Chronic eczema",
+        "Psoriasis adjunct"
+      ],
+      "dosage": {
+        "amount": "15-30 ml",
+        "frequency": "Twice daily"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Pregnancy",
+        "Children"
+      ],
+      "reference": "Classical references / Kottakkal variants",
+      "marketInfo": {
+        "priceRange": "₹160-₹420 per 200 ml",
+        "packages": [
+          "100 ml",
+          "200 ml"
+        ]
+      }
+    },
+    {
+      "id": "b2d8",
+      "name": "Ksharabala Tailam",
+      "company": "Kerala Ayurveda / Classical",
+      "type": "Taila (Oil)",
+      "clinicalSystems": [
+        "Nervous System",
+        "Musculoskeletal"
+      ],
+      "indicationCategories": [
+        "Neuropathic pain",
+        "Vata disorders"
+      ],
+      "traditionalCategories": [
+        "Vatahara",
+        "Snehana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Kshara (alkaline extract)",
+          "quantity": "formulation base",
+          "part": "processed material"
+        },
+        {
+          "herb": "Bala (Sida cordifolia)",
+          "quantity": "supportive",
+          "part": "root"
+        }
+      ],
+      "indications": [
+        "Neuropathic pain",
+        "Post-stroke stiffness",
+        "Joint pain"
+      ],
+      "dosage": {
+        "amount": "Apply topically 10-20 ml",
+        "frequency": "Twice daily massage"
+      },
+      "anupana": [
+        "External use"
+      ],
+      "contraindications": [
+        "Open wounds"
+      ],
+      "reference": "Classical taila recipes",
+      "marketInfo": {
+        "priceRange": "₹220-₹520 per 100 ml",
+        "packages": [
+          "50 ml",
+          "100 ml"
+        ]
+      }
+    },
+    {
+      "id": "ae17",
+      "name": "Punarnavadi Guggul",
+      "company": "Dhootapapeshwar / Proprietary variants",
+      "type": "Tablet",
+      "clinicalSystems": [
+        "Renal",
+        "Liver",
+        "Metabolic"
+      ],
+      "indicationCategories": [
+        "Edema",
+        "Obesity-related swelling",
+        "Metabolic support"
+      ],
+      "traditionalCategories": [
+        "Mutravirechaka",
+        "Shothahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Punarnava",
+          "quantity": "1 part",
+          "part": "root"
+        },
+        {
+          "herb": "Guggulu",
+          "quantity": "1 part",
+          "part": "resin"
+        },
+        {
+          "herb": "Triphala",
+          "quantity": "supportive",
+          "part": "fruits"
+        }
+      ],
+      "indications": [
+        "Edema reduction",
+        "Weight-related swelling"
+      ],
+      "dosage": {
+        "amount": "1-2 tablets",
+        "frequency": "Twice daily"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Pregnancy",
+        "Severe kidney disease"
+      ],
+      "reference": "Classical and Dhootapapeshwar variants",
+      "marketInfo": {
+        "priceRange": "₹150-₹420 for 60 tabs",
+        "packages": [
+          "30 tabs",
+          "60 tabs"
+        ]
+      }
+    },
+    {
+      "id": "8679",
+      "name": "Swarnaprashana Syrup (Proprietary)",
+      "company": "AVP / Classical variants",
+      "type": "Syrup / Lehyam",
+      "clinicalSystems": [
+        "Pediatric",
+        "Immunity"
+      ],
+      "indicationCategories": [
+        "Growth",
+        "Immunity in children",
+        "Neurodevelopment support (traditional)"
+      ],
+      "traditionalCategories": [
+        "Balya",
+        "Rasayana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Gold bhasma (very small amount in tradition)",
+          "quantity": "trace (proprietary)",
+          "part": "bhasma"
+        },
+        {
+          "herb": "Amla",
+          "quantity": "major",
+          "part": "fruit"
+        }
+      ],
+      "indications": [
+        "General immunity support (traditional)"
+      ],
+      "dosage": {
+        "amount": "1-2 ml (drops) as per age",
+        "frequency": "As directed"
+      },
+      "anupana": [
+        "Milk"
+      ],
+      "contraindications": [
+        "Not recommended without pediatrician approval"
+      ],
+      "reference": "Traditional Swarnaprashana concept (used cautiously)",
+      "marketInfo": {
+        "priceRange": "₹420-₹1200 per pack (varies widely)",
+        "packages": [
+          "bottles with dropper"
+        ]
+      }
+    },
+    {
+      "id": "32a8",
+      "name": "Shringyadi Lehyam",
+      "company": "Sandu / Proprietary",
+      "type": "Lehyam (Herbal jam)",
+      "clinicalSystems": [
+        "Digestive",
+        "Respiratory"
+      ],
+      "indicationCategories": [
+        "Cough",
+        "Cold",
+        "General tonic"
+      ],
+      "traditionalCategories": [
+        "Rasayana",
+        "Kashaya adjunct"
+      ],
+      "ingredients": [
+        {
+          "herb": "Pippali",
+          "quantity": "1 part",
+          "part": "fruit"
+        },
+        {
+          "herb": "Honey",
+          "quantity": "vehicle",
+          "part": "nectar"
+        }
+      ],
+      "indications": [
+        "Cough relief",
+        "General strength"
+      ],
+      "dosage": {
+        "amount": "3-5 g",
+        "frequency": "Twice daily"
+      },
+      "anupana": [
+        "Warm milk"
+      ],
+      "contraindications": [
+        "Diabetes (due to sweet base)"
+      ],
+      "reference": "Proprietary",
+      "marketInfo": {
+        "priceRange": "₹140-₹420 per 200 g",
+        "packages": [
+          "100 g",
+          "200 g"
+        ]
+      }
+    },
+    {
+      "id": "2c69",
+      "name": "Madhunashini Vati",
+      "company": "Baidyanath",
+      "type": "Tablet",
+      "clinicalSystems": [
+        "Endocrine",
+        "Metabolic"
+      ],
+      "indicationCategories": [
+        "Diabetes support",
+        "Glycemic control"
+      ],
+      "traditionalCategories": [
+        "Prameha management"
+      ],
+      "ingredients": [
+        {
+          "herb": "Madhunashini (Gymnema sylvestre)",
+          "quantity": "standardised",
+          "part": "leaf"
+        },
+        {
+          "herb": "Karela (Momordica charantia)",
+          "quantity": "supportive",
+          "part": "fruit"
+        }
+      ],
+      "indications": [
+        "Blood sugar regulation support",
+        "Polyuria"
+      ],
+      "dosage": {
+        "amount": "1-2 tablets",
+        "frequency": "Twice daily before meals"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Concurrent hypoglycemic therapy — monitor"
+      ],
+      "reference": "Baidyanath proprietary/prameha tradition",
+      "marketInfo": {
+        "priceRange": "₹140-₹360 for 60 tabs",
+        "availablePackages": [
+          "30 tabs",
+          "60 tabs"
+        ]
+      }
+    },
+    {
+      "id": "a9b4",
+      "name": "Triphala Arishta (Special)",
+      "company": "Dabur",
+      "type": "Arishta",
+      "clinicalSystems": [
+        "Digestive",
+        "Detox"
+      ],
+      "indicationCategories": [
+        "Constipation",
+        "Detox",
+        "Digestive tonic"
+      ],
+      "traditionalCategories": [
+        "Anulomana",
+        "Rasayana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Triphala blend",
+          "quantity": "primary",
+          "part": "fruits"
+        },
+        {
+          "herb": "Haritaki",
+          "quantity": "component",
+          "part": "fruit"
+        }
+      ],
+      "indications": [
+        "Constipation relief",
+        "Detoxification support"
+      ],
+      "dosage": {
+        "amount": "15-30 ml",
+        "frequency": "Once daily at night"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Loose stools",
+        "Severe diarrhea"
+      ],
+      "reference": "Dabur proprietary/classical Triphala",
+      "marketInfo": {
+        "priceRange": "₹100-₹260 per 450 ml",
+        "availablePackages": [
+          "450 ml",
+          "200 ml"
+        ]
+      }
+    },
+    {
+      "id": "48e8",
+      "name": "Rasnadi Guggulu",
+      "company": "Zandu",
+      "type": "Tablet",
+      "clinicalSystems": [
+        "Musculoskeletal"
+      ],
+      "indicationCategories": [
+        "Arthritis",
+        "Joint inflammation"
+      ],
+      "traditionalCategories": [
+        "Vatahara",
+        "Shothahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Rasna",
+          "quantity": "main",
+          "part": "root"
+        },
+        {
+          "herb": "Guggulu",
+          "quantity": "base",
+          "part": "resin"
+        }
+      ],
+      "indications": [
+        "Joint pain relief",
+        "Inflammation reduction"
+      ],
+      "dosage": {
+        "amount": "1 tablet",
+        "frequency": "Twice daily"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "reference": "Zandu proprietary",
+      "marketInfo": {
+        "priceRange": "₹150-₹380 for 60 tabs",
+        "availablePackages": [
+          "30 tabs",
+          "60 tabs"
+        ]
+      }
+    },
+    {
+      "id": "2a58",
+      "name": "Arogya Vati",
+      "company": "Himalaya",
+      "type": "Tablet",
+      "clinicalSystems": [
+        "Digestive",
+        "General Health"
+      ],
+      "indicationCategories": [
+        "Indigestion",
+        "Appetite loss"
+      ],
+      "traditionalCategories": [
+        "Deepana",
+        "Pachana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Trikatu",
+          "quantity": "blend",
+          "part": "spices"
+        },
+        {
+          "herb": "Triphala",
+          "quantity": "supportive",
+          "part": "fruits"
+        }
+      ],
+      "indications": [
+        "Poor digestion",
+        "Anorexia"
+      ],
+      "dosage": {
+        "amount": "1-2 tablets",
+        "frequency": "Before meals"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Gastric ulcers"
+      ],
+      "reference": "Himalaya proprietary",
+      "marketInfo": {
+        "priceRange": "₹90-₹220 for 60 tabs",
+        "availablePackages": [
+          "30 tabs",
+          "60 tabs"
+        ]
+      }
+    },
+    {
+      "id": "1d08",
+      "name": "Divya Kadha Strong",
+      "company": "Patanjali",
+      "type": "Decoction/Syrup",
+      "clinicalSystems": [
+        "Respiratory",
+        "Immunity"
+      ],
+      "indicationCategories": [
+        "Cold, Cough, Fever support"
+      ],
+      "traditionalCategories": [
+        "Jvarahara",
+        "Kashaya adjunct"
+      ],
+      "ingredients": [
+        {
+          "herb": "Tulsi",
+          "quantity": "primary",
+          "part": "leaf"
+        },
+        {
+          "herb": "Giloy",
+          "quantity": "support",
+          "part": "stem"
+        }
+      ],
+      "indications": [
+        "Common cold support",
+        "Immune boost"
+      ],
+      "dosage": {
+        "amount": "10-15 ml",
+        "frequency": "Twice daily"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Allergy to ingredients"
+      ],
+      "reference": "Patanjali proprietary",
+      "marketInfo": {
+        "priceRange": "₹70-₹180 per 200 ml",
+        "availablePackages": [
+          "100 ml",
+          "200 ml"
+        ]
+      }
+    },
+    {
+      "id": "3991",
+      "name": "Kalyanavati",
+      "company": "Kottakkal Arya Vaidya Sala",
+      "type": "Lehyam / Syrup",
+      "clinicalSystems": [
+        "General Health",
+        "Rejuvenation"
+      ],
+      "indicationCategories": [
+        "Debility",
+        "Growth support",
+        "Recovery"
+      ],
+      "traditionalCategories": [
+        "Rasayana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Amla",
+          "quantity": "main",
+          "part": "fruit"
+        },
+        {
+          "herb": "Abhaya compounds",
+          "quantity": "supportive",
+          "part": "herbs"
+        }
+      ],
+      "indications": [
+        "Post-illness weakness",
+        "Growth support"
+      ],
+      "dosage": {
+        "amount": "5-10 g",
+        "frequency": "Once or twice daily"
+      },
+      "anupana": [
+        "Milk"
+      ],
+      "contraindications": [
+        "Excessive Kapha"
+      ],
+      "reference": "Kottakkal proprietary",
+      "marketInfo": {
+        "priceRange": "₹220-₹560 per 500 g",
+        "availablePackages": [
+          "250 g",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "a299",
+      "name": "Rakta Vardhaka Asava",
+      "company": "Unjha",
+      "type": "Asava",
+      "clinicalSystems": [
+        "Blood",
+        "Skin"
+      ],
+      "indicationCategories": [
+        "Anemia support",
+        "Skin disorders"
+      ],
+      "traditionalCategories": [
+        "Raktashodhaka",
+        "Balya"
+      ],
+      "ingredients": [
+        {
+          "herb": "Manjistha",
+          "quantity": "primary",
+          "part": "root"
+        },
+        {
+          "herb": "Lodhra",
+          "quantity": "supportive",
+          "part": "bark"
+        }
+      ],
+      "indications": [
+        "Anemia adjunct",
+        "Skin purification"
+      ],
+      "dosage": {
+        "amount": "15-30 ml",
+        "frequency": "Twice daily"
+      },
+      "anupana": [
+        "Water"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "reference": "Unjha proprietary",
+      "marketInfo": {
+        "priceRange": "₹140-₹360 per 450 ml",
+        "availablePackages": [
+          "200 ml",
+          "450 ml"
+        ]
+      }
+    },
+    {
+      "id": "6847",
+      "name": "Tulasi Tailam",
+      "company": "Dhootapapeshwar",
+      "type": "Taila (Oil)",
+      "clinicalSystems": [
+        "Respiratory",
+        "Topical"
+      ],
+      "indicationCategories": [
+        "Nasal congestion",
+        "Topical inflammation"
+      ],
+      "traditionalCategories": [
+        "Shwasahara",
+        "Snehana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Tulsi",
+          "quantity": "1 part",
+          "part": "leaf"
+        },
+        {
+          "herb": "Coconut oil",
+          "quantity": "vehicle",
+          "part": "oil"
+        }
+      ],
+      "indications": [
+        "Nasal congestion relief (external use)",
+        "Topical soothing"
+      ],
+      "dosage": {
+        "amount": "Apply externally or use as nasal steam adjunct",
+        "frequency": "As needed"
+      },
+      "anupana": [
+        "External use / Steam"
+      ],
+      "contraindications": [
+        "Nasal mucosa damage"
+      ],
+      "reference": "Dhootapapeshwar proprietary",
+      "marketInfo": {
+        "priceRange": "₹120-₹320 per 100 ml",
+        "availablePackages": [
+          "50 ml",
+          "100 ml"
+        ]
+      }
+    },
+    {
+      "id": "ae8e",
+      "name": "Hariknath Choornam",
+      "company": "Aimil",
+      "type": "Churna",
+      "clinicalSystems": [
+        "Digestive"
+      ],
+      "indicationCategories": [
+        "Flatulence",
+        "Acidity"
+      ],
+      "traditionalCategories": [
+        "Deepana",
+        "Pachana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Ajwain",
+          "quantity": "1 part",
+          "part": "seed"
+        },
+        {
+          "herb": "Kali Mirch",
+          "quantity": "1 part",
+          "part": "fruit"
+        }
+      ],
+      "indications": [
+        "Gas relief",
+        "Digestion improvement"
+      ],
+      "dosage": {
+        "amount": "1-3 g",
+        "frequency": "Before meals"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Diarrhea"
+      ],
+      "reference": "Aimil proprietary",
+      "marketInfo": {
+        "priceRange": "₹60-₹160 per 100 g",
+        "availablePackages": [
+          "50 g",
+          "100 g"
+        ]
+      }
+    },
+    {
+      "id": "4415",
+      "name": "Dant Kashayam",
+      "company": "Nagarjun",
+      "type": "Kashayam (Mouth rinse/decoction)",
+      "clinicalSystems": [
+        "Oral Health"
+      ],
+      "indicationCategories": [
+        "Gum bleeding",
+        "Oral ulcers",
+        "Gingivitis"
+      ],
+      "traditionalCategories": [
+        "Dantya Chikitsa"
+      ],
+      "ingredients": [
+        {
+          "herb": "Neem",
+          "quantity": "1 part",
+          "part": "leaf"
+        },
+        {
+          "herb": "Pippali",
+          "quantity": "supportive",
+          "part": "fruit"
+        }
+      ],
+      "indications": [
+        "Gum disorders",
+        "Oral hygiene support"
+      ],
+      "dosage": {
+        "amount": "Use as mouth rinse (15-30 ml diluted)",
+        "frequency": "2 times daily"
+      },
+      "anupana": [
+        "Water (diluted)"
+      ],
+      "contraindications": [
+        "Children under 6 (dilution)"
+      ],
+      "reference": "Nagarjun proprietary/classical oral recipes",
+      "marketInfo": {
+        "priceRange": "₹80-₹200 per 200 ml",
+        "availablePackages": [
+          "100 ml",
+          "200 ml"
+        ]
+      }
+    },
+    {
+      "id": "7ca8",
+      "name": "Arthro Gel",
+      "company": "Zandu",
+      "type": "Topical gel",
+      "clinicalSystems": [
+        "Musculoskeletal"
+      ],
+      "indicationCategories": [
+        "Joint pain",
+        "Muscle ache"
+      ],
+      "traditionalCategories": [
+        "Vatahara",
+        "Shothahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Nirgundi extract",
+          "quantity": "1 part",
+          "part": "leaf"
+        },
+        {
+          "herb": "Ginger oil",
+          "quantity": "base",
+          "part": "oil"
+        }
+      ],
+      "indications": [
+        "Local pain relief",
+        "Muscle soreness"
+      ],
+      "dosage": {
+        "amount": "Apply locally 2-3 times daily",
+        "frequency": "As needed"
+      },
+      "anupana": [
+        "External use"
+      ],
+      "contraindications": [
+        "Open wounds"
+      ],
+      "reference": "Zandu proprietary topical",
+      "marketInfo": {
+        "priceRange": "₹110-₹260 per 60 g",
+        "availablePackages": [
+          "30 g",
+          "60 g"
+        ]
+      }
+    },
+    {
+      "id": "3d41",
+      "name": "Janusheer Ras",
+      "company": "Himalaya",
+      "type": "Rasa / Tablet",
+      "clinicalSystems": [
+        "Digestive",
+        "Respiratory"
+      ],
+      "indicationCategories": [
+        "Chronic cough",
+        "Digestive support"
+      ],
+      "traditionalCategories": [
+        "Rasayana",
+        "Kashaya adjunct"
+      ],
+      "ingredients": [
+        {
+          "herb": "Pippali",
+          "quantity": "main",
+          "part": "fruit"
+        },
+        {
+          "herb": "Shunthi",
+          "quantity": "support",
+          "part": "rhizome"
+        }
+      ],
+      "indications": [
+        "Cough relief",
+        "Improved digestion"
+      ],
+      "dosage": {
+        "amount": "1 tablet",
+        "frequency": "Twice daily"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "reference": "Himalaya proprietary adaptations",
+      "marketInfo": {
+        "priceRange": "₹140-₹360 for 30 tabs",
+        "availablePackages": [
+          "30 tabs"
+        ]
+      }
+    },
+    {
+      "id": "4ffe",
+      "name": "Mahamasha Taila",
+      "sanskritName": "महामाष तैल",
+      "type": "taila",
+      "clinicalSystems": [
+        "Musculoskeletal System",
+        "Nervous System"
+      ],
+      "indicationCategories": [
+        "Arthritis",
+        "Paralysis",
+        "Muscle Weakness"
+      ],
+      "traditionalCategories": [
+        "Vatahara",
+        "Balya"
+      ],
+      "ingredients": [
+        {
+          "herb": "Masha",
+          "quantity": "base",
+          "part": "seed"
+        },
+        {
+          "herb": "Tila Taila",
+          "quantity": "q.s.",
+          "part": "oil"
+        },
+        {
+          "herb": "Ashwagandha",
+          "quantity": "appropriate",
+          "part": "root"
+        }
+      ],
+      "indications": [
+        "Hemiplegia",
+        "Facial palsy",
+        "Arthritis",
+        "Back pain"
+      ],
+      "dosage": {
+        "amount": "As required",
+        "frequency": "External use",
+        "duration": "As needed"
+      },
+      "anupana": [
+        "Not applicable"
+      ],
+      "contraindications": [
+        "Open wounds"
+      ],
+      "reference": "Ashtanga Hridaya",
+      "price": "₹180 for 100 ml",
+      "availablePackages": [
+        "100 ml",
+        "200 ml"
+      ]
+    },
+    {
+      "id": "aeb0",
+      "name": "Chyawanprash",
+      "sanskritName": "च्यवनप्राश",
+      "type": "avaleha",
+      "clinicalSystems": [
+        "Respiratory System",
+        "Immune System"
+      ],
+      "indicationCategories": [
+        "Respiratory Disorders",
+        "General Health"
+      ],
+      "traditionalCategories": [
+        "Rasayana",
+        "Balya"
+      ],
+      "ingredients": [
+        {
+          "herb": "Amla",
+          "quantity": "base",
+          "part": "fruit"
+        },
+        {
+          "herb": "Pippali",
+          "quantity": "minor",
+          "part": "fruit"
+        },
+        {
+          "herb": "Ghee",
+          "quantity": "q.s.",
+          "part": "base"
+        }
+      ],
+      "indications": [
+        "Weak immunity",
+        "Cough",
+        "Cold",
+        "Fatigue"
+      ],
+      "dosage": {
+        "amount": "1-2 tsp",
+        "frequency": "Twice daily",
+        "duration": "As needed"
+      },
+      "anupana": [
+        "Warm milk"
+      ],
+      "contraindications": [
+        "Diabetes"
+      ],
+      "reference": "Charaka Samhita",
+      "price": "₹350 for 500 g",
+      "availablePackages": [
+        "250 g",
+        "500 g",
+        "1 kg"
+      ]
+    },
+    {
+      "id": "771a",
+      "name": "Nityam Churna",
+      "sanskritName": "नित्यम् चूर्ण",
+      "type": "churna",
+      "clinicalSystems": [
+        "Digestive System"
+      ],
+      "indicationCategories": [
+        "Constipation"
+      ],
+      "traditionalCategories": [
+        "Rechana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Triphala",
+          "quantity": "main",
+          "part": "fruit mix"
+        },
+        {
+          "herb": "Senna",
+          "quantity": "supporting",
+          "part": "leaf"
+        }
+      ],
+      "indications": [
+        "Constipation",
+        "Indigestion"
+      ],
+      "dosage": {
+        "amount": "3-5 g",
+        "frequency": "At bedtime",
+        "duration": "As needed"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Diarrhea"
+      ],
+      "reference": "Zandu Proprietary",
+      "price": "₹110 for 100 g",
+      "availablePackages": [
+        "100 g"
+      ]
+    },
+    {
+      "id": "484c",
+      "name": "Maha Kalyanaka Ghrita",
+      "sanskritName": "महाकल्याणक घृत",
+      "type": "ghrita",
+      "clinicalSystems": [
+        "Nervous System"
+      ],
+      "indicationCategories": [
+        "Epilepsy",
+        "Memory Loss",
+        "Insomnia"
+      ],
+      "traditionalCategories": [
+        "Medhya",
+        "Rasayana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Haritaki",
+          "quantity": "1 part",
+          "part": "fruit"
+        },
+        {
+          "herb": "Triphala",
+          "quantity": "1 part",
+          "part": "fruit mix"
+        },
+        {
+          "herb": "Ghrita",
+          "quantity": "q.s.",
+          "part": "base"
+        }
+      ],
+      "indications": [
+        "Epilepsy",
+        "Loss of memory",
+        "Mental disorders"
+      ],
+      "dosage": {
+        "amount": "5-10 g",
+        "frequency": "Once daily",
+        "duration": "As prescribed"
+      },
+      "anupana": [
+        "Warm milk"
+      ],
+      "contraindications": [
+        "Indigestion"
+      ],
+      "reference": "Bhaishajya Ratnavali",
+      "price": "₹480 for 150 g",
+      "availablePackages": [
+        "100 g",
+        "150 g",
+        "300 g"
+      ]
+    },
+    {
+      "id": "f789",
+      "name": "M2-Tone Syrup",
+      "sanskritName": "एम2 टोन सिरप",
+      "type": "syrup",
+      "clinicalSystems": [
+        "Reproductive System"
+      ],
+      "indicationCategories": [
+        "Menstrual Disorders"
+      ],
+      "traditionalCategories": [
+        "Stree Roga"
+      ],
+      "ingredients": [
+        {
+          "herb": "Ashoka",
+          "quantity": "main",
+          "part": "bark"
+        },
+        {
+          "herb": "Lodhra",
+          "quantity": "supporting",
+          "part": "bark"
+        }
+      ],
+      "indications": [
+        "Menstrual irregularities",
+        "Leucorrhea"
+      ],
+      "dosage": {
+        "amount": "10 ml",
+        "frequency": "Twice daily",
+        "duration": "As directed"
+      },
+      "anupana": [
+        "Water"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "reference": "Charak Proprietary",
+      "price": "₹185 for 200 ml",
+      "availablePackages": [
+        "200 ml"
+      ]
+    },
+    {
+      "id": "3475",
+      "name": "Divya Arjunarishta",
+      "sanskritName": "अर्जुनारिष्ट",
+      "type": "arishta",
+      "clinicalSystems": [
+        "Cardiovascular System"
+      ],
+      "indicationCategories": [
+        "Heart Health"
+      ],
+      "traditionalCategories": [
+        "Hridya",
+        "Balya"
+      ],
+      "ingredients": [
+        {
+          "herb": "Arjuna",
+          "quantity": "main",
+          "part": "bark"
+        },
+        {
+          "herb": "Dhataki",
+          "quantity": "fermenting agent",
+          "part": "flower"
+        }
+      ],
+      "indications": [
+        "Heart weakness",
+        "High cholesterol"
+      ],
+      "dosage": {
+        "amount": "15-25 ml",
+        "frequency": "Twice daily",
+        "duration": "As needed"
+      },
+      "anupana": [
+        "Equal water"
+      ],
+      "contraindications": [
+        "Alcohol sensitivity"
+      ],
+      "reference": "Bhaishajya Ratnavali",
+      "price": "₹160 for 450 ml",
+      "availablePackages": [
+        "450 ml"
+      ]
+    },
+    {
+      "id": "9867",
+      "name": "Swarna Makshika Bhasma",
+      "sanskritName": "स्वर्ण माक्षिक भस्म",
+      "type": "bhasma",
+      "clinicalSystems": [
+        "Metabolic System"
+      ],
+      "indicationCategories": [
+        "Anemia",
+        "Weakness"
+      ],
+      "traditionalCategories": [
+        "Rasayana",
+        "Balya"
+      ],
+      "ingredients": [
+        {
+          "herb": "Swarna Makshika",
+          "quantity": "pure",
+          "part": "mineral"
+        }
+      ],
+      "indications": [
+        "Anemia",
+        "General debility"
+      ],
+      "dosage": {
+        "amount": "125 mg",
+        "frequency": "Twice daily",
+        "duration": "As directed"
+      },
+      "anupana": [
+        "Honey",
+        "Ghee"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "reference": "Rasatarangini",
+      "price": "₹950 for 5 g",
+      "availablePackages": [
+        "5 g",
+        "10 g"
+      ]
+    },
+    {
+      "id": "2cd6",
+      "name": "Yogaraj Guggul",
+      "company": "Himalaya / Generic",
+      "type": "Tablet / Guggulu",
+      "clinicalSystems": [
+        "Musculoskeletal",
+        "Nervous"
+      ],
+      "indicationCategories": [
+        "Arthritis",
+        "Joint pain",
+        "Neuropathy"
+      ],
+      "traditionalCategories": [
+        "Vatahara",
+        "Shothahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Guggulu",
+          "quantity": "base",
+          "part": "resin"
+        },
+        {
+          "herb": "Trivrit",
+          "quantity": "supportive",
+          "part": "root"
+        },
+        {
+          "herb": "Rasna",
+          "quantity": "supportive",
+          "part": "root"
+        }
+      ],
+      "indications": [
+        "Joint inflammation",
+        "Back pain",
+        "Vata disorders"
+      ],
+      "dosage": {
+        "amount": "1 tablet",
+        "frequency": "Twice daily",
+        "duration": "As prescribed"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Pregnancy",
+        "Pitta predominant patients"
+      ],
+      "reference": "Classical guggulu traditions / Proprietary adaptations",
+      "marketInfo": {
+        "priceRange": "₹160-₹420 for 60 tabs",
+        "availablePackages": [
+          "30 tabs",
+          "60 tabs"
+        ]
+      }
+    },
+    {
+      "id": "a628",
+      "name": "Shilajit Capsules",
+      "company": "Aimil / Generic",
+      "type": "Capsule",
+      "clinicalSystems": [
+        "Metabolic",
+        "General Health"
+      ],
+      "indicationCategories": [
+        "Energy",
+        "Rejuvenation",
+        "Male vitality"
+      ],
+      "traditionalCategories": [
+        "Rasayana",
+        "Vajikarana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Shilajit (purified)",
+          "quantity": "standardised",
+          "part": "resin"
+        }
+      ],
+      "indications": [
+        "Fatigue",
+        "Low stamina",
+        "General debility"
+      ],
+      "dosage": {
+        "amount": "125-250 mg",
+        "frequency": "Once daily",
+        "duration": "As directed"
+      },
+      "anupana": [
+        "Milk or warm water"
+      ],
+      "contraindications": [
+        "Pregnancy",
+        "Children without guidance"
+      ],
+      "reference": "Rasashastra / Proprietary",
+      "marketInfo": {
+        "priceRange": "₹320-₹980 for 60 caps",
+        "availablePackages": [
+          "30 caps",
+          "60 caps"
+        ]
+      }
+    },
+    {
+      "id": "7d96",
+      "name": "Shatodadhi Churna",
+      "company": "Unjha / Classical",
+      "type": "Churna (Powder)",
+      "clinicalSystems": [
+        "Digestive",
+        "Detox"
+      ],
+      "indicationCategories": [
+        "Fever reduction",
+        "Detoxification",
+        "Digestive upset"
+      ],
+      "traditionalCategories": [
+        "Jvarahara",
+        "Pachana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Shatavari",
+          "quantity": "component",
+          "part": "root"
+        },
+        {
+          "herb": "Trikatu",
+          "quantity": "component",
+          "part": "spices"
+        },
+        {
+          "herb": "Guduchi",
+          "quantity": "component",
+          "part": "stem"
+        }
+      ],
+      "indications": [
+        "Post-fever weakness",
+        "Loss of appetite",
+        "Detox support"
+      ],
+      "dosage": {
+        "amount": "2-4 g",
+        "frequency": "Once or twice daily",
+        "duration": "Short course"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "reference": "Classical compendia / Unjha variants",
+      "marketInfo": {
+        "priceRange": "₹90-₹240 per 100 g",
+        "availablePackages": [
+          "50 g",
+          "100 g"
+        ]
+      }
+    },
+    {
+      "id": "98a6",
+      "name": "Trikatu Avaleha",
+      "company": "Dabur / Classical",
+      "type": "Avaleha (Herbal jam)",
+      "clinicalSystems": [
+        "Digestive"
+      ],
+      "indicationCategories": [
+        "Appetite stimulant",
+        "Digestive fire enhancer"
+      ],
+      "traditionalCategories": [
+        "Deepana",
+        "Pachana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Pippali",
+          "quantity": "major",
+          "part": "fruit"
+        },
+        {
+          "herb": "Maricha",
+          "quantity": "component",
+          "part": "fruit"
+        },
+        {
+          "herb": "Shunthi",
+          "quantity": "component",
+          "part": "rhizome"
+        }
+      ],
+      "indications": [
+        "Poor appetite",
+        "Slow digestion",
+        "Cold digestion"
+      ],
+      "dosage": {
+        "amount": "3-5 g",
+        "frequency": "Before meals",
+        "duration": "Short term"
+      },
+      "anupana": [
+        "Warm water",
+        "Honey"
+      ],
+      "contraindications": [
+        "Hyperacidity"
+      ],
+      "reference": "Classical Avaleha formulations",
+      "marketInfo": {
+        "priceRange": "₹140-₹360 per 200 g",
+        "availablePackages": [
+          "100 g",
+          "200 g"
+        ]
+      }
+    },
+    {
+      "id": "b06d",
+      "name": "Nirgundi Tailam",
+      "company": "Kerala Ayurveda / Generic",
+      "type": "Taila (Medicated oil)",
+      "clinicalSystems": [
+        "Musculoskeletal",
+        "Topical"
+      ],
+      "indicationCategories": [
+        "Joint pain",
+        "Sprains",
+        "Muscle strain"
+      ],
+      "traditionalCategories": [
+        "Vatahara",
+        "Shothahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Nirgundi",
+          "quantity": "infused",
+          "part": "leaf"
+        },
+        {
+          "herb": "Sesame oil",
+          "quantity": "vehicle",
+          "part": "oil"
+        }
+      ],
+      "indications": [
+        "Joint stiffness",
+        "Local pain relief"
+      ],
+      "dosage": {
+        "amount": "Apply 10-20 ml",
+        "frequency": "Twice daily massage",
+        "duration": "2-4 weeks"
+      },
+      "anupana": [
+        "External use"
+      ],
+      "contraindications": [
+        "Open wounds"
+      ],
+      "reference": "Classical taila recipes",
+      "marketInfo": {
+        "priceRange": "₹140-₹420 for 100 ml",
+        "availablePackages": [
+          "50 ml",
+          "100 ml"
+        ]
+      }
+    },
+    {
+      "id": "3c1d",
+      "name": "Anu Taila (Nasya Oil)",
+      "company": "Kottakkal / Classical",
+      "type": "Nasya oil",
+      "clinicalSystems": [
+        "ENT",
+        "Nervous"
+      ],
+      "indicationCategories": [
+        "Headache",
+        "Sinus congestion",
+        "Hair health"
+      ],
+      "traditionalCategories": [
+        "Nasya",
+        "Shirovasti adjunct"
+      ],
+      "ingredients": [
+        {
+          "herb": "Saraswata components",
+          "quantity": "blend",
+          "part": "flowers, roots"
+        },
+        {
+          "herb": "Sesame oil",
+          "quantity": "vehicle",
+          "part": "oil"
+        }
+      ],
+      "indications": [
+        "Sinus relief",
+        "Headache reduction",
+        "Nasya therapy support"
+      ],
+      "dosage": {
+        "amount": "2-6 drops per nostril",
+        "frequency": "Once daily",
+        "duration": "As directed by practitioner"
+      },
+      "anupana": [
+        "External / Nasal administration"
+      ],
+      "contraindications": [
+        "Acute sinusitis with pus",
+        "Nasal bleeding"
+      ],
+      "reference": "Classical Nasya practices - Ashtanga",
+      "marketInfo": {
+        "priceRange": "₹220-₹560 for 50 ml",
+        "availablePackages": [
+          "10 ml",
+          "25 ml",
+          "50 ml"
+        ]
+      }
+    },
+    {
+      "id": "06db",
+      "name": "Aroha Gulika",
+      "company": "Sandu Pharmaceuticals",
+      "type": "Gulika (Tablet)",
+      "clinicalSystems": [
+        "Respiratory",
+        "Digestive"
+      ],
+      "indicationCategories": [
+        "Chronic cough",
+        "Indigestion"
+      ],
+      "traditionalCategories": [
+        "Kashaya adjunct"
+      ],
+      "ingredients": [
+        {
+          "herb": "Pippali",
+          "quantity": "major",
+          "part": "fruit"
+        },
+        {
+          "herb": "Yavani",
+          "quantity": "support",
+          "part": "seed"
+        }
+      ],
+      "indications": [
+        "Bronchial cough",
+        "Poor digestion"
+      ],
+      "dosage": {
+        "amount": "1 gulika",
+        "frequency": "Twice daily",
+        "duration": "As per label"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "reference": "Proprietary Gulika traditions",
+      "marketInfo": {
+        "priceRange": "₹120-₹340 for 60 gulikas",
+        "availablePackages": [
+          "30",
+          "60 gulikas"
+        ]
+      }
+    },
+    {
+      "id": "aacc",
+      "name": "Shatapushpa Ghana Vati",
+      "company": "Charak / Proprietary",
+      "type": "Tablet / Ghana Vati",
+      "clinicalSystems": [
+        "Female Reproductive",
+        "Endocrine"
+      ],
+      "indicationCategories": [
+        "Menstrual regulation",
+        "Hormonal balance"
+      ],
+      "traditionalCategories": [
+        "Stree Roga",
+        "Rasayana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Shatapushpa (Anethum sowa)",
+          "quantity": "main",
+          "part": "seed"
+        },
+        {
+          "herb": "Ashoka",
+          "quantity": "supportive",
+          "part": "bark"
+        }
+      ],
+      "indications": [
+        "Dysmenorrhea",
+        "Irregular menses"
+      ],
+      "dosage": {
+        "amount": "1 tablet",
+        "frequency": "Twice daily",
+        "duration": "As prescribed"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "reference": "Classical / Charak formulations",
+      "marketInfo": {
+        "priceRange": "₹160-₹420 for 60 tabs",
+        "availablePackages": [
+          "30 tabs",
+          "60 tabs"
+        ]
+      }
+    },
+    {
+      "id": "0b03",
+      "name": "Panchamrita Lehyam",
+      "company": "Nagarjun / Proprietary",
+      "type": "Lehyam (Jam)",
+      "clinicalSystems": [
+        "General Health"
+      ],
+      "indicationCategories": [
+        "Rejuvenation",
+        "Immunity"
+      ],
+      "traditionalCategories": [
+        "Rasayana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Amla",
+          "quantity": "major",
+          "part": "fruit"
+        },
+        {
+          "herb": "Honey",
+          "quantity": "vehicle",
+          "part": "nectar"
+        },
+        {
+          "herb": "Ghee",
+          "quantity": "vehicle",
+          "part": "ghee"
+        }
+      ],
+      "indications": [
+        "Energy",
+        "General weakness",
+        "Immune support"
+      ],
+      "dosage": {
+        "amount": "3-5 g",
+        "frequency": "Once or twice daily",
+        "duration": "As required"
+      },
+      "anupana": [
+        "Milk"
+      ],
+      "contraindications": [
+        "Diabetes"
+      ],
+      "reference": "Proprietary Rasayana traditions",
+      "marketInfo": {
+        "priceRange": "₹220-₹640 per 250 g",
+        "availablePackages": [
+          "125 g",
+          "250 g"
+        ]
+      }
+    },
+    {
+      "id": "1390",
+      "name": "Ashwagandharishta",
+      "sanskritName": "अश्वगंधारिष्ट",
+      "type": "arishta",
+      "clinicalSystems": [
+        "Nervous System",
+        "Endocrine System"
+      ],
+      "indicationCategories": [
+        "Stress",
+        "Anxiety",
+        "Weakness",
+        "Fatigue"
+      ],
+      "traditionalCategories": [
+        "Rasayana",
+        "Balya"
+      ],
+      "ingredients": [
+        {
+          "herb": "Ashwagandha",
+          "quantity": "10 parts",
+          "part": "root"
+        },
+        {
+          "herb": "Musta",
+          "quantity": "2 parts",
+          "part": "root"
+        },
+        {
+          "herb": "Manjishta",
+          "quantity": "2 parts",
+          "part": "root"
+        },
+        {
+          "herb": "Haritaki",
+          "quantity": "1 part",
+          "part": "fruit"
+        }
+      ],
+      "indications": [
+        "Stress",
+        "Nervous exhaustion",
+        "Fatigue",
+        "Anxiety"
+      ],
+      "dosage": {
+        "amount": "15-30 ml",
+        "frequency": "Twice daily",
+        "duration": "As directed"
+      },
+      "anupana": [
+        "Water"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "availablePackages": [
+        "450 ml",
+        "700 ml"
+      ],
+      "priceINR": {
+        "450 ml": 165,
+        "700 ml": 250
+      },
+      "reference": "Baidyanath"
+    },
+    {
+      "id": "7c38",
+      "name": "Chandanasava",
+      "sanskritName": "चन्दनासव",
+      "type": "asava",
+      "clinicalSystems": [
+        "Urinary System"
+      ],
+      "indicationCategories": [
+        "Burning micturition",
+        "UTI",
+        "Pitta disorders"
+      ],
+      "traditionalCategories": [
+        "Pittahara",
+        "Mutrala"
+      ],
+      "ingredients": [
+        {
+          "herb": "Chandana",
+          "quantity": "5 parts",
+          "part": "heartwood"
+        },
+        {
+          "herb": "Usheera",
+          "quantity": "2 parts",
+          "part": "root"
+        },
+        {
+          "herb": "Mustaka",
+          "quantity": "2 parts",
+          "part": "root"
+        },
+        {
+          "herb": "Lodhra",
+          "quantity": "1 part",
+          "part": "bark"
+        }
+      ],
+      "indications": [
+        "Burning urination",
+        "Pitta imbalance",
+        "UTI"
+      ],
+      "dosage": {
+        "amount": "15-30 ml",
+        "frequency": "Twice daily",
+        "duration": "As needed"
+      },
+      "anupana": [
+        "Water"
+      ],
+      "contraindications": [
+        "Severe cold conditions"
+      ],
+      "availablePackages": [
+        "450 ml"
+      ],
+      "priceINR": {
+        "450 ml": 180
+      },
+      "reference": "Dhootpapeshwar"
+    },
+    {
+      "id": "e22d",
+      "name": "Draksharishta",
+      "sanskritName": "द्राक्षारिष्ट",
+      "type": "arishta",
+      "clinicalSystems": [
+        "Digestive System",
+        "Respiratory System"
+      ],
+      "indicationCategories": [
+        "Cough",
+        "Weakness",
+        "Anemia"
+      ],
+      "traditionalCategories": [
+        "Rasayana",
+        "Balya",
+        "Deepana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Draksha",
+          "quantity": "10 parts",
+          "part": "fruit"
+        },
+        {
+          "herb": "Pippali",
+          "quantity": "1 part",
+          "part": "fruit"
+        },
+        {
+          "herb": "Dhataki",
+          "quantity": "2 parts",
+          "part": "flower"
+        },
+        {
+          "herb": "Jaggery",
+          "quantity": "10 parts",
+          "part": "base"
+        }
+      ],
+      "indications": [
+        "Fatigue",
+        "Respiratory weakness",
+        "Anemia",
+        "Loss of appetite"
+      ],
+      "dosage": {
+        "amount": "15-25 ml",
+        "frequency": "Twice daily",
+        "duration": "As advised"
+      },
+      "anupana": [
+        "Water"
+      ],
+      "contraindications": [
+        "Diabetes"
+      ],
+      "availablePackages": [
+        "450 ml",
+        "700 ml"
+      ],
+      "priceINR": {
+        "450 ml": 190,
+        "700 ml": 260
+      },
+      "reference": "Zandu"
+    },
+    {
+      "id": "1f30",
+      "name": "Lodhrasava",
+      "sanskritName": "लोध्रासव",
+      "type": "asava",
+      "clinicalSystems": [
+        "Reproductive System"
+      ],
+      "indicationCategories": [
+        "Menstrual disorders",
+        "Leucorrhea"
+      ],
+      "traditionalCategories": [
+        "Stambhana",
+        "Raktashodhaka"
+      ],
+      "ingredients": [
+        {
+          "herb": "Lodhra",
+          "quantity": "10 parts",
+          "part": "bark"
+        },
+        {
+          "herb": "Dhataki",
+          "quantity": "2 parts",
+          "part": "flower"
+        },
+        {
+          "herb": "Mustaka",
+          "quantity": "1 part",
+          "part": "root"
+        },
+        {
+          "herb": "Chandana",
+          "quantity": "1 part",
+          "part": "wood"
+        }
+      ],
+      "indications": [
+        "Leucorrhea",
+        "Menorrhagia",
+        "Hormonal imbalance"
+      ],
+      "dosage": {
+        "amount": "15-30 ml",
+        "frequency": "Twice daily",
+        "duration": "As directed"
+      },
+      "anupana": [
+        "Water"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "availablePackages": [
+        "450 ml"
+      ],
+      "priceINR": {
+        "450 ml": 160
+      },
+      "reference": "AVP"
+    },
+    {
+      "id": "e92f",
+      "name": "Mahakalyanaka Ghrita",
+      "sanskritName": "महाकल्याणक घृत",
+      "type": "ghrita",
+      "clinicalSystems": [
+        "Nervous System",
+        "Reproductive System"
+      ],
+      "indicationCategories": [
+        "Epilepsy",
+        "Infertility",
+        "Memory weakness"
+      ],
+      "traditionalCategories": [
+        "Medhya",
+        "Rasayana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Kalyanaka Ghrita base",
+          "quantity": "95%",
+          "part": "ghee"
+        },
+        {
+          "herb": "Ashwagandha",
+          "quantity": "2%",
+          "part": "root"
+        },
+        {
+          "herb": "Shankhapushpi",
+          "quantity": "2%",
+          "part": "whole plant"
+        },
+        {
+          "herb": "Brahmi",
+          "quantity": "1%",
+          "part": "whole plant"
+        }
+      ],
+      "indications": [
+        "Epilepsy",
+        "Mental disorders",
+        "Infertility"
+      ],
+      "dosage": {
+        "amount": "5-10 g",
+        "frequency": "Once or twice daily",
+        "duration": "As prescribed"
+      },
+      "anupana": [
+        "Warm milk"
+      ],
+      "contraindications": [
+        "Severe digestive issues"
+      ],
+      "availablePackages": [
+        "150 g",
+        "300 g"
+      ],
+      "priceINR": {
+        "150 g": 220,
+        "300 g": 400
+      },
+      "reference": "Charak Pharmacy"
+    },
+    {
+      "id": "0564",
+      "name": "Liv-52 Plus Syrup",
+      "company": "Proprietary Variant",
+      "type": "Syrup",
+      "clinicalSystems": [
+        "Liver",
+        "Digestive"
+      ],
+      "indicationCategories": [
+        "Liver support",
+        "Appetite stimulant"
+      ],
+      "traditionalCategories": [
+        "Yakrit vardhaka",
+        "Pachana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Bhumyamalaki",
+          "quantity": "standardised",
+          "part": "whole plant"
+        },
+        {
+          "herb": "Kasani",
+          "quantity": "standardised",
+          "part": "seed"
+        },
+        {
+          "herb": "Kutki",
+          "quantity": "supportive",
+          "part": "root"
+        }
+      ],
+      "indications": [
+        "Fatty liver support",
+        "Loss of appetite",
+        "Indigestion"
+      ],
+      "dosage": {
+        "amount": "10-15 ml",
+        "frequency": "Twice daily",
+        "duration": "As advised"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Severe liver failure"
+      ],
+      "reference": "Proprietary blend (classical herbs)",
+      "marketInfo": {
+        "price": "₹180-₹420 per 200 ml",
+        "packages": [
+          "100 ml",
+          "200 ml",
+          "450 ml"
+        ]
+      }
+    },
+    {
+      "id": "015f",
+      "name": "Kumari Churna Special",
+      "company": "Ayurvedic Labs",
+      "type": "Churna",
+      "clinicalSystems": [
+        "Digestive",
+        "Female Reproductive"
+      ],
+      "indicationCategories": [
+        "Appetite",
+        "Menstrual irregularities"
+      ],
+      "traditionalCategories": [
+        "Pachana",
+        "Stree Roga"
+      ],
+      "ingredients": [
+        {
+          "herb": "Aloe vera (Kumari)",
+          "quantity": "major",
+          "part": "pulp"
+        },
+        {
+          "herb": "Trikatu",
+          "quantity": "blend",
+          "part": "fruits"
+        }
+      ],
+      "indications": [
+        "Loss of appetite",
+        "Irregular menses"
+      ],
+      "dosage": {
+        "amount": "2-4 g",
+        "frequency": "Twice daily",
+        "duration": "As needed"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "reference": "Classical formula adapted",
+      "marketInfo": {
+        "price": "₹90-₹220 per 100 g",
+        "packages": [
+          "50 g",
+          "100 g"
+        ]
+      }
+    },
+    {
+      "id": "88e6",
+      "name": "Immuno Rasayana Syrup",
+      "company": "HerbCare",
+      "type": "Syrup",
+      "clinicalSystems": [
+        "Immune",
+        "Respiratory"
+      ],
+      "indicationCategories": [
+        "Immune boost",
+        "Recurrent infections"
+      ],
+      "traditionalCategories": [
+        "Rasayana",
+        "Jvarahara adjunct"
+      ],
+      "ingredients": [
+        {
+          "herb": "Guduchi",
+          "quantity": "standardised",
+          "part": "stem"
+        },
+        {
+          "herb": "Amla",
+          "quantity": "major",
+          "part": "fruit"
+        },
+        {
+          "herb": "Tulsi",
+          "quantity": "support",
+          "part": "leaf"
+        }
+      ],
+      "indications": [
+        "Post-infection recovery",
+        "General immunity support"
+      ],
+      "dosage": {
+        "amount": "10 ml",
+        "frequency": "Once or twice daily",
+        "duration": "1-3 months"
+      },
+      "anupana": [
+        "Warm water",
+        "Milk"
+      ],
+      "contraindications": [
+        "Autoimmune conditions - consult"
+      ],
+      "reference": "Proprietary immunity tonic",
+      "marketInfo": {
+        "price": "₹160-₹380 per 200 ml",
+        "packages": [
+          "100 ml",
+          "200 ml"
+        ]
+      }
+    },
+    {
+      "id": "9086",
+      "name": "BronchoEaze Kadha",
+      "company": "Respira Ayurveda",
+      "type": "Kadha (Decoction)",
+      "clinicalSystems": [
+        "Respiratory"
+      ],
+      "indicationCategories": [
+        "Bronchitis",
+        "Chronic cough"
+      ],
+      "traditionalCategories": [
+        "Shwasahara",
+        "Kaphahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Vasa",
+          "quantity": "major",
+          "part": "leaf"
+        },
+        {
+          "herb": "Kantakari",
+          "quantity": "supportive",
+          "part": "fruit"
+        },
+        {
+          "herb": "Pippali",
+          "quantity": "supportive",
+          "part": "fruit"
+        }
+      ],
+      "indications": [
+        "Chronic cough",
+        "Bronchial congestion"
+      ],
+      "dosage": {
+        "amount": "15-30 ml",
+        "frequency": "Twice daily",
+        "duration": "2-4 weeks"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Children under 6 (consult)"
+      ],
+      "reference": "Classical respiratory recipes",
+      "marketInfo": {
+        "price": "₹120-₹300 per 200 ml",
+        "packages": [
+          "100 ml",
+          "200 ml",
+          "450 ml"
+        ]
+      }
+    },
+    {
+      "id": "b1b9",
+      "name": "Skin Purify Oil",
+      "company": "DermAyur",
+      "type": "Taila (Oil)",
+      "clinicalSystems": [
+        "Dermatology"
+      ],
+      "indicationCategories": [
+        "Eczema",
+        "Acne",
+        "Psoriasis adjunct"
+      ],
+      "traditionalCategories": [
+        "Kusthahara",
+        "Raktashodhaka"
+      ],
+      "ingredients": [
+        {
+          "herb": "Manjistha",
+          "quantity": "infused",
+          "part": "root"
+        },
+        {
+          "herb": "Neem",
+          "quantity": "infused",
+          "part": "leaf"
+        },
+        {
+          "herb": "Sesame oil",
+          "quantity": "vehicle",
+          "part": "oil"
+        }
+      ],
+      "indications": [
+        "Chronic skin inflammation",
+        "Eczema flares"
+      ],
+      "dosage": {
+        "amount": "Apply topically",
+        "frequency": "Twice daily",
+        "duration": "As advised"
+      },
+      "anupana": [
+        "External use"
+      ],
+      "contraindications": [
+        "Open infected wounds"
+      ],
+      "reference": "Proprietary dermatology prep",
+      "marketInfo": {
+        "price": "₹180-₹420 per 100 ml",
+        "packages": [
+          "50 ml",
+          "100 ml",
+          "200 ml"
+        ]
+      }
+    },
+    {
+      "id": "a7da",
+      "name": "UroClear Tablets",
+      "company": "RenalAyur",
+      "type": "Tablet",
+      "clinicalSystems": [
+        "Urinary"
+      ],
+      "indicationCategories": [
+        "UTI support",
+        "Kidney stone prevention"
+      ],
+      "traditionalCategories": [
+        "Mutravirechaka",
+        "Mutrala"
+      ],
+      "ingredients": [
+        {
+          "herb": "Gokshura",
+          "quantity": "major",
+          "part": "fruit"
+        },
+        {
+          "herb": "Punarnava",
+          "quantity": "support",
+          "part": "root"
+        },
+        {
+          "herb": "Varuna",
+          "quantity": "support",
+          "part": "bark"
+        }
+      ],
+      "indications": [
+        "UTI symptom relief",
+        "Prevent stone formation"
+      ],
+      "dosage": {
+        "amount": "1 tablet",
+        "frequency": "Twice daily",
+        "duration": "As advised"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Severe renal impairment"
+      ],
+      "reference": "Proprietary renal tonic",
+      "marketInfo": {
+        "price": "₹180-₹420 for 60 tabs",
+        "packages": [
+          "30 tabs",
+          "60 tabs"
+        ]
+      }
+    },
+    {
+      "id": "3511",
+      "name": "WomenCare Tonic",
+      "company": "FemAyur",
+      "type": "Syrup",
+      "clinicalSystems": [
+        "Female Reproductive"
+      ],
+      "indicationCategories": [
+        "Menstrual health",
+        "Hormonal balance",
+        "Lactation support"
+      ],
+      "traditionalCategories": [
+        "Stree Roga",
+        "Stanyajanana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Shatavari",
+          "quantity": "major",
+          "part": "root"
+        },
+        {
+          "herb": "Ashoka",
+          "quantity": "support",
+          "part": "bark"
+        }
+      ],
+      "indications": [
+        "Menstrual irregularities",
+        "Lactation aid"
+      ],
+      "dosage": {
+        "amount": "10-15 ml",
+        "frequency": "Twice daily",
+        "duration": "As advised"
+      },
+      "anupana": [
+        "Warm milk"
+      ],
+      "contraindications": [
+        "Pregnancy (consult)"
+      ],
+      "reference": "Proprietary women's tonic",
+      "marketInfo": {
+        "price": "₹220-₹520 per 200 ml",
+        "packages": [
+          "100 ml",
+          "200 ml"
+        ]
+      }
+    },
+    {
+      "id": "355c",
+      "name": "Joint Relief Cream",
+      "company": "MotionAyur",
+      "type": "Topical cream",
+      "clinicalSystems": [
+        "Musculoskeletal"
+      ],
+      "indicationCategories": [
+        "Arthritis pain",
+        "Sprains"
+      ],
+      "traditionalCategories": [
+        "Vatahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Nirgundi extract",
+          "quantity": "active",
+          "part": "leaf"
+        },
+        {
+          "herb": "Ginger oil",
+          "quantity": "carrier",
+          "part": "oil"
+        }
+      ],
+      "indications": [
+        "Local joint pain relief",
+        "Muscle soreness"
+      ],
+      "dosage": {
+        "amount": "Apply locally",
+        "frequency": "2-3 times daily",
+        "duration": "As needed"
+      },
+      "anupana": [
+        "External use"
+      ],
+      "contraindications": [
+        "Open wounds",
+        "Allergic dermatitis"
+      ],
+      "reference": "Proprietary topical",
+      "marketInfo": {
+        "price": "₹110-₹260 per 60 g",
+        "packages": [
+          "30 g",
+          "60 g"
+        ]
+      }
+    },
+    {
+      "id": "fa2c",
+      "name": "PediaCalm Drops",
+      "company": "ChildAyur",
+      "type": "Drops (Pediatric)",
+      "clinicalSystems": [
+        "Pediatric",
+        "Digestive"
+      ],
+      "indicationCategories": [
+        "Colic",
+        "Digestive discomfort",
+        "Teething"
+      ],
+      "traditionalCategories": [
+        "Balya",
+        "Pachana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Fennel (Saunf)",
+          "quantity": "major",
+          "part": "seed"
+        },
+        {
+          "herb": "Ajwain",
+          "quantity": "support",
+          "part": "seed"
+        }
+      ],
+      "indications": [
+        "Infant colic relief",
+        "Digestive comfort"
+      ],
+      "dosage": {
+        "amount": "0.5-2 ml depending on age",
+        "frequency": "As per pediatrician",
+        "duration": "Short term"
+      },
+      "anupana": [
+        "Milk (diluted)"
+      ],
+      "contraindications": [
+        "Infants under 2 weeks without guidance"
+      ],
+      "reference": "Pediatric traditional recipes",
+      "marketInfo": {
+        "price": "₹160-₹420 per 30 ml",
+        "packages": [
+          "15 ml",
+          "30 ml"
+        ]
+      }
+    },
+    {
+      "id": "9808",
+      "name": "Oral Hygiene Kashayam",
+      "company": "DentAyur",
+      "type": "Kashayam (Mouth rinse)",
+      "clinicalSystems": [
+        "Oral Health"
+      ],
+      "indicationCategories": [
+        "Gingivitis",
+        "Oral ulcers",
+        "Halitosis"
+      ],
+      "traditionalCategories": [
+        "Dantya Chikitsa"
+      ],
+      "ingredients": [
+        {
+          "herb": "Neem",
+          "quantity": "major",
+          "part": "leaf"
+        },
+        {
+          "herb": "Miswak",
+          "quantity": "support",
+          "part": "twig"
+        }
+      ],
+      "indications": [
+        "Gum bleeding control",
+        "Oral hygiene"
+      ],
+      "dosage": {
+        "amount": "Use diluted 15-30 ml as rinse",
+        "frequency": "Twice daily",
+        "duration": "As needed"
+      },
+      "anupana": [
+        "Water (diluted)"
+      ],
+      "contraindications": [
+        "Children (dilution)"
+      ],
+      "reference": "Classical oral recipes adapted",
+      "marketInfo": {
+        "price": "₹80-₹220 per 200 ml",
+        "packages": [
+          "100 ml",
+          "200 ml"
+        ]
+      }
+    },
+    {
+      "id": "b5b5",
+      "name": "SleepWell Ghrita",
+      "company": "NeuroAyur",
+      "type": "Ghrita (Medicated ghee)",
+      "clinicalSystems": [
+        "Nervous System"
+      ],
+      "indicationCategories": [
+        "Insomnia",
+        "Anxiety",
+        "Nervine weakness"
+      ],
+      "traditionalCategories": [
+        "Shirovirechana adjunct",
+        "Medhya"
+      ],
+      "ingredients": [
+        {
+          "herb": "Brahmi",
+          "quantity": "infused",
+          "part": "whole plant"
+        },
+        {
+          "herb": "Jatamansi",
+          "quantity": "support",
+          "part": "rhizome"
+        },
+        {
+          "herb": "Cow ghee",
+          "quantity": "vehicle",
+          "part": "ghee"
+        }
+      ],
+      "indications": [
+        "Insomnia support",
+        "Relaxation",
+        "Cognitive calm"
+      ],
+      "dosage": {
+        "amount": "2-5 g at night",
+        "frequency": "Once daily",
+        "duration": "As required"
+      },
+      "anupana": [
+        "Warm milk"
+      ],
+      "contraindications": [
+        "High cholesterol",
+        "Gallstones"
+      ],
+      "reference": "Classical ghrita adaptions",
+      "marketInfo": {
+        "price": "₹320-₹780 for 150 g",
+        "packages": [
+          "50 g",
+          "150 g"
+        ]
+      }
+    },
+    {
+      "id": "2ce1",
+      "name": "Detox Tea - Triphala Blend",
+      "company": "HerbTea Co.",
+      "type": "Tea / Infusion",
+      "clinicalSystems": [
+        "Digestive",
+        "Detox"
+      ],
+      "indicationCategories": [
+        "Mild detox",
+        "Constipation relief"
+      ],
+      "traditionalCategories": [
+        "Anulomana",
+        "Rasayana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Haritaki",
+          "quantity": "part of blend",
+          "part": "fruit"
+        },
+        {
+          "herb": "Bibhitaki",
+          "quantity": "part of blend",
+          "part": "fruit"
+        },
+        {
+          "herb": "Amla",
+          "quantity": "part of blend",
+          "part": "fruit"
+        }
+      ],
+      "indications": [
+        "Mild constipation relief",
+        "Digestive cleanse"
+      ],
+      "dosage": {
+        "amount": "1 cup infusion",
+        "frequency": "Once daily at night",
+        "duration": "Short course"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Loose stools"
+      ],
+      "reference": "Classical Triphala use",
+      "marketInfo": {
+        "price": "₹220-₹520 per 50 sachets",
+        "packages": [
+          "25 sachets",
+          "50 sachets"
+        ]
+      }
+    },
+    {
+      "id": "7f2a",
+      "name": "Abhayarishta",
+      "sanskritName": "अभयारिष्ट",
+      "type": "arishta",
+      "clinicalSystems": [
+        "Digestive System"
+      ],
+      "indicationCategories": [
+        "Constipation",
+        "Hemorrhoids",
+        "Indigestion"
+      ],
+      "traditionalCategories": [
+        "Vatanulomana",
+        "Deepana",
+        "Pachana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Haritaki",
+          "quantity": "10 parts",
+          "part": "fruit"
+        },
+        {
+          "herb": "Vidanga",
+          "quantity": "2 parts",
+          "part": "fruit"
+        },
+        {
+          "herb": "Dhataki",
+          "quantity": "2 parts",
+          "part": "flower"
+        },
+        {
+          "herb": "Jaggery",
+          "quantity": "10 parts",
+          "part": "base"
+        }
+      ],
+      "indications": [
+        "Constipation",
+        "Bloating",
+        "Loss of appetite"
+      ],
+      "dosage": {
+        "amount": "15–30 ml",
+        "frequency": "Twice daily",
+        "duration": "As directed"
+      },
+      "anupana": [
+        "Water"
+      ],
+      "contraindications": [
+        "Severe diarrhea"
+      ],
+      "availablePackages": [
+        "450 ml",
+        "700 ml"
+      ],
+      "priceINR": {
+        "450 ml": 160,
+        "700 ml": 240
+      },
+      "reference": "Baidyanath"
+    },
+    {
+      "id": "18e0",
+      "name": "Arishtakarishta",
+      "sanskritName": "अरिष्टकारिष्ट",
+      "type": "arishta",
+      "clinicalSystems": [
+        "Skin",
+        "Digestive"
+      ],
+      "indicationCategories": [
+        "Skin disorders",
+        "Blood impurities"
+      ],
+      "traditionalCategories": [
+        "Raktashodhaka",
+        "Deepana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Arishtaka",
+          "quantity": "10 parts",
+          "part": "fruit"
+        },
+        {
+          "herb": "Nimba",
+          "quantity": "2 parts",
+          "part": "leaf"
+        },
+        {
+          "herb": "Haridra",
+          "quantity": "2 parts",
+          "part": "rhizome"
+        },
+        {
+          "herb": "Manjishta",
+          "quantity": "1 part",
+          "part": "root"
+        }
+      ],
+      "indications": [
+        "Skin eruptions",
+        "Acne",
+        "Impaired digestion"
+      ],
+      "dosage": {
+        "amount": "15–30 ml",
+        "frequency": "After meals"
+      },
+      "anupana": [
+        "Water"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "availablePackages": [
+        "450 ml"
+      ],
+      "priceINR": {
+        "450 ml": 170
+      },
+      "reference": "Dhootapapeshwar"
+    },
+    {
+      "id": "3d6d",
+      "name": "Dashamoolarishta",
+      "sanskritName": "दशमूलारिष्ट",
+      "type": "arishta",
+      "clinicalSystems": [
+        "Musculoskeletal",
+        "Nervous System"
+      ],
+      "indicationCategories": [
+        "Weakness",
+        "Fatigue",
+        "Vata disorders"
+      ],
+      "traditionalCategories": [
+        "Vatahara",
+        "Brimhana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Dashamoola",
+          "quantity": "10 parts",
+          "part": "roots"
+        },
+        {
+          "herb": "Dhataki",
+          "quantity": "2 parts",
+          "part": "flower"
+        },
+        {
+          "herb": "Guda",
+          "quantity": "10 parts",
+          "part": "base"
+        },
+        {
+          "herb": "Musta",
+          "quantity": "1 part",
+          "part": "root"
+        }
+      ],
+      "indications": [
+        "Vata disorders",
+        "Back pain",
+        "Postnatal weakness"
+      ],
+      "dosage": {
+        "amount": "15–30 ml",
+        "frequency": "Twice daily"
+      },
+      "anupana": [
+        "Water"
+      ],
+      "contraindications": [
+        "Severe cold"
+      ],
+      "availablePackages": [
+        "450 ml",
+        "700 ml"
+      ],
+      "priceINR": {
+        "450 ml": 175,
+        "700 ml": 250
+      },
+      "reference": "Zandu"
+    },
+    {
+      "id": "37fd",
+      "name": "Kumariasava",
+      "sanskritName": "कुमार्यासव",
+      "type": "asava",
+      "clinicalSystems": [
+        "Reproductive System",
+        "Digestive System"
+      ],
+      "indicationCategories": [
+        "Menstrual disorders",
+        "Anemia",
+        "Weak digestion"
+      ],
+      "traditionalCategories": [
+        "Raktavardhaka",
+        "Agnivardhaka"
+      ],
+      "ingredients": [
+        {
+          "herb": "Kumari",
+          "quantity": "10 parts",
+          "part": "leaf pulp"
+        },
+        {
+          "herb": "Triphala",
+          "quantity": "3 parts",
+          "part": "fruit mix"
+        },
+        {
+          "herb": "Pippali",
+          "quantity": "1 part",
+          "part": "fruit"
+        },
+        {
+          "herb": "Jaggery",
+          "quantity": "10 parts",
+          "part": "base"
+        }
+      ],
+      "indications": [
+        "Anemia",
+        "Loss of appetite",
+        "Menstrual irregularities"
+      ],
+      "dosage": {
+        "amount": "15–25 ml",
+        "frequency": "After meals"
+      },
+      "anupana": [
+        "Water"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "availablePackages": [
+        "450 ml",
+        "700 ml"
+      ],
+      "priceINR": {
+        "450 ml": 180,
+        "700 ml": 250
+      },
+      "reference": "AVN Ayurveda"
+    },
+    {
+      "id": "b327",
+      "name": "Hingwashtak Churna",
+      "sanskritName": "हिङ्ग्वाष्टक चूर्ण",
+      "type": "churna",
+      "clinicalSystems": [
+        "Digestive System"
+      ],
+      "indicationCategories": [
+        "Indigestion",
+        "Gas",
+        "Colic pain"
+      ],
+      "traditionalCategories": [
+        "Deepana",
+        "Pachana",
+        "Vatanulomana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Hingu",
+          "quantity": "1 part",
+          "part": "resin"
+        },
+        {
+          "herb": "Jeeraka",
+          "quantity": "1 part",
+          "part": "seed"
+        },
+        {
+          "herb": "Saindhava Lavana",
+          "quantity": "1 part",
+          "part": "salt"
+        },
+        {
+          "herb": "Pippali",
+          "quantity": "1 part",
+          "part": "fruit"
+        }
+      ],
+      "indications": [
+        "Flatulence",
+        "Indigestion",
+        "Abdominal discomfort"
+      ],
+      "dosage": {
+        "amount": "1–3 g",
+        "frequency": "Before meals"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Hyperacidity"
+      ],
+      "availablePackages": [
+        "50 g",
+        "100 g",
+        "200 g"
+      ],
+      "priceINR": {
+        "50 g": 60,
+        "100 g": 110,
+        "200 g": 180
+      },
+      "reference": "Charak Pharmacy"
     }
   ]
 }

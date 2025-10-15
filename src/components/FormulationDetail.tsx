@@ -116,8 +116,11 @@ export function FormulationDetail() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
               {formulation.ingredients.map((ingredient: { herb: string; part?: string; quantity: string }, index: number) => (
                 <div key={index} className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
-                  <div>
-                    <span className="font-medium text-gray-700">{ingredient.herb}</span>
+                  <div
+                    onClick={() => navigate(`/herbs/${ingredient.herb.toLowerCase().replace(/\s+/g, '-')}`)}
+                    className="cursor-pointer"
+                  >
+                    <span className="font-medium text-gray-700 hover:text-emerald-600">{ingredient.herb}</span>
                     {ingredient.part && (
                       <span className="text-sm text-gray-500 ml-2">({ingredient.part})</span>
                     )}

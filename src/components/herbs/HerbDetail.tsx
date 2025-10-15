@@ -176,9 +176,13 @@ export function HerbDetail() {
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
               {herb.indications.map((indication: string, index: number) => (
-                <div key={index} className="flex items-center gap-2 p-3 bg-emerald-50 rounded-lg">
+                <div
+                  key={index}
+                  onClick={() => navigate(`/formulations/${indication.toLowerCase().replace(/\s+/g, '-')}`)}
+                  className="flex items-center gap-2 p-3 bg-emerald-50 rounded-lg cursor-pointer"
+                >
                   <div className="w-2 h-2 bg-emerald-500 rounded-full"></div>
-                  <span className="text-gray-700">{indication}</span>
+                  <span className="text-gray-700 hover:text-emerald-600">{indication}</span>
                 </div>
               ))}
             </div>
