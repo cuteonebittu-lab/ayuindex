@@ -847,7 +847,7 @@
     },
     {
       "name": "Bhringraj",
-      "sanskritName": "Kesharaj",
+      "sanskritName": "Bhringaraja",
       "botanicalName": "Eclipta alba",
       "family": "Asteraceae",
       "parts": [
@@ -865,79 +865,91 @@
       "vipaka": "Katu",
       "karma": [
         "Keshya",
-        "Yakritottejaka",
-        "Rasayana"
+        "Rasayana",
+        "Pittahara"
       ],
-      "prabhava": "Hair growth and liver support",
+      "prabhava": "Promotes hair growth and liver protection",
       "indications": [
         "Hair fall",
-        "Liver disease",
-        "Skin disorders"
+        "Liver disorders",
+        "Skin diseases"
       ],
       "typicalDosage": {
-        "powder": "3–5 g",
-        "juice": "10–15 ml"
+        "powder": "3–6 g per day",
+        "oil": "As directed"
       },
       "anupana": [
-        "Water"
+        "Honey",
+        "Warm water"
       ],
       "contraindications": [
-        "Cold-dominant constitution"
+        "Cold and cough tendency"
       ],
       "marketInfo": {
-        "pricePerKg": "₹250–₹500",
+        "brandExamples": [
+          "Baidyanath",
+          "Himalaya",
+          "Zandu"
+        ],
+        "pricePerKg": "₹600–₹1000 (MRP)",
         "packages": [
           "100 g",
-          "250 g"
+          "250 g",
+          "500 g"
         ]
       },
       "id": "bhringraj"
     },
     {
-      "id": "kutki",
       "name": "Kutki",
-      "sanskritName": "Kutki",
-      "botanicalName": "Botanical_21",
-      "family": "",
+      "sanskritName": "Katuki",
+      "botanicalName": "Picrorhiza kurroa",
+      "family": "Plantaginaceae",
       "parts": [
-        "Root"
+        "Rhizome"
       ],
       "rasa": [
-        "Madhura"
+        "Tikta"
       ],
       "guna": [
-        "Laghu"
+        "Laghu",
+        "Ruksha"
       ],
-      "virya": "Ushna",
-      "vipaka": "Madhura",
+      "virya": "Sheeta",
+      "vipaka": "Katu",
       "karma": [
-        "Rasayana"
+        "Pittahara",
+        "Yakrit-Uttejak"
       ],
-      "prabhava": "Generic",
+      "prabhava": "Liver stimulant and detoxifier",
       "indications": [
-        "General health"
+        "Liver diseases",
+        "Fever",
+        "Digestive disorders"
       ],
       "typicalDosage": {
-        "powder": "1–2 g / day"
+        "powder": "1–3 g per day",
+        "capsule": "500 mg twice daily"
       },
-      "brandsAndPrices": [
-        {
-          "brand": "Kutki Brand1",
-          "sku_title": "Himalaya Kutki Brand1 60 caps",
-          "pack_size": "60 caps",
-          "price_inr": 200,
-          "retailer": "Himalaya",
-          "product_url": ""
-        },
-        {
-          "brand": "Kutki Brand2",
-          "sku_title": "Dabur Kutki Brand2 100 g",
-          "pack_size": "100 g",
-          "price_inr": 120,
-          "retailer": "Dabur",
-          "product_url": ""
-        }
-      ]
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Low blood pressure"
+      ],
+      "marketInfo": {
+        "brandExamples": [
+          "Dhootapapeshwar",
+          "Charak",
+          "AVN"
+        ],
+        "pricePerKg": "₹1500–₹2500 (MRP)",
+        "packages": [
+          "100 g",
+          "250 g"
+        ]
+      },
+      "id": "kutki"
     },
     {
       "id": "musta",
@@ -2389,6 +2401,2685 @@
           "1 kg"
         ]
       }
+    },
+    {
+      "id": "a8e8",
+      "name": "Bakuchi",
+      "sanskritName": "Bakuchi",
+      "botanicalName": "Psoralea corylifolia",
+      "family": "Various",
+      "parts": [
+        "Leaf",
+        "Root"
+      ],
+      "rasa": [
+        "Kashaya",
+        "Tikta"
+      ],
+      "guna": [
+        "Guru",
+        "Snigdha"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "karma": [
+        "Rasayana",
+        "Pittahara",
+        "Kaphahara"
+      ],
+      "prabhava": "Traditional Ayurvedic action",
+      "indications": [
+        "Digestive disorders",
+        "Skin disorders",
+        "Urinary issues"
+      ],
+      "typicalDosage": {
+        "powder": "3–5 g per day",
+        "capsule": "400 mg 1–2 times daily"
+      },
+      "anupana": [
+        "Honey",
+        "Milk"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "marketInfo": {
+        "brandExamples": [
+          "Zandu",
+          "Himalaya",
+          "Aimil"
+        ],
+        "pricePerKg": "₹481 per kg (MRP)",
+        "packages": [
+          "50 g",
+          "100 g",
+          "250 g",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "44b8",
+      "name": "Kapikacchu",
+      "sanskritName": "Kapikacchu",
+      "botanicalName": "Mucuna pruriens",
+      "family": "Various",
+      "parts": [
+        "Whole plant",
+        "Root"
+      ],
+      "rasa": [
+        "Tikta-Madhura",
+        "Katu"
+      ],
+      "guna": [
+        "Guru",
+        "Snigdha"
+      ],
+      "virya": "Sheeta",
+      "vipaka": "Kashaya",
+      "karma": [
+        "Shothahara",
+        "Balya",
+        "Vajikarana"
+      ],
+      "prabhava": "Traditional Ayurvedic action",
+      "indications": [
+        "Respiratory",
+        "Joint pain",
+        "Digestive disorders"
+      ],
+      "typicalDosage": {
+        "powder": "1–5 g per day",
+        "capsule": "250 mg 1–2 times daily"
+      },
+      "anupana": [
+        "Honey",
+        "Ghee"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "marketInfo": {
+        "brandExamples": [
+          "Charak",
+          "Unjha",
+          "AVN"
+        ],
+        "pricePerKg": "₹1069 per kg (MRP)",
+        "packages": [
+          "50 g",
+          "100 g",
+          "250 g",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "2ca0",
+      "name": "Haritaki Nisha",
+      "sanskritName": "Haritaki Nisha",
+      "botanicalName": "Terminalia chebula var. nisha",
+      "family": "Various",
+      "parts": [
+        "Leaf",
+        "Root"
+      ],
+      "rasa": [
+        "Katu",
+        "Tikta"
+      ],
+      "guna": [
+        "Sukshma",
+        "Snigdha"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Kashaya",
+      "karma": [
+        "Shothahara",
+        "Kaphahara",
+        "Balya"
+      ],
+      "prabhava": "Traditional Ayurvedic action",
+      "indications": [
+        "Weakness",
+        "Skin disorders",
+        "Digestive disorders"
+      ],
+      "typicalDosage": {
+        "powder": "3–8 g per day",
+        "capsule": "400 mg 1–2 times daily"
+      },
+      "anupana": [
+        "Honey",
+        "Warm water"
+      ],
+      "contraindications": [
+        "Hypertension"
+      ],
+      "marketInfo": {
+        "brandExamples": [
+          "Himalaya",
+          "AVP",
+          "Dabur"
+        ],
+        "pricePerKg": "₹686 per kg (MRP)",
+        "packages": [
+          "50 g",
+          "100 g",
+          "250 g",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "6afc",
+      "name": "Patha",
+      "sanskritName": "Patha",
+      "botanicalName": "Cissampelos pareira",
+      "family": "Various",
+      "parts": [
+        "Whole plant",
+        "Root"
+      ],
+      "rasa": [
+        "Tikta-Madhura",
+        "Tikta"
+      ],
+      "guna": [
+        "Sukshma",
+        "Laghu"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "karma": [
+        "Rasayana",
+        "Mutrala",
+        "Shothahara"
+      ],
+      "prabhava": "Traditional Ayurvedic action",
+      "indications": [
+        "Skin disorders",
+        "Urinary issues",
+        "Respiratory"
+      ],
+      "typicalDosage": {
+        "powder": "4–7 g per day",
+        "capsule": "250 mg 1–2 times daily"
+      },
+      "anupana": [
+        "Ghee",
+        "Warm water"
+      ],
+      "contraindications": [
+        "None listed"
+      ],
+      "marketInfo": {
+        "brandExamples": [
+          "Sandu",
+          "Unjha",
+          "Zandu"
+        ],
+        "pricePerKg": "₹2124 per kg (MRP)",
+        "packages": [
+          "50 g",
+          "100 g",
+          "250 g",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "efd9",
+      "name": "Kalmegh",
+      "sanskritName": "Kalmegh",
+      "botanicalName": "Andrographis paniculata",
+      "family": "Various",
+      "parts": [
+        "Whole plant",
+        "Root"
+      ],
+      "rasa": [
+        "Tikta",
+        "Tikta-Madhura"
+      ],
+      "guna": [
+        "Ruksha",
+        "Laghu"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Kashaya",
+      "karma": [
+        "Vajikarana",
+        "Kaphahara",
+        "Balya"
+      ],
+      "prabhava": "Traditional Ayurvedic action",
+      "indications": [
+        "Skin disorders",
+        "Urinary issues",
+        "Fever"
+      ],
+      "typicalDosage": {
+        "powder": "2–7 g per day",
+        "capsule": "300 mg 1–2 times daily"
+      },
+      "anupana": [
+        "Milk",
+        "Honey"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "marketInfo": {
+        "brandExamples": [
+          "Dhootapapeshwar",
+          "AVN",
+          "Nagarjun"
+        ],
+        "pricePerKg": "₹515 per kg (MRP)",
+        "packages": [
+          "50 g",
+          "100 g",
+          "250 g",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "71a8",
+      "name": "Kutaja",
+      "sanskritName": "Kutaja",
+      "botanicalName": "Holarrhena antidysenterica",
+      "family": "Various",
+      "parts": [
+        "Leaf",
+        "Root"
+      ],
+      "rasa": [
+        "Tikta-Madhura",
+        "Madhura"
+      ],
+      "guna": [
+        "Snigdha",
+        "Laghu"
+      ],
+      "virya": "Sheeta",
+      "vipaka": "Madhura",
+      "karma": [
+        "Mutrala",
+        "Vatahara",
+        "Pittahara"
+      ],
+      "prabhava": "Traditional Ayurvedic action",
+      "indications": [
+        "Fever",
+        "Skin disorders",
+        "Cognitive support"
+      ],
+      "typicalDosage": {
+        "powder": "4–7 g per day",
+        "capsule": "300 mg 1–2 times daily"
+      },
+      "anupana": [
+        "Ghee",
+        "Honey"
+      ],
+      "contraindications": [
+        "Hypertension"
+      ],
+      "marketInfo": {
+        "brandExamples": [
+          "AVN",
+          "Unjha",
+          "Zandu"
+        ],
+        "pricePerKg": "₹1031 per kg (MRP)",
+        "packages": [
+          "50 g",
+          "100 g",
+          "250 g",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "be07",
+      "name": "Aragvadha",
+      "sanskritName": "Aragvadha",
+      "botanicalName": "Cassia fistula",
+      "family": "Various",
+      "parts": [
+        "Leaf",
+        "Root"
+      ],
+      "rasa": [
+        "Katu",
+        "Madhura"
+      ],
+      "guna": [
+        "Snigdha",
+        "Sukshma"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Kashaya",
+      "karma": [
+        "Rasayana",
+        "Mutrala",
+        "Kaphahara"
+      ],
+      "prabhava": "Traditional Ayurvedic action",
+      "indications": [
+        "Digestive disorders",
+        "Fever",
+        "Joint pain"
+      ],
+      "typicalDosage": {
+        "powder": "3–5 g per day",
+        "capsule": "500 mg 1–2 times daily"
+      },
+      "anupana": [
+        "Ghee",
+        "Warm water"
+      ],
+      "contraindications": [
+        "Not for children under 5"
+      ],
+      "marketInfo": {
+        "brandExamples": [
+          "Sandu",
+          "Unjha",
+          "Nagarjun"
+        ],
+        "pricePerKg": "₹743 per kg (MRP)",
+        "packages": [
+          "50 g",
+          "100 g",
+          "250 g",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "6fff",
+      "name": "Brahmi Niruha",
+      "sanskritName": "Brahmi Niruha",
+      "botanicalName": "Bacopa monnieri var. niruha",
+      "family": "Various",
+      "parts": [
+        "Whole plant",
+        "Root"
+      ],
+      "rasa": [
+        "Madhura",
+        "Katu"
+      ],
+      "guna": [
+        "Laghu",
+        "Guru"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "karma": [
+        "Shothahara",
+        "Kaphahara",
+        "Pittahara"
+      ],
+      "prabhava": "Traditional Ayurvedic action",
+      "indications": [
+        "Cognitive support",
+        "Urinary issues",
+        "Respiratory"
+      ],
+      "typicalDosage": {
+        "powder": "4–7 g per day",
+        "capsule": "300 mg 1–2 times daily"
+      },
+      "anupana": [
+        "Warm water",
+        "Honey"
+      ],
+      "contraindications": [
+        "None listed"
+      ],
+      "marketInfo": {
+        "brandExamples": [
+          "Sandu",
+          "Unjha",
+          "Zandu"
+        ],
+        "pricePerKg": "₹1038 per kg (MRP)",
+        "packages": [
+          "50 g",
+          "100 g",
+          "250 g",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "8ae4",
+      "name": "Jatipatra",
+      "sanskritName": "Jatipatra",
+      "botanicalName": "Myristica fragrans",
+      "family": "Various",
+      "parts": [
+        "Whole plant",
+        "Root"
+      ],
+      "rasa": [
+        "Tikta",
+        "Tikta-Madhura"
+      ],
+      "guna": [
+        "Ruksha",
+        "Sukshma"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Kashaya",
+      "karma": [
+        "Balya",
+        "Mutrala",
+        "Pittahara"
+      ],
+      "prabhava": "Traditional Ayurvedic action",
+      "indications": [
+        "Fever",
+        "Reproductive support",
+        "Joint pain"
+      ],
+      "typicalDosage": {
+        "powder": "1–6 g per day",
+        "capsule": "250 mg 1–2 times daily"
+      },
+      "anupana": [
+        "Milk",
+        "Warm water"
+      ],
+      "contraindications": [
+        "Diabetes"
+      ],
+      "marketInfo": {
+        "brandExamples": [
+          "Nagarjun",
+          "Himalaya",
+          "Zandu"
+        ],
+        "pricePerKg": "₹1965 per kg (MRP)",
+        "packages": [
+          "50 g",
+          "100 g",
+          "250 g",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "efc9",
+      "name": "Yashtimadhu Var.",
+      "sanskritName": "Yashtimadhu Var.",
+      "botanicalName": "Glycyrrhiza glabra var. minor",
+      "family": "Various",
+      "parts": [
+        "Whole plant",
+        "Root"
+      ],
+      "rasa": [
+        "Madhura",
+        "Tikta"
+      ],
+      "guna": [
+        "Sukshma",
+        "Laghu"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "karma": [
+        "Pittahara",
+        "Shothahara",
+        "Balya"
+      ],
+      "prabhava": "Traditional Ayurvedic action",
+      "indications": [
+        "Weakness",
+        "Joint pain",
+        "Fever"
+      ],
+      "typicalDosage": {
+        "powder": "2–8 g per day",
+        "capsule": "300 mg 1–2 times daily"
+      },
+      "anupana": [
+        "Ghee",
+        "Milk"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "marketInfo": {
+        "brandExamples": [
+          "Dhootapapeshwar",
+          "Sandu",
+          "Baidyanath"
+        ],
+        "pricePerKg": "₹517 per kg (MRP)",
+        "packages": [
+          "50 g",
+          "100 g",
+          "250 g",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "49ce",
+      "name": "Kukuda",
+      "sanskritName": "Kukuda",
+      "botanicalName": "Sphaeranthus indicus",
+      "family": "Various",
+      "parts": [
+        "Whole plant",
+        "Root"
+      ],
+      "rasa": [
+        "Kashaya",
+        "Tikta-Madhura"
+      ],
+      "guna": [
+        "Snigdha",
+        "Guru"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Kashaya",
+      "karma": [
+        "Rasayana",
+        "Shothahara",
+        "Vatahara"
+      ],
+      "prabhava": "Traditional Ayurvedic action",
+      "indications": [
+        "Skin disorders",
+        "Joint pain",
+        "Urinary issues"
+      ],
+      "typicalDosage": {
+        "powder": "3–8 g per day",
+        "capsule": "250 mg 1–2 times daily"
+      },
+      "anupana": [
+        "Milk",
+        "Warm water"
+      ],
+      "contraindications": [
+        "Not for children under 5"
+      ],
+      "marketInfo": {
+        "brandExamples": [
+          "Aimil",
+          "Dabur",
+          "AVN"
+        ],
+        "pricePerKg": "₹1402 per kg (MRP)",
+        "packages": [
+          "50 g",
+          "100 g",
+          "250 g",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "74fa",
+      "name": "Vacha Var.",
+      "sanskritName": "Vacha Var.",
+      "botanicalName": "Acorus calamus var. robustus",
+      "family": "Various",
+      "parts": [
+        "Leaf",
+        "Root"
+      ],
+      "rasa": [
+        "Tikta",
+        "Kashaya"
+      ],
+      "guna": [
+        "Ruksha",
+        "Laghu"
+      ],
+      "virya": "Sheeta",
+      "vipaka": "Kashaya",
+      "karma": [
+        "Vatahara",
+        "Vajikarana",
+        "Shothahara"
+      ],
+      "prabhava": "Traditional Ayurvedic action",
+      "indications": [
+        "Joint pain",
+        "Fever",
+        "Skin disorders"
+      ],
+      "typicalDosage": {
+        "powder": "4–6 g per day",
+        "capsule": "500 mg 1–2 times daily"
+      },
+      "anupana": [
+        "Ghee",
+        "Honey"
+      ],
+      "contraindications": [
+        "Hypertension"
+      ],
+      "marketInfo": {
+        "brandExamples": [
+          "Himalaya",
+          "AVN",
+          "Zandu"
+        ],
+        "pricePerKg": "₹1786 per kg (MRP)",
+        "packages": [
+          "50 g",
+          "100 g",
+          "250 g",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "c26a",
+      "name": "Kapoor Kachri",
+      "sanskritName": "Kapoor Kachri",
+      "botanicalName": "Hedychium spicatum",
+      "family": "Various",
+      "parts": [
+        "Whole plant",
+        "Root"
+      ],
+      "rasa": [
+        "Katu",
+        "Tikta-Madhura"
+      ],
+      "guna": [
+        "Sukshma",
+        "Ruksha"
+      ],
+      "virya": "Sheeta",
+      "vipaka": "Madhura",
+      "karma": [
+        "Vajikarana",
+        "Kaphahara",
+        "Pittahara"
+      ],
+      "prabhava": "Traditional Ayurvedic action",
+      "indications": [
+        "Digestive disorders",
+        "Respiratory",
+        "Urinary issues"
+      ],
+      "typicalDosage": {
+        "powder": "4–5 g per day",
+        "capsule": "400 mg 1–2 times daily"
+      },
+      "anupana": [
+        "Honey",
+        "Milk"
+      ],
+      "contraindications": [
+        "Diabetes"
+      ],
+      "marketInfo": {
+        "brandExamples": [
+          "Himalaya",
+          "AVN",
+          "Sandu"
+        ],
+        "pricePerKg": "₹1817 per kg (MRP)",
+        "packages": [
+          "50 g",
+          "100 g",
+          "250 g",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "313e",
+      "name": "Gojihva",
+      "sanskritName": "Gojihva",
+      "botanicalName": "Aconitum heterophyllum",
+      "family": "Various",
+      "parts": [
+        "Whole plant",
+        "Root"
+      ],
+      "rasa": [
+        "Tikta-Madhura",
+        "Tikta"
+      ],
+      "guna": [
+        "Ruksha",
+        "Guru"
+      ],
+      "virya": "Sheeta",
+      "vipaka": "Madhura",
+      "karma": [
+        "Vajikarana",
+        "Kaphahara",
+        "Balya"
+      ],
+      "prabhava": "Traditional Ayurvedic action",
+      "indications": [
+        "Fever",
+        "Respiratory",
+        "Cognitive support"
+      ],
+      "typicalDosage": {
+        "powder": "3–7 g per day",
+        "capsule": "400 mg 1–2 times daily"
+      },
+      "anupana": [
+        "Ghee",
+        "Honey"
+      ],
+      "contraindications": [
+        "None listed"
+      ],
+      "marketInfo": {
+        "brandExamples": [
+          "Dhootapapeshwar",
+          "AVN",
+          "Charak"
+        ],
+        "pricePerKg": "₹1445 per kg (MRP)",
+        "packages": [
+          "50 g",
+          "100 g",
+          "250 g",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "fa48",
+      "name": "Kankola",
+      "sanskritName": "Kankola",
+      "botanicalName": "Piper cubeba",
+      "family": "Various",
+      "parts": [
+        "Whole plant",
+        "Root"
+      ],
+      "rasa": [
+        "Madhura",
+        "Tikta-Madhura"
+      ],
+      "guna": [
+        "Sukshma",
+        "Laghu"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "karma": [
+        "Pittahara",
+        "Balya",
+        "Shothahara"
+      ],
+      "prabhava": "Traditional Ayurvedic action",
+      "indications": [
+        "Reproductive support",
+        "Cognitive support",
+        "Fever"
+      ],
+      "typicalDosage": {
+        "powder": "2–7 g per day",
+        "capsule": "400 mg 1–2 times daily"
+      },
+      "anupana": [
+        "Warm water",
+        "Milk"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "marketInfo": {
+        "brandExamples": [
+          "Dhootapapeshwar",
+          "Sandu",
+          "AVP"
+        ],
+        "pricePerKg": "₹1513 per kg (MRP)",
+        "packages": [
+          "50 g",
+          "100 g",
+          "250 g",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "59bf",
+      "name": "Lodhra Var.",
+      "sanskritName": "Lodhra Var.",
+      "botanicalName": "Symplocos racemosa var. alba",
+      "family": "Various",
+      "parts": [
+        "Leaf",
+        "Root"
+      ],
+      "rasa": [
+        "Tikta-Madhura",
+        "Madhura"
+      ],
+      "guna": [
+        "Guru",
+        "Snigdha"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "karma": [
+        "Pittahara",
+        "Vajikarana",
+        "Balya"
+      ],
+      "prabhava": "Traditional Ayurvedic action",
+      "indications": [
+        "Urinary issues",
+        "Joint pain",
+        "Reproductive support"
+      ],
+      "typicalDosage": {
+        "powder": "4–6 g per day",
+        "capsule": "400 mg 1–2 times daily"
+      },
+      "anupana": [
+        "Ghee",
+        "Honey"
+      ],
+      "contraindications": [
+        "Hypertension"
+      ],
+      "marketInfo": {
+        "brandExamples": [
+          "Unjha",
+          "Baidyanath",
+          "Zandu"
+        ],
+        "pricePerKg": "₹1845 per kg (MRP)",
+        "packages": [
+          "50 g",
+          "100 g",
+          "250 g",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "7d7e",
+      "name": "Mandukaparni Variant",
+      "sanskritName": "Mandukaparni Variant",
+      "botanicalName": "Centella asiatica var. major",
+      "family": "Various",
+      "parts": [
+        "Leaf",
+        "Root"
+      ],
+      "rasa": [
+        "Tikta",
+        "Kashaya"
+      ],
+      "guna": [
+        "Guru",
+        "Sukshma"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "karma": [
+        "Balya",
+        "Vajikarana",
+        "Rasayana"
+      ],
+      "prabhava": "Traditional Ayurvedic action",
+      "indications": [
+        "Urinary issues",
+        "Respiratory",
+        "Fever"
+      ],
+      "typicalDosage": {
+        "powder": "3–5 g per day",
+        "capsule": "400 mg 1–2 times daily"
+      },
+      "anupana": [
+        "Ghee",
+        "Honey"
+      ],
+      "contraindications": [
+        "Diabetes"
+      ],
+      "marketInfo": {
+        "brandExamples": [
+          "Zandu",
+          "Nagarjun",
+          "Baidyanath"
+        ],
+        "pricePerKg": "₹479 per kg (MRP)",
+        "packages": [
+          "50 g",
+          "100 g",
+          "250 g",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "bf23",
+      "name": "Nila",
+      "sanskritName": "Nila",
+      "botanicalName": "Indigofera tinctoria",
+      "family": "Various",
+      "parts": [
+        "Leaf",
+        "Root"
+      ],
+      "rasa": [
+        "Tikta-Madhura",
+        "Tikta"
+      ],
+      "guna": [
+        "Sukshma",
+        "Ruksha"
+      ],
+      "virya": "Sheeta",
+      "vipaka": "Kashaya",
+      "karma": [
+        "Vatahara",
+        "Pittahara",
+        "Balya"
+      ],
+      "prabhava": "Traditional Ayurvedic action",
+      "indications": [
+        "Skin disorders",
+        "Joint pain",
+        "Urinary issues"
+      ],
+      "typicalDosage": {
+        "powder": "2–7 g per day",
+        "capsule": "300 mg 1–2 times daily"
+      },
+      "anupana": [
+        "Warm water",
+        "Ghee"
+      ],
+      "contraindications": [
+        "None listed"
+      ],
+      "marketInfo": {
+        "brandExamples": [
+          "Baidyanath",
+          "AVN",
+          "Zandu"
+        ],
+        "pricePerKg": "₹445 per kg (MRP)",
+        "packages": [
+          "50 g",
+          "100 g",
+          "250 g",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "6ca3",
+      "name": "Parpataka",
+      "sanskritName": "Parpataka",
+      "botanicalName": "Fumaria indica",
+      "family": "Various",
+      "parts": [
+        "Leaf",
+        "Root"
+      ],
+      "rasa": [
+        "Tikta",
+        "Madhura"
+      ],
+      "guna": [
+        "Guru",
+        "Laghu"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "karma": [
+        "Mutrala",
+        "Kaphahara",
+        "Vajikarana"
+      ],
+      "prabhava": "Traditional Ayurvedic action",
+      "indications": [
+        "Skin disorders",
+        "Fever",
+        "Respiratory"
+      ],
+      "typicalDosage": {
+        "powder": "2–6 g per day",
+        "capsule": "300 mg 1–2 times daily"
+      },
+      "anupana": [
+        "Milk",
+        "Ghee"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "marketInfo": {
+        "brandExamples": [
+          "Zandu",
+          "Aimil",
+          "Dabur"
+        ],
+        "pricePerKg": "₹746 per kg (MRP)",
+        "packages": [
+          "50 g",
+          "100 g",
+          "250 g",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "27b9",
+      "name": "Psyllium Husk",
+      "sanskritName": "Psyllium Husk",
+      "botanicalName": "Plantago ovata",
+      "family": "Various",
+      "parts": [
+        "Leaf",
+        "Root"
+      ],
+      "rasa": [
+        "Tikta-Madhura",
+        "Madhura"
+      ],
+      "guna": [
+        "Sukshma",
+        "Snigdha"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Kashaya",
+      "karma": [
+        "Vajikarana",
+        "Mutrala",
+        "Balya"
+      ],
+      "prabhava": "Traditional Ayurvedic action",
+      "indications": [
+        "Fever",
+        "Digestive disorders",
+        "Urinary issues"
+      ],
+      "typicalDosage": {
+        "powder": "1–8 g per day",
+        "capsule": "400 mg 1–2 times daily"
+      },
+      "anupana": [
+        "Warm water",
+        "Milk"
+      ],
+      "contraindications": [
+        "None listed"
+      ],
+      "marketInfo": {
+        "brandExamples": [
+          "Himalaya",
+          "Dabur",
+          "Charak"
+        ],
+        "pricePerKg": "₹665 per kg (MRP)",
+        "packages": [
+          "50 g",
+          "100 g",
+          "250 g",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "952b",
+      "name": "Rasna Var.",
+      "sanskritName": "Rasna Var.",
+      "botanicalName": "Pluchea lanceolata",
+      "family": "Various",
+      "parts": [
+        "Whole plant",
+        "Root"
+      ],
+      "rasa": [
+        "Madhura",
+        "Kashaya"
+      ],
+      "guna": [
+        "Ruksha",
+        "Guru"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Kashaya",
+      "karma": [
+        "Rasayana",
+        "Vajikarana",
+        "Kaphahara"
+      ],
+      "prabhava": "Traditional Ayurvedic action",
+      "indications": [
+        "Digestive disorders",
+        "Weakness",
+        "Reproductive support"
+      ],
+      "typicalDosage": {
+        "powder": "1–5 g per day",
+        "capsule": "400 mg 1–2 times daily"
+      },
+      "anupana": [
+        "Honey",
+        "Milk"
+      ],
+      "contraindications": [
+        "Hypertension"
+      ],
+      "marketInfo": {
+        "brandExamples": [
+          "Charak",
+          "AVN",
+          "Nagarjun"
+        ],
+        "pricePerKg": "₹1423 per kg (MRP)",
+        "packages": [
+          "50 g",
+          "100 g",
+          "250 g",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "e56f",
+      "name": "Sahadevi",
+      "sanskritName": "Sahadevi",
+      "botanicalName": "Coscinium fenestratum",
+      "family": "Various",
+      "parts": [
+        "Leaf",
+        "Root"
+      ],
+      "rasa": [
+        "Tikta",
+        "Tikta-Madhura"
+      ],
+      "guna": [
+        "Snigdha",
+        "Ruksha"
+      ],
+      "virya": "Sheeta",
+      "vipaka": "Madhura",
+      "karma": [
+        "Pittahara",
+        "Shothahara",
+        "Rasayana"
+      ],
+      "prabhava": "Traditional Ayurvedic action",
+      "indications": [
+        "Urinary issues",
+        "Respiratory",
+        "Digestive disorders"
+      ],
+      "typicalDosage": {
+        "powder": "1–8 g per day",
+        "capsule": "250 mg 1–2 times daily"
+      },
+      "anupana": [
+        "Milk",
+        "Warm water"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "marketInfo": {
+        "brandExamples": [
+          "Charak",
+          "Himalaya",
+          "Zandu"
+        ],
+        "pricePerKg": "₹1084 per kg (MRP)",
+        "packages": [
+          "50 g",
+          "100 g",
+          "250 g",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "4777",
+      "name": "Saptaparna",
+      "sanskritName": "Saptaparna",
+      "botanicalName": "Alstonia scholaris",
+      "family": "Various",
+      "parts": [
+        "Whole plant",
+        "Root"
+      ],
+      "rasa": [
+        "Madhura",
+        "Tikta-Madhura"
+      ],
+      "guna": [
+        "Sukshma",
+        "Guru"
+      ],
+      "virya": "Sheeta",
+      "vipaka": "Madhura",
+      "karma": [
+        "Rasayana",
+        "Shothahara",
+        "Mutrala"
+      ],
+      "prabhava": "Traditional Ayurvedic action",
+      "indications": [
+        "Fever",
+        "Cognitive support",
+        "Urinary issues"
+      ],
+      "typicalDosage": {
+        "powder": "4–8 g per day",
+        "capsule": "400 mg 1–2 times daily"
+      },
+      "anupana": [
+        "Milk",
+        "Honey"
+      ],
+      "contraindications": [
+        "Not for children under 5"
+      ],
+      "marketInfo": {
+        "brandExamples": [
+          "Himalaya",
+          "AVN",
+          "Dhootapapeshwar"
+        ],
+        "pricePerKg": "₹1813 per kg (MRP)",
+        "packages": [
+          "50 g",
+          "100 g",
+          "250 g",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "21b1",
+      "name": "Sigru",
+      "sanskritName": "Sigru",
+      "botanicalName": "Moringa oleifera",
+      "family": "Various",
+      "parts": [
+        "Whole plant",
+        "Root"
+      ],
+      "rasa": [
+        "Kashaya",
+        "Tikta"
+      ],
+      "guna": [
+        "Laghu",
+        "Snigdha"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Kashaya",
+      "karma": [
+        "Shothahara",
+        "Kaphahara",
+        "Balya"
+      ],
+      "prabhava": "Traditional Ayurvedic action",
+      "indications": [
+        "Urinary issues",
+        "Cognitive support",
+        "Digestive disorders"
+      ],
+      "typicalDosage": {
+        "powder": "2–6 g per day",
+        "capsule": "250 mg 1–2 times daily"
+      },
+      "anupana": [
+        "Milk",
+        "Warm water"
+      ],
+      "contraindications": [
+        "Not for children under 5"
+      ],
+      "marketInfo": {
+        "brandExamples": [
+          "Sandu",
+          "Dabur",
+          "Charak"
+        ],
+        "pricePerKg": "₹1885 per kg (MRP)",
+        "packages": [
+          "50 g",
+          "100 g",
+          "250 g",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "25fa",
+      "name": "Suraha",
+      "sanskritName": "Suraha",
+      "botanicalName": "Plumbago zeylanica var. suraha",
+      "family": "Various",
+      "parts": [
+        "Whole plant",
+        "Root"
+      ],
+      "rasa": [
+        "Tikta-Madhura",
+        "Tikta"
+      ],
+      "guna": [
+        "Laghu",
+        "Guru"
+      ],
+      "virya": "Sheeta",
+      "vipaka": "Katu",
+      "karma": [
+        "Mutrala",
+        "Shothahara",
+        "Vajikarana"
+      ],
+      "prabhava": "Traditional Ayurvedic action",
+      "indications": [
+        "Cognitive support",
+        "Fever",
+        "Digestive disorders"
+      ],
+      "typicalDosage": {
+        "powder": "3–6 g per day",
+        "capsule": "500 mg 1–2 times daily"
+      },
+      "anupana": [
+        "Honey",
+        "Ghee"
+      ],
+      "contraindications": [
+        "None listed"
+      ],
+      "marketInfo": {
+        "brandExamples": [
+          "Nagarjun",
+          "Dhootapapeshwar",
+          "Sandu"
+        ],
+        "pricePerKg": "₹2000 per kg (MRP)",
+        "packages": [
+          "50 g",
+          "100 g",
+          "250 g",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "f98b",
+      "name": "Tavak",
+      "sanskritName": "Tavak",
+      "botanicalName": "Anamirta cocculus",
+      "family": "Various",
+      "parts": [
+        "Leaf",
+        "Root"
+      ],
+      "rasa": [
+        "Kashaya",
+        "Tikta"
+      ],
+      "guna": [
+        "Ruksha",
+        "Snigdha"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "karma": [
+        "Balya",
+        "Vajikarana",
+        "Shothahara"
+      ],
+      "prabhava": "Traditional Ayurvedic action",
+      "indications": [
+        "Skin disorders",
+        "Weakness",
+        "Cognitive support"
+      ],
+      "typicalDosage": {
+        "powder": "2–5 g per day",
+        "capsule": "500 mg 1–2 times daily"
+      },
+      "anupana": [
+        "Honey",
+        "Ghee"
+      ],
+      "contraindications": [
+        "None listed"
+      ],
+      "marketInfo": {
+        "brandExamples": [
+          "Zandu",
+          "Aimil",
+          "Sandu"
+        ],
+        "pricePerKg": "₹2109 per kg (MRP)",
+        "packages": [
+          "50 g",
+          "100 g",
+          "250 g",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "fb66",
+      "name": "Utpala",
+      "sanskritName": "Utpala",
+      "botanicalName": "Nymphaea nouchali",
+      "family": "Various",
+      "parts": [
+        "Leaf",
+        "Root"
+      ],
+      "rasa": [
+        "Madhura",
+        "Katu"
+      ],
+      "guna": [
+        "Laghu",
+        "Guru"
+      ],
+      "virya": "Sheeta",
+      "vipaka": "Kashaya",
+      "karma": [
+        "Mutrala",
+        "Vatahara",
+        "Pittahara"
+      ],
+      "prabhava": "Traditional Ayurvedic action",
+      "indications": [
+        "Digestive disorders",
+        "Skin disorders",
+        "Joint pain"
+      ],
+      "typicalDosage": {
+        "powder": "1–6 g per day",
+        "capsule": "250 mg 1–2 times daily"
+      },
+      "anupana": [
+        "Ghee",
+        "Honey"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "marketInfo": {
+        "brandExamples": [
+          "Unjha",
+          "Sandu",
+          "AVP"
+        ],
+        "pricePerKg": "₹1748 per kg (MRP)",
+        "packages": [
+          "50 g",
+          "100 g",
+          "250 g",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "64f7",
+      "name": "Vijaysar",
+      "sanskritName": "Vijaysar",
+      "botanicalName": "Pterocarpus marsupium",
+      "family": "Various",
+      "parts": [
+        "Leaf",
+        "Root"
+      ],
+      "rasa": [
+        "Tikta-Madhura",
+        "Katu"
+      ],
+      "guna": [
+        "Snigdha",
+        "Sukshma"
+      ],
+      "virya": "Sheeta",
+      "vipaka": "Katu",
+      "karma": [
+        "Rasayana",
+        "Shothahara",
+        "Vajikarana"
+      ],
+      "prabhava": "Traditional Ayurvedic action",
+      "indications": [
+        "Skin disorders",
+        "Urinary issues",
+        "Respiratory"
+      ],
+      "typicalDosage": {
+        "powder": "4–6 g per day",
+        "capsule": "500 mg 1–2 times daily"
+      },
+      "anupana": [
+        "Warm water",
+        "Ghee"
+      ],
+      "contraindications": [
+        "None listed"
+      ],
+      "marketInfo": {
+        "brandExamples": [
+          "Dhootapapeshwar",
+          "Zandu",
+          "Unjha"
+        ],
+        "pricePerKg": "₹2032 per kg (MRP)",
+        "packages": [
+          "50 g",
+          "100 g",
+          "250 g",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "030e",
+      "name": "Vriddhadaru",
+      "sanskritName": "Vriddhadaru",
+      "botanicalName": "Cedrus deodara",
+      "family": "Various",
+      "parts": [
+        "Leaf",
+        "Root"
+      ],
+      "rasa": [
+        "Tikta",
+        "Tikta-Madhura"
+      ],
+      "guna": [
+        "Laghu",
+        "Sukshma"
+      ],
+      "virya": "Sheeta",
+      "vipaka": "Katu",
+      "karma": [
+        "Pittahara",
+        "Vatahara",
+        "Kaphahara"
+      ],
+      "prabhava": "Traditional Ayurvedic action",
+      "indications": [
+        "Urinary issues",
+        "Fever",
+        "Reproductive support"
+      ],
+      "typicalDosage": {
+        "powder": "3–8 g per day",
+        "capsule": "300 mg 1–2 times daily"
+      },
+      "anupana": [
+        "Honey",
+        "Warm water"
+      ],
+      "contraindications": [
+        "Diabetes"
+      ],
+      "marketInfo": {
+        "brandExamples": [
+          "Nagarjun",
+          "AVN",
+          "Baidyanath"
+        ],
+        "pricePerKg": "₹852 per kg (MRP)",
+        "packages": [
+          "50 g",
+          "100 g",
+          "250 g",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "9c68",
+      "name": "Yavani Var.",
+      "sanskritName": "Yavani Var.",
+      "botanicalName": "Trachyspermum ammi var. orientale",
+      "family": "Various",
+      "parts": [
+        "Whole plant",
+        "Root"
+      ],
+      "rasa": [
+        "Katu",
+        "Tikta-Madhura"
+      ],
+      "guna": [
+        "Guru",
+        "Laghu"
+      ],
+      "virya": "Sheeta",
+      "vipaka": "Kashaya",
+      "karma": [
+        "Balya",
+        "Kaphahara",
+        "Mutrala"
+      ],
+      "prabhava": "Traditional Ayurvedic action",
+      "indications": [
+        "Urinary issues",
+        "Joint pain",
+        "Weakness"
+      ],
+      "typicalDosage": {
+        "powder": "3–8 g per day",
+        "capsule": "250 mg 1–2 times daily"
+      },
+      "anupana": [
+        "Ghee",
+        "Milk"
+      ],
+      "contraindications": [
+        "Diabetes"
+      ],
+      "marketInfo": {
+        "brandExamples": [
+          "Charak",
+          "Himalaya",
+          "Unjha"
+        ],
+        "pricePerKg": "₹1856 per kg (MRP)",
+        "packages": [
+          "50 g",
+          "100 g",
+          "250 g",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "9e45",
+      "name": "Zingiber Var.",
+      "sanskritName": "Zingiber Var.",
+      "botanicalName": "Zingiber officinale var. rubrum",
+      "family": "Various",
+      "parts": [
+        "Whole plant",
+        "Root"
+      ],
+      "rasa": [
+        "Madhura",
+        "Tikta-Madhura"
+      ],
+      "guna": [
+        "Ruksha",
+        "Guru"
+      ],
+      "virya": "Sheeta",
+      "vipaka": "Katu",
+      "karma": [
+        "Mutrala",
+        "Pittahara",
+        "Vatahara"
+      ],
+      "prabhava": "Traditional Ayurvedic action",
+      "indications": [
+        "Digestive disorders",
+        "Reproductive support",
+        "Skin disorders"
+      ],
+      "typicalDosage": {
+        "powder": "4–5 g per day",
+        "capsule": "400 mg 1–2 times daily"
+      },
+      "anupana": [
+        "Warm water",
+        "Honey"
+      ],
+      "contraindications": [
+        "Hypertension"
+      ],
+      "marketInfo": {
+        "brandExamples": [
+          "AVN",
+          "AVP",
+          "Charak"
+        ],
+        "pricePerKg": "₹1693 per kg (MRP)",
+        "packages": [
+          "50 g",
+          "100 g",
+          "250 g",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "4c72",
+      "name": "Ahiphena",
+      "sanskritName": "Ahiphena",
+      "botanicalName": "Argemone mexicana",
+      "family": "Various",
+      "parts": [
+        "Leaf",
+        "Root"
+      ],
+      "rasa": [
+        "Tikta",
+        "Tikta-Madhura"
+      ],
+      "guna": [
+        "Laghu",
+        "Ruksha"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Kashaya",
+      "karma": [
+        "Balya",
+        "Kaphahara",
+        "Shothahara"
+      ],
+      "prabhava": "Traditional Ayurvedic action",
+      "indications": [
+        "Reproductive support",
+        "Digestive disorders",
+        "Respiratory"
+      ],
+      "typicalDosage": {
+        "powder": "3–7 g per day",
+        "capsule": "400 mg 1–2 times daily"
+      },
+      "anupana": [
+        "Milk",
+        "Honey"
+      ],
+      "contraindications": [
+        "Diabetes"
+      ],
+      "marketInfo": {
+        "brandExamples": [
+          "AVN",
+          "Charak",
+          "Himalaya"
+        ],
+        "pricePerKg": "₹1409 per kg (MRP)",
+        "packages": [
+          "50 g",
+          "100 g",
+          "250 g",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "132d",
+      "name": "Bala Var.",
+      "sanskritName": "Bala Var.",
+      "botanicalName": "Sida rhombifolia",
+      "family": "Various",
+      "parts": [
+        "Leaf",
+        "Root"
+      ],
+      "rasa": [
+        "Kashaya",
+        "Katu"
+      ],
+      "guna": [
+        "Sukshma",
+        "Laghu"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "karma": [
+        "Shothahara",
+        "Mutrala",
+        "Pittahara"
+      ],
+      "prabhava": "Traditional Ayurvedic action",
+      "indications": [
+        "Cognitive support",
+        "Joint pain",
+        "Reproductive support"
+      ],
+      "typicalDosage": {
+        "powder": "1–5 g per day",
+        "capsule": "300 mg 1–2 times daily"
+      },
+      "anupana": [
+        "Warm water",
+        "Ghee"
+      ],
+      "contraindications": [
+        "Not for children under 5"
+      ],
+      "marketInfo": {
+        "brandExamples": [
+          "Sandu",
+          "Dabur",
+          "Himalaya"
+        ],
+        "pricePerKg": "₹486 per kg (MRP)",
+        "packages": [
+          "50 g",
+          "100 g",
+          "250 g",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "2ee3",
+      "name": "Citraka Var.",
+      "sanskritName": "Citraka Var.",
+      "botanicalName": "Plumbago zeylanica var. citraka",
+      "family": "Various",
+      "parts": [
+        "Whole plant",
+        "Root"
+      ],
+      "rasa": [
+        "Tikta-Madhura",
+        "Katu"
+      ],
+      "guna": [
+        "Sukshma",
+        "Guru"
+      ],
+      "virya": "Sheeta",
+      "vipaka": "Kashaya",
+      "karma": [
+        "Shothahara",
+        "Vatahara",
+        "Rasayana"
+      ],
+      "prabhava": "Traditional Ayurvedic action",
+      "indications": [
+        "Reproductive support",
+        "Urinary issues",
+        "Weakness"
+      ],
+      "typicalDosage": {
+        "powder": "2–7 g per day",
+        "capsule": "250 mg 1–2 times daily"
+      },
+      "anupana": [
+        "Milk",
+        "Ghee"
+      ],
+      "contraindications": [
+        "Diabetes"
+      ],
+      "marketInfo": {
+        "brandExamples": [
+          "AVP",
+          "Sandu",
+          "Baidyanath"
+        ],
+        "pricePerKg": "₹1753 per kg (MRP)",
+        "packages": [
+          "50 g",
+          "100 g",
+          "250 g",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "53bf",
+      "name": "Daruharidra",
+      "sanskritName": "Daruharidra",
+      "botanicalName": "Berberis aristata",
+      "family": "Various",
+      "parts": [
+        "Leaf",
+        "Root"
+      ],
+      "rasa": [
+        "Katu",
+        "Tikta-Madhura"
+      ],
+      "guna": [
+        "Guru",
+        "Ruksha"
+      ],
+      "virya": "Sheeta",
+      "vipaka": "Kashaya",
+      "karma": [
+        "Vajikarana",
+        "Rasayana",
+        "Pittahara"
+      ],
+      "prabhava": "Traditional Ayurvedic action",
+      "indications": [
+        "Urinary issues",
+        "Respiratory",
+        "Digestive disorders"
+      ],
+      "typicalDosage": {
+        "powder": "2–7 g per day",
+        "capsule": "500 mg 1–2 times daily"
+      },
+      "anupana": [
+        "Honey",
+        "Ghee"
+      ],
+      "contraindications": [
+        "Not for children under 5"
+      ],
+      "marketInfo": {
+        "brandExamples": [
+          "Nagarjun",
+          "Himalaya",
+          "Unjha"
+        ],
+        "pricePerKg": "₹1567 per kg (MRP)",
+        "packages": [
+          "50 g",
+          "100 g",
+          "250 g",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "9051",
+      "name": "Ekangveer",
+      "sanskritName": "Ekangveer",
+      "botanicalName": "Eclipta alba var. robusta",
+      "family": "Various",
+      "parts": [
+        "Leaf",
+        "Root"
+      ],
+      "rasa": [
+        "Tikta",
+        "Katu"
+      ],
+      "guna": [
+        "Snigdha",
+        "Ruksha"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Kashaya",
+      "karma": [
+        "Vatahara",
+        "Rasayana",
+        "Vajikarana"
+      ],
+      "prabhava": "Traditional Ayurvedic action",
+      "indications": [
+        "Digestive disorders",
+        "Reproductive support",
+        "Respiratory"
+      ],
+      "typicalDosage": {
+        "powder": "2–7 g per day",
+        "capsule": "400 mg 1–2 times daily"
+      },
+      "anupana": [
+        "Milk",
+        "Honey"
+      ],
+      "contraindications": [
+        "Hypertension"
+      ],
+      "marketInfo": {
+        "brandExamples": [
+          "AVN",
+          "Dhootapapeshwar",
+          "Aimil"
+        ],
+        "pricePerKg": "₹1932 per kg (MRP)",
+        "packages": [
+          "50 g",
+          "100 g",
+          "250 g",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "63ab",
+      "name": "Gambhari",
+      "sanskritName": "Gambhari",
+      "botanicalName": "Gmelina arborea",
+      "family": "Various",
+      "parts": [
+        "Leaf",
+        "Root"
+      ],
+      "rasa": [
+        "Tikta",
+        "Madhura"
+      ],
+      "guna": [
+        "Laghu",
+        "Ruksha"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "karma": [
+        "Rasayana",
+        "Kaphahara",
+        "Pittahara"
+      ],
+      "prabhava": "Traditional Ayurvedic action",
+      "indications": [
+        "Urinary issues",
+        "Skin disorders",
+        "Reproductive support"
+      ],
+      "typicalDosage": {
+        "powder": "3–8 g per day",
+        "capsule": "400 mg 1–2 times daily"
+      },
+      "anupana": [
+        "Warm water",
+        "Honey"
+      ],
+      "contraindications": [
+        "Diabetes"
+      ],
+      "marketInfo": {
+        "brandExamples": [
+          "Charak",
+          "Aimil",
+          "Himalaya"
+        ],
+        "pricePerKg": "₹1827 per kg (MRP)",
+        "packages": [
+          "50 g",
+          "100 g",
+          "250 g",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "2da6",
+      "name": "Hingu Var.",
+      "sanskritName": "Hingu Var.",
+      "botanicalName": "Ferula jaeschkeana",
+      "family": "Various",
+      "parts": [
+        "Leaf",
+        "Root"
+      ],
+      "rasa": [
+        "Tikta",
+        "Kashaya"
+      ],
+      "guna": [
+        "Sukshma",
+        "Guru"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Kashaya",
+      "karma": [
+        "Rasayana",
+        "Shothahara",
+        "Vajikarana"
+      ],
+      "prabhava": "Traditional Ayurvedic action",
+      "indications": [
+        "Respiratory",
+        "Reproductive support",
+        "Urinary issues"
+      ],
+      "typicalDosage": {
+        "powder": "1–6 g per day",
+        "capsule": "500 mg 1–2 times daily"
+      },
+      "anupana": [
+        "Honey",
+        "Warm water"
+      ],
+      "contraindications": [
+        "Diabetes"
+      ],
+      "marketInfo": {
+        "brandExamples": [
+          "AVP",
+          "Nagarjun",
+          "Dabur"
+        ],
+        "pricePerKg": "₹2106 per kg (MRP)",
+        "packages": [
+          "50 g",
+          "100 g",
+          "250 g",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "454d",
+      "name": "Irimedadi",
+      "sanskritName": "Irimedadi",
+      "botanicalName": "Operculina turpethum",
+      "family": "Various",
+      "parts": [
+        "Whole plant",
+        "Root"
+      ],
+      "rasa": [
+        "Tikta-Madhura",
+        "Tikta"
+      ],
+      "guna": [
+        "Guru",
+        "Sukshma"
+      ],
+      "virya": "Sheeta",
+      "vipaka": "Katu",
+      "karma": [
+        "Pittahara",
+        "Mutrala",
+        "Kaphahara"
+      ],
+      "prabhava": "Traditional Ayurvedic action",
+      "indications": [
+        "Joint pain",
+        "Cognitive support",
+        "Fever"
+      ],
+      "typicalDosage": {
+        "powder": "1–7 g per day",
+        "capsule": "500 mg 1–2 times daily"
+      },
+      "anupana": [
+        "Milk",
+        "Honey"
+      ],
+      "contraindications": [
+        "Not for children under 5"
+      ],
+      "marketInfo": {
+        "brandExamples": [
+          "Dhootapapeshwar",
+          "Sandu",
+          "Himalaya"
+        ],
+        "pricePerKg": "₹1908 per kg (MRP)",
+        "packages": [
+          "50 g",
+          "100 g",
+          "250 g",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "17d7",
+      "name": "Jivanti",
+      "sanskritName": "Jivanti",
+      "botanicalName": "Leptadenia reticulata",
+      "family": "Various",
+      "parts": [
+        "Whole plant",
+        "Root"
+      ],
+      "rasa": [
+        "Tikta-Madhura",
+        "Katu"
+      ],
+      "guna": [
+        "Guru",
+        "Laghu"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "karma": [
+        "Balya",
+        "Mutrala",
+        "Vajikarana"
+      ],
+      "prabhava": "Traditional Ayurvedic action",
+      "indications": [
+        "Weakness",
+        "Fever",
+        "Digestive disorders"
+      ],
+      "typicalDosage": {
+        "powder": "1–8 g per day",
+        "capsule": "400 mg 1–2 times daily"
+      },
+      "anupana": [
+        "Honey",
+        "Ghee"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "marketInfo": {
+        "brandExamples": [
+          "Zandu",
+          "Dabur",
+          "Baidyanath"
+        ],
+        "pricePerKg": "₹1630 per kg (MRP)",
+        "packages": [
+          "50 g",
+          "100 g",
+          "250 g",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "25a5",
+      "name": "Karanj",
+      "sanskritName": "Karanj",
+      "botanicalName": "Pongamia pinnata",
+      "family": "Various",
+      "parts": [
+        "Leaf",
+        "Root"
+      ],
+      "rasa": [
+        "Kashaya",
+        "Madhura"
+      ],
+      "guna": [
+        "Laghu",
+        "Snigdha"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "karma": [
+        "Mutrala",
+        "Kaphahara",
+        "Vajikarana"
+      ],
+      "prabhava": "Traditional Ayurvedic action",
+      "indications": [
+        "Respiratory",
+        "Weakness",
+        "Cognitive support"
+      ],
+      "typicalDosage": {
+        "powder": "2–8 g per day",
+        "capsule": "300 mg 1–2 times daily"
+      },
+      "anupana": [
+        "Honey",
+        "Ghee"
+      ],
+      "contraindications": [
+        "Diabetes"
+      ],
+      "marketInfo": {
+        "brandExamples": [
+          "AVP",
+          "Aimil",
+          "Zandu"
+        ],
+        "pricePerKg": "₹1628 per kg (MRP)",
+        "packages": [
+          "50 g",
+          "100 g",
+          "250 g",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "739d",
+      "name": "Lodhra Minor",
+      "sanskritName": "Lodhra Minor",
+      "botanicalName": "Symplocos microphylla",
+      "family": "Various",
+      "parts": [
+        "Whole plant",
+        "Root"
+      ],
+      "rasa": [
+        "Tikta",
+        "Tikta-Madhura"
+      ],
+      "guna": [
+        "Guru",
+        "Ruksha"
+      ],
+      "virya": "Sheeta",
+      "vipaka": "Madhura",
+      "karma": [
+        "Rasayana",
+        "Pittahara",
+        "Mutrala"
+      ],
+      "prabhava": "Traditional Ayurvedic action",
+      "indications": [
+        "Respiratory",
+        "Reproductive support",
+        "Digestive disorders"
+      ],
+      "typicalDosage": {
+        "powder": "4–5 g per day",
+        "capsule": "500 mg 1–2 times daily"
+      },
+      "anupana": [
+        "Honey",
+        "Milk"
+      ],
+      "contraindications": [
+        "None listed"
+      ],
+      "marketInfo": {
+        "brandExamples": [
+          "Himalaya",
+          "AVP",
+          "Baidyanath"
+        ],
+        "pricePerKg": "₹670 per kg (MRP)",
+        "packages": [
+          "50 g",
+          "100 g",
+          "250 g",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "2d0a",
+      "name": "Musta Var.",
+      "sanskritName": "Musta Var.",
+      "botanicalName": "Cyperus rotundus var. major",
+      "family": "Various",
+      "parts": [
+        "Leaf",
+        "Root"
+      ],
+      "rasa": [
+        "Kashaya",
+        "Katu"
+      ],
+      "guna": [
+        "Guru",
+        "Sukshma"
+      ],
+      "virya": "Sheeta",
+      "vipaka": "Madhura",
+      "karma": [
+        "Shothahara",
+        "Mutrala",
+        "Kaphahara"
+      ],
+      "prabhava": "Traditional Ayurvedic action",
+      "indications": [
+        "Reproductive support",
+        "Cognitive support",
+        "Digestive disorders"
+      ],
+      "typicalDosage": {
+        "powder": "3–7 g per day",
+        "capsule": "400 mg 1–2 times daily"
+      },
+      "anupana": [
+        "Honey",
+        "Milk"
+      ],
+      "contraindications": [
+        "Hypertension"
+      ],
+      "marketInfo": {
+        "brandExamples": [
+          "Himalaya",
+          "Aimil",
+          "Unjha"
+        ],
+        "pricePerKg": "₹947 per kg (MRP)",
+        "packages": [
+          "50 g",
+          "100 g",
+          "250 g",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "8ef3",
+      "name": "Nilotpala",
+      "sanskritName": "Nilotpala",
+      "botanicalName": "Nymphaea lotus",
+      "family": "Various",
+      "parts": [
+        "Leaf",
+        "Root"
+      ],
+      "rasa": [
+        "Tikta-Madhura",
+        "Katu"
+      ],
+      "guna": [
+        "Guru",
+        "Ruksha"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "karma": [
+        "Rasayana",
+        "Mutrala",
+        "Shothahara"
+      ],
+      "prabhava": "Traditional Ayurvedic action",
+      "indications": [
+        "Skin disorders",
+        "Digestive disorders",
+        "Urinary issues"
+      ],
+      "typicalDosage": {
+        "powder": "3–8 g per day",
+        "capsule": "500 mg 1–2 times daily"
+      },
+      "anupana": [
+        "Honey",
+        "Warm water"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "marketInfo": {
+        "brandExamples": [
+          "Himalaya",
+          "Unjha",
+          "AVN"
+        ],
+        "pricePerKg": "₹1185 per kg (MRP)",
+        "packages": [
+          "50 g",
+          "100 g",
+          "250 g",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "463b",
+      "name": "Pippali Var.",
+      "sanskritName": "Pippali Var.",
+      "botanicalName": "Piper longum var. minor",
+      "family": "Various",
+      "parts": [
+        "Whole plant",
+        "Root"
+      ],
+      "rasa": [
+        "Tikta",
+        "Katu"
+      ],
+      "guna": [
+        "Snigdha",
+        "Ruksha"
+      ],
+      "virya": "Sheeta",
+      "vipaka": "Madhura",
+      "karma": [
+        "Shothahara",
+        "Vajikarana",
+        "Mutrala"
+      ],
+      "prabhava": "Traditional Ayurvedic action",
+      "indications": [
+        "Fever",
+        "Reproductive support",
+        "Cognitive support"
+      ],
+      "typicalDosage": {
+        "powder": "4–6 g per day",
+        "capsule": "500 mg 1–2 times daily"
+      },
+      "anupana": [
+        "Milk",
+        "Warm water"
+      ],
+      "contraindications": [
+        "Not for children under 5"
+      ],
+      "marketInfo": {
+        "brandExamples": [
+          "AVP",
+          "Baidyanath",
+          "Nagarjun"
+        ],
+        "pricePerKg": "₹1813 per kg (MRP)",
+        "packages": [
+          "50 g",
+          "100 g",
+          "250 g",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "2baa",
+      "name": "Rohitaka",
+      "sanskritName": "Rohitaka",
+      "botanicalName": "Tephrosia purpurea",
+      "family": "Various",
+      "parts": [
+        "Whole plant",
+        "Root"
+      ],
+      "rasa": [
+        "Tikta-Madhura",
+        "Madhura"
+      ],
+      "guna": [
+        "Sukshma",
+        "Ruksha"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Kashaya",
+      "karma": [
+        "Vajikarana",
+        "Shothahara",
+        "Vatahara"
+      ],
+      "prabhava": "Traditional Ayurvedic action",
+      "indications": [
+        "Reproductive support",
+        "Fever",
+        "Respiratory"
+      ],
+      "typicalDosage": {
+        "powder": "4–7 g per day",
+        "capsule": "250 mg 1–2 times daily"
+      },
+      "anupana": [
+        "Warm water",
+        "Ghee"
+      ],
+      "contraindications": [
+        "Not for children under 5"
+      ],
+      "marketInfo": {
+        "brandExamples": [
+          "Himalaya",
+          "Zandu",
+          "Nagarjun"
+        ],
+        "pricePerKg": "₹1890 per kg (MRP)",
+        "packages": [
+          "50 g",
+          "100 g",
+          "250 g",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "fa8d",
+      "name": "Sringavera",
+      "sanskritName": "Sringavera",
+      "botanicalName": "Clitoria ternatea",
+      "family": "Various",
+      "parts": [
+        "Leaf",
+        "Root"
+      ],
+      "rasa": [
+        "Madhura",
+        "Tikta"
+      ],
+      "guna": [
+        "Sukshma",
+        "Guru"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "karma": [
+        "Vajikarana",
+        "Pittahara",
+        "Balya"
+      ],
+      "prabhava": "Traditional Ayurvedic action",
+      "indications": [
+        "Fever",
+        "Digestive disorders",
+        "Urinary issues"
+      ],
+      "typicalDosage": {
+        "powder": "3–7 g per day",
+        "capsule": "500 mg 1–2 times daily"
+      },
+      "anupana": [
+        "Ghee",
+        "Warm water"
+      ],
+      "contraindications": [
+        "Not for children under 5"
+      ],
+      "marketInfo": {
+        "brandExamples": [
+          "Himalaya",
+          "Nagarjun",
+          "Baidyanath"
+        ],
+        "pricePerKg": "₹562 per kg (MRP)",
+        "packages": [
+          "50 g",
+          "100 g",
+          "250 g",
+          "500 g"
+        ]
+      }
     }
   ],
   "formulations": [
@@ -2506,16 +5197,18 @@
     {
       "name": "Ashokarishta",
       "sanskritName": "अशोकारिष्ट",
-      "type": "Arishta (Fermented decoction)",
+      "type": "Asava–Arishta (Fermented preparation)",
       "clinicalSystems": [
-        "Female reproductive"
+        "Reproductive (Female)",
+        "Endocrine"
       ],
       "indicationCategories": [
         "Menstrual disorders",
-        "Leucorrhea"
+        "Menorrhagia"
       ],
       "traditionalCategories": [
-        "Stree roga hara"
+        "Rasayana",
+        "Stanyajanana"
       ],
       "ingredients": [
         {
@@ -2531,30 +5224,31 @@
         {
           "herb": "Mustaka",
           "quantity": "1 part",
-          "part": "rhizome"
+          "part": "root"
         }
       ],
       "indications": [
-        "Irregular menses",
-        "Menorrhagia",
-        "Back pain"
+        "Menstrual irregularity",
+        "Leucorrhea"
       ],
       "dosage": {
-        "amount": "15–25 ml",
-        "frequency": "After meals"
+        "amount": "15–30 ml",
+        "frequency": "Twice daily after meals"
       },
       "anupana": [
-        "Water"
+        "Equal quantity of water"
       ],
       "contraindications": [
         "Pregnancy"
       ],
       "reference": "Bhaishajya Ratnavali",
+      "brand": "Baidyanath / Dhootapapeshwar / Sandu",
       "marketInfo": {
-        "price": "₹130–₹320 per 450 ml",
+        "price": "₹130–₹280 per 450 ml (MRP)",
         "packages": [
-          "225 ml",
-          "450 ml"
+          "200 ml",
+          "450 ml",
+          "700 ml"
         ]
       },
       "id": "ashokarishta"
@@ -13353,6 +16047,6202 @@
         "200 g": 180
       },
       "reference": "Charak Pharmacy"
+    },
+    {
+      "id": "72a4",
+      "name": "Navakar Lehyam",
+      "sanskritName": "Navakar Lehyam (संस्कृत)",
+      "type": "Churna",
+      "clinicalSystems": [
+        "Nervous",
+        "Reproductive"
+      ],
+      "indicationCategories": [
+        "Liver support",
+        "Indigestion"
+      ],
+      "traditionalCategories": [
+        "Pachana",
+        "Pittahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Yavani Var.",
+          "quantity": "2 parts",
+          "part": "Root"
+        },
+        {
+          "herb": "Nilotpala",
+          "quantity": "standardised extract",
+          "part": "Root"
+        },
+        {
+          "herb": "Musta Var.",
+          "quantity": "major",
+          "part": "Leaf"
+        }
+      ],
+      "indications": [
+        "Fatigue",
+        "Joint pain",
+        "Skin eruptions"
+      ],
+      "dosage": {
+        "amount": "5-10 ml",
+        "frequency": "After meals"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Children under 5"
+      ],
+      "reference": "Charaka Samhita",
+      "brand": "Nagarjun",
+      "marketInfo": {
+        "price": "₹817 (MRP)",
+        "packages": [
+          "200 ml",
+          "100 g"
+        ]
+      }
+    },
+    {
+      "id": "ef5f",
+      "name": "Guda Churna",
+      "sanskritName": "Guda Churna (संस्कृत)",
+      "type": "Syrup",
+      "clinicalSystems": [
+        "Reproductive",
+        "Nervous"
+      ],
+      "indicationCategories": [
+        "Skin disorders",
+        "Menstrual disorders"
+      ],
+      "traditionalCategories": [
+        "Deepana",
+        "Vatahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Brahmi Niruha",
+          "quantity": "2 parts",
+          "part": "Whole plant"
+        },
+        {
+          "herb": "Psyllium Husk",
+          "quantity": "major",
+          "part": "Root"
+        },
+        {
+          "herb": "Ekangveer",
+          "quantity": "minor",
+          "part": "Leaf"
+        }
+      ],
+      "indications": [
+        "Low immunity",
+        "Constipation",
+        "Cough"
+      ],
+      "dosage": {
+        "amount": "3-6 g",
+        "frequency": "Once daily"
+      },
+      "anupana": [
+        "Honey"
+      ],
+      "contraindications": [
+        "Diabetes"
+      ],
+      "reference": "Proprietary formula",
+      "brand": "Charak",
+      "marketInfo": {
+        "price": "₹326 (MRP)",
+        "packages": [
+          "100 ml",
+          "200 g"
+        ]
+      }
+    },
+    {
+      "id": "7a0a",
+      "name": "Pranashakti Taila",
+      "sanskritName": "Pranashakti Taila (संस्कृत)",
+      "type": "Syrup",
+      "clinicalSystems": [
+        "General Health",
+        "Digestive"
+      ],
+      "indicationCategories": [
+        "Menstrual disorders",
+        "Diabetes support"
+      ],
+      "traditionalCategories": [
+        "Deepana",
+        "Anulomana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Vriddhadaru",
+          "quantity": "2 parts",
+          "part": "Root"
+        },
+        {
+          "herb": "Bala Var.",
+          "quantity": "standardised extract",
+          "part": "Leaf"
+        },
+        {
+          "herb": "Yavani Var.",
+          "quantity": "1 part",
+          "part": "Whole plant"
+        }
+      ],
+      "indications": [
+        "Constipation",
+        "Fatigue",
+        "Menstrual irregularities"
+      ],
+      "dosage": {
+        "amount": "1-3 g",
+        "frequency": "Once daily"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Diabetes"
+      ],
+      "reference": "Bhaishajya Ratnavali",
+      "brand": "Zandu",
+      "marketInfo": {
+        "price": "₹289 (MRP)",
+        "packages": [
+          "60 tabs",
+          "250 g"
+        ]
+      }
+    },
+    {
+      "id": "f0f7",
+      "name": "Trikhandu Lehyam",
+      "sanskritName": "Trikhandu Lehyam (संस्कृत)",
+      "type": "Churna",
+      "clinicalSystems": [
+        "Digestive",
+        "Musculoskeletal"
+      ],
+      "indicationCategories": [
+        "Edema",
+        "Arthritis"
+      ],
+      "traditionalCategories": [
+        "Vatahara",
+        "Pittahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Rohitaka",
+          "quantity": "1 part",
+          "part": "Root"
+        },
+        {
+          "herb": "Saptaparna",
+          "quantity": "minor",
+          "part": "Root"
+        },
+        {
+          "herb": "Daruharidra",
+          "quantity": "minor",
+          "part": "Leaf"
+        }
+      ],
+      "indications": [
+        "Low immunity",
+        "Memory issues",
+        "Swelling"
+      ],
+      "dosage": {
+        "amount": "5-10 ml",
+        "frequency": "Before meals"
+      },
+      "anupana": [
+        "Milk"
+      ],
+      "contraindications": [
+        "None listed"
+      ],
+      "reference": "Proprietary formula",
+      "brand": "Zandu",
+      "marketInfo": {
+        "price": "₹616 (MRP)",
+        "packages": [
+          "100 ml",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "27e1",
+      "name": "Kasaradi Kashayam",
+      "sanskritName": "Kasaradi Kashayam (संस्कृत)",
+      "type": "Churna",
+      "clinicalSystems": [
+        "Urinary",
+        "Respiratory"
+      ],
+      "indicationCategories": [
+        "Edema",
+        "Memory"
+      ],
+      "traditionalCategories": [
+        "Deepana",
+        "Pachana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Kukuda",
+          "quantity": "major",
+          "part": "Root"
+        },
+        {
+          "herb": "Saptaparna",
+          "quantity": "minor",
+          "part": "Whole plant"
+        },
+        {
+          "herb": "Kapikacchu",
+          "quantity": "standardised extract",
+          "part": "Root"
+        }
+      ],
+      "indications": [
+        "Skin eruptions",
+        "Menstrual irregularities",
+        "Joint pain"
+      ],
+      "dosage": {
+        "amount": "1-3 g",
+        "frequency": "Before meals"
+      },
+      "anupana": [
+        "Milk"
+      ],
+      "contraindications": [
+        "Diabetes"
+      ],
+      "reference": "Proprietary formula",
+      "brand": "Aimil",
+      "marketInfo": {
+        "price": "₹389 (MRP)",
+        "packages": [
+          "500 g",
+          "60 tabs"
+        ]
+      }
+    },
+    {
+      "id": "4a75",
+      "name": "Vajikarana Guggulu",
+      "sanskritName": "Vajikarana Guggulu (संस्कृत)",
+      "type": "Taila",
+      "clinicalSystems": [
+        "Urinary",
+        "Nervous"
+      ],
+      "indicationCategories": [
+        "Diabetes support",
+        "Skin disorders"
+      ],
+      "traditionalCategories": [
+        "Anulomana",
+        "Vatahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Pippali Var.",
+          "quantity": "2 parts",
+          "part": "Root"
+        },
+        {
+          "herb": "Kalmegh",
+          "quantity": "minor",
+          "part": "Whole plant"
+        },
+        {
+          "herb": "Kapikacchu",
+          "quantity": "2 parts",
+          "part": "Whole plant"
+        }
+      ],
+      "indications": [
+        "Skin eruptions",
+        "Cough",
+        "Memory issues"
+      ],
+      "dosage": {
+        "amount": "5-10 ml",
+        "frequency": "Before meals"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Children under 5"
+      ],
+      "reference": "Ashtanga Hridaya",
+      "brand": "Sandu",
+      "marketInfo": {
+        "price": "₹225 (MRP)",
+        "packages": [
+          "60 tabs",
+          "30 tabs"
+        ]
+      }
+    },
+    {
+      "id": "6df1",
+      "name": "Swasthya Churna",
+      "sanskritName": "Swasthya Churna (संस्कृत)",
+      "type": "Lehyam",
+      "clinicalSystems": [
+        "Reproductive",
+        "Dermatology"
+      ],
+      "indicationCategories": [
+        "Indigestion",
+        "Skin disorders"
+      ],
+      "traditionalCategories": [
+        "Kaphahara",
+        "Pittahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Yavani Var.",
+          "quantity": "2 parts",
+          "part": "Root"
+        },
+        {
+          "herb": "Sigru",
+          "quantity": "major",
+          "part": "Whole plant"
+        },
+        {
+          "herb": "Jatipatra",
+          "quantity": "minor",
+          "part": "Root"
+        }
+      ],
+      "indications": [
+        "Low immunity",
+        "High blood sugar",
+        "Menstrual irregularities"
+      ],
+      "dosage": {
+        "amount": "10-15 ml",
+        "frequency": "After meals"
+      },
+      "anupana": [
+        "Honey"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "reference": "Charaka Samhita",
+      "brand": "Zandu",
+      "marketInfo": {
+        "price": "₹529 (MRP)",
+        "packages": [
+          "100 g",
+          "60 tabs"
+        ]
+      }
+    },
+    {
+      "id": "f5c3",
+      "name": "Prajnaprada Vati",
+      "sanskritName": "Prajnaprada Vati (संस्कृत)",
+      "type": "Churna",
+      "clinicalSystems": [
+        "Reproductive",
+        "General Health"
+      ],
+      "indicationCategories": [
+        "Immunity",
+        "Cough"
+      ],
+      "traditionalCategories": [
+        "Vatahara",
+        "Balya"
+      ],
+      "ingredients": [
+        {
+          "herb": "Psyllium Husk",
+          "quantity": "major",
+          "part": "Root"
+        },
+        {
+          "herb": "Vriddhadaru",
+          "quantity": "1 part",
+          "part": "Leaf"
+        },
+        {
+          "herb": "Karanj",
+          "quantity": "major",
+          "part": "Root"
+        }
+      ],
+      "indications": [
+        "Swelling",
+        "Joint pain",
+        "Cough"
+      ],
+      "dosage": {
+        "amount": "1-2 tablets",
+        "frequency": "Twice daily"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "reference": "Charaka Samhita",
+      "brand": "AVP",
+      "marketInfo": {
+        "price": "₹347 (MRP)",
+        "packages": [
+          "30 tabs",
+          "250 g"
+        ]
+      }
+    },
+    {
+      "id": "9465",
+      "name": "Kalikadi Taila",
+      "sanskritName": "Kalikadi Taila (संस्कृत)",
+      "type": "Churna",
+      "clinicalSystems": [
+        "Dermatology",
+        "Digestive"
+      ],
+      "indicationCategories": [
+        "Arthritis",
+        "Liver support"
+      ],
+      "traditionalCategories": [
+        "Pittahara",
+        "Vatahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Nila",
+          "quantity": "standardised extract",
+          "part": "Leaf"
+        },
+        {
+          "herb": "Ahiphena",
+          "quantity": "minor",
+          "part": "Leaf"
+        },
+        {
+          "herb": "Musta Var.",
+          "quantity": "1 part",
+          "part": "Leaf"
+        }
+      ],
+      "indications": [
+        "Constipation",
+        "Skin eruptions",
+        "Joint pain"
+      ],
+      "dosage": {
+        "amount": "1-3 g",
+        "frequency": "Once daily"
+      },
+      "anupana": [
+        "Ghee"
+      ],
+      "contraindications": [
+        "None listed"
+      ],
+      "reference": "Bhaishajya Ratnavali",
+      "brand": "AVN",
+      "marketInfo": {
+        "price": "₹829 (MRP)",
+        "packages": [
+          "200 ml",
+          "30 tabs"
+        ]
+      }
+    },
+    {
+      "id": "a89a",
+      "name": "Medha Rasayana",
+      "sanskritName": "Medha Rasayana (संस्कृत)",
+      "type": "Kashayam",
+      "clinicalSystems": [
+        "Respiratory",
+        "Urinary"
+      ],
+      "indicationCategories": [
+        "Cough",
+        "Menstrual disorders"
+      ],
+      "traditionalCategories": [
+        "Balya",
+        "Pittahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Brahmi Niruha",
+          "quantity": "minor",
+          "part": "Whole plant"
+        },
+        {
+          "herb": "Pippali Var.",
+          "quantity": "1 part",
+          "part": "Root"
+        },
+        {
+          "herb": "Bala Var.",
+          "quantity": "standardised extract",
+          "part": "Root"
+        }
+      ],
+      "indications": [
+        "Memory issues",
+        "Menstrual irregularities",
+        "Fatigue"
+      ],
+      "dosage": {
+        "amount": "1 tablet",
+        "frequency": "Once daily"
+      },
+      "anupana": [
+        "Milk"
+      ],
+      "contraindications": [
+        "Diabetes"
+      ],
+      "reference": "Proprietary formula",
+      "brand": "AVP",
+      "marketInfo": {
+        "price": "₹455 (MRP)",
+        "packages": [
+          "60 tabs",
+          "250 g"
+        ]
+      }
+    },
+    {
+      "id": "2246",
+      "name": "Stanya Vardhak Lehyam",
+      "sanskritName": "Stanya Vardhak Lehyam (संस्कृत)",
+      "type": "Gulika",
+      "clinicalSystems": [
+        "Respiratory",
+        "Digestive"
+      ],
+      "indicationCategories": [
+        "Indigestion",
+        "Arthritis"
+      ],
+      "traditionalCategories": [
+        "Pachana",
+        "Kaphahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Ahiphena",
+          "quantity": "standardised extract",
+          "part": "Leaf"
+        },
+        {
+          "herb": "Rohitaka",
+          "quantity": "standardised extract",
+          "part": "Root"
+        },
+        {
+          "herb": "Nilotpala",
+          "quantity": "standardised extract",
+          "part": "Root"
+        }
+      ],
+      "indications": [
+        "Swelling",
+        "Cough",
+        "Constipation"
+      ],
+      "dosage": {
+        "amount": "3-6 g",
+        "frequency": "Twice daily"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "reference": "Charaka Samhita",
+      "brand": "Aimil",
+      "marketInfo": {
+        "price": "₹515 (MRP)",
+        "packages": [
+          "250 g",
+          "200 g"
+        ]
+      }
+    },
+    {
+      "id": "020b",
+      "name": "Garbhaprasad Churna",
+      "sanskritName": "Garbhaprasad Churna (संस्कृत)",
+      "type": "Kashayam",
+      "clinicalSystems": [
+        "Nervous",
+        "Dermatology"
+      ],
+      "indicationCategories": [
+        "Diabetes support",
+        "Indigestion"
+      ],
+      "traditionalCategories": [
+        "Vatahara",
+        "Anulomana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Tavak",
+          "quantity": "minor",
+          "part": "Root"
+        },
+        {
+          "herb": "Vijaysar",
+          "quantity": "1 part",
+          "part": "Root"
+        },
+        {
+          "herb": "Jivanti",
+          "quantity": "major",
+          "part": "Root"
+        }
+      ],
+      "indications": [
+        "Low immunity",
+        "Cough",
+        "Constipation"
+      ],
+      "dosage": {
+        "amount": "1 tablet",
+        "frequency": "Once daily"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Diabetes"
+      ],
+      "reference": "Bhaishajya Ratnavali",
+      "brand": "Unjha",
+      "marketInfo": {
+        "price": "₹439 (MRP)",
+        "packages": [
+          "60 tabs",
+          "250 g"
+        ]
+      }
+    },
+    {
+      "id": "4d14",
+      "name": "Lekhana Vati",
+      "sanskritName": "Lekhana Vati (संस्कृत)",
+      "type": "Tablet",
+      "clinicalSystems": [
+        "Musculoskeletal",
+        "Dermatology"
+      ],
+      "indicationCategories": [
+        "Immunity",
+        "Menstrual disorders"
+      ],
+      "traditionalCategories": [
+        "Kaphahara",
+        "Pittahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Kapikacchu",
+          "quantity": "2 parts",
+          "part": "Root"
+        },
+        {
+          "herb": "Kapoor Kachri",
+          "quantity": "2 parts",
+          "part": "Whole plant"
+        },
+        {
+          "herb": "Gojihva",
+          "quantity": "minor",
+          "part": "Root"
+        }
+      ],
+      "indications": [
+        "Cough",
+        "Skin eruptions",
+        "Low immunity"
+      ],
+      "dosage": {
+        "amount": "5-10 ml",
+        "frequency": "After meals"
+      },
+      "anupana": [
+        "Milk"
+      ],
+      "contraindications": [
+        "Children under 5"
+      ],
+      "reference": "Proprietary formula",
+      "brand": "AVN",
+      "marketInfo": {
+        "price": "₹415 (MRP)",
+        "packages": [
+          "60 tabs",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "6d17",
+      "name": "Hridya Ras",
+      "sanskritName": "Hridya Ras (संस्कृत)",
+      "type": "Lehyam",
+      "clinicalSystems": [
+        "Digestive",
+        "Dermatology"
+      ],
+      "indicationCategories": [
+        "Edema",
+        "Memory"
+      ],
+      "traditionalCategories": [
+        "Pittahara",
+        "Vatahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Musta Var.",
+          "quantity": "minor",
+          "part": "Root"
+        },
+        {
+          "herb": "Sigru",
+          "quantity": "standardised extract",
+          "part": "Whole plant"
+        },
+        {
+          "herb": "Kapoor Kachri",
+          "quantity": "2 parts",
+          "part": "Whole plant"
+        }
+      ],
+      "indications": [
+        "Memory issues",
+        "Cough",
+        "Joint pain"
+      ],
+      "dosage": {
+        "amount": "1-2 tablets",
+        "frequency": "Twice daily"
+      },
+      "anupana": [
+        "Milk"
+      ],
+      "contraindications": [
+        "Hypertension"
+      ],
+      "reference": "Ashtanga Hridaya",
+      "brand": "Unjha",
+      "marketInfo": {
+        "price": "₹561 (MRP)",
+        "packages": [
+          "250 g",
+          "200 ml"
+        ]
+      }
+    },
+    {
+      "id": "93c8",
+      "name": "Mutrala Syrup",
+      "sanskritName": "Mutrala Syrup (संस्कृत)",
+      "type": "Syrup",
+      "clinicalSystems": [
+        "Nervous",
+        "General Health"
+      ],
+      "indicationCategories": [
+        "Diabetes support",
+        "Indigestion"
+      ],
+      "traditionalCategories": [
+        "Deepana",
+        "Vatahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Bakuchi",
+          "quantity": "standardised extract",
+          "part": "Leaf"
+        },
+        {
+          "herb": "Suraha",
+          "quantity": "2 parts",
+          "part": "Whole plant"
+        },
+        {
+          "herb": "Irimedadi",
+          "quantity": "major",
+          "part": "Whole plant"
+        }
+      ],
+      "indications": [
+        "Memory issues",
+        "Swelling",
+        "Low immunity"
+      ],
+      "dosage": {
+        "amount": "5-10 ml",
+        "frequency": "Once daily"
+      },
+      "anupana": [
+        "Ghee"
+      ],
+      "contraindications": [
+        "None listed"
+      ],
+      "reference": "Bhaishajya Ratnavali",
+      "brand": "Aimil",
+      "marketInfo": {
+        "price": "₹813 (MRP)",
+        "packages": [
+          "250 g",
+          "30 tabs"
+        ]
+      }
+    },
+    {
+      "id": "f398",
+      "name": "Kuttan Churna",
+      "sanskritName": "Kuttan Churna (संस्कृत)",
+      "type": "Tablet",
+      "clinicalSystems": [
+        "General Health",
+        "Musculoskeletal"
+      ],
+      "indicationCategories": [
+        "Skin disorders",
+        "Diabetes support"
+      ],
+      "traditionalCategories": [
+        "Kaphahara",
+        "Deepana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Utpala",
+          "quantity": "standardised extract",
+          "part": "Leaf"
+        },
+        {
+          "herb": "Vacha Var.",
+          "quantity": "2 parts",
+          "part": "Leaf"
+        },
+        {
+          "herb": "Rohitaka",
+          "quantity": "minor",
+          "part": "Root"
+        }
+      ],
+      "indications": [
+        "Low immunity",
+        "Menstrual irregularities",
+        "High blood sugar"
+      ],
+      "dosage": {
+        "amount": "5-10 ml",
+        "frequency": "Once daily"
+      },
+      "anupana": [
+        "Milk"
+      ],
+      "contraindications": [
+        "Diabetes"
+      ],
+      "reference": "Proprietary formula",
+      "brand": "Nagarjun",
+      "marketInfo": {
+        "price": "₹405 (MRP)",
+        "packages": [
+          "250 g",
+          "200 g"
+        ]
+      }
+    },
+    {
+      "id": "3e85",
+      "name": "Shwasahara Tablet",
+      "sanskritName": "Shwasahara Tablet (संस्कृत)",
+      "type": "Ghrita",
+      "clinicalSystems": [
+        "Reproductive",
+        "Digestive"
+      ],
+      "indicationCategories": [
+        "Arthritis",
+        "Menstrual disorders"
+      ],
+      "traditionalCategories": [
+        "Balya",
+        "Rasayana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Vriddhadaru",
+          "quantity": "2 parts",
+          "part": "Leaf"
+        },
+        {
+          "herb": "Tavak",
+          "quantity": "1 part",
+          "part": "Leaf"
+        },
+        {
+          "herb": "Brahmi Niruha",
+          "quantity": "major",
+          "part": "Whole plant"
+        }
+      ],
+      "indications": [
+        "Joint pain",
+        "Constipation",
+        "Skin eruptions"
+      ],
+      "dosage": {
+        "amount": "1 tablet",
+        "frequency": "Twice daily"
+      },
+      "anupana": [
+        "Milk"
+      ],
+      "contraindications": [
+        "Hypertension"
+      ],
+      "reference": "Bhaishajya Ratnavali",
+      "brand": "Dabur",
+      "marketInfo": {
+        "price": "₹122 (MRP)",
+        "packages": [
+          "30 tabs",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "7317",
+      "name": "Kapha Balya Syrup",
+      "sanskritName": "Kapha Balya Syrup (संस्कृत)",
+      "type": "Ghrita",
+      "clinicalSystems": [
+        "Reproductive",
+        "Respiratory"
+      ],
+      "indicationCategories": [
+        "Edema",
+        "Cough"
+      ],
+      "traditionalCategories": [
+        "Deepana",
+        "Rasayana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Lodhra Var.",
+          "quantity": "major",
+          "part": "Root"
+        },
+        {
+          "herb": "Nila",
+          "quantity": "minor",
+          "part": "Leaf"
+        },
+        {
+          "herb": "Pippali Var.",
+          "quantity": "major",
+          "part": "Root"
+        }
+      ],
+      "indications": [
+        "Low immunity",
+        "Constipation",
+        "Cough"
+      ],
+      "dosage": {
+        "amount": "1-2 tablets",
+        "frequency": "Twice daily"
+      },
+      "anupana": [
+        "Ghee"
+      ],
+      "contraindications": [
+        "None listed"
+      ],
+      "reference": "Proprietary formula",
+      "brand": "Unjha",
+      "marketInfo": {
+        "price": "₹175 (MRP)",
+        "packages": [
+          "60 tabs",
+          "30 tabs"
+        ]
+      }
+    },
+    {
+      "id": "cfe3",
+      "name": "Sopha Nashak Oil",
+      "sanskritName": "Sopha Nashak Oil (संस्कृत)",
+      "type": "Syrup",
+      "clinicalSystems": [
+        "General Health",
+        "Digestive"
+      ],
+      "indicationCategories": [
+        "Arthritis",
+        "Liver support"
+      ],
+      "traditionalCategories": [
+        "Rasayana",
+        "Deepana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Kankola",
+          "quantity": "major",
+          "part": "Root"
+        },
+        {
+          "herb": "Kutaja",
+          "quantity": "1 part",
+          "part": "Root"
+        },
+        {
+          "herb": "Jivanti",
+          "quantity": "2 parts",
+          "part": "Root"
+        }
+      ],
+      "indications": [
+        "Joint pain",
+        "Swelling",
+        "Skin eruptions"
+      ],
+      "dosage": {
+        "amount": "5-10 ml",
+        "frequency": "Once daily"
+      },
+      "anupana": [
+        "Ghee"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "reference": "Ashtanga Hridaya",
+      "brand": "Aimil",
+      "marketInfo": {
+        "price": "₹812 (MRP)",
+        "packages": [
+          "500 g",
+          "100 g"
+        ]
+      }
+    },
+    {
+      "id": "765e",
+      "name": "Raktashodhak Vati",
+      "sanskritName": "Raktashodhak Vati (संस्कृत)",
+      "type": "Tablet",
+      "clinicalSystems": [
+        "Dermatology",
+        "Reproductive"
+      ],
+      "indicationCategories": [
+        "Immunity",
+        "Diabetes support"
+      ],
+      "traditionalCategories": [
+        "Balya",
+        "Pittahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Karanj",
+          "quantity": "standardised extract",
+          "part": "Root"
+        },
+        {
+          "herb": "Bakuchi",
+          "quantity": "major",
+          "part": "Root"
+        },
+        {
+          "herb": "Bala Var.",
+          "quantity": "1 part",
+          "part": "Root"
+        }
+      ],
+      "indications": [
+        "Constipation",
+        "Menstrual irregularities",
+        "Cough"
+      ],
+      "dosage": {
+        "amount": "10-15 ml",
+        "frequency": "Once daily"
+      },
+      "anupana": [
+        "Honey"
+      ],
+      "contraindications": [
+        "Hypertension"
+      ],
+      "reference": "Bhaishajya Ratnavali",
+      "brand": "Baidyanath",
+      "marketInfo": {
+        "price": "₹516 (MRP)",
+        "packages": [
+          "250 g",
+          "100 ml"
+        ]
+      }
+    },
+    {
+      "id": "3502",
+      "name": "Anulomana Drops",
+      "sanskritName": "Anulomana Drops (संस्कृत)",
+      "type": "Ghrita",
+      "clinicalSystems": [
+        "Nervous",
+        "General Health"
+      ],
+      "indicationCategories": [
+        "Indigestion",
+        "Edema"
+      ],
+      "traditionalCategories": [
+        "Kaphahara",
+        "Pittahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Lodhra Var.",
+          "quantity": "major",
+          "part": "Root"
+        },
+        {
+          "herb": "Jivanti",
+          "quantity": "minor",
+          "part": "Root"
+        },
+        {
+          "herb": "Bala Var.",
+          "quantity": "minor",
+          "part": "Root"
+        }
+      ],
+      "indications": [
+        "Low immunity",
+        "Joint pain",
+        "Skin eruptions"
+      ],
+      "dosage": {
+        "amount": "1-3 g",
+        "frequency": "Before meals"
+      },
+      "anupana": [
+        "Honey"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "reference": "Charaka Samhita",
+      "brand": "Sandu",
+      "marketInfo": {
+        "price": "₹705 (MRP)",
+        "packages": [
+          "200 ml",
+          "100 g"
+        ]
+      }
+    },
+    {
+      "id": "4c4f",
+      "name": "Virechana Churna",
+      "sanskritName": "Virechana Churna (संस्कृत)",
+      "type": "Taila",
+      "clinicalSystems": [
+        "Respiratory",
+        "Reproductive"
+      ],
+      "indicationCategories": [
+        "Cough",
+        "Immunity"
+      ],
+      "traditionalCategories": [
+        "Pittahara",
+        "Pachana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Patha",
+          "quantity": "major",
+          "part": "Whole plant"
+        },
+        {
+          "herb": "Citraka Var.",
+          "quantity": "standardised extract",
+          "part": "Whole plant"
+        },
+        {
+          "herb": "Sigru",
+          "quantity": "major",
+          "part": "Root"
+        }
+      ],
+      "indications": [
+        "Joint pain",
+        "Constipation",
+        "Menstrual irregularities"
+      ],
+      "dosage": {
+        "amount": "1-2 tablets",
+        "frequency": "Twice daily"
+      },
+      "anupana": [
+        "Milk"
+      ],
+      "contraindications": [
+        "Diabetes"
+      ],
+      "reference": "Proprietary formula",
+      "brand": "AVN",
+      "marketInfo": {
+        "price": "₹255 (MRP)",
+        "packages": [
+          "250 g",
+          "100 ml"
+        ]
+      }
+    },
+    {
+      "id": "7fc4",
+      "name": "Vajra Kalpa Tablet",
+      "sanskritName": "Vajra Kalpa Tablet (संस्कृत)",
+      "type": "Syrup",
+      "clinicalSystems": [
+        "Respiratory",
+        "General Health"
+      ],
+      "indicationCategories": [
+        "Diabetes support",
+        "Arthritis"
+      ],
+      "traditionalCategories": [
+        "Deepana",
+        "Pittahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Lodhra Var.",
+          "quantity": "major",
+          "part": "Root"
+        },
+        {
+          "herb": "Pippali Var.",
+          "quantity": "1 part",
+          "part": "Whole plant"
+        },
+        {
+          "herb": "Zingiber Var.",
+          "quantity": "standardised extract",
+          "part": "Root"
+        }
+      ],
+      "indications": [
+        "Skin eruptions",
+        "Fatigue",
+        "Constipation"
+      ],
+      "dosage": {
+        "amount": "3-6 g",
+        "frequency": "After meals"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Children under 5"
+      ],
+      "reference": "Ashtanga Hridaya",
+      "brand": "Aimil",
+      "marketInfo": {
+        "price": "₹435 (MRP)",
+        "packages": [
+          "250 g",
+          "60 tabs"
+        ]
+      }
+    },
+    {
+      "id": "4171",
+      "name": "Yogeshwari Lehyam",
+      "sanskritName": "Yogeshwari Lehyam (संस्कृत)",
+      "type": "Kashayam",
+      "clinicalSystems": [
+        "General Health",
+        "Digestive"
+      ],
+      "indicationCategories": [
+        "Menstrual disorders",
+        "Diabetes support"
+      ],
+      "traditionalCategories": [
+        "Vatahara",
+        "Pittahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Irimedadi",
+          "quantity": "2 parts",
+          "part": "Root"
+        },
+        {
+          "herb": "Yavani Var.",
+          "quantity": "2 parts",
+          "part": "Whole plant"
+        },
+        {
+          "herb": "Haritaki Nisha",
+          "quantity": "standardised extract",
+          "part": "Leaf"
+        }
+      ],
+      "indications": [
+        "Menstrual irregularities",
+        "Fatigue",
+        "Joint pain"
+      ],
+      "dosage": {
+        "amount": "10-15 ml",
+        "frequency": "Twice daily"
+      },
+      "anupana": [
+        "Ghee"
+      ],
+      "contraindications": [
+        "Diabetes"
+      ],
+      "reference": "Proprietary formula",
+      "brand": "Unjha",
+      "marketInfo": {
+        "price": "₹490 (MRP)",
+        "packages": [
+          "60 tabs",
+          "200 g"
+        ]
+      }
+    },
+    {
+      "id": "9b43",
+      "name": "Nirogi Kashayam",
+      "sanskritName": "Nirogi Kashayam (संस्कृत)",
+      "type": "Taila",
+      "clinicalSystems": [
+        "Musculoskeletal",
+        "Reproductive"
+      ],
+      "indicationCategories": [
+        "Arthritis",
+        "Skin disorders"
+      ],
+      "traditionalCategories": [
+        "Anulomana",
+        "Deepana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Nila",
+          "quantity": "major",
+          "part": "Root"
+        },
+        {
+          "herb": "Kutaja",
+          "quantity": "standardised extract",
+          "part": "Root"
+        },
+        {
+          "herb": "Psyllium Husk",
+          "quantity": "major",
+          "part": "Root"
+        }
+      ],
+      "indications": [
+        "Swelling",
+        "Menstrual irregularities",
+        "Joint pain"
+      ],
+      "dosage": {
+        "amount": "3-6 g",
+        "frequency": "After meals"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "None listed"
+      ],
+      "reference": "Proprietary formula",
+      "brand": "Himalaya",
+      "marketInfo": {
+        "price": "₹592 (MRP)",
+        "packages": [
+          "100 g",
+          "250 g"
+        ]
+      }
+    },
+    {
+      "id": "ae2f",
+      "name": "Vishaghna Churna",
+      "sanskritName": "Vishaghna Churna (संस्कृत)",
+      "type": "Avaleha",
+      "clinicalSystems": [
+        "Nervous",
+        "Respiratory"
+      ],
+      "indicationCategories": [
+        "Arthritis",
+        "Diabetes support"
+      ],
+      "traditionalCategories": [
+        "Vatahara",
+        "Anulomana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Gambhari",
+          "quantity": "standardised extract",
+          "part": "Leaf"
+        },
+        {
+          "herb": "Gojihva",
+          "quantity": "minor",
+          "part": "Root"
+        },
+        {
+          "herb": "Karanj",
+          "quantity": "1 part",
+          "part": "Root"
+        }
+      ],
+      "indications": [
+        "Skin eruptions",
+        "Cough",
+        "Fatigue"
+      ],
+      "dosage": {
+        "amount": "1 tablet",
+        "frequency": "Twice daily"
+      },
+      "anupana": [
+        "Ghee"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "reference": "Ashtanga Hridaya",
+      "brand": "Charak",
+      "marketInfo": {
+        "price": "₹524 (MRP)",
+        "packages": [
+          "500 g",
+          "100 g"
+        ]
+      }
+    },
+    {
+      "id": "e48d",
+      "name": "Chalana Samvahana Taila",
+      "sanskritName": "Chalana Samvahana Taila (संस्कृत)",
+      "type": "Avaleha",
+      "clinicalSystems": [
+        "Digestive",
+        "Respiratory"
+      ],
+      "indicationCategories": [
+        "Cough",
+        "Arthritis"
+      ],
+      "traditionalCategories": [
+        "Deepana",
+        "Pittahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Rohitaka",
+          "quantity": "standardised extract",
+          "part": "Whole plant"
+        },
+        {
+          "herb": "Rasna Var.",
+          "quantity": "major",
+          "part": "Root"
+        },
+        {
+          "herb": "Aragvadha",
+          "quantity": "2 parts",
+          "part": "Leaf"
+        }
+      ],
+      "indications": [
+        "Memory issues",
+        "Cough",
+        "Skin eruptions"
+      ],
+      "dosage": {
+        "amount": "1 tablet",
+        "frequency": "Once daily"
+      },
+      "anupana": [
+        "Honey"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "reference": "Proprietary formula",
+      "brand": "Nagarjun",
+      "marketInfo": {
+        "price": "₹617 (MRP)",
+        "packages": [
+          "30 tabs",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "d952",
+      "name": "Prameha Nivarak Vati",
+      "sanskritName": "Prameha Nivarak Vati (संस्कृत)",
+      "type": "Syrup",
+      "clinicalSystems": [
+        "Urinary",
+        "Musculoskeletal"
+      ],
+      "indicationCategories": [
+        "Liver support",
+        "Arthritis"
+      ],
+      "traditionalCategories": [
+        "Balya",
+        "Anulomana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Ahiphena",
+          "quantity": "2 parts",
+          "part": "Root"
+        },
+        {
+          "herb": "Utpala",
+          "quantity": "1 part",
+          "part": "Leaf"
+        },
+        {
+          "herb": "Rohitaka",
+          "quantity": "standardised extract",
+          "part": "Whole plant"
+        }
+      ],
+      "indications": [
+        "Swelling",
+        "Memory issues",
+        "Skin eruptions"
+      ],
+      "dosage": {
+        "amount": "1-2 tablets",
+        "frequency": "Twice daily"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Hypertension"
+      ],
+      "reference": "Charaka Samhita",
+      "brand": "Sandu",
+      "marketInfo": {
+        "price": "₹343 (MRP)",
+        "packages": [
+          "250 g",
+          "30 tabs"
+        ]
+      }
+    },
+    {
+      "id": "6359",
+      "name": "Jwaraghna Syrup",
+      "sanskritName": "Jwaraghna Syrup (संस्कृत)",
+      "type": "Tablet",
+      "clinicalSystems": [
+        "Urinary",
+        "Dermatology"
+      ],
+      "indicationCategories": [
+        "Diabetes support",
+        "Immunity"
+      ],
+      "traditionalCategories": [
+        "Pachana",
+        "Rasayana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Kalmegh",
+          "quantity": "minor",
+          "part": "Whole plant"
+        },
+        {
+          "herb": "Kankola",
+          "quantity": "2 parts",
+          "part": "Whole plant"
+        },
+        {
+          "herb": "Aragvadha",
+          "quantity": "standardised extract",
+          "part": "Leaf"
+        }
+      ],
+      "indications": [
+        "Constipation",
+        "Menstrual irregularities",
+        "Joint pain"
+      ],
+      "dosage": {
+        "amount": "5-10 ml",
+        "frequency": "Once daily"
+      },
+      "anupana": [
+        "Milk"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "reference": "Ashtanga Hridaya",
+      "brand": "AVN",
+      "marketInfo": {
+        "price": "₹443 (MRP)",
+        "packages": [
+          "200 g",
+          "250 g"
+        ]
+      }
+    },
+    {
+      "id": "1846",
+      "name": "Balya Churna",
+      "sanskritName": "Balya Churna (संस्कृत)",
+      "type": "Lehyam",
+      "clinicalSystems": [
+        "Nervous",
+        "Digestive"
+      ],
+      "indicationCategories": [
+        "Immunity",
+        "Menstrual disorders"
+      ],
+      "traditionalCategories": [
+        "Vatahara",
+        "Kaphahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Patha",
+          "quantity": "minor",
+          "part": "Root"
+        },
+        {
+          "herb": "Lodhra Minor",
+          "quantity": "1 part",
+          "part": "Root"
+        },
+        {
+          "herb": "Ahiphena",
+          "quantity": "major",
+          "part": "Root"
+        }
+      ],
+      "indications": [
+        "Constipation",
+        "Fatigue",
+        "Cough"
+      ],
+      "dosage": {
+        "amount": "1 tablet",
+        "frequency": "Twice daily"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Children under 5"
+      ],
+      "reference": "Proprietary formula",
+      "brand": "Aimil",
+      "marketInfo": {
+        "price": "₹880 (MRP)",
+        "packages": [
+          "250 g",
+          "30 tabs"
+        ]
+      }
+    },
+    {
+      "id": "3351",
+      "name": "Karna Shodhan Oil",
+      "sanskritName": "Karna Shodhan Oil (संस्कृत)",
+      "type": "Avaleha",
+      "clinicalSystems": [
+        "Nervous",
+        "Musculoskeletal"
+      ],
+      "indicationCategories": [
+        "Menstrual disorders",
+        "Immunity"
+      ],
+      "traditionalCategories": [
+        "Anulomana",
+        "Vatahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Rohitaka",
+          "quantity": "minor",
+          "part": "Whole plant"
+        },
+        {
+          "herb": "Kapoor Kachri",
+          "quantity": "2 parts",
+          "part": "Whole plant"
+        },
+        {
+          "herb": "Patha",
+          "quantity": "minor",
+          "part": "Whole plant"
+        }
+      ],
+      "indications": [
+        "Cough",
+        "Menstrual irregularities",
+        "Memory issues"
+      ],
+      "dosage": {
+        "amount": "3-6 g",
+        "frequency": "Twice daily"
+      },
+      "anupana": [
+        "Honey"
+      ],
+      "contraindications": [
+        "Diabetes"
+      ],
+      "reference": "Charaka Samhita",
+      "brand": "Nagarjun",
+      "marketInfo": {
+        "price": "₹428 (MRP)",
+        "packages": [
+          "100 ml",
+          "200 ml"
+        ]
+      }
+    },
+    {
+      "id": "1d99",
+      "name": "Rognashak Vati",
+      "sanskritName": "Rognashak Vati (संस्कृत)",
+      "type": "Capsule",
+      "clinicalSystems": [
+        "Digestive",
+        "Nervous"
+      ],
+      "indicationCategories": [
+        "Arthritis",
+        "Liver support"
+      ],
+      "traditionalCategories": [
+        "Deepana",
+        "Pachana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Sigru",
+          "quantity": "minor",
+          "part": "Whole plant"
+        },
+        {
+          "herb": "Jivanti",
+          "quantity": "minor",
+          "part": "Whole plant"
+        },
+        {
+          "herb": "Yavani Var.",
+          "quantity": "major",
+          "part": "Whole plant"
+        }
+      ],
+      "indications": [
+        "Menstrual irregularities",
+        "Memory issues",
+        "Fatigue"
+      ],
+      "dosage": {
+        "amount": "10-15 ml",
+        "frequency": "Once daily"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Children under 5"
+      ],
+      "reference": "Charaka Samhita",
+      "brand": "Baidyanath",
+      "marketInfo": {
+        "price": "₹405 (MRP)",
+        "packages": [
+          "100 g",
+          "200 ml"
+        ]
+      }
+    },
+    {
+      "id": "66c0",
+      "name": "Kaya Rasayana",
+      "sanskritName": "Kaya Rasayana (संस्कृत)",
+      "type": "Gulika",
+      "clinicalSystems": [
+        "Musculoskeletal",
+        "Dermatology"
+      ],
+      "indicationCategories": [
+        "Indigestion",
+        "Immunity"
+      ],
+      "traditionalCategories": [
+        "Balya",
+        "Anulomana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Jivanti",
+          "quantity": "major",
+          "part": "Root"
+        },
+        {
+          "herb": "Kapikacchu",
+          "quantity": "2 parts",
+          "part": "Whole plant"
+        },
+        {
+          "herb": "Psyllium Husk",
+          "quantity": "major",
+          "part": "Root"
+        }
+      ],
+      "indications": [
+        "Swelling",
+        "Memory issues",
+        "High blood sugar"
+      ],
+      "dosage": {
+        "amount": "1-3 g",
+        "frequency": "Once daily"
+      },
+      "anupana": [
+        "Ghee"
+      ],
+      "contraindications": [
+        "Children under 5"
+      ],
+      "reference": "Bhaishajya Ratnavali",
+      "brand": "Dabur",
+      "marketInfo": {
+        "price": "₹874 (MRP)",
+        "packages": [
+          "60 tabs",
+          "250 g"
+        ]
+      }
+    },
+    {
+      "id": "1726",
+      "name": "Yuvanestha Tablet",
+      "sanskritName": "Yuvanestha Tablet (संस्कृत)",
+      "type": "Churna",
+      "clinicalSystems": [
+        "Nervous",
+        "Urinary"
+      ],
+      "indicationCategories": [
+        "Arthritis",
+        "Menstrual disorders"
+      ],
+      "traditionalCategories": [
+        "Balya",
+        "Vatahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Ekangveer",
+          "quantity": "minor",
+          "part": "Root"
+        },
+        {
+          "herb": "Citraka Var.",
+          "quantity": "standardised extract",
+          "part": "Whole plant"
+        },
+        {
+          "herb": "Bakuchi",
+          "quantity": "minor",
+          "part": "Leaf"
+        }
+      ],
+      "indications": [
+        "High blood sugar",
+        "Low immunity",
+        "Swelling"
+      ],
+      "dosage": {
+        "amount": "1-2 tablets",
+        "frequency": "Once daily"
+      },
+      "anupana": [
+        "Milk"
+      ],
+      "contraindications": [
+        "None listed"
+      ],
+      "reference": "Proprietary formula",
+      "brand": "Zandu",
+      "marketInfo": {
+        "price": "₹498 (MRP)",
+        "packages": [
+          "200 ml",
+          "100 g"
+        ]
+      }
+    },
+    {
+      "id": "ead7",
+      "name": "Nidra Shakti Ghrita",
+      "sanskritName": "Nidra Shakti Ghrita (संस्कृत)",
+      "type": "Kashayam",
+      "clinicalSystems": [
+        "Respiratory",
+        "Urinary"
+      ],
+      "indicationCategories": [
+        "Arthritis",
+        "Skin disorders"
+      ],
+      "traditionalCategories": [
+        "Vatahara",
+        "Balya"
+      ],
+      "ingredients": [
+        {
+          "herb": "Nilotpala",
+          "quantity": "2 parts",
+          "part": "Root"
+        },
+        {
+          "herb": "Psyllium Husk",
+          "quantity": "standardised extract",
+          "part": "Leaf"
+        },
+        {
+          "herb": "Kutaja",
+          "quantity": "2 parts",
+          "part": "Leaf"
+        }
+      ],
+      "indications": [
+        "Cough",
+        "Constipation",
+        "Low immunity"
+      ],
+      "dosage": {
+        "amount": "5-10 ml",
+        "frequency": "Once daily"
+      },
+      "anupana": [
+        "Honey"
+      ],
+      "contraindications": [
+        "None listed"
+      ],
+      "reference": "Charaka Samhita",
+      "brand": "Himalaya",
+      "marketInfo": {
+        "price": "₹322 (MRP)",
+        "packages": [
+          "250 g",
+          "100 g"
+        ]
+      }
+    },
+    {
+      "id": "3585",
+      "name": "Pechak Churna",
+      "sanskritName": "Pechak Churna (संस्कृत)",
+      "type": "Tablet",
+      "clinicalSystems": [
+        "Respiratory",
+        "Reproductive"
+      ],
+      "indicationCategories": [
+        "Edema",
+        "Liver support"
+      ],
+      "traditionalCategories": [
+        "Pachana",
+        "Vatahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Utpala",
+          "quantity": "major",
+          "part": "Leaf"
+        },
+        {
+          "herb": "Kukuda",
+          "quantity": "major",
+          "part": "Whole plant"
+        },
+        {
+          "herb": "Kalmegh",
+          "quantity": "minor",
+          "part": "Whole plant"
+        }
+      ],
+      "indications": [
+        "Memory issues",
+        "Swelling",
+        "Skin eruptions"
+      ],
+      "dosage": {
+        "amount": "1 tablet",
+        "frequency": "Once daily"
+      },
+      "anupana": [
+        "Honey"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "reference": "Charaka Samhita",
+      "brand": "AVN",
+      "marketInfo": {
+        "price": "₹340 (MRP)",
+        "packages": [
+          "30 tabs",
+          "200 g"
+        ]
+      }
+    },
+    {
+      "id": "26c6",
+      "name": "Vidarika Taila",
+      "sanskritName": "Vidarika Taila (संस्कृत)",
+      "type": "Ghrita",
+      "clinicalSystems": [
+        "Respiratory",
+        "Nervous"
+      ],
+      "indicationCategories": [
+        "Skin disorders",
+        "Edema"
+      ],
+      "traditionalCategories": [
+        "Balya",
+        "Kaphahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Musta Var.",
+          "quantity": "1 part",
+          "part": "Leaf"
+        },
+        {
+          "herb": "Sringavera",
+          "quantity": "2 parts",
+          "part": "Leaf"
+        },
+        {
+          "herb": "Ekangveer",
+          "quantity": "major",
+          "part": "Root"
+        }
+      ],
+      "indications": [
+        "Low immunity",
+        "Constipation",
+        "High blood sugar"
+      ],
+      "dosage": {
+        "amount": "10-15 ml",
+        "frequency": "Before meals"
+      },
+      "anupana": [
+        "Ghee"
+      ],
+      "contraindications": [
+        "None listed"
+      ],
+      "reference": "Proprietary formula",
+      "brand": "Charak",
+      "marketInfo": {
+        "price": "₹493 (MRP)",
+        "packages": [
+          "200 ml",
+          "250 g"
+        ]
+      }
+    },
+    {
+      "id": "285e",
+      "name": "Vriddhi Vati",
+      "sanskritName": "Vriddhi Vati (संस्कृत)",
+      "type": "Tablet",
+      "clinicalSystems": [
+        "Urinary",
+        "Respiratory"
+      ],
+      "indicationCategories": [
+        "Liver support",
+        "Immunity"
+      ],
+      "traditionalCategories": [
+        "Anulomana",
+        "Pittahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Parpataka",
+          "quantity": "major",
+          "part": "Leaf"
+        },
+        {
+          "herb": "Vriddhadaru",
+          "quantity": "major",
+          "part": "Root"
+        },
+        {
+          "herb": "Musta Var.",
+          "quantity": "1 part",
+          "part": "Leaf"
+        }
+      ],
+      "indications": [
+        "Fatigue",
+        "Menstrual irregularities",
+        "Constipation"
+      ],
+      "dosage": {
+        "amount": "1-2 tablets",
+        "frequency": "Twice daily"
+      },
+      "anupana": [
+        "Honey"
+      ],
+      "contraindications": [
+        "Hypertension"
+      ],
+      "reference": "Proprietary formula",
+      "brand": "Nagarjun",
+      "marketInfo": {
+        "price": "₹833 (MRP)",
+        "packages": [
+          "500 g",
+          "200 ml"
+        ]
+      }
+    },
+    {
+      "id": "1b5e",
+      "name": "Kshaya Ras Syrup",
+      "sanskritName": "Kshaya Ras Syrup (संस्कृत)",
+      "type": "Avaleha",
+      "clinicalSystems": [
+        "Nervous",
+        "Respiratory"
+      ],
+      "indicationCategories": [
+        "Liver support",
+        "Diabetes support"
+      ],
+      "traditionalCategories": [
+        "Pittahara",
+        "Anulomana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Kalmegh",
+          "quantity": "major",
+          "part": "Whole plant"
+        },
+        {
+          "herb": "Brahmi Niruha",
+          "quantity": "2 parts",
+          "part": "Root"
+        },
+        {
+          "herb": "Vacha Var.",
+          "quantity": "minor",
+          "part": "Root"
+        }
+      ],
+      "indications": [
+        "Fatigue",
+        "Low immunity",
+        "Menstrual irregularities"
+      ],
+      "dosage": {
+        "amount": "1-3 g",
+        "frequency": "After meals"
+      },
+      "anupana": [
+        "Milk"
+      ],
+      "contraindications": [
+        "Children under 5"
+      ],
+      "reference": "Proprietary formula",
+      "brand": "Zandu",
+      "marketInfo": {
+        "price": "₹556 (MRP)",
+        "packages": [
+          "250 g",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "f1fc",
+      "name": "Vamshalochana Vati",
+      "sanskritName": "Vamshalochana Vati (संस्कृत)",
+      "type": "Syrup",
+      "clinicalSystems": [
+        "Dermatology",
+        "Musculoskeletal"
+      ],
+      "indicationCategories": [
+        "Menstrual disorders",
+        "Indigestion"
+      ],
+      "traditionalCategories": [
+        "Pittahara",
+        "Deepana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Aragvadha",
+          "quantity": "1 part",
+          "part": "Root"
+        },
+        {
+          "herb": "Parpataka",
+          "quantity": "minor",
+          "part": "Root"
+        },
+        {
+          "herb": "Yashtimadhu Var.",
+          "quantity": "minor",
+          "part": "Root"
+        }
+      ],
+      "indications": [
+        "Low immunity",
+        "Menstrual irregularities",
+        "Fatigue"
+      ],
+      "dosage": {
+        "amount": "10-15 ml",
+        "frequency": "Before meals"
+      },
+      "anupana": [
+        "Honey"
+      ],
+      "contraindications": [
+        "Children under 5"
+      ],
+      "reference": "Ashtanga Hridaya",
+      "brand": "Dabur",
+      "marketInfo": {
+        "price": "₹648 (MRP)",
+        "packages": [
+          "30 tabs",
+          "100 g"
+        ]
+      }
+    },
+    {
+      "id": "baf4",
+      "name": "Shakti Prasad Lehyam",
+      "sanskritName": "Shakti Prasad Lehyam (संस्कृत)",
+      "type": "Capsule",
+      "clinicalSystems": [
+        "Musculoskeletal",
+        "Nervous"
+      ],
+      "indicationCategories": [
+        "Menstrual disorders",
+        "Cough"
+      ],
+      "traditionalCategories": [
+        "Vatahara",
+        "Pittahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Kutaja",
+          "quantity": "2 parts",
+          "part": "Root"
+        },
+        {
+          "herb": "Sigru",
+          "quantity": "1 part",
+          "part": "Whole plant"
+        },
+        {
+          "herb": "Ekangveer",
+          "quantity": "minor",
+          "part": "Leaf"
+        }
+      ],
+      "indications": [
+        "Constipation",
+        "Fatigue",
+        "Skin eruptions"
+      ],
+      "dosage": {
+        "amount": "5-10 ml",
+        "frequency": "After meals"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Diabetes"
+      ],
+      "reference": "Charaka Samhita",
+      "brand": "Baidyanath",
+      "marketInfo": {
+        "price": "₹741 (MRP)",
+        "packages": [
+          "60 tabs",
+          "100 ml"
+        ]
+      }
+    },
+    {
+      "id": "0b06",
+      "name": "Madhumeha Churna",
+      "sanskritName": "Madhumeha Churna (संस्कृत)",
+      "type": "Gulika",
+      "clinicalSystems": [
+        "General Health",
+        "Dermatology"
+      ],
+      "indicationCategories": [
+        "Edema",
+        "Indigestion"
+      ],
+      "traditionalCategories": [
+        "Deepana",
+        "Vatahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Kukuda",
+          "quantity": "major",
+          "part": "Whole plant"
+        },
+        {
+          "herb": "Ahiphena",
+          "quantity": "standardised extract",
+          "part": "Leaf"
+        },
+        {
+          "herb": "Patha",
+          "quantity": "1 part",
+          "part": "Whole plant"
+        }
+      ],
+      "indications": [
+        "Constipation",
+        "High blood sugar",
+        "Joint pain"
+      ],
+      "dosage": {
+        "amount": "3-6 g",
+        "frequency": "Twice daily"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "reference": "Proprietary formula",
+      "brand": "Zandu",
+      "marketInfo": {
+        "price": "₹812 (MRP)",
+        "packages": [
+          "250 g",
+          "200 ml"
+        ]
+      }
+    },
+    {
+      "id": "21d4",
+      "name": "Snehapana Oil",
+      "sanskritName": "Snehapana Oil (संस्कृत)",
+      "type": "Taila",
+      "clinicalSystems": [
+        "Urinary",
+        "Musculoskeletal"
+      ],
+      "indicationCategories": [
+        "Menstrual disorders",
+        "Edema"
+      ],
+      "traditionalCategories": [
+        "Balya",
+        "Vatahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Nila",
+          "quantity": "1 part",
+          "part": "Root"
+        },
+        {
+          "herb": "Saptaparna",
+          "quantity": "2 parts",
+          "part": "Root"
+        },
+        {
+          "herb": "Haritaki Nisha",
+          "quantity": "standardised extract",
+          "part": "Root"
+        }
+      ],
+      "indications": [
+        "Constipation",
+        "Fatigue",
+        "Memory issues"
+      ],
+      "dosage": {
+        "amount": "3-6 g",
+        "frequency": "Twice daily"
+      },
+      "anupana": [
+        "Ghee"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "reference": "Ashtanga Hridaya",
+      "brand": "AVP",
+      "marketInfo": {
+        "price": "₹589 (MRP)",
+        "packages": [
+          "200 g",
+          "250 g"
+        ]
+      }
+    },
+    {
+      "id": "cb07",
+      "name": "Hrid Raksha Syrup",
+      "sanskritName": "Hrid Raksha Syrup (संस्कृत)",
+      "type": "Capsule",
+      "clinicalSystems": [
+        "Reproductive",
+        "Urinary"
+      ],
+      "indicationCategories": [
+        "Indigestion",
+        "Skin disorders"
+      ],
+      "traditionalCategories": [
+        "Rasayana",
+        "Deepana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Gojihva",
+          "quantity": "standardised extract",
+          "part": "Root"
+        },
+        {
+          "herb": "Kankola",
+          "quantity": "2 parts",
+          "part": "Root"
+        },
+        {
+          "herb": "Lodhra Var.",
+          "quantity": "major",
+          "part": "Leaf"
+        }
+      ],
+      "indications": [
+        "Menstrual irregularities",
+        "Constipation",
+        "Fatigue"
+      ],
+      "dosage": {
+        "amount": "10-15 ml",
+        "frequency": "Before meals"
+      },
+      "anupana": [
+        "Milk"
+      ],
+      "contraindications": [
+        "None listed"
+      ],
+      "reference": "Ashtanga Hridaya",
+      "brand": "Dhootapapeshwar",
+      "marketInfo": {
+        "price": "₹574 (MRP)",
+        "packages": [
+          "100 g",
+          "30 tabs"
+        ]
+      }
+    },
+    {
+      "id": "d45f",
+      "name": "Rasnadi Tablet",
+      "sanskritName": "Rasnadi Tablet (संस्कृत)",
+      "type": "Tablet",
+      "clinicalSystems": [
+        "Reproductive",
+        "Digestive"
+      ],
+      "indicationCategories": [
+        "Edema",
+        "Immunity"
+      ],
+      "traditionalCategories": [
+        "Balya",
+        "Vatahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Rasna Var.",
+          "quantity": "1 part",
+          "part": "Root"
+        },
+        {
+          "herb": "Brahmi Niruha",
+          "quantity": "1 part",
+          "part": "Whole plant"
+        },
+        {
+          "herb": "Kapoor Kachri",
+          "quantity": "minor",
+          "part": "Whole plant"
+        }
+      ],
+      "indications": [
+        "Skin eruptions",
+        "Low immunity",
+        "Menstrual irregularities"
+      ],
+      "dosage": {
+        "amount": "1-3 g",
+        "frequency": "Twice daily"
+      },
+      "anupana": [
+        "Honey"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "reference": "Charaka Samhita",
+      "brand": "Nagarjun",
+      "marketInfo": {
+        "price": "₹457 (MRP)",
+        "packages": [
+          "500 g",
+          "100 g"
+        ]
+      }
+    },
+    {
+      "id": "d9e6",
+      "name": "Sirovirechana Drops",
+      "sanskritName": "Sirovirechana Drops (संस्कृत)",
+      "type": "Taila",
+      "clinicalSystems": [
+        "General Health",
+        "Musculoskeletal"
+      ],
+      "indicationCategories": [
+        "Memory",
+        "Cough"
+      ],
+      "traditionalCategories": [
+        "Pachana",
+        "Rasayana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Yashtimadhu Var.",
+          "quantity": "2 parts",
+          "part": "Root"
+        },
+        {
+          "herb": "Hingu Var.",
+          "quantity": "standardised extract",
+          "part": "Root"
+        },
+        {
+          "herb": "Musta Var.",
+          "quantity": "minor",
+          "part": "Leaf"
+        }
+      ],
+      "indications": [
+        "Constipation",
+        "Memory issues",
+        "Menstrual irregularities"
+      ],
+      "dosage": {
+        "amount": "3-6 g",
+        "frequency": "Twice daily"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "reference": "Charaka Samhita",
+      "brand": "Himalaya",
+      "marketInfo": {
+        "price": "₹80 (MRP)",
+        "packages": [
+          "200 ml",
+          "200 g"
+        ]
+      }
+    },
+    {
+      "id": "b7c0",
+      "name": "Tarpana Gel",
+      "sanskritName": "Tarpana Gel (संस्कृत)",
+      "type": "Tablet",
+      "clinicalSystems": [
+        "Respiratory",
+        "Reproductive"
+      ],
+      "indicationCategories": [
+        "Indigestion",
+        "Edema"
+      ],
+      "traditionalCategories": [
+        "Pachana",
+        "Balya"
+      ],
+      "ingredients": [
+        {
+          "herb": "Vijaysar",
+          "quantity": "minor",
+          "part": "Leaf"
+        },
+        {
+          "herb": "Lodhra Var.",
+          "quantity": "2 parts",
+          "part": "Leaf"
+        },
+        {
+          "herb": "Musta Var.",
+          "quantity": "minor",
+          "part": "Root"
+        }
+      ],
+      "indications": [
+        "Low immunity",
+        "Skin eruptions",
+        "Fatigue"
+      ],
+      "dosage": {
+        "amount": "1-2 tablets",
+        "frequency": "Once daily"
+      },
+      "anupana": [
+        "Ghee"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "reference": "Ashtanga Hridaya",
+      "brand": "Unjha",
+      "marketInfo": {
+        "price": "₹136 (MRP)",
+        "packages": [
+          "200 ml",
+          "200 g"
+        ]
+      }
+    },
+    {
+      "id": "76af",
+      "name": "Agnivardhak Vati",
+      "sanskritName": "Agnivardhak Vati (संस्कृत)",
+      "type": "Gulika",
+      "clinicalSystems": [
+        "Digestive",
+        "Dermatology"
+      ],
+      "indicationCategories": [
+        "Menstrual disorders",
+        "Arthritis"
+      ],
+      "traditionalCategories": [
+        "Pittahara",
+        "Kaphahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Sigru",
+          "quantity": "2 parts",
+          "part": "Root"
+        },
+        {
+          "herb": "Kalmegh",
+          "quantity": "standardised extract",
+          "part": "Root"
+        },
+        {
+          "herb": "Utpala",
+          "quantity": "1 part",
+          "part": "Root"
+        }
+      ],
+      "indications": [
+        "Cough",
+        "Joint pain",
+        "Low immunity"
+      ],
+      "dosage": {
+        "amount": "5-10 ml",
+        "frequency": "After meals"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Diabetes"
+      ],
+      "reference": "Proprietary formula",
+      "brand": "Dabur",
+      "marketInfo": {
+        "price": "₹388 (MRP)",
+        "packages": [
+          "200 g",
+          "100 ml"
+        ]
+      }
+    },
+    {
+      "id": "40e2",
+      "name": "Medoroga Oil",
+      "sanskritName": "Medoroga Oil (संस्कृत)",
+      "type": "Avaleha",
+      "clinicalSystems": [
+        "Digestive",
+        "Musculoskeletal"
+      ],
+      "indicationCategories": [
+        "Immunity",
+        "Indigestion"
+      ],
+      "traditionalCategories": [
+        "Deepana",
+        "Kaphahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Brahmi Niruha",
+          "quantity": "major",
+          "part": "Root"
+        },
+        {
+          "herb": "Patha",
+          "quantity": "2 parts",
+          "part": "Whole plant"
+        },
+        {
+          "herb": "Musta Var.",
+          "quantity": "standardised extract",
+          "part": "Root"
+        }
+      ],
+      "indications": [
+        "Menstrual irregularities",
+        "Swelling",
+        "Skin eruptions"
+      ],
+      "dosage": {
+        "amount": "5-10 ml",
+        "frequency": "Once daily"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "None listed"
+      ],
+      "reference": "Charaka Samhita",
+      "brand": "Aimil",
+      "marketInfo": {
+        "price": "₹871 (MRP)",
+        "packages": [
+          "200 ml",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "d1fc",
+      "name": "Kshaya Basti",
+      "sanskritName": "Kshaya Basti (संस्कृत)",
+      "type": "Ghrita",
+      "clinicalSystems": [
+        "Urinary",
+        "General Health"
+      ],
+      "indicationCategories": [
+        "Arthritis",
+        "Indigestion"
+      ],
+      "traditionalCategories": [
+        "Pachana",
+        "Deepana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Daruharidra",
+          "quantity": "standardised extract",
+          "part": "Root"
+        },
+        {
+          "herb": "Hingu Var.",
+          "quantity": "1 part",
+          "part": "Root"
+        },
+        {
+          "herb": "Bakuchi",
+          "quantity": "standardised extract",
+          "part": "Root"
+        }
+      ],
+      "indications": [
+        "Cough",
+        "Joint pain",
+        "Menstrual irregularities"
+      ],
+      "dosage": {
+        "amount": "5-10 ml",
+        "frequency": "Twice daily"
+      },
+      "anupana": [
+        "Honey"
+      ],
+      "contraindications": [
+        "Children under 5"
+      ],
+      "reference": "Charaka Samhita",
+      "brand": "Dabur",
+      "marketInfo": {
+        "price": "₹126 (MRP)",
+        "packages": [
+          "200 g",
+          "200 ml"
+        ]
+      }
+    },
+    {
+      "id": "6540",
+      "name": "Bala Rasayanam",
+      "sanskritName": "Bala Rasayanam (संस्कृत)",
+      "type": "Lehyam",
+      "clinicalSystems": [
+        "Digestive",
+        "Reproductive"
+      ],
+      "indicationCategories": [
+        "Skin disorders",
+        "Indigestion"
+      ],
+      "traditionalCategories": [
+        "Vatahara",
+        "Kaphahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Ekangveer",
+          "quantity": "2 parts",
+          "part": "Root"
+        },
+        {
+          "herb": "Kukuda",
+          "quantity": "1 part",
+          "part": "Whole plant"
+        },
+        {
+          "herb": "Karanj",
+          "quantity": "minor",
+          "part": "Leaf"
+        }
+      ],
+      "indications": [
+        "Low immunity",
+        "Constipation",
+        "Joint pain"
+      ],
+      "dosage": {
+        "amount": "1 tablet",
+        "frequency": "Once daily"
+      },
+      "anupana": [
+        "Honey"
+      ],
+      "contraindications": [
+        "Children under 5"
+      ],
+      "reference": "Proprietary formula",
+      "brand": "Zandu",
+      "marketInfo": {
+        "price": "₹799 (MRP)",
+        "packages": [
+          "200 g",
+          "60 tabs"
+        ]
+      }
+    },
+    {
+      "id": "3d7f",
+      "name": "Chakra Gulika",
+      "sanskritName": "Chakra Gulika (संस्कृत)",
+      "type": "Taila",
+      "clinicalSystems": [
+        "Digestive",
+        "Nervous"
+      ],
+      "indicationCategories": [
+        "Indigestion",
+        "Arthritis"
+      ],
+      "traditionalCategories": [
+        "Anulomana",
+        "Pachana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Nilotpala",
+          "quantity": "1 part",
+          "part": "Leaf"
+        },
+        {
+          "herb": "Hingu Var.",
+          "quantity": "1 part",
+          "part": "Root"
+        },
+        {
+          "herb": "Gambhari",
+          "quantity": "1 part",
+          "part": "Leaf"
+        }
+      ],
+      "indications": [
+        "High blood sugar",
+        "Swelling",
+        "Fatigue"
+      ],
+      "dosage": {
+        "amount": "3-6 g",
+        "frequency": "Before meals"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Children under 5"
+      ],
+      "reference": "Proprietary formula",
+      "brand": "AVN",
+      "marketInfo": {
+        "price": "₹253 (MRP)",
+        "packages": [
+          "500 g",
+          "60 tabs"
+        ]
+      }
+    },
+    {
+      "id": "43d2",
+      "name": "Kshudra Churna",
+      "sanskritName": "Kshudra Churna (संस्कृत)",
+      "type": "Gulika",
+      "clinicalSystems": [
+        "Reproductive",
+        "Musculoskeletal"
+      ],
+      "indicationCategories": [
+        "Arthritis",
+        "Menstrual disorders"
+      ],
+      "traditionalCategories": [
+        "Anulomana",
+        "Vatahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Ahiphena",
+          "quantity": "1 part",
+          "part": "Root"
+        },
+        {
+          "herb": "Saptaparna",
+          "quantity": "major",
+          "part": "Root"
+        },
+        {
+          "herb": "Irimedadi",
+          "quantity": "minor",
+          "part": "Root"
+        }
+      ],
+      "indications": [
+        "Cough",
+        "Skin eruptions",
+        "Joint pain"
+      ],
+      "dosage": {
+        "amount": "5-10 ml",
+        "frequency": "Before meals"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Diabetes"
+      ],
+      "reference": "Bhaishajya Ratnavali",
+      "brand": "Unjha",
+      "marketInfo": {
+        "price": "₹401 (MRP)",
+        "packages": [
+          "30 tabs",
+          "250 g"
+        ]
+      }
+    },
+    {
+      "id": "5c09",
+      "name": "Grahini Lehyam",
+      "sanskritName": "Grahini Lehyam (संस्कृत)",
+      "type": "Tablet",
+      "clinicalSystems": [
+        "General Health",
+        "Respiratory"
+      ],
+      "indicationCategories": [
+        "Skin disorders",
+        "Liver support"
+      ],
+      "traditionalCategories": [
+        "Pachana",
+        "Rasayana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Lodhra Minor",
+          "quantity": "2 parts",
+          "part": "Whole plant"
+        },
+        {
+          "herb": "Bala Var.",
+          "quantity": "standardised extract",
+          "part": "Root"
+        },
+        {
+          "herb": "Vriddhadaru",
+          "quantity": "1 part",
+          "part": "Leaf"
+        }
+      ],
+      "indications": [
+        "Constipation",
+        "Fatigue",
+        "Memory issues"
+      ],
+      "dosage": {
+        "amount": "1-3 g",
+        "frequency": "Once daily"
+      },
+      "anupana": [
+        "Honey"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "reference": "Charaka Samhita",
+      "brand": "Dhootapapeshwar",
+      "marketInfo": {
+        "price": "₹766 (MRP)",
+        "packages": [
+          "60 tabs",
+          "30 tabs"
+        ]
+      }
+    },
+    {
+      "id": "e037",
+      "name": "Maharasnadi Kashayam",
+      "sanskritName": "महानस्नादि क्वाथ",
+      "type": "Kashayam (Decoction)",
+      "clinicalSystems": [
+        "Musculoskeletal",
+        "Nervous"
+      ],
+      "indicationCategories": [
+        "Arthritis",
+        "Sciatica"
+      ],
+      "traditionalCategories": [
+        "Vatahara",
+        "Balya"
+      ],
+      "ingredients": [
+        {
+          "herb": "Rasna",
+          "quantity": "1 part",
+          "part": "root"
+        },
+        {
+          "herb": "Gokshura",
+          "quantity": "1 part",
+          "part": "fruit"
+        },
+        {
+          "herb": "Eranda",
+          "quantity": "1 part",
+          "part": "root"
+        }
+      ],
+      "indications": [
+        "Joint pain",
+        "Backache",
+        "Paralysis"
+      ],
+      "dosage": {
+        "amount": "15–30 ml",
+        "frequency": "Twice daily before meals"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "reference": "Sahasrayoga",
+      "brand": "AVP / Nagarjun / Kottakkal",
+      "marketInfo": {
+        "price": "₹150–₹350 per 200 ml (MRP)",
+        "packages": [
+          "100 ml",
+          "200 ml",
+          "450 ml"
+        ]
+      }
+    },
+    {
+      "id": "ce1c",
+      "name": "Formulation 1",
+      "sanskritName": "Formulation 1 (संस्कृत)",
+      "type": "Lehyam",
+      "clinicalSystems": [
+        "Digestive",
+        "Musculoskeletal"
+      ],
+      "indicationCategories": [
+        "Skin disorders",
+        "Edema"
+      ],
+      "traditionalCategories": [
+        "Pachana",
+        "Pittahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Herb 89",
+          "quantity": "2 parts",
+          "part": "leaf"
+        },
+        {
+          "herb": "Herb 33",
+          "quantity": "2 parts",
+          "part": "root"
+        },
+        {
+          "herb": "Herb 12",
+          "quantity": "minor",
+          "part": "leaf"
+        }
+      ],
+      "indications": [
+        "Constipation",
+        "Fatigue",
+        "Menstrual irregularities"
+      ],
+      "dosage": {
+        "amount": "3-6 g",
+        "frequency": "Twice daily"
+      },
+      "anupana": [
+        "Ghee"
+      ],
+      "contraindications": [
+        "Children under 5"
+      ],
+      "reference": "Ashtanga Hridaya",
+      "brand": "Dabur",
+      "marketInfo": {
+        "price": "₹180 (MRP)",
+        "packages": [
+          "100 ml",
+          "30 tabs"
+        ]
+      }
+    },
+    {
+      "id": "017e",
+      "name": "Formulation 2",
+      "sanskritName": "Formulation 2 (संस्कृत)",
+      "type": "Syrup",
+      "clinicalSystems": [
+        "Dermatology",
+        "Reproductive"
+      ],
+      "indicationCategories": [
+        "Immunity",
+        "Indigestion"
+      ],
+      "traditionalCategories": [
+        "Rasayana",
+        "Kaphahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Herb 11",
+          "quantity": "minor",
+          "part": "bark"
+        },
+        {
+          "herb": "Herb 94",
+          "quantity": "standardised extract",
+          "part": "root"
+        },
+        {
+          "herb": "Herb 15",
+          "quantity": "standardised extract",
+          "part": "fruit"
+        }
+      ],
+      "indications": [
+        "Menstrual irregularities",
+        "High blood sugar",
+        "Cough"
+      ],
+      "dosage": {
+        "amount": "1 tablet",
+        "frequency": "Twice daily"
+      },
+      "anupana": [
+        "Ghee"
+      ],
+      "contraindications": [
+        "Hypertension"
+      ],
+      "reference": "Charaka Samhita",
+      "brand": "Unjha",
+      "marketInfo": {
+        "price": "₹616 (MRP)",
+        "packages": [
+          "200 g",
+          "100 ml"
+        ]
+      }
+    },
+    {
+      "id": "2d33",
+      "name": "Formulation 3",
+      "sanskritName": "Formulation 3 (संस्कृत)",
+      "type": "Tablet",
+      "clinicalSystems": [
+        "Digestive",
+        "Musculoskeletal"
+      ],
+      "indicationCategories": [
+        "Indigestion",
+        "Arthritis"
+      ],
+      "traditionalCategories": [
+        "Vatahara",
+        "Pachana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Herb 4",
+          "quantity": "2 parts",
+          "part": "leaf"
+        },
+        {
+          "herb": "Herb 65",
+          "quantity": "minor",
+          "part": "bark"
+        },
+        {
+          "herb": "Herb 37",
+          "quantity": "1 part",
+          "part": "bark"
+        }
+      ],
+      "indications": [
+        "High blood sugar",
+        "Joint pain",
+        "Fatigue"
+      ],
+      "dosage": {
+        "amount": "5-10 ml",
+        "frequency": "Once daily"
+      },
+      "anupana": [
+        "Honey"
+      ],
+      "contraindications": [
+        "Diabetes"
+      ],
+      "reference": "Bhaishajya Ratnavali",
+      "brand": "Unjha",
+      "marketInfo": {
+        "price": "₹109 (MRP)",
+        "packages": [
+          "60 tabs",
+          "200 ml"
+        ]
+      }
+    },
+    {
+      "id": "24ef",
+      "name": "Formulation 4",
+      "sanskritName": "Formulation 4 (संस्कृत)",
+      "type": "Ghrita",
+      "clinicalSystems": [
+        "Digestive",
+        "General Health"
+      ],
+      "indicationCategories": [
+        "Skin disorders",
+        "Memory"
+      ],
+      "traditionalCategories": [
+        "Deepana",
+        "Pachana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Herb 84",
+          "quantity": "1 part",
+          "part": "leaf"
+        },
+        {
+          "herb": "Herb 29",
+          "quantity": "major",
+          "part": "leaf"
+        },
+        {
+          "herb": "Herb 50",
+          "quantity": "major",
+          "part": "leaf"
+        }
+      ],
+      "indications": [
+        "Constipation",
+        "Menstrual irregularities",
+        "Memory issues"
+      ],
+      "dosage": {
+        "amount": "3-6 g",
+        "frequency": "Once daily"
+      },
+      "anupana": [
+        "Milk"
+      ],
+      "contraindications": [
+        "None listed"
+      ],
+      "reference": "Bhaishajya Ratnavali",
+      "brand": "Nagarjun",
+      "marketInfo": {
+        "price": "₹676 (MRP)",
+        "packages": [
+          "250 g",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "a518",
+      "name": "Formulation 5",
+      "sanskritName": "Formulation 5 (संस्कृत)",
+      "type": "Tablet",
+      "clinicalSystems": [
+        "Urinary",
+        "Respiratory"
+      ],
+      "indicationCategories": [
+        "Liver support",
+        "Edema"
+      ],
+      "traditionalCategories": [
+        "Pittahara",
+        "Rasayana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Herb 13",
+          "quantity": "minor",
+          "part": "fruit"
+        },
+        {
+          "herb": "Herb 85",
+          "quantity": "2 parts",
+          "part": "leaf"
+        },
+        {
+          "herb": "Herb 36",
+          "quantity": "1 part",
+          "part": "bark"
+        }
+      ],
+      "indications": [
+        "Swelling",
+        "Fatigue",
+        "Skin eruptions"
+      ],
+      "dosage": {
+        "amount": "1-3 g",
+        "frequency": "Once daily"
+      },
+      "anupana": [
+        "Ghee"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "reference": "Charaka Samhita",
+      "brand": "Himalaya",
+      "marketInfo": {
+        "price": "₹680 (MRP)",
+        "packages": [
+          "200 ml",
+          "250 g"
+        ]
+      }
+    },
+    {
+      "id": "49d2",
+      "name": "Formulation 6",
+      "sanskritName": "Formulation 6 (संस्कृत)",
+      "type": "Taila",
+      "clinicalSystems": [
+        "Reproductive",
+        "Musculoskeletal"
+      ],
+      "indicationCategories": [
+        "Immunity",
+        "Skin disorders"
+      ],
+      "traditionalCategories": [
+        "Kaphahara",
+        "Rasayana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Herb 9",
+          "quantity": "major",
+          "part": "bark"
+        },
+        {
+          "herb": "Herb 24",
+          "quantity": "minor",
+          "part": "root"
+        },
+        {
+          "herb": "Herb 72",
+          "quantity": "major",
+          "part": "root"
+        }
+      ],
+      "indications": [
+        "Memory issues",
+        "Cough",
+        "Low immunity"
+      ],
+      "dosage": {
+        "amount": "5-10 ml",
+        "frequency": "Twice daily"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Hypertension"
+      ],
+      "reference": "Bhaishajya Ratnavali",
+      "brand": "Sandu",
+      "marketInfo": {
+        "price": "₹475 (MRP)",
+        "packages": [
+          "30 tabs",
+          "60 tabs"
+        ]
+      }
+    },
+    {
+      "id": "0bcd",
+      "name": "Formulation 7",
+      "sanskritName": "Formulation 7 (संस्कृत)",
+      "type": "Ghrita",
+      "clinicalSystems": [
+        "Musculoskeletal",
+        "Nervous"
+      ],
+      "indicationCategories": [
+        "Cough",
+        "Skin disorders"
+      ],
+      "traditionalCategories": [
+        "Rasayana",
+        "Pachana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Herb 22",
+          "quantity": "minor",
+          "part": "leaf"
+        },
+        {
+          "herb": "Herb 6",
+          "quantity": "2 parts",
+          "part": "fruit"
+        },
+        {
+          "herb": "Herb 71",
+          "quantity": "2 parts",
+          "part": "root"
+        }
+      ],
+      "indications": [
+        "Skin eruptions",
+        "High blood sugar",
+        "Low immunity"
+      ],
+      "dosage": {
+        "amount": "1-2 tablets",
+        "frequency": "Twice daily"
+      },
+      "anupana": [
+        "Honey"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "reference": "Bhaishajya Ratnavali",
+      "brand": "Dhootapapeshwar",
+      "marketInfo": {
+        "price": "₹252 (MRP)",
+        "packages": [
+          "100 ml",
+          "250 g"
+        ]
+      }
+    },
+    {
+      "id": "6b91",
+      "name": "Formulation 8",
+      "sanskritName": "Formulation 8 (संस्कृत)",
+      "type": "Ghrita",
+      "clinicalSystems": [
+        "Musculoskeletal",
+        "Digestive"
+      ],
+      "indicationCategories": [
+        "Memory",
+        "Skin disorders"
+      ],
+      "traditionalCategories": [
+        "Vatahara",
+        "Deepana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Herb 48",
+          "quantity": "minor",
+          "part": "bark"
+        },
+        {
+          "herb": "Herb 88",
+          "quantity": "1 part",
+          "part": "fruit"
+        },
+        {
+          "herb": "Herb 20",
+          "quantity": "standardised extract",
+          "part": "leaf"
+        }
+      ],
+      "indications": [
+        "Constipation",
+        "Swelling",
+        "Memory issues"
+      ],
+      "dosage": {
+        "amount": "3-6 g",
+        "frequency": "Once daily"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "None listed"
+      ],
+      "reference": "Proprietary formula",
+      "brand": "Sandu",
+      "marketInfo": {
+        "price": "₹811 (MRP)",
+        "packages": [
+          "250 g",
+          "30 tabs"
+        ]
+      }
+    },
+    {
+      "id": "db1e",
+      "name": "Formulation 9",
+      "sanskritName": "Formulation 9 (संस्कृत)",
+      "type": "Taila",
+      "clinicalSystems": [
+        "Reproductive",
+        "Musculoskeletal"
+      ],
+      "indicationCategories": [
+        "Menstrual disorders",
+        "Memory"
+      ],
+      "traditionalCategories": [
+        "Vatahara",
+        "Balya"
+      ],
+      "ingredients": [
+        {
+          "herb": "Herb 84",
+          "quantity": "1 part",
+          "part": "bark"
+        },
+        {
+          "herb": "Herb 53",
+          "quantity": "major",
+          "part": "fruit"
+        },
+        {
+          "herb": "Herb 56",
+          "quantity": "minor",
+          "part": "bark"
+        }
+      ],
+      "indications": [
+        "Joint pain",
+        "Skin eruptions",
+        "Low immunity"
+      ],
+      "dosage": {
+        "amount": "10-15 ml",
+        "frequency": "After meals"
+      },
+      "anupana": [
+        "Milk"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "reference": "Charaka Samhita",
+      "brand": "Himalaya",
+      "marketInfo": {
+        "price": "₹378 (MRP)",
+        "packages": [
+          "500 g",
+          "200 ml"
+        ]
+      }
+    },
+    {
+      "id": "9c3b",
+      "name": "Formulation 10",
+      "sanskritName": "Formulation 10 (संस्कृत)",
+      "type": "Syrup",
+      "clinicalSystems": [
+        "Musculoskeletal",
+        "Nervous"
+      ],
+      "indicationCategories": [
+        "Immunity",
+        "Menstrual disorders"
+      ],
+      "traditionalCategories": [
+        "Kaphahara",
+        "Vatahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Herb 57",
+          "quantity": "standardised extract",
+          "part": "bark"
+        },
+        {
+          "herb": "Herb 36",
+          "quantity": "major",
+          "part": "root"
+        },
+        {
+          "herb": "Herb 75",
+          "quantity": "minor",
+          "part": "fruit"
+        }
+      ],
+      "indications": [
+        "Fatigue",
+        "Skin eruptions",
+        "Swelling"
+      ],
+      "dosage": {
+        "amount": "10-15 ml",
+        "frequency": "Twice daily"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "None listed"
+      ],
+      "reference": "Ashtanga Hridaya",
+      "brand": "Sandu",
+      "marketInfo": {
+        "price": "₹688 (MRP)",
+        "packages": [
+          "60 tabs",
+          "100 ml"
+        ]
+      }
+    },
+    {
+      "id": "35b8",
+      "name": "Formulation 11",
+      "sanskritName": "Formulation 11 (संस्कृत)",
+      "type": "Gulika",
+      "clinicalSystems": [
+        "Digestive",
+        "Reproductive"
+      ],
+      "indicationCategories": [
+        "Menstrual disorders",
+        "Cough"
+      ],
+      "traditionalCategories": [
+        "Pachana",
+        "Vatahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Herb 46",
+          "quantity": "minor",
+          "part": "bark"
+        },
+        {
+          "herb": "Herb 51",
+          "quantity": "2 parts",
+          "part": "leaf"
+        },
+        {
+          "herb": "Herb 91",
+          "quantity": "minor",
+          "part": "root"
+        }
+      ],
+      "indications": [
+        "Menstrual irregularities",
+        "Constipation",
+        "Cough"
+      ],
+      "dosage": {
+        "amount": "1 tablet",
+        "frequency": "After meals"
+      },
+      "anupana": [
+        "Milk"
+      ],
+      "contraindications": [
+        "Children under 5"
+      ],
+      "reference": "Charaka Samhita",
+      "brand": "Aimil",
+      "marketInfo": {
+        "price": "₹884 (MRP)",
+        "packages": [
+          "30 tabs",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "8cec",
+      "name": "Formulation 12",
+      "sanskritName": "Formulation 12 (संस्कृत)",
+      "type": "Syrup",
+      "clinicalSystems": [
+        "Urinary",
+        "Musculoskeletal"
+      ],
+      "indicationCategories": [
+        "Immunity",
+        "Menstrual disorders"
+      ],
+      "traditionalCategories": [
+        "Pachana",
+        "Vatahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Herb 86",
+          "quantity": "2 parts",
+          "part": "fruit"
+        },
+        {
+          "herb": "Herb 44",
+          "quantity": "major",
+          "part": "fruit"
+        },
+        {
+          "herb": "Herb 20",
+          "quantity": "standardised extract",
+          "part": "root"
+        }
+      ],
+      "indications": [
+        "Constipation",
+        "Memory issues",
+        "Joint pain"
+      ],
+      "dosage": {
+        "amount": "1-3 g",
+        "frequency": "Once daily"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Hypertension"
+      ],
+      "reference": "Proprietary formula",
+      "brand": "AVN",
+      "marketInfo": {
+        "price": "₹438 (MRP)",
+        "packages": [
+          "60 tabs",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "59e8",
+      "name": "Formulation 13",
+      "sanskritName": "Formulation 13 (संस्कृत)",
+      "type": "Taila",
+      "clinicalSystems": [
+        "Digestive",
+        "Urinary"
+      ],
+      "indicationCategories": [
+        "Skin disorders",
+        "Memory"
+      ],
+      "traditionalCategories": [
+        "Pittahara",
+        "Deepana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Herb 82",
+          "quantity": "2 parts",
+          "part": "fruit"
+        },
+        {
+          "herb": "Herb 3",
+          "quantity": "minor",
+          "part": "fruit"
+        },
+        {
+          "herb": "Herb 60",
+          "quantity": "minor",
+          "part": "fruit"
+        }
+      ],
+      "indications": [
+        "Fatigue",
+        "Joint pain",
+        "Memory issues"
+      ],
+      "dosage": {
+        "amount": "1-2 tablets",
+        "frequency": "Once daily"
+      },
+      "anupana": [
+        "Milk"
+      ],
+      "contraindications": [
+        "Hypertension"
+      ],
+      "reference": "Proprietary formula",
+      "brand": "Zandu",
+      "marketInfo": {
+        "price": "₹284 (MRP)",
+        "packages": [
+          "100 ml",
+          "200 ml"
+        ]
+      }
+    },
+    {
+      "id": "8215",
+      "name": "Formulation 14",
+      "sanskritName": "Formulation 14 (संस्कृत)",
+      "type": "Tablet",
+      "clinicalSystems": [
+        "Dermatology",
+        "Respiratory"
+      ],
+      "indicationCategories": [
+        "Indigestion",
+        "Diabetes support"
+      ],
+      "traditionalCategories": [
+        "Pittahara",
+        "Deepana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Herb 68",
+          "quantity": "2 parts",
+          "part": "bark"
+        },
+        {
+          "herb": "Herb 100",
+          "quantity": "1 part",
+          "part": "bark"
+        },
+        {
+          "herb": "Herb 6",
+          "quantity": "minor",
+          "part": "leaf"
+        }
+      ],
+      "indications": [
+        "Menstrual irregularities",
+        "High blood sugar",
+        "Skin eruptions"
+      ],
+      "dosage": {
+        "amount": "1 tablet",
+        "frequency": "Once daily"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "reference": "Bhaishajya Ratnavali",
+      "brand": "Dabur",
+      "marketInfo": {
+        "price": "₹546 (MRP)",
+        "packages": [
+          "200 ml",
+          "30 tabs"
+        ]
+      }
+    },
+    {
+      "id": "3bf3",
+      "name": "Formulation 15",
+      "sanskritName": "Formulation 15 (संस्कृत)",
+      "type": "Avaleha",
+      "clinicalSystems": [
+        "Reproductive",
+        "Digestive"
+      ],
+      "indicationCategories": [
+        "Cough",
+        "Diabetes support"
+      ],
+      "traditionalCategories": [
+        "Pittahara",
+        "Rasayana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Herb 48",
+          "quantity": "minor",
+          "part": "root"
+        },
+        {
+          "herb": "Herb 76",
+          "quantity": "1 part",
+          "part": "fruit"
+        },
+        {
+          "herb": "Herb 67",
+          "quantity": "2 parts",
+          "part": "fruit"
+        }
+      ],
+      "indications": [
+        "Skin eruptions",
+        "Constipation",
+        "Cough"
+      ],
+      "dosage": {
+        "amount": "1-2 tablets",
+        "frequency": "After meals"
+      },
+      "anupana": [
+        "Ghee"
+      ],
+      "contraindications": [
+        "None listed"
+      ],
+      "reference": "Bhaishajya Ratnavali",
+      "brand": "Dabur",
+      "marketInfo": {
+        "price": "₹450 (MRP)",
+        "packages": [
+          "500 g",
+          "200 g"
+        ]
+      }
+    },
+    {
+      "id": "336f",
+      "name": "Formulation 16",
+      "sanskritName": "Formulation 16 (संस्कृत)",
+      "type": "Capsule",
+      "clinicalSystems": [
+        "Reproductive",
+        "General Health"
+      ],
+      "indicationCategories": [
+        "Liver support",
+        "Edema"
+      ],
+      "traditionalCategories": [
+        "Pachana",
+        "Balya"
+      ],
+      "ingredients": [
+        {
+          "herb": "Herb 49",
+          "quantity": "standardised extract",
+          "part": "root"
+        },
+        {
+          "herb": "Herb 17",
+          "quantity": "major",
+          "part": "fruit"
+        },
+        {
+          "herb": "Herb 44",
+          "quantity": "minor",
+          "part": "leaf"
+        }
+      ],
+      "indications": [
+        "Swelling",
+        "Low immunity",
+        "Menstrual irregularities"
+      ],
+      "dosage": {
+        "amount": "5-10 ml",
+        "frequency": "Before meals"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Hypertension"
+      ],
+      "reference": "Bhaishajya Ratnavali",
+      "brand": "Nagarjun",
+      "marketInfo": {
+        "price": "₹653 (MRP)",
+        "packages": [
+          "100 g",
+          "60 tabs"
+        ]
+      }
+    },
+    {
+      "id": "2767",
+      "name": "Formulation 17",
+      "sanskritName": "Formulation 17 (संस्कृत)",
+      "type": "Tablet",
+      "clinicalSystems": [
+        "General Health",
+        "Urinary"
+      ],
+      "indicationCategories": [
+        "Indigestion",
+        "Skin disorders"
+      ],
+      "traditionalCategories": [
+        "Deepana",
+        "Pachana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Herb 41",
+          "quantity": "major",
+          "part": "fruit"
+        },
+        {
+          "herb": "Herb 1",
+          "quantity": "1 part",
+          "part": "leaf"
+        },
+        {
+          "herb": "Herb 50",
+          "quantity": "standardised extract",
+          "part": "root"
+        }
+      ],
+      "indications": [
+        "Skin eruptions",
+        "Fatigue",
+        "Menstrual irregularities"
+      ],
+      "dosage": {
+        "amount": "1-3 g",
+        "frequency": "Before meals"
+      },
+      "anupana": [
+        "Honey"
+      ],
+      "contraindications": [
+        "Diabetes"
+      ],
+      "reference": "Ashtanga Hridaya",
+      "brand": "Himalaya",
+      "marketInfo": {
+        "price": "₹897 (MRP)",
+        "packages": [
+          "100 g",
+          "60 tabs"
+        ]
+      }
+    },
+    {
+      "id": "4b47",
+      "name": "Formulation 18",
+      "sanskritName": "Formulation 18 (संस्कृत)",
+      "type": "Gulika",
+      "clinicalSystems": [
+        "Reproductive",
+        "Dermatology"
+      ],
+      "indicationCategories": [
+        "Immunity",
+        "Menstrual disorders"
+      ],
+      "traditionalCategories": [
+        "Deepana",
+        "Vatahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Herb 37",
+          "quantity": "standardised extract",
+          "part": "fruit"
+        },
+        {
+          "herb": "Herb 44",
+          "quantity": "standardised extract",
+          "part": "fruit"
+        },
+        {
+          "herb": "Herb 97",
+          "quantity": "major",
+          "part": "root"
+        }
+      ],
+      "indications": [
+        "Joint pain",
+        "Menstrual irregularities",
+        "Low immunity"
+      ],
+      "dosage": {
+        "amount": "1 tablet",
+        "frequency": "Twice daily"
+      },
+      "anupana": [
+        "Ghee"
+      ],
+      "contraindications": [
+        "None listed"
+      ],
+      "reference": "Ashtanga Hridaya",
+      "brand": "AVP",
+      "marketInfo": {
+        "price": "₹746 (MRP)",
+        "packages": [
+          "30 tabs",
+          "200 g"
+        ]
+      }
+    },
+    {
+      "id": "4d41",
+      "name": "Formulation 19",
+      "sanskritName": "Formulation 19 (संस्कृत)",
+      "type": "Lehyam",
+      "clinicalSystems": [
+        "Nervous",
+        "Reproductive"
+      ],
+      "indicationCategories": [
+        "Skin disorders",
+        "Memory"
+      ],
+      "traditionalCategories": [
+        "Kaphahara",
+        "Anulomana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Herb 66",
+          "quantity": "1 part",
+          "part": "leaf"
+        },
+        {
+          "herb": "Herb 29",
+          "quantity": "2 parts",
+          "part": "fruit"
+        },
+        {
+          "herb": "Herb 5",
+          "quantity": "2 parts",
+          "part": "leaf"
+        }
+      ],
+      "indications": [
+        "High blood sugar",
+        "Fatigue",
+        "Cough"
+      ],
+      "dosage": {
+        "amount": "1 tablet",
+        "frequency": "Before meals"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Hypertension"
+      ],
+      "reference": "Charaka Samhita",
+      "brand": "AVP",
+      "marketInfo": {
+        "price": "₹626 (MRP)",
+        "packages": [
+          "30 tabs",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "78ab",
+      "name": "Formulation 20",
+      "sanskritName": "Formulation 20 (संस्कृत)",
+      "type": "Syrup",
+      "clinicalSystems": [
+        "Reproductive",
+        "Urinary"
+      ],
+      "indicationCategories": [
+        "Indigestion",
+        "Skin disorders"
+      ],
+      "traditionalCategories": [
+        "Deepana",
+        "Anulomana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Herb 29",
+          "quantity": "2 parts",
+          "part": "leaf"
+        },
+        {
+          "herb": "Herb 8",
+          "quantity": "2 parts",
+          "part": "bark"
+        },
+        {
+          "herb": "Herb 17",
+          "quantity": "2 parts",
+          "part": "fruit"
+        }
+      ],
+      "indications": [
+        "Swelling",
+        "Memory issues",
+        "Joint pain"
+      ],
+      "dosage": {
+        "amount": "10-15 ml",
+        "frequency": "Before meals"
+      },
+      "anupana": [
+        "Honey"
+      ],
+      "contraindications": [
+        "None listed"
+      ],
+      "reference": "Ashtanga Hridaya",
+      "brand": "Himalaya",
+      "marketInfo": {
+        "price": "₹313 (MRP)",
+        "packages": [
+          "60 tabs",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "841e",
+      "name": "Formulation 21",
+      "sanskritName": "Formulation 21 (संस्कृत)",
+      "type": "Capsule",
+      "clinicalSystems": [
+        "Dermatology",
+        "Musculoskeletal"
+      ],
+      "indicationCategories": [
+        "Diabetes support",
+        "Cough"
+      ],
+      "traditionalCategories": [
+        "Pachana",
+        "Pittahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Herb 33",
+          "quantity": "minor",
+          "part": "root"
+        },
+        {
+          "herb": "Herb 40",
+          "quantity": "1 part",
+          "part": "leaf"
+        },
+        {
+          "herb": "Herb 31",
+          "quantity": "standardised extract",
+          "part": "root"
+        }
+      ],
+      "indications": [
+        "High blood sugar",
+        "Swelling",
+        "Fatigue"
+      ],
+      "dosage": {
+        "amount": "3-6 g",
+        "frequency": "After meals"
+      },
+      "anupana": [
+        "Honey"
+      ],
+      "contraindications": [
+        "None listed"
+      ],
+      "reference": "Proprietary formula",
+      "brand": "AVP",
+      "marketInfo": {
+        "price": "₹527 (MRP)",
+        "packages": [
+          "200 g",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "d0aa",
+      "name": "Formulation 22",
+      "sanskritName": "Formulation 22 (संस्कृत)",
+      "type": "Churna",
+      "clinicalSystems": [
+        "Urinary",
+        "Nervous"
+      ],
+      "indicationCategories": [
+        "Diabetes support",
+        "Memory"
+      ],
+      "traditionalCategories": [
+        "Pachana",
+        "Deepana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Herb 47",
+          "quantity": "minor",
+          "part": "root"
+        },
+        {
+          "herb": "Herb 69",
+          "quantity": "minor",
+          "part": "root"
+        },
+        {
+          "herb": "Herb 38",
+          "quantity": "1 part",
+          "part": "leaf"
+        }
+      ],
+      "indications": [
+        "Menstrual irregularities",
+        "Skin eruptions",
+        "Fatigue"
+      ],
+      "dosage": {
+        "amount": "1-2 tablets",
+        "frequency": "Before meals"
+      },
+      "anupana": [
+        "Milk"
+      ],
+      "contraindications": [
+        "Hypertension"
+      ],
+      "reference": "Proprietary formula",
+      "brand": "Zandu",
+      "marketInfo": {
+        "price": "₹250 (MRP)",
+        "packages": [
+          "200 ml",
+          "60 tabs"
+        ]
+      }
+    },
+    {
+      "id": "1ef0",
+      "name": "Formulation 23",
+      "sanskritName": "Formulation 23 (संस्कृत)",
+      "type": "Syrup",
+      "clinicalSystems": [
+        "Nervous",
+        "General Health"
+      ],
+      "indicationCategories": [
+        "Liver support",
+        "Indigestion"
+      ],
+      "traditionalCategories": [
+        "Deepana",
+        "Rasayana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Herb 12",
+          "quantity": "minor",
+          "part": "root"
+        },
+        {
+          "herb": "Herb 48",
+          "quantity": "2 parts",
+          "part": "fruit"
+        },
+        {
+          "herb": "Herb 50",
+          "quantity": "standardised extract",
+          "part": "root"
+        }
+      ],
+      "indications": [
+        "Skin eruptions",
+        "Cough",
+        "Fatigue"
+      ],
+      "dosage": {
+        "amount": "5-10 ml",
+        "frequency": "Before meals"
+      },
+      "anupana": [
+        "Honey"
+      ],
+      "contraindications": [
+        "None listed"
+      ],
+      "reference": "Ashtanga Hridaya",
+      "brand": "AVN",
+      "marketInfo": {
+        "price": "₹850 (MRP)",
+        "packages": [
+          "100 ml",
+          "200 ml"
+        ]
+      }
+    },
+    {
+      "id": "6780",
+      "name": "Formulation 24",
+      "sanskritName": "Formulation 24 (संस्कृत)",
+      "type": "Capsule",
+      "clinicalSystems": [
+        "Dermatology",
+        "Musculoskeletal"
+      ],
+      "indicationCategories": [
+        "Arthritis",
+        "Cough"
+      ],
+      "traditionalCategories": [
+        "Pittahara",
+        "Anulomana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Herb 49",
+          "quantity": "minor",
+          "part": "root"
+        },
+        {
+          "herb": "Herb 16",
+          "quantity": "1 part",
+          "part": "leaf"
+        },
+        {
+          "herb": "Herb 74",
+          "quantity": "standardised extract",
+          "part": "root"
+        }
+      ],
+      "indications": [
+        "High blood sugar",
+        "Memory issues",
+        "Menstrual irregularities"
+      ],
+      "dosage": {
+        "amount": "5-10 ml",
+        "frequency": "Once daily"
+      },
+      "anupana": [
+        "Honey"
+      ],
+      "contraindications": [
+        "Children under 5"
+      ],
+      "reference": "Bhaishajya Ratnavali",
+      "brand": "Aimil",
+      "marketInfo": {
+        "price": "₹871 (MRP)",
+        "packages": [
+          "30 tabs",
+          "250 g"
+        ]
+      }
+    },
+    {
+      "id": "3482",
+      "name": "Formulation 25",
+      "sanskritName": "Formulation 25 (संस्कृत)",
+      "type": "Kashayam",
+      "clinicalSystems": [
+        "Nervous",
+        "Dermatology"
+      ],
+      "indicationCategories": [
+        "Arthritis",
+        "Immunity"
+      ],
+      "traditionalCategories": [
+        "Rasayana",
+        "Pachana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Herb 81",
+          "quantity": "2 parts",
+          "part": "leaf"
+        },
+        {
+          "herb": "Herb 36",
+          "quantity": "standardised extract",
+          "part": "root"
+        },
+        {
+          "herb": "Herb 97",
+          "quantity": "standardised extract",
+          "part": "leaf"
+        }
+      ],
+      "indications": [
+        "High blood sugar",
+        "Cough",
+        "Memory issues"
+      ],
+      "dosage": {
+        "amount": "3-6 g",
+        "frequency": "Twice daily"
+      },
+      "anupana": [
+        "Honey"
+      ],
+      "contraindications": [
+        "None listed"
+      ],
+      "reference": "Charaka Samhita",
+      "brand": "AVP",
+      "marketInfo": {
+        "price": "₹863 (MRP)",
+        "packages": [
+          "60 tabs",
+          "250 g"
+        ]
+      }
+    },
+    {
+      "id": "3c81",
+      "name": "Formulation 26",
+      "sanskritName": "Formulation 26 (संस्कृत)",
+      "type": "Churna",
+      "clinicalSystems": [
+        "Respiratory",
+        "Dermatology"
+      ],
+      "indicationCategories": [
+        "Memory",
+        "Indigestion"
+      ],
+      "traditionalCategories": [
+        "Vatahara",
+        "Kaphahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Herb 27",
+          "quantity": "1 part",
+          "part": "bark"
+        },
+        {
+          "herb": "Herb 1",
+          "quantity": "minor",
+          "part": "leaf"
+        },
+        {
+          "herb": "Herb 48",
+          "quantity": "2 parts",
+          "part": "fruit"
+        }
+      ],
+      "indications": [
+        "Swelling",
+        "Memory issues",
+        "Low immunity"
+      ],
+      "dosage": {
+        "amount": "1-3 g",
+        "frequency": "Twice daily"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Diabetes"
+      ],
+      "reference": "Ashtanga Hridaya",
+      "brand": "Nagarjun",
+      "marketInfo": {
+        "price": "₹688 (MRP)",
+        "packages": [
+          "100 ml",
+          "30 tabs"
+        ]
+      }
+    },
+    {
+      "id": "45f4",
+      "name": "Formulation 27",
+      "sanskritName": "Formulation 27 (संस्कृत)",
+      "type": "Capsule",
+      "clinicalSystems": [
+        "Nervous",
+        "Urinary"
+      ],
+      "indicationCategories": [
+        "Immunity",
+        "Skin disorders"
+      ],
+      "traditionalCategories": [
+        "Kaphahara",
+        "Deepana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Herb 96",
+          "quantity": "1 part",
+          "part": "root"
+        },
+        {
+          "herb": "Herb 51",
+          "quantity": "minor",
+          "part": "leaf"
+        },
+        {
+          "herb": "Herb 12",
+          "quantity": "2 parts",
+          "part": "root"
+        }
+      ],
+      "indications": [
+        "Skin eruptions",
+        "Swelling",
+        "Memory issues"
+      ],
+      "dosage": {
+        "amount": "1 tablet",
+        "frequency": "Twice daily"
+      },
+      "anupana": [
+        "Honey"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "reference": "Bhaishajya Ratnavali",
+      "brand": "Nagarjun",
+      "marketInfo": {
+        "price": "₹866 (MRP)",
+        "packages": [
+          "100 ml",
+          "200 g"
+        ]
+      }
+    },
+    {
+      "id": "8670",
+      "name": "Formulation 28",
+      "sanskritName": "Formulation 28 (संस्कृत)",
+      "type": "Taila",
+      "clinicalSystems": [
+        "Respiratory",
+        "Reproductive"
+      ],
+      "indicationCategories": [
+        "Edema",
+        "Indigestion"
+      ],
+      "traditionalCategories": [
+        "Kaphahara",
+        "Vatahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Herb 5",
+          "quantity": "1 part",
+          "part": "leaf"
+        },
+        {
+          "herb": "Herb 81",
+          "quantity": "standardised extract",
+          "part": "bark"
+        },
+        {
+          "herb": "Herb 79",
+          "quantity": "major",
+          "part": "root"
+        }
+      ],
+      "indications": [
+        "Memory issues",
+        "Fatigue",
+        "Swelling"
+      ],
+      "dosage": {
+        "amount": "5-10 ml",
+        "frequency": "After meals"
+      },
+      "anupana": [
+        "Honey"
+      ],
+      "contraindications": [
+        "Diabetes"
+      ],
+      "reference": "Bhaishajya Ratnavali",
+      "brand": "Charak",
+      "marketInfo": {
+        "price": "₹191 (MRP)",
+        "packages": [
+          "100 g",
+          "250 g"
+        ]
+      }
+    },
+    {
+      "id": "4b05",
+      "name": "Formulation 29",
+      "sanskritName": "Formulation 29 (संस्कृत)",
+      "type": "Syrup",
+      "clinicalSystems": [
+        "Digestive",
+        "Urinary"
+      ],
+      "indicationCategories": [
+        "Liver support",
+        "Cough"
+      ],
+      "traditionalCategories": [
+        "Pittahara",
+        "Anulomana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Herb 29",
+          "quantity": "1 part",
+          "part": "leaf"
+        },
+        {
+          "herb": "Herb 30",
+          "quantity": "standardised extract",
+          "part": "root"
+        },
+        {
+          "herb": "Herb 45",
+          "quantity": "2 parts",
+          "part": "leaf"
+        }
+      ],
+      "indications": [
+        "Menstrual irregularities",
+        "Memory issues",
+        "Skin eruptions"
+      ],
+      "dosage": {
+        "amount": "10-15 ml",
+        "frequency": "Once daily"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "reference": "Proprietary formula",
+      "brand": "Baidyanath",
+      "marketInfo": {
+        "price": "₹102 (MRP)",
+        "packages": [
+          "30 tabs",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "40f8",
+      "name": "Formulation 30",
+      "sanskritName": "Formulation 30 (संस्कृत)",
+      "type": "Avaleha",
+      "clinicalSystems": [
+        "Musculoskeletal",
+        "Digestive"
+      ],
+      "indicationCategories": [
+        "Immunity",
+        "Diabetes support"
+      ],
+      "traditionalCategories": [
+        "Pachana",
+        "Vatahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Herb 92",
+          "quantity": "standardised extract",
+          "part": "leaf"
+        },
+        {
+          "herb": "Herb 47",
+          "quantity": "2 parts",
+          "part": "root"
+        },
+        {
+          "herb": "Herb 36",
+          "quantity": "minor",
+          "part": "root"
+        }
+      ],
+      "indications": [
+        "Fatigue",
+        "Menstrual irregularities",
+        "Constipation"
+      ],
+      "dosage": {
+        "amount": "1 tablet",
+        "frequency": "After meals"
+      },
+      "anupana": [
+        "Milk"
+      ],
+      "contraindications": [
+        "None listed"
+      ],
+      "reference": "Proprietary formula",
+      "brand": "Aimil",
+      "marketInfo": {
+        "price": "₹729 (MRP)",
+        "packages": [
+          "500 g",
+          "30 tabs"
+        ]
+      }
+    },
+    {
+      "id": "58f6",
+      "name": "Formulation 31",
+      "sanskritName": "Formulation 31 (संस्कृत)",
+      "type": "Capsule",
+      "clinicalSystems": [
+        "Dermatology",
+        "Nervous"
+      ],
+      "indicationCategories": [
+        "Edema",
+        "Diabetes support"
+      ],
+      "traditionalCategories": [
+        "Deepana",
+        "Vatahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Herb 26",
+          "quantity": "1 part",
+          "part": "root"
+        },
+        {
+          "herb": "Herb 18",
+          "quantity": "minor",
+          "part": "fruit"
+        },
+        {
+          "herb": "Herb 76",
+          "quantity": "1 part",
+          "part": "fruit"
+        }
+      ],
+      "indications": [
+        "Cough",
+        "High blood sugar",
+        "Skin eruptions"
+      ],
+      "dosage": {
+        "amount": "1-2 tablets",
+        "frequency": "Twice daily"
+      },
+      "anupana": [
+        "Ghee"
+      ],
+      "contraindications": [
+        "Children under 5"
+      ],
+      "reference": "Bhaishajya Ratnavali",
+      "brand": "Dabur",
+      "marketInfo": {
+        "price": "₹445 (MRP)",
+        "packages": [
+          "100 ml",
+          "60 tabs"
+        ]
+      }
+    },
+    {
+      "id": "8a0c",
+      "name": "Formulation 32",
+      "sanskritName": "Formulation 32 (संस्कृत)",
+      "type": "Capsule",
+      "clinicalSystems": [
+        "Digestive",
+        "Respiratory"
+      ],
+      "indicationCategories": [
+        "Diabetes support",
+        "Indigestion"
+      ],
+      "traditionalCategories": [
+        "Pittahara",
+        "Anulomana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Herb 22",
+          "quantity": "minor",
+          "part": "fruit"
+        },
+        {
+          "herb": "Herb 60",
+          "quantity": "1 part",
+          "part": "leaf"
+        },
+        {
+          "herb": "Herb 50",
+          "quantity": "major",
+          "part": "bark"
+        }
+      ],
+      "indications": [
+        "Cough",
+        "Swelling",
+        "Memory issues"
+      ],
+      "dosage": {
+        "amount": "1-3 g",
+        "frequency": "After meals"
+      },
+      "anupana": [
+        "Honey"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "reference": "Ashtanga Hridaya",
+      "brand": "AVN",
+      "marketInfo": {
+        "price": "₹607 (MRP)",
+        "packages": [
+          "500 g",
+          "100 g"
+        ]
+      }
+    },
+    {
+      "id": "1c8d",
+      "name": "Formulation 33",
+      "sanskritName": "Formulation 33 (संस्कृत)",
+      "type": "Lehyam",
+      "clinicalSystems": [
+        "Nervous",
+        "Digestive"
+      ],
+      "indicationCategories": [
+        "Indigestion",
+        "Skin disorders"
+      ],
+      "traditionalCategories": [
+        "Pachana",
+        "Balya"
+      ],
+      "ingredients": [
+        {
+          "herb": "Herb 53",
+          "quantity": "minor",
+          "part": "leaf"
+        },
+        {
+          "herb": "Herb 91",
+          "quantity": "2 parts",
+          "part": "bark"
+        },
+        {
+          "herb": "Herb 69",
+          "quantity": "major",
+          "part": "leaf"
+        }
+      ],
+      "indications": [
+        "Fatigue",
+        "Constipation",
+        "Memory issues"
+      ],
+      "dosage": {
+        "amount": "1-3 g",
+        "frequency": "Twice daily"
+      },
+      "anupana": [
+        "Milk"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "reference": "Bhaishajya Ratnavali",
+      "brand": "AVP",
+      "marketInfo": {
+        "price": "₹600 (MRP)",
+        "packages": [
+          "500 g",
+          "200 ml"
+        ]
+      }
+    },
+    {
+      "id": "3f55",
+      "name": "Formulation 34",
+      "sanskritName": "Formulation 34 (संस्कृत)",
+      "type": "Taila",
+      "clinicalSystems": [
+        "Musculoskeletal",
+        "Digestive"
+      ],
+      "indicationCategories": [
+        "Diabetes support",
+        "Edema"
+      ],
+      "traditionalCategories": [
+        "Deepana",
+        "Pachana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Herb 59",
+          "quantity": "minor",
+          "part": "bark"
+        },
+        {
+          "herb": "Herb 71",
+          "quantity": "major",
+          "part": "fruit"
+        },
+        {
+          "herb": "Herb 51",
+          "quantity": "standardised extract",
+          "part": "fruit"
+        }
+      ],
+      "indications": [
+        "Menstrual irregularities",
+        "Cough",
+        "Skin eruptions"
+      ],
+      "dosage": {
+        "amount": "1 tablet",
+        "frequency": "Before meals"
+      },
+      "anupana": [
+        "Milk"
+      ],
+      "contraindications": [
+        "None listed"
+      ],
+      "reference": "Proprietary formula",
+      "brand": "Zandu",
+      "marketInfo": {
+        "price": "₹190 (MRP)",
+        "packages": [
+          "500 g",
+          "200 g"
+        ]
+      }
+    },
+    {
+      "id": "6171",
+      "name": "Formulation 35",
+      "sanskritName": "Formulation 35 (संस्कृत)",
+      "type": "Ghrita",
+      "clinicalSystems": [
+        "Nervous",
+        "Reproductive"
+      ],
+      "indicationCategories": [
+        "Memory",
+        "Indigestion"
+      ],
+      "traditionalCategories": [
+        "Rasayana",
+        "Pittahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Herb 76",
+          "quantity": "standardised extract",
+          "part": "fruit"
+        },
+        {
+          "herb": "Herb 66",
+          "quantity": "2 parts",
+          "part": "bark"
+        },
+        {
+          "herb": "Herb 32",
+          "quantity": "minor",
+          "part": "root"
+        }
+      ],
+      "indications": [
+        "Low immunity",
+        "Fatigue",
+        "Memory issues"
+      ],
+      "dosage": {
+        "amount": "1-2 tablets",
+        "frequency": "Twice daily"
+      },
+      "anupana": [
+        "Honey"
+      ],
+      "contraindications": [
+        "Children under 5"
+      ],
+      "reference": "Ashtanga Hridaya",
+      "brand": "Aimil",
+      "marketInfo": {
+        "price": "₹475 (MRP)",
+        "packages": [
+          "500 g",
+          "200 ml"
+        ]
+      }
+    },
+    {
+      "id": "5c1b",
+      "name": "Formulation 36",
+      "sanskritName": "Formulation 36 (संस्कृत)",
+      "type": "Gulika",
+      "clinicalSystems": [
+        "Urinary",
+        "Dermatology"
+      ],
+      "indicationCategories": [
+        "Cough",
+        "Indigestion"
+      ],
+      "traditionalCategories": [
+        "Pittahara",
+        "Rasayana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Herb 74",
+          "quantity": "2 parts",
+          "part": "leaf"
+        },
+        {
+          "herb": "Herb 51",
+          "quantity": "major",
+          "part": "bark"
+        },
+        {
+          "herb": "Herb 5",
+          "quantity": "major",
+          "part": "root"
+        }
+      ],
+      "indications": [
+        "Memory issues",
+        "Cough",
+        "Swelling"
+      ],
+      "dosage": {
+        "amount": "5-10 ml",
+        "frequency": "After meals"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "None listed"
+      ],
+      "reference": "Ashtanga Hridaya",
+      "brand": "Dabur",
+      "marketInfo": {
+        "price": "₹762 (MRP)",
+        "packages": [
+          "200 ml",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "9f32",
+      "name": "Formulation 37",
+      "sanskritName": "Formulation 37 (संस्कृत)",
+      "type": "Syrup",
+      "clinicalSystems": [
+        "Respiratory",
+        "Digestive"
+      ],
+      "indicationCategories": [
+        "Immunity",
+        "Indigestion"
+      ],
+      "traditionalCategories": [
+        "Kaphahara",
+        "Balya"
+      ],
+      "ingredients": [
+        {
+          "herb": "Herb 97",
+          "quantity": "2 parts",
+          "part": "root"
+        },
+        {
+          "herb": "Herb 97",
+          "quantity": "standardised extract",
+          "part": "bark"
+        },
+        {
+          "herb": "Herb 95",
+          "quantity": "1 part",
+          "part": "bark"
+        }
+      ],
+      "indications": [
+        "Swelling",
+        "Low immunity",
+        "Joint pain"
+      ],
+      "dosage": {
+        "amount": "3-6 g",
+        "frequency": "After meals"
+      },
+      "anupana": [
+        "Ghee"
+      ],
+      "contraindications": [
+        "Hypertension"
+      ],
+      "reference": "Proprietary formula",
+      "brand": "Zandu",
+      "marketInfo": {
+        "price": "₹483 (MRP)",
+        "packages": [
+          "200 ml",
+          "100 ml"
+        ]
+      }
+    },
+    {
+      "id": "cc5c",
+      "name": "Formulation 38",
+      "sanskritName": "Formulation 38 (संस्कृत)",
+      "type": "Gulika",
+      "clinicalSystems": [
+        "Nervous",
+        "Respiratory"
+      ],
+      "indicationCategories": [
+        "Edema",
+        "Skin disorders"
+      ],
+      "traditionalCategories": [
+        "Pittahara",
+        "Rasayana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Herb 39",
+          "quantity": "1 part",
+          "part": "fruit"
+        },
+        {
+          "herb": "Herb 56",
+          "quantity": "1 part",
+          "part": "root"
+        },
+        {
+          "herb": "Herb 26",
+          "quantity": "minor",
+          "part": "bark"
+        }
+      ],
+      "indications": [
+        "Memory issues",
+        "Low immunity",
+        "Skin eruptions"
+      ],
+      "dosage": {
+        "amount": "1-2 tablets",
+        "frequency": "Once daily"
+      },
+      "anupana": [
+        "Ghee"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "reference": "Charaka Samhita",
+      "brand": "AVN",
+      "marketInfo": {
+        "price": "₹839 (MRP)",
+        "packages": [
+          "100 ml",
+          "200 g"
+        ]
+      }
+    },
+    {
+      "id": "5a52",
+      "name": "Formulation 39",
+      "sanskritName": "Formulation 39 (संस्कृत)",
+      "type": "Taila",
+      "clinicalSystems": [
+        "Nervous",
+        "Dermatology"
+      ],
+      "indicationCategories": [
+        "Cough",
+        "Edema"
+      ],
+      "traditionalCategories": [
+        "Pachana",
+        "Rasayana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Herb 97",
+          "quantity": "major",
+          "part": "leaf"
+        },
+        {
+          "herb": "Herb 30",
+          "quantity": "1 part",
+          "part": "leaf"
+        },
+        {
+          "herb": "Herb 6",
+          "quantity": "standardised extract",
+          "part": "bark"
+        }
+      ],
+      "indications": [
+        "Fatigue",
+        "Low immunity",
+        "Menstrual irregularities"
+      ],
+      "dosage": {
+        "amount": "1-3 g",
+        "frequency": "After meals"
+      },
+      "anupana": [
+        "Honey"
+      ],
+      "contraindications": [
+        "None listed"
+      ],
+      "reference": "Proprietary formula",
+      "brand": "Zandu",
+      "marketInfo": {
+        "price": "₹811 (MRP)",
+        "packages": [
+          "100 ml",
+          "100 g"
+        ]
+      }
+    },
+    {
+      "id": "e690",
+      "name": "Formulation 40",
+      "sanskritName": "Formulation 40 (संस्कृत)",
+      "type": "Taila",
+      "clinicalSystems": [
+        "Urinary",
+        "General Health"
+      ],
+      "indicationCategories": [
+        "Arthritis",
+        "Immunity"
+      ],
+      "traditionalCategories": [
+        "Pachana",
+        "Pittahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Herb 79",
+          "quantity": "2 parts",
+          "part": "bark"
+        },
+        {
+          "herb": "Herb 15",
+          "quantity": "standardised extract",
+          "part": "leaf"
+        },
+        {
+          "herb": "Herb 45",
+          "quantity": "1 part",
+          "part": "leaf"
+        }
+      ],
+      "indications": [
+        "Joint pain",
+        "Menstrual irregularities",
+        "Low immunity"
+      ],
+      "dosage": {
+        "amount": "1-2 tablets",
+        "frequency": "Once daily"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "Children under 5"
+      ],
+      "reference": "Ashtanga Hridaya",
+      "brand": "Himalaya",
+      "marketInfo": {
+        "price": "₹157 (MRP)",
+        "packages": [
+          "100 g",
+          "60 tabs"
+        ]
+      }
+    },
+    {
+      "id": "0bfc",
+      "name": "Formulation 41",
+      "sanskritName": "Formulation 41 (संस्कृत)",
+      "type": "Capsule",
+      "clinicalSystems": [
+        "Urinary",
+        "Nervous"
+      ],
+      "indicationCategories": [
+        "Menstrual disorders",
+        "Skin disorders"
+      ],
+      "traditionalCategories": [
+        "Vatahara",
+        "Anulomana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Herb 100",
+          "quantity": "2 parts",
+          "part": "root"
+        },
+        {
+          "herb": "Herb 28",
+          "quantity": "1 part",
+          "part": "bark"
+        },
+        {
+          "herb": "Herb 34",
+          "quantity": "2 parts",
+          "part": "fruit"
+        }
+      ],
+      "indications": [
+        "Cough",
+        "Low immunity",
+        "Memory issues"
+      ],
+      "dosage": {
+        "amount": "1-2 tablets",
+        "frequency": "Twice daily"
+      },
+      "anupana": [
+        "Honey"
+      ],
+      "contraindications": [
+        "Children under 5"
+      ],
+      "reference": "Proprietary formula",
+      "brand": "Sandu",
+      "marketInfo": {
+        "price": "₹700 (MRP)",
+        "packages": [
+          "30 tabs",
+          "100 ml"
+        ]
+      }
+    },
+    {
+      "id": "6876",
+      "name": "Formulation 42",
+      "sanskritName": "Formulation 42 (संस्कृत)",
+      "type": "Capsule",
+      "clinicalSystems": [
+        "Urinary",
+        "Respiratory"
+      ],
+      "indicationCategories": [
+        "Memory",
+        "Diabetes support"
+      ],
+      "traditionalCategories": [
+        "Anulomana",
+        "Pittahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Herb 90",
+          "quantity": "1 part",
+          "part": "fruit"
+        },
+        {
+          "herb": "Herb 49",
+          "quantity": "standardised extract",
+          "part": "bark"
+        },
+        {
+          "herb": "Herb 39",
+          "quantity": "minor",
+          "part": "root"
+        }
+      ],
+      "indications": [
+        "Skin eruptions",
+        "Low immunity",
+        "Menstrual irregularities"
+      ],
+      "dosage": {
+        "amount": "5-10 ml",
+        "frequency": "Once daily"
+      },
+      "anupana": [
+        "Milk"
+      ],
+      "contraindications": [
+        "Diabetes"
+      ],
+      "reference": "Bhaishajya Ratnavali",
+      "brand": "Charak",
+      "marketInfo": {
+        "price": "₹395 (MRP)",
+        "packages": [
+          "30 tabs",
+          "200 g"
+        ]
+      }
+    },
+    {
+      "id": "5213",
+      "name": "Formulation 43",
+      "sanskritName": "Formulation 43 (संस्कृत)",
+      "type": "Churna",
+      "clinicalSystems": [
+        "Urinary",
+        "Respiratory"
+      ],
+      "indicationCategories": [
+        "Liver support",
+        "Immunity"
+      ],
+      "traditionalCategories": [
+        "Kaphahara",
+        "Pachana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Herb 34",
+          "quantity": "standardised extract",
+          "part": "fruit"
+        },
+        {
+          "herb": "Herb 81",
+          "quantity": "2 parts",
+          "part": "bark"
+        },
+        {
+          "herb": "Herb 49",
+          "quantity": "1 part",
+          "part": "root"
+        }
+      ],
+      "indications": [
+        "Low immunity",
+        "Memory issues",
+        "Swelling"
+      ],
+      "dosage": {
+        "amount": "5-10 ml",
+        "frequency": "Once daily"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "None listed"
+      ],
+      "reference": "Charaka Samhita",
+      "brand": "AVP",
+      "marketInfo": {
+        "price": "₹236 (MRP)",
+        "packages": [
+          "100 g",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "2ba0",
+      "name": "Formulation 44",
+      "sanskritName": "Formulation 44 (संस्कृत)",
+      "type": "Capsule",
+      "clinicalSystems": [
+        "Dermatology",
+        "Digestive"
+      ],
+      "indicationCategories": [
+        "Menstrual disorders",
+        "Liver support"
+      ],
+      "traditionalCategories": [
+        "Vatahara",
+        "Balya"
+      ],
+      "ingredients": [
+        {
+          "herb": "Herb 66",
+          "quantity": "major",
+          "part": "fruit"
+        },
+        {
+          "herb": "Herb 24",
+          "quantity": "minor",
+          "part": "bark"
+        },
+        {
+          "herb": "Herb 42",
+          "quantity": "major",
+          "part": "leaf"
+        }
+      ],
+      "indications": [
+        "Cough",
+        "Joint pain",
+        "Constipation"
+      ],
+      "dosage": {
+        "amount": "5-10 ml",
+        "frequency": "Before meals"
+      },
+      "anupana": [
+        "Honey"
+      ],
+      "contraindications": [
+        "Diabetes"
+      ],
+      "reference": "Proprietary formula",
+      "brand": "Aimil",
+      "marketInfo": {
+        "price": "₹249 (MRP)",
+        "packages": [
+          "100 g",
+          "60 tabs"
+        ]
+      }
+    },
+    {
+      "id": "49c5",
+      "name": "Formulation 45",
+      "sanskritName": "Formulation 45 (संस्कृत)",
+      "type": "Kashayam",
+      "clinicalSystems": [
+        "Nervous",
+        "Digestive"
+      ],
+      "indicationCategories": [
+        "Diabetes support",
+        "Cough"
+      ],
+      "traditionalCategories": [
+        "Pittahara",
+        "Kaphahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Herb 67",
+          "quantity": "major",
+          "part": "fruit"
+        },
+        {
+          "herb": "Herb 12",
+          "quantity": "2 parts",
+          "part": "root"
+        },
+        {
+          "herb": "Herb 66",
+          "quantity": "1 part",
+          "part": "root"
+        }
+      ],
+      "indications": [
+        "Low immunity",
+        "Constipation",
+        "Skin eruptions"
+      ],
+      "dosage": {
+        "amount": "10-15 ml",
+        "frequency": "Twice daily"
+      },
+      "anupana": [
+        "Ghee"
+      ],
+      "contraindications": [
+        "Diabetes"
+      ],
+      "reference": "Bhaishajya Ratnavali",
+      "brand": "AVP",
+      "marketInfo": {
+        "price": "₹305 (MRP)",
+        "packages": [
+          "60 tabs",
+          "100 ml"
+        ]
+      }
+    },
+    {
+      "id": "afb1",
+      "name": "Formulation 46",
+      "sanskritName": "Formulation 46 (संस्कृत)",
+      "type": "Syrup",
+      "clinicalSystems": [
+        "Reproductive",
+        "Musculoskeletal"
+      ],
+      "indicationCategories": [
+        "Menstrual disorders",
+        "Liver support"
+      ],
+      "traditionalCategories": [
+        "Anulomana",
+        "Pittahara"
+      ],
+      "ingredients": [
+        {
+          "herb": "Herb 87",
+          "quantity": "standardised extract",
+          "part": "bark"
+        },
+        {
+          "herb": "Herb 79",
+          "quantity": "1 part",
+          "part": "root"
+        },
+        {
+          "herb": "Herb 28",
+          "quantity": "major",
+          "part": "leaf"
+        }
+      ],
+      "indications": [
+        "Constipation",
+        "Swelling",
+        "High blood sugar"
+      ],
+      "dosage": {
+        "amount": "1-2 tablets",
+        "frequency": "After meals"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "None listed"
+      ],
+      "reference": "Proprietary formula",
+      "brand": "Unjha",
+      "marketInfo": {
+        "price": "₹493 (MRP)",
+        "packages": [
+          "200 g",
+          "100 g"
+        ]
+      }
+    },
+    {
+      "id": "6aff",
+      "name": "Formulation 47",
+      "sanskritName": "Formulation 47 (संस्कृत)",
+      "type": "Tablet",
+      "clinicalSystems": [
+        "Nervous",
+        "Respiratory"
+      ],
+      "indicationCategories": [
+        "Arthritis",
+        "Memory"
+      ],
+      "traditionalCategories": [
+        "Rasayana",
+        "Balya"
+      ],
+      "ingredients": [
+        {
+          "herb": "Herb 74",
+          "quantity": "1 part",
+          "part": "root"
+        },
+        {
+          "herb": "Herb 81",
+          "quantity": "standardised extract",
+          "part": "fruit"
+        },
+        {
+          "herb": "Herb 52",
+          "quantity": "major",
+          "part": "bark"
+        }
+      ],
+      "indications": [
+        "High blood sugar",
+        "Swelling",
+        "Fatigue"
+      ],
+      "dosage": {
+        "amount": "3-6 g",
+        "frequency": "Before meals"
+      },
+      "anupana": [
+        "Honey"
+      ],
+      "contraindications": [
+        "Pregnancy"
+      ],
+      "reference": "Proprietary formula",
+      "brand": "Dabur",
+      "marketInfo": {
+        "price": "₹305 (MRP)",
+        "packages": [
+          "250 g",
+          "100 g"
+        ]
+      }
+    },
+    {
+      "id": "61a6",
+      "name": "Formulation 48",
+      "sanskritName": "Formulation 48 (संस्कृत)",
+      "type": "Syrup",
+      "clinicalSystems": [
+        "Dermatology",
+        "Urinary"
+      ],
+      "indicationCategories": [
+        "Menstrual disorders",
+        "Memory"
+      ],
+      "traditionalCategories": [
+        "Vatahara",
+        "Balya"
+      ],
+      "ingredients": [
+        {
+          "herb": "Herb 34",
+          "quantity": "standardised extract",
+          "part": "root"
+        },
+        {
+          "herb": "Herb 36",
+          "quantity": "2 parts",
+          "part": "fruit"
+        },
+        {
+          "herb": "Herb 74",
+          "quantity": "standardised extract",
+          "part": "root"
+        }
+      ],
+      "indications": [
+        "Cough",
+        "Menstrual irregularities",
+        "Skin eruptions"
+      ],
+      "dosage": {
+        "amount": "3-6 g",
+        "frequency": "Before meals"
+      },
+      "anupana": [
+        "Ghee"
+      ],
+      "contraindications": [
+        "Hypertension"
+      ],
+      "reference": "Charaka Samhita",
+      "brand": "AVP",
+      "marketInfo": {
+        "price": "₹644 (MRP)",
+        "packages": [
+          "200 ml",
+          "500 g"
+        ]
+      }
+    },
+    {
+      "id": "eb03",
+      "name": "Formulation 49",
+      "sanskritName": "Formulation 49 (संस्कृत)",
+      "type": "Lehyam",
+      "clinicalSystems": [
+        "Digestive",
+        "Nervous"
+      ],
+      "indicationCategories": [
+        "Immunity",
+        "Arthritis"
+      ],
+      "traditionalCategories": [
+        "Anulomana",
+        "Balya"
+      ],
+      "ingredients": [
+        {
+          "herb": "Herb 100",
+          "quantity": "standardised extract",
+          "part": "root"
+        },
+        {
+          "herb": "Herb 23",
+          "quantity": "2 parts",
+          "part": "fruit"
+        },
+        {
+          "herb": "Herb 59",
+          "quantity": "major",
+          "part": "leaf"
+        }
+      ],
+      "indications": [
+        "High blood sugar",
+        "Low immunity",
+        "Cough"
+      ],
+      "dosage": {
+        "amount": "1-3 g",
+        "frequency": "After meals"
+      },
+      "anupana": [
+        "Warm water"
+      ],
+      "contraindications": [
+        "None listed"
+      ],
+      "reference": "Charaka Samhita",
+      "brand": "Himalaya",
+      "marketInfo": {
+        "price": "₹632 (MRP)",
+        "packages": [
+          "500 g",
+          "200 ml"
+        ]
+      }
+    },
+    {
+      "id": "e35e",
+      "name": "Formulation 50",
+      "sanskritName": "Formulation 50 (संस्कृत)",
+      "type": "Capsule",
+      "clinicalSystems": [
+        "Dermatology",
+        "Reproductive"
+      ],
+      "indicationCategories": [
+        "Immunity",
+        "Arthritis"
+      ],
+      "traditionalCategories": [
+        "Deepana",
+        "Anulomana"
+      ],
+      "ingredients": [
+        {
+          "herb": "Herb 52",
+          "quantity": "major",
+          "part": "root"
+        },
+        {
+          "herb": "Herb 6",
+          "quantity": "2 parts",
+          "part": "fruit"
+        },
+        {
+          "herb": "Herb 20",
+          "quantity": "major",
+          "part": "bark"
+        }
+      ],
+      "indications": [
+        "High blood sugar",
+        "Swelling",
+        "Low immunity"
+      ],
+      "dosage": {
+        "amount": "3-6 g",
+        "frequency": "Twice daily"
+      },
+      "anupana": [
+        "Honey"
+      ],
+      "contraindications": [
+        "Diabetes"
+      ],
+      "reference": "Ashtanga Hridaya",
+      "brand": "Dabur",
+      "marketInfo": {
+        "price": "₹82 (MRP)",
+        "packages": [
+          "100 ml",
+          "30 tabs"
+        ]
+      }
     }
   ]
 }

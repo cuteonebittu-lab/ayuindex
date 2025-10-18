@@ -199,6 +199,8 @@ function App() {
               setCategory={setCategory}
               showFilters={showFilters}
               setShowFilters={setShowFilters}
+              herbs={herbs}
+              formulations={formulations}
             />
 
             <FilterPanel
